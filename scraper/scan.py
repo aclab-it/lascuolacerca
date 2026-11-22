@@ -183,7 +183,7 @@ def carica_istituti():
                 "nome": titolo(nome),
                 "comune": _col(row, "DESCRIZIONECOMUNE").title(),
                 "provincia": _col(row, "PROVINCIA").title(),
-                "regione": regione.title(),
+                "regione": re.sub(r"\bD'", "d'", regione.title()),
                 "sito": sito,
             }
     extra = DATA / "siti_extra.txt"
@@ -372,6 +372,12 @@ def main():
         "regione": REGIONE,
     }, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"Fatto: {len(tutti)} avvisi ({len(nuovi)} nuovi), {errori} scuole non raggiungibili")
+    try:
+        import pagine
+        n = pagine.genera(tutti, ROOT, SITO_URL, oggi)
+        print(f"Pagine statiche generate: {n}")
+    except Exception as e:  # le pagine SEO non devono mai bloccare l'aggiornamento
+        print(f"  [pagine] generazione fallita: {type(e).__name__}: {e}")
     pubblica_telegram(nuovi)
 
 
