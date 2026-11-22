@@ -40,6 +40,7 @@ jobs:
         run: |
           git config user.name "aggiornamento-automatico"
           git config user.email "actions@users.noreply.github.com"
-          git add data/
+          git add -A data avvisi sitemap.xml robots.txt
           git diff --cached --quiet || git commit -m "Aggiornamento avvisi $(date +%F)"
+          git pull --rebase -X theirs origin main
           git push
