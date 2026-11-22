@@ -19,10 +19,9 @@ Sito gratuito che raccoglie ogni giorno gli avvisi delle scuole italiane per
    Fai **Add file → Create new file**, scrivi come nome
    `.github/workflows/aggiorna.yml`, incolla il contenuto del file omonimo
    e fai **Commit changes**.
-5. **Elenco scuole**: su **dati.istruzione.it/opendata** cerca il dataset
-   *"Informazioni anagrafiche scuole statali"* e scarica il CSV dell'anno in corso.
-   Rinominalo `scuole.csv` e caricalo nella cartella `data`.
-   (Facoltativo: aggiungi anche quello delle scuole paritarie come `scuole_paritarie.csv`.)
+5. **Elenco scuole**: viene scaricato in automatico dal portale open data del Ministero al primo giro.
+   Se nel log compare "caricalo a mano", scarica da **dati.istruzione.it/opendata** il CSV
+   *"Informazioni anagrafiche scuole statali"*, rinominalo `scuole.csv` e caricalo nella cartella `data`.
 6. **Accendi il sito**: vai in **Settings → Pages → Branch: main / (root) → Save**.
    Dopo un minuto il sito è online su `https://carineapig.github.io/Sito-professionisti/`.
 7. **Primo aggiornamento**: nella scheda **Actions**, se richiesto abilita i workflow,

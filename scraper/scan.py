@@ -128,7 +128,40 @@ def normalizza_url(u):
     return u + "/"
 
 
+ANAGRAFI = [  # (dataset MIM, nome file locale)
+    ("DS0400SCUANAGRAFESTAT", "scuole.csv"),
+    ("DS0410SCUANAGRAFEPAR", "scuole_paritarie.csv"),
+]
+CATALOGO = ("https://dati.istruzione.it/opendata/opendata/catalogo/elements1/leaf/"
+            "?area=Scuole&datasetId={}")
+
+
+def scarica_anagrafe():
+    """Se manca l'elenco scuole, prova a scaricarlo dal portale open data del MIM."""
+    for dataset, nome in ANAGRAFI:
+        dest = DATA / nome
+        if dest.exists():
+            continue
+        try:
+            pagina = CATALOGO.format(dataset)
+            html = SESSION.get(pagina, timeout=30).text
+            sigla = dataset[6:]  # es. SCUANAGRAFESTAT
+            link = sorted(set(re.findall(r'href="([^"]*%s\d*\.csv)"' % sigla, html, re.I)))
+            if not link:
+                print(f"  [anagrafe] nessun CSV trovato per {dataset}: caricalo a mano in data/{nome}")
+                continue
+            url = urljoin(pagina, link[-1])  # il piu' recente
+            r = SESSION.get(url, timeout=120)
+            r.raise_for_status()
+            dest.write_bytes(r.content)
+            print(f"  [anagrafe] scaricato {url} -> data/{nome}")
+        except requests.RequestException as e:
+            print(f"  [anagrafe] download fallito per {dataset} ({type(e).__name__}): "
+                  f"caricalo a mano in data/{nome}")
+
+
 def carica_istituti():
+    scarica_anagrafe()
     istituti = {}
     for path in sorted(DATA.glob("scuole*.csv")):
         raw = path.read_bytes().decode("utf-8-sig", errors="replace")
