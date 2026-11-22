@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Avvisi Esperti Scuola – bandi per psicologi, formatori ed esperti esterni</title>
+<meta name="description" content="Tutti gli avvisi delle scuole italiane per psicologi, formatori, esperti esterni, tutor, madrelingua, RSPP e DPO in un unico posto. Gratis, aggiornato ogni giorno.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📋</text></svg>">
+<style>
+  :root{--bg:#f6f5f1;--card:#fff;--ink:#1d1d1f;--muted:#6b6b70;--line:#e4e2dc;--accent:#0f5c4d;--accent-soft:#e3f0ec;--new:#c2410c}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.45}
+  header{background:var(--accent);color:#fff;padding:28px 18px 22px}
+  header .wrap{max-width:860px;margin:auto}
+  h1{margin:0 0 6px;font-size:1.6rem;letter-spacing:-.01em}
+  header p{margin:0;opacity:.9;font-size:.98rem}
+  .stats{margin-top:12px;font-size:.85rem;opacity:.85}
+  main{max-width:860px;margin:auto;padding:16px}
+  .filters{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;display:grid;gap:10px;position:sticky;top:0;z-index:5}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  input,select{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:10px;font-size:1rem;background:#fff;color:var(--ink)}
+  .chips{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px;scrollbar-width:none}
+  .chip{flex:0 0 auto;border:1px solid var(--line);background:#fff;border-radius:999px;padding:6px 12px;font-size:.85rem;cursor:pointer;white-space:nowrap}
+  .chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+  .count{color:var(--muted);font-size:.9rem;margin:14px 2px 8px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:10px}
+  .tag{display:inline-block;background:var(--accent-soft);color:var(--accent);font-size:.75rem;font-weight:600;border-radius:6px;padding:2px 8px;margin-right:6px}
+  .tag.new{background:#fff1e8;color:var(--new)}
+  .card h2{font-size:1rem;margin:8px 0 6px;font-weight:600}
+  .meta{color:var(--muted);font-size:.86rem}
+  .links{margin-top:10px;display:flex;gap:14px;flex-wrap:wrap;font-size:.9rem}
+  .links a{color:var(--accent);font-weight:600;text-decoration:none}
+  .empty{text-align:center;color:var(--muted);padding:40px 10px}
+  .more[hidden]{display:none}
+  .more{display:block;margin:10px auto 0;padding:10px 18px;border:1px solid var(--accent);color:var(--accent);background:#fff;border-radius:10px;font-size:.95rem;cursor:pointer}
+  .ad{border:1px dashed var(--line);border-radius:14px;padding:14px;text-align:center;color:var(--muted);font-size:.8rem;margin-bottom:10px}
+  .tg{display:none;background:#e8f3fb;border:1px solid #cfe5f5;border-radius:14px;padding:12px 14px;margin:12px 0;font-size:.92rem}
+  .tg a{color:#0b6aa8;font-weight:600}
+  footer{max-width:860px;margin:30px auto;padding:0 16px 30px;color:var(--muted);font-size:.8rem}
+  @media(max-width:520px){.row{grid-template-columns:1fr}h1{font-size:1.35rem}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <h1>📋 Avvisi Esperti Scuola</h1>
+  <p>Gli avvisi delle scuole per psicologi, formatori, esperti esterni, tutor e madrelingua, raccolti da tutta Italia. Gratis.</p>
+  <div class="stats" id="stats">Caricamento…</div>
+</div></header>
+
+<main>
+  <div class="filters">
+    <input id="q" type="search" placeholder="Cerca: scuola, comune, materia, PNRR…" autocomplete="off">
+    <div class="row">
+      <select id="regione"><option value="">Tutte le regioni</option></select>
+      <select id="provincia"><option value="">Tutte le province</option></select>
+    </div>
+    <div class="chips" id="chips"></div>
+  </div>
+
+  <div class="tg" id="tg">🔔 Ricevi i nuovi avvisi sul telefono: <a id="tglink" href="#" target="_blank" rel="noopener">unisciti al canale Telegram</a></div>
+
+  <div class="count" id="count"></div>
+  <div id="list"></div>
+  <button class="more" id="more" hidden>Mostra altri</button>
+</main>
+
+<footer>
+  Gli avvisi sono raccolti automaticamente dagli albi online delle scuole e possono contenere errori o essere già scaduti.
+  Verifica sempre requisiti e scadenze sul documento ufficiale della scuola prima di candidarti.
+  Questo sito non è affiliato al Ministero dell'Istruzione e del Merito.
+</footer>
+
+<script>
+/* ====== CONFIGURAZIONE ====== */
+const TELEGRAM_URL = "";        // es. "https://t.me/avvisiespertiscuola" – lascia vuoto se non hai il canale
+const AD_OGNI = 0;              // es. 8 = uno spazio pubblicitario ogni 8 avvisi (0 = nessuno)
+/* ============================ */
+
+const PAGINA = 30;
+const CAT = {
+  psicologo:"Psicologo", formatore:"Formatore / esperto", tutor:"Tutor", madrelingua:"Madrelingua",
+  rspp:"RSPP / sicurezza", dpo:"DPO / privacy", collaudo:"Progettista / collaudatore",
+  asacom:"Assistente / educatore", mediatore:"Mediatore", orientatore:"Orientatore / coach"
+};
+const DEMO = [
+  {id:"d1",titolo:"Avviso pubblico di selezione per il reclutamento di uno psicologo per lo sportello d'ascolto a.s. 2026/27",categoria:"psicologo",categoria_label:"Psicologo / sportello d'ascolto",link:"#",pagina_albo:"#",scuola:"Istituto Comprensivo Esempio",comune:"Roma",provincia:"Roma",regione:"Lazio",trovato_il:new Date().toISOString().slice(0,10)},
+  {id:"d2",titolo:"Avviso selezione esperti esterni formatori PNRR DM 219/2025 – percorsi di formazione sull'intelligenza artificiale",categoria:"formatore",categoria_label:"Formatore / esperto",link:"#",pagina_albo:"#",scuola:"Liceo Scientifico Esempio",comune:"Milano",provincia:"Milano",regione:"Lombardia",trovato_il:"2026-11-20"},
+  {id:"d3",titolo:"Manifestazione di interesse per esperto madrelingua inglese – certificazioni Cambridge",categoria:"madrelingua",categoria_label:"Esperto madrelingua",link:"#",pagina_albo:"#",scuola:"IIS Esempio",comune:"Napoli",provincia:"Napoli",regione:"Campania",trovato_il:"2026-11-18"}
+];
+
+let tutti = [], filtrati = [], mostrati = 0, cat = "";
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const oggi = new Date().toISOString().slice(0,10);
+const fmt = d => { try { return new Date(d+"T12:00").toLocaleDateString("it-IT",{day:"numeric",month:"short"}); } catch(e){ return d; } };
+
+async function carica(){
+  let stato = {};
+  try {
+    const [a, s] = await Promise.all([fetch("data/avvisi.json",{cache:"no-store"}), fetch("data/stato.json",{cache:"no-store"})]);
+    tutti = await a.json(); stato = await s.json().catch(()=>({}));
+  } catch(e) { tutti = DEMO; stato = {demo:true}; }
+  if (!tutti.length && !stato.aggiornato) { tutti = DEMO; stato = {demo:true}; }
+
+  $("stats").textContent = stato.demo
+    ? "Anteprima con dati di esempio"
+    : `${tutti.length} avvisi da ${stato.istituti_scansionati ?? "?"} ${stato.istituti_scansionati===1?"scuola":"scuole"} · aggiornato il ${new Date(stato.aggiornato).toLocaleString("it-IT",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})}`;
+
+  const regioni = [...new Set(tutti.map(a=>a.regione).filter(Boolean))].sort();
+  regioni.forEach(r => $("regione").add(new Option(r, r)));
+  const presenti = new Set(tutti.map(a=>a.categoria));
+  const chips = [["", "Tutti"], ...Object.entries(CAT).filter(([k])=>presenti.has(k))];
+  $("chips").innerHTML = chips.map(([k,l]) => `<button class="chip${k===cat?" on":""}" data-k="${k}">${l}</button>`).join("");
+  if (TELEGRAM_URL) { $("tg").style.display = "block"; $("tglink").href = TELEGRAM_URL; }
+
+  const p = new URLSearchParams(location.search);
+  if (p.get("regione")) $("regione").value = p.get("regione");
+  aggiornaProvince();
+  if (p.get("provincia")) $("provincia").value = p.get("provincia");
+  if (p.get("cat")) { cat = p.get("cat"); segnaChip(); }
+  if (p.get("q")) $("q").value = p.get("q");
+  filtra();
+}
+
+function aggiornaProvince(){
+  const r = $("regione").value, sel = $("provincia");
+  sel.length = 1;
+  [...new Set(tutti.filter(a=>!r||a.regione===r).map(a=>a.provincia).filter(Boolean))].sort()
+    .forEach(p => sel.add(new Option(p, p)));
+}
+function segnaChip(){ document.querySelectorAll(".chip").forEach(c=>c.classList.toggle("on", c.dataset.k===cat)); }
+
+function filtra(){
+  const q = $("q").value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  const r = $("regione").value, p = $("provincia").value;
+  filtrati = tutti.filter(a =>
+    (!cat || a.categoria===cat) && (!r || a.regione===r) && (!p || a.provincia===p) &&
+    q.every(w => (a.titolo+" "+a.scuola+" "+a.comune+" "+a.provincia).toLowerCase().includes(w)));
+  const u = new URLSearchParams();
+  if (r) u.set("regione", r); if (p) u.set("provincia", p); if (cat) u.set("cat", cat); if ($("q").value.trim()) u.set("q", $("q").value.trim());
+  history.replaceState(null, "", u.toString() ? "?"+u : location.pathname);
+  $("list").innerHTML = ""; mostrati = 0; altri();
+  $("count").textContent = filtrati.length === 1 ? "1 avviso" : `${filtrati.length} avvisi`;
+}
+
+function altri(){
+  const html = [];
+  filtrati.slice(mostrati, mostrati+PAGINA).forEach((a, i) => {
+    const n = mostrati + i + 1;
+    const nuovo = a.trovato_il === oggi;
+    html.push(`<article class="card">
+      <span class="tag">${esc(CAT[a.categoria] || a.categoria_label)}</span>${nuovo?'<span class="tag new">Nuovo</span>':""}
+      <h2>${esc(a.titolo)}</h2>
+      <div class="meta">🏫 ${esc(a.scuola)}<br>📍 ${esc(a.comune)}${a.provincia?" ("+esc(a.provincia)+")":""} · trovato il ${fmt(a.trovato_il)}</div>
+      <div class="links"><a href="${esc(a.link)}" target="_blank" rel="noopener nofollow">Apri l'avviso →</a><a href="${esc(a.pagina_albo)}" target="_blank" rel="noopener nofollow">Albo della scuola</a></div>
+    </article>`);
+    if (AD_OGNI && n % AD_OGNI === 0) html.push(`<div class="ad"><!-- spazio pubblicitario -->Spazio pubblicitario</div>`);
+  });
+  $("list").insertAdjacentHTML("beforeend", html.join(""));
+  mostrati += PAGINA;
+  $("more").hidden = mostrati >= filtrati.length;
+  if (!filtrati.length) $("list").innerHTML = `<div class="empty">Nessun avviso con questi filtri.<br>Prova ad allargare la ricerca.</div>`;
+}
+
+let t;
+$("q").addEventListener("input", () => { clearTimeout(t); t = setTimeout(filtra, 200); });
+$("regione").addEventListener("change", () => { aggiornaProvince(); filtra(); });
+$("provincia").addEventListener("change", filtra);
+$("chips").addEventListener("click", e => { const b = e.target.closest(".chip"); if (!b) return; cat = b.dataset.k; segnaChip(); filtra(); });
+$("more").addEventListener("click", altri);
+carica();
+</script>
+</body>
+</html>
