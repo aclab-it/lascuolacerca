@@ -1,8 +1,19 @@
 {
- "aggiornato": "2026-11-22T23:49+00:00",
+ "aggiornato": "2026-11-23T17:05+00:00",
  "istituti_scansionati": 12831,
- "istituti_non_raggiungibili": 6004,
- "avvisi_totali": 3217,
- "nuovi_oggi": 3217,
- "regione": "TUTTE"
+ "istituti_non_raggiungibili": 5999,
+ "avvisi_totali": 652,
+ "nuovi_oggi": 65,
+ "regione": "TUTTE",
+ "tipi_errore": {
+  "ConnectionError": 4205,
+  "home non raggiungibile": 1298,
+  "SSLError": 314,
+  "ConnectTimeout": 112,
+  "InvalidURL": 38,
+  "ReadTimeout": 28,
+  "errore: LocationParseError": 2,
+  "errore: ValueError": 1,
+  "TooManyRedirects": 1
+ }
 }
