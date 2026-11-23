@@ -20,6 +20,7 @@ Variabili d'ambiente:
   SITO_URL             opzionale, usato nello User-Agent e nei post Telegram
 """
 import csv
+import collections
 import concurrent.futures as cf
 import datetime as dt
 import hashlib
@@ -58,17 +59,17 @@ SESSION.headers.update({"User-Agent": UA, "Accept-Language": "it-IT,it;q=0.9"})
 RE_LINK_ALBO = re.compile(
     r"albo|bandi|avvisi|bacheca|amministrazione[\s_-]*trasparente|gare", re.I)
 
-# il testo deve parlare di una selezione...
+# il testo deve parlare di una selezione aperta...
 RE_SELEZIONE = re.compile(
-    r"avviso|selezion|reclutament|manifestazion[ei] di interesse|individuazione|"
-    r"bando|procedura comparativa|candidatur|incaric", re.I)
+    r"avviso|selezion|reclutament|manifestazion[ei] di interesse|bando|"
+    r"procedura comparativa|reperimento|ricerca di|candidature", re.I)
 
 # ...e di una di queste figure (chiave, etichetta)
 CATEGORIE = [
     ("psicologo", "Psicologo / sportello d'ascolto",
      r"psicolog|sportello\s+(d['’]\s*|di\s+)?ascolto|supporto psicologico"),
     ("madrelingua", "Esperto madrelingua", r"madre\s*lingua"),
-    ("rspp", "RSPP / sicurezza", r"\brspp\b|prevenzione e protezione|medico competente"),
+    ("rspp", "RSPP / sicurezza", r"\br\.?s\.?p\.?p\b|prevenzione e protezione|medico competente"),
     ("dpo", "DPO / privacy", r"\bdpo\b|protezione dei dati|\brpd\b"),
     ("tutor", "Tutor", r"\btutor"),
     ("collaudo", "Progettista / collaudatore", r"collaudator|progettist"),
@@ -80,12 +81,65 @@ CATEGORIE = [
 ]
 CATEGORIE = [(k, label, re.compile(rx, re.I)) for k, label, rx in CATEGORIE]
 
-# esiti, graduatorie, nomine: non sono avvisi aperti
+# atti che NON sono avvisi aperti: esiti, nomine, determine, contratti...
 RE_ESCLUDI = re.compile(
-    r"graduatori|esit[oi]\b|verbale|nomina|aggiudicazion|decreto di incarico|"
-    r"lettera di incarico|revoca|annullament|rettifica graduatoria|elenco ammessi", re.I)
-RE_SOLO_INTERNI = re.compile(r"personale interno|esperti interni|docenti interni", re.I)
+    r"graduatori|esit[oi]\b|verbal[ei]|nomina|aggiudicazion|decret[oi]|determin|"
+    r"lettera\W{0,3}(di\W{0,3})?incarico|contratt|revoca|annullament|rettifica|"
+    r"elenco ammessi|convocazione|commission[ei]|individuazione|affid|"
+    r"conferimento incarico (a|al|alla|prof|dott|sig)|accettazione|"
+    r"proroga|liquidazion|attestazione|dichiarazion[ei]|interpell", re.I)
+RE_INTERNI = re.compile(r"\binterni\b|\binterna\b|\binterno\b|\binterne\b", re.I)
 RE_ESTERNI = re.compile(r"estern", re.I)
+# testo che in realta' e' un menu del sito
+RE_MENU = re.compile(r"amministrazione trasparente|albo on\W?line|registro elettronico|"
+                     r"\bptof\b|privacy policy|cookie|area riservata|home\s*page", re.I)
+
+# --- date: tiene solo avvisi recenti
+MESI = {m: i for i, m in enumerate(
+    "gen feb mar apr mag giu lug ago set ott nov dic".split(), 1)}
+RE_DATA_NUM = re.compile(r"\b(\d{1,2})[/.-](\d{1,2})[/.-](20\d\d)\b")
+RE_DATA_TXT = re.compile(r"\b(\d{1,2})\s+(gen|feb|mar|apr|mag|giu|lug|ago|set|ott|nov|dic)[a-z]*\.?\s+(20\d\d)\b", re.I)
+RE_DATA_ISO = re.compile(r"\b(20\d\d)[-_](\d{2})[-_](\d{2})\b")
+RE_DATA_WP = re.compile(r"/(20\d\d)/(0[1-9]|1[0-2])/")   # es. /wp-content/uploads/2024/09/
+RE_ANNO = re.compile(r"(?<!\d)(20[12]\d)(?!\d)")
+GIORNI_VALIDITA = 75
+
+
+def data_piu_recente(testo):
+    """Ritorna (data_iso o None, anno_max o None) dalle date citate nel testo."""
+    date = []
+    for g, m, a in RE_DATA_NUM.findall(testo):
+        date.append((int(a), int(m), int(g)))
+    for g, m, a in RE_DATA_TXT.findall(testo):
+        date.append((int(a), MESI[m.lower()[:3]], int(g)))
+    for a, m, g in RE_DATA_ISO.findall(testo):
+        date.append((int(a), int(m), int(g)))
+    for a, m in RE_DATA_WP.findall(testo):
+        date.append((int(a), int(m), 28))
+    valide = []
+    for a, m, g in date:
+        try:
+            valide.append(dt.date(a, m, g))
+        except ValueError:
+            pass
+    oggi = dt.date.today()
+    valide = [d for d in valide if d <= oggi + dt.timedelta(days=400)]
+    anni = [int(x) for x in RE_ANNO.findall(testo)]
+    anno = max(anni) if anni else None
+    # le scadenze stanno nel futuro: conta la data piu' recente fino a oggi + margine
+    return (max(valide).isoformat() if valide else None), anno
+
+
+def recente(testo):
+    """False se il testo cita solo date/anni ormai vecchi."""
+    data, anno = data_piu_recente(testo)
+    oggi = dt.date.today()
+    if data:
+        return data >= (oggi - dt.timedelta(days=GIORNI_VALIDITA)).isoformat()
+    if anno:
+        # da settembre valgono anche gli avvisi dell'a.s. che inizia (es. 2026/27)
+        return anno >= (oggi.year if oggi.month >= 9 else oggi.year - 1)
+    return True  # nessuna data: nel dubbio lo tiene
 
 
 def classifica(testo):
@@ -93,7 +147,11 @@ def classifica(testo):
     t = " ".join(testo.split())
     if len(t) < 15 or not RE_SELEZIONE.search(t) or RE_ESCLUDI.search(t):
         return None
-    if RE_SOLO_INTERNI.search(t) and not RE_ESTERNI.search(t):
+    if len(RE_MENU.findall(t)) >= 2 or re.search(r"commm|istituzione commiss", t, re.I):
+        return None
+    if RE_INTERNI.search(t) and not RE_ESTERNI.search(t):
+        return None
+    if not recente(t):
         return None
     for chiave, label, rx in CATEGORIE:
         if rx.search(t):
@@ -232,20 +290,31 @@ def scarica(url):
     return r.url, BeautifulSoup(r.text, "html.parser")
 
 
-def testo_link(a):
-    parti = [a.get_text(" ", strip=True), a.get("title", "")]
-    # spesso l'oggetto dell'atto e' nella riga della tabella, non nel link
+def _riga(a):
+    """La riga (tabella/lista) che contiene il link, se e' una riga vera e non un menu."""
     riga = a.find_parent(["tr", "li", "article"])
-    if riga is not None:
-        parti.append(riga.get_text(" ", strip=True)[:400])
+    if riga is None:
+        return ""
+    t = riga.get_text(" ", strip=True)
+    return t if len(t) <= 600 else ""
+
+
+def in_menu(a):
+    return a.find_parent(["nav", "header", "footer"]) is not None or any(
+        re.search(r"menu|navbar|breadcrumb|footer|sidebar", " ".join(p.get("class", []) + [p.get("id") or ""]), re.I)
+        for p in a.parents if getattr(p, "get", None) and p.name in ("div", "ul", "aside"))
+
+
+def testo_link(a):
+    parti = [a.get_text(" ", strip=True), a.get("title", ""), _riga(a)]
+    # spesso l'oggetto dell'atto e' nella riga della tabella, non nel link
     return " ".join(p for p in parti if p)
 
 
 def titolo_pulito(a):
     t = a.get_text(" ", strip=True)
-    riga = a.find_parent(["tr", "li", "article"])
-    if riga is not None and len(t) < 25:
-        t = riga.get_text(" ", strip=True)
+    if len(t) < 25 and _riga(a):
+        t = _riga(a)
     t = " ".join(t.split())
     t = re.sub(r"^\d{1,2}[/.-]\d{1,2}[/.-]\d{2,4}\s*", "", t)          # data iniziale
     t = re.sub(r"\s*(scarica|download|visualizza|apri|allegat[oi])\s*$", "", t, flags=re.I)
@@ -278,10 +347,15 @@ def scansiona(ist):
                 time.sleep(0.5)
         for url_pagina, soup in pagine:
             for a in soup.find_all("a", href=True):
-                cat = classifica(testo_link(a))
-                if not cat:
+                if in_menu(a):
                     continue
                 link = urljoin(url_pagina, a["href"])
+                testo = testo_link(a) + " " + link
+                cat = classifica(testo)
+                if not cat:
+                    continue
+                if len(titolo_pulito(a)) < 12:
+                    continue
                 trovati.append({
                     "id": hashlib.sha1(link.encode()).hexdigest()[:16],
                     "titolo": titolo_pulito(a),
@@ -294,6 +368,7 @@ def scansiona(ist):
                     "comune": ist["comune"],
                     "provincia": ist["provincia"],
                     "regione": ist["regione"],
+                    "data_atto": data_piu_recente(testo)[0],
                 })
     except requests.RequestException as e:
         errore = type(e).__name__
@@ -337,10 +412,12 @@ def main():
             vecchi = {}
 
     trovati, errori = {}, 0
+    tipi_errore = collections.Counter()
     with cf.ThreadPoolExecutor(max_workers=THREADS) as ex:
         for i, (items, err) in enumerate(ex.map(scansiona, istituti), 1):
             if err:
                 errori += 1
+                tipi_errore[err] += 1
             for it in items:
                 trovati.setdefault(it["id"], it)
             if i % 100 == 0:
@@ -358,7 +435,8 @@ def main():
     limite = (dt.date.today() - dt.timedelta(days=GIORNI_CONSERVAZIONE)).isoformat()
     # tiene anche gli avvisi non piu' visti (scuole irraggiungibili oggi), finche' recenti
     for id_, it in vecchi.items():
-        if id_ not in trovati and it.get("trovato_il", oggi) >= limite:
+        if (id_ not in trovati and it.get("trovato_il", oggi) >= limite
+                and classifica(it.get("titolo", "") + " " + it.get("link", ""))):  # riapplica le regole aggiornate
             trovati[id_] = it
     tutti = sorted(trovati.values(), key=lambda a: (a["trovato_il"], a["scuola"]), reverse=True)
 
@@ -370,6 +448,7 @@ def main():
         "avvisi_totali": len(tutti),
         "nuovi_oggi": len(nuovi),
         "regione": REGIONE,
+        "tipi_errore": dict(tipi_errore.most_common()),
     }, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"Fatto: {len(tutti)} avvisi ({len(nuovi)} nuovi), {errori} scuole non raggiungibili")
     try:
