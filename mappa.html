@@ -7,6 +7,7 @@
 <meta name="description" content="La mappa degli avvisi delle scuole per psicologi, formatori, tutor ed esperti esterni, provincia per provincia.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📋</text></svg>">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" crossorigin="">
 <style>
   :root{--bg:#f6f5f1;--line:#e4e2dc;--ink:#1d1d1f;--muted:#6b6b70;--accent:#0f5c4d}
   *{box-sizing:border-box}
@@ -38,9 +39,10 @@
 </header>
 <div class="chips" id="chips"></div>
 <div id="map"></div>
-<div class="nota">Ogni bolla raggruppa gli avvisi di una provincia. Tocca una bolla per vederli.</div>
+<div class="nota">Ogni bolla indica un comune con il numero di avvisi; da lontano i comuni vicini si raggruppano. Tocca una bolla per vederli o ingrandire.</div>
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" crossorigin=""></script>
 <script>
 const CAT = {psicologo:"Psicologo", formatore:"Formatore / esperto", tutor:"Tutor", madrelingua:"Madrelingua",
   rspp:"RSPP", dpo:"DPO", collaudo:"Progettista / collaudatore", asacom:"Assistente / educatore",
@@ -79,7 +81,12 @@ const map = L.map("map", {zoomControl:true}).setView([42.1, 12.6], 6);
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
   maxZoom: 12, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
-const livello = L.layerGroup().addTo(map);
+const bolla = n => { const d = Math.round(24 + Math.min(32, Math.sqrt(n) * 5));
+  return L.divIcon({className:"", html:`<div class="bolla" style="width:${d}px;height:${d}px">${n}</div>`, iconSize:[d,d], iconAnchor:[d/2,d/2]}); };
+const livello = (L.markerClusterGroup ? L.markerClusterGroup({
+  showCoverageOnHover:false, maxClusterRadius:45, spiderfyOnMaxZoom:true,
+  iconCreateFunction: c => bolla(c.getAllChildMarkers().reduce((t, m) => t + (m.options.n || 1), 0))
+}) : L.layerGroup()).addTo(map);
 
 let avvisi = [], cat = "";
 
@@ -87,25 +94,26 @@ function disegna(){
   livello.clearLayers();
   const gruppi = {};
   avvisi.filter(a => !cat || a.categoria === cat).forEach(a => {
-    const k = chiave(a.provincia);
-    if (!PROV[k]) return;
-    (gruppi[k] ||= {nome:a.provincia, regione:a.regione, lista:[]}).lista.push(a);
+    // posizione del comune se nota, altrimenti del capoluogo di provincia
+    let k, pos, nome;
+    if (a.lat != null && a.lon != null) { k = "c:" + a.comune + "|" + a.provincia; pos = [a.lat, a.lon]; nome = a.comune; }
+    else if (PROV[chiave(a.provincia)]) { k = "p:" + chiave(a.provincia); pos = PROV[chiave(a.provincia)]; nome = "Provincia di " + a.provincia; }
+    else return;
+    (gruppi[k] ||= {nome, pos, provincia:a.provincia, regione:a.regione, lista:[]}).lista.push(a);
   });
-  let tot = 0;
-  Object.entries(gruppi).forEach(([k, g]) => {
-    const n = g.lista.length; tot += n;
-    const d = Math.round(22 + Math.min(34, Math.sqrt(n) * 6));
-    const icon = L.divIcon({className:"", html:`<div class="bolla" style="width:${d}px;height:${d}px">${n}</div>`, iconSize:[d,d], iconAnchor:[d/2,d/2]});
+  let tot = 0, comuni = 0;
+  Object.values(gruppi).forEach(g => {
+    const n = g.lista.length; tot += n; comuni++;
     const righe = g.lista.slice(0, 8).map(a =>
       `<li><a href="${esc(a.link)}" target="_blank" rel="noopener nofollow">${esc(a.titolo.slice(0,110))}${a.titolo.length>110?"…":""}</a>
-       <div class="s">${esc(CAT[a.categoria]||a.categoria_label)} · ${esc(a.scuola)}, ${esc(a.comune)}</div></li>`).join("");
-    const url = `./?regione=${encodeURIComponent(g.regione)}&provincia=${encodeURIComponent(g.nome)}${cat?"&cat="+cat:""}`;
-    L.marker(PROV[k], {icon}).addTo(livello).bindPopup(
+       <div class="s">${esc(CAT[a.categoria]||a.categoria_label)} · ${esc(a.scuola)}</div></li>`).join("");
+    const url = `./?regione=${encodeURIComponent(g.regione)}&provincia=${encodeURIComponent(g.provincia)}${cat?"&cat="+cat:""}`;
+    L.marker(g.pos, {icon: bolla(n), n}).addTo(livello).bindPopup(
       `<div class="pop"><h3>${esc(g.nome)} · ${n} ${n===1?"avviso":"avvisi"}</h3><ul>${righe}</ul>
-       ${n>8?`<a class="tutti" href="${url}">Vedi tutti i ${n} avvisi →</a>`:`<a class="tutti" href="${url}">Apri nell'elenco →</a>`}</div>`,
+       <a class="tutti" href="${url}">${n>8?`Vedi tutti i ${n} avvisi →`:"Tutti gli avvisi della provincia →"}</a></div>`,
       {maxWidth: 300});
   });
-  $("sub").textContent = `${tot} avvisi in ${Object.keys(gruppi).length} province${cat ? " · " + CAT[cat] : ""}`;
+  $("sub").textContent = `${tot} avvisi in ${comuni} località${cat ? " · " + CAT[cat] : ""}`;
 }
 
 const $ = id => document.getElementById(id);

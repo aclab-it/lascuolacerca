@@ -523,6 +523,11 @@ def main():
             trovati[id_] = it
     tutti = sorted(trovati.values(), key=lambda a: (a["trovato_il"], a["scuola"]), reverse=True)
 
+    try:
+        import geo
+        geo.aggiungi_coordinate(tutti, DATA, UA)
+    except Exception as e:  # la mappa non deve mai bloccare l'aggiornamento
+        print(f"  [mappa] coordinate non aggiunte: {type(e).__name__}: {e}")
     OUT.write_text(json.dumps(tutti, ensure_ascii=False, indent=1), encoding="utf-8")
     copertura.sort(key=lambda c: (c["r"], c["p"], c["n"]))
     (DATA / "copertura.json").write_text(
