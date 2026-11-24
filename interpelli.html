@@ -152,8 +152,8 @@ function altri(){
         ${(a.gradi || []).map(g => `<span class="tag gr">${esc(g)}</span>`).join("")}
         ${badgeScadenza(a)}</div>
       <h2>${esc(a.titolo)}</h2>
-      <div class="meta">🏫 ${esc(a.scuola)}<br>📍 ${esc(a.comune)}${a.provincia ? " (" + esc(a.provincia) + ")" : ""} · trovato il ${fmt(a.trovato_il)}</div>
-      <div class="links"><a href="${esc(a.link)}" target="_blank" rel="noopener nofollow">Apri l'interpello →</a><a href="${esc(a.pagina_albo)}" target="_blank" rel="noopener nofollow">Albo della scuola</a></div>
+      <div class="meta">🏫 ${esc(a.scuola)}<br>📍 ${a.comune ? esc(a.comune) + (a.provincia ? " (" + esc(a.provincia) + ")" : "") : "Provincia di " + esc(a.provincia)} · trovato il ${fmt(a.trovato_il)}${a.fonte === "USP" ? "<br>Segnalato dall'Ufficio scolastico provinciale" : ""}</div>
+      <div class="links"><a href="${esc(a.link)}" target="_blank" rel="noopener nofollow">Apri l'interpello →</a><a href="${esc(a.pagina_albo)}" target="_blank" rel="noopener nofollow">${a.fonte === "USP" ? "Pagina dell'Ufficio scolastico" : "Albo della scuola"}</a></div>
     </article>`).join(""));
   mostrati += PAGINA;
   $("more").hidden = mostrati >= filtrati.length;

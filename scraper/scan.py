@@ -586,7 +586,7 @@ def main():
         print(f"  [pagine] generazione fallita: {type(e).__name__}: {e}")
     pubblica_telegram(nuovi)
     (DATA / "albi.json").write_text(json.dumps(albi, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-    salva_interpelli(tutti_interpelli, len(istituti), completo=True)
+    salva_interpelli(unisci_fonti(tutti_interpelli, leggi_usp()[0]), len(istituti), completo=True)
 
 
 # ---------------------------------------------------------------- interpelli
@@ -627,6 +627,88 @@ def salva_interpelli(trovati_lista, n_scuole, completo):
     print(f"Interpelli: {len(validi)} aperti ({len(nuovi)} nuovi)")
 
 
+# ---------------------------------------------------------------- USP
+RE_SCUOLA_TITOLO = re.compile(
+    r"((?:I\.?\s?C\.?|I\.?\s?I\.?\s?S\.?\s?S?\.?|I\.?T\.?[A-Z\.]{0,4}|I\.?P\.?[A-Z\.]{0,5}|"
+    r"Istituto|Liceo|Convitto|Circolo|D\.?\s?D\.?|C\.?P\.?I\.?A\.?|Scuola|Educandato|IIS|ITIS|IPSIA|ITC|ITT|ITE|"
+    r"ISIS|IPSEOA|CPIA|Comprensivo)\b[^–\-:|,;]{3,70})", re.I)
+
+
+def province_regioni():
+    mappa = {}
+    for path in DATA.glob("scuole*.csv"):
+        raw = path.read_bytes().decode("utf-8-sig", errors="replace")
+        delim = ";" if raw[:2000].count(";") > raw[:2000].count(",") else ","
+        for row in csv.DictReader(io.StringIO(raw), delimiter=delim):
+            p, r = _col(row, "PROVINCIA").title(), _col(row, "REGIONE").title()
+            if p and r:
+                mappa.setdefault(p.lower(), (p, re.sub(r"\bD'", "d'", r)))
+    return mappa
+
+
+def leggi_usp():
+    """Interpelli dalle pagine degli Uffici scolastici provinciali (data/usp.csv)."""
+    import interpelli as ip_mod
+    try:
+        righe = list(csv.DictReader(io.StringIO((DATA / "usp.csv").read_text(encoding="utf-8")), delimiter=";"))
+    except FileNotFoundError:
+        return [], []
+    pr = province_regioni()
+    trovati, stato, visti = [], [], set()
+    for riga in righe:
+        url, prov_testo = riga["url"].strip(), riga["provincia"].strip()
+        if not url or url in visti:
+            continue
+        visti.add(url)
+        prima = prov_testo.split("/")[0].strip()
+        provincia, regione = pr.get(prima.lower(), (prima, ""))
+        esito = {"provincia": prov_testo, "url": url, "esito": "ok", "interpelli": 0}
+        try:
+            r = scarica(url)
+            if not r:
+                esito["esito"] = "pagina non leggibile"
+            else:
+                url_pagina, soup = r
+                for a in soup.find_all("a", href=True):
+                    if in_menu(a):
+                        continue
+                    link = urljoin(url_pagina, a["href"])
+                    titolo = titolo_pulito(a)
+                    if len(titolo) < 15:
+                        continue
+                    testo = testo_link(a) + " " + link
+                    nome_file = urlparse(link).path.rsplit("/", 1)[-1]
+                    ip = ip_mod.classifica(testo, titolo + " " + nome_file)
+                    if not ip or not (recente(testo) or ip.get("scadenza")):
+                        continue
+                    m = RE_SCUOLA_TITOLO.search(titolo)
+                    trovati.append({
+                        "id": hashlib.sha1(link.encode()).hexdigest()[:16],
+                        "titolo": ip_mod.pulisci(titolo), "link": link, "pagina_albo": url_pagina,
+                        "scuola": (m.group(1).strip(" .") if m else f"Ufficio scolastico di {prov_testo}"),
+                        "codice": "", "comune": "", "provincia": provincia, "regione": regione,
+                        "data_atto": data_piu_recente(testo)[0], "fonte": "USP", **ip,
+                    })
+                    esito["interpelli"] += 1
+        except BloccatoRobots:
+            esito["esito"] = "il sito chiede di non essere letto in automatico"
+        except requests.RequestException as e:
+            esito["esito"] = MOTIVI.get(type(e).__name__, type(e).__name__)
+        stato.append(esito)
+        time.sleep(0.5)
+    (DATA / "usp_stato.json").write_text(json.dumps(stato, ensure_ascii=False, indent=1), encoding="utf-8")
+    ok = sum(1 for e in stato if e["interpelli"])
+    print(f"USP: {len(stato)} pagine, {ok} con interpelli, {len(trovati)} interpelli")
+    return trovati, stato
+
+
+def unisci_fonti(da_scuole, da_usp):
+    """Lo stesso interpello puo' arrivare da scuola e USP: tiene quello della scuola."""
+    chiave = lambda a: (a.get("provincia", "").lower(), re.sub(r"\W+", " ", a["titolo"].lower())[:70])
+    noti = {chiave(a) for a in da_scuole}
+    return da_scuole + [a for a in da_usp if chiave(a) not in noti]
+
+
 def leggi_albi(voce):
     """Giro rapido: rilegge solo le pagine albo gia' note di una scuola."""
     pagine = []
@@ -660,7 +742,7 @@ def main_rapido():
     with cf.ThreadPoolExecutor(max_workers=THREADS) as ex:
         for lista in ex.map(leggi_albi, voci):
             trovati.extend(lista)
-    salva_interpelli(trovati, len(voci), completo=False)
+    salva_interpelli(unisci_fonti(trovati, leggi_usp()[0]), len(voci), completo=False)
 
 
 if __name__ == "__main__":
