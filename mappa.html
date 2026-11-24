@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mappa degli avvisi – La Scuola Cerca</title>
+<meta name="description" content="La mappa degli avvisi delle scuole per psicologi, formatori, tutor ed esperti esterni, provincia per provincia.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📋</text></svg>">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<style>
+  :root{--bg:#f6f5f1;--line:#e4e2dc;--ink:#1d1d1f;--muted:#6b6b70;--accent:#0f5c4d}
+  *{box-sizing:border-box}
+  html,body{margin:0;height:100%;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink)}
+  body{display:flex;flex-direction:column}
+  header{background:var(--accent);color:#fff;padding:12px 16px}
+  header a{color:#fff;text-decoration:none;font-weight:600;font-size:.88rem;opacity:.9}
+  header h1{margin:4px 0 2px;font-size:1.2rem}
+  header p{margin:0;font-size:.85rem;opacity:.9}
+  .chips{display:flex;gap:6px;overflow-x:auto;padding:8px 12px;background:#fff;border-bottom:1px solid var(--line);scrollbar-width:none}
+  .chip{flex:0 0 auto;border:1px solid var(--line);background:#fff;border-radius:999px;padding:6px 12px;font-size:.82rem;cursor:pointer;white-space:nowrap}
+  .chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+  #map{flex:1;min-height:300px}
+  .bolla{background:var(--accent);color:#fff;border:2px solid #fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:12px;box-shadow:0 1px 4px rgba(0,0,0,.35);opacity:.92}
+  .leaflet-popup-content{margin:12px 14px;font-size:.85rem;line-height:1.4;max-height:300px;overflow-y:auto}
+  .pop h3{margin:0 0 6px;font-size:1rem}
+  .pop ul{margin:0 0 8px;padding-left:16px}
+  .pop li{margin-bottom:5px}
+  .pop .s{color:var(--muted);font-size:.78rem}
+  .pop a.tutti{display:inline-block;margin-top:4px;font-weight:600;color:var(--accent)}
+  .nota{font-size:.75rem;color:var(--muted);padding:6px 12px;background:#fff;border-top:1px solid var(--line)}
+</style>
+</head>
+<body>
+<header>
+  <a href="./">← Torna all'elenco</a>
+  <h1>🗺️ Mappa degli avvisi</h1>
+  <p id="sub">Caricamento…</p>
+</header>
+<div class="chips" id="chips"></div>
+<div id="map"></div>
+<div class="nota">Ogni bolla raggruppa gli avvisi di una provincia. Tocca una bolla per vederli.</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+<script>
+const CAT = {psicologo:"Psicologo", formatore:"Formatore / esperto", tutor:"Tutor", madrelingua:"Madrelingua",
+  rspp:"RSPP", dpo:"DPO", collaudo:"Progettista / collaudatore", asacom:"Assistente / educatore",
+  mediatore:"Mediatore", orientatore:"Orientatore"};
+
+// coordinate (approssimate) dei capoluoghi di provincia
+const PROV = {
+ "agrigento":[37.31,13.58],"alessandria":[44.91,8.61],"ancona":[43.62,13.52],"aosta":[45.74,7.32],"arezzo":[43.46,11.88],
+ "ascoli piceno":[42.85,13.58],"asti":[44.90,8.21],"avellino":[40.91,14.79],"bari":[41.12,16.87],"barletta-andria-trani":[41.23,16.29],
+ "belluno":[46.14,12.22],"benevento":[41.13,14.78],"bergamo":[45.70,9.67],"biella":[45.57,8.05],"bologna":[44.49,11.34],
+ "bolzano":[46.50,11.35],"brescia":[45.54,10.22],"brindisi":[40.64,17.94],"cagliari":[39.22,9.12],"caltanissetta":[37.49,14.06],
+ "campobasso":[41.56,14.66],"caserta":[41.07,14.33],"catania":[37.50,15.09],"catanzaro":[38.91,16.59],"chieti":[42.35,14.17],
+ "como":[45.81,9.09],"cosenza":[39.30,16.25],"cremona":[45.13,10.02],"crotone":[39.08,17.13],"cuneo":[44.38,7.54],
+ "enna":[37.57,14.28],"fermo":[43.16,13.72],"ferrara":[44.84,11.62],"firenze":[43.77,11.26],"foggia":[41.46,15.55],
+ "forli'-cesena":[44.22,12.04],"frosinone":[41.64,13.34],"gallura nord-est sardegna":[40.92,9.50],"genova":[44.41,8.93],
+ "gorizia":[45.94,13.62],"grosseto":[42.76,11.11],"imperia":[43.89,8.03],"isernia":[41.59,14.23],"l'aquila":[42.35,13.40],
+ "la spezia":[44.10,9.82],"latina":[41.47,12.90],"lecce":[40.35,18.17],"lecco":[45.86,9.40],"livorno":[43.55,10.31],
+ "lodi":[45.31,9.50],"lucca":[43.84,10.50],"macerata":[43.30,13.45],"mantova":[45.16,10.79],"massa-carrara":[44.04,10.14],
+ "matera":[40.67,16.60],"medio campidano":[39.56,8.90],"messina":[38.19,15.55],"milano":[45.46,9.19],"modena":[44.65,10.93],
+ "monza e della brianza":[45.58,9.27],"napoli":[40.85,14.27],"novara":[45.45,8.62],"nuoro":[40.32,9.33],"ogliastra":[39.93,9.66],
+ "oristano":[39.90,8.59],"padova":[45.41,11.88],"palermo":[38.12,13.36],"parma":[44.80,10.33],"pavia":[45.19,9.16],
+ "perugia":[43.11,12.39],"pesaro e urbino":[43.91,12.91],"pescara":[42.46,14.21],"piacenza":[45.05,9.69],"pisa":[43.72,10.40],
+ "pistoia":[43.93,10.91],"pordenone":[45.96,12.66],"potenza":[40.64,15.80],"prato":[43.88,11.10],"ragusa":[36.93,14.73],
+ "ravenna":[44.42,12.20],"reggio calabria":[38.11,15.65],"reggio emilia":[44.70,10.63],"rieti":[42.40,12.86],"rimini":[44.06,12.57],
+ "roma":[41.90,12.50],"rovigo":[45.07,11.79],"salerno":[40.68,14.77],"sassari":[40.73,8.56],"savona":[44.31,8.48],
+ "siena":[43.32,11.33],"siracusa":[37.08,15.29],"sondrio":[46.17,9.87],"sulcis iglesiente":[39.17,8.52],"taranto":[40.47,17.24],
+ "teramo":[42.66,13.70],"terni":[42.56,12.64],"torino":[45.07,7.69],"trapani":[38.02,12.51],"trento":[46.07,11.12],
+ "treviso":[45.67,12.24],"trieste":[45.65,13.78],"udine":[46.06,13.24],"varese":[45.82,8.83],"venezia":[45.44,12.33],
+ "verbano-cusio-ossola":[45.92,8.55],"vercelli":[45.32,8.42],"verona":[45.44,10.99],"vibo valentia":[38.68,16.10],
+ "vicenza":[45.55,11.55],"viterbo":[42.42,12.11]
+};
+const chiave = p => (p||"").toLowerCase().replace(/[’`]/g,"'").trim();
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+const map = L.map("map", {zoomControl:true}).setView([42.1, 12.6], 6);
+L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+  maxZoom: 12, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+const livello = L.layerGroup().addTo(map);
+
+let avvisi = [], cat = "";
+
+function disegna(){
+  livello.clearLayers();
+  const gruppi = {};
+  avvisi.filter(a => !cat || a.categoria === cat).forEach(a => {
+    const k = chiave(a.provincia);
+    if (!PROV[k]) return;
+    (gruppi[k] ||= {nome:a.provincia, regione:a.regione, lista:[]}).lista.push(a);
+  });
+  let tot = 0;
+  Object.entries(gruppi).forEach(([k, g]) => {
+    const n = g.lista.length; tot += n;
+    const d = Math.round(22 + Math.min(34, Math.sqrt(n) * 6));
+    const icon = L.divIcon({className:"", html:`<div class="bolla" style="width:${d}px;height:${d}px">${n}</div>`, iconSize:[d,d], iconAnchor:[d/2,d/2]});
+    const righe = g.lista.slice(0, 8).map(a =>
+      `<li><a href="${esc(a.link)}" target="_blank" rel="noopener nofollow">${esc(a.titolo.slice(0,110))}${a.titolo.length>110?"…":""}</a>
+       <div class="s">${esc(CAT[a.categoria]||a.categoria_label)} · ${esc(a.scuola)}, ${esc(a.comune)}</div></li>`).join("");
+    const url = `./?regione=${encodeURIComponent(g.regione)}&provincia=${encodeURIComponent(g.nome)}${cat?"&cat="+cat:""}`;
+    L.marker(PROV[k], {icon}).addTo(livello).bindPopup(
+      `<div class="pop"><h3>${esc(g.nome)} · ${n} ${n===1?"avviso":"avvisi"}</h3><ul>${righe}</ul>
+       ${n>8?`<a class="tutti" href="${url}">Vedi tutti i ${n} avvisi →</a>`:`<a class="tutti" href="${url}">Apri nell'elenco →</a>`}</div>`,
+      {maxWidth: 300});
+  });
+  $("sub").textContent = `${tot} avvisi in ${Object.keys(gruppi).length} province${cat ? " · " + CAT[cat] : ""}`;
+}
+
+const $ = id => document.getElementById(id);
+async function carica(){
+  try { avvisi = await (await fetch("data/avvisi.json", {cache:"no-store"})).json(); }
+  catch(e) { $("sub").textContent = "Dati non disponibili al momento."; return; }
+  const presenti = new Set(avvisi.map(a => a.categoria));
+  const chips = [["", "Tutti"], ...Object.entries(CAT).filter(([k]) => presenti.has(k))];
+  $("chips").innerHTML = chips.map(([k,l]) => `<button class="chip${k===cat?" on":""}" data-k="${k}">${l}</button>`).join("");
+  $("chips").addEventListener("click", e => { const b = e.target.closest(".chip"); if (!b) return;
+    cat = b.dataset.k; document.querySelectorAll(".chip").forEach(c => c.classList.toggle("on", c.dataset.k === cat)); disegna(); });
+  const p = new URLSearchParams(location.search);
+  if (p.get("cat") && CAT[p.get("cat")]) { cat = p.get("cat"); document.querySelectorAll(".chip").forEach(c => c.classList.toggle("on", c.dataset.k === cat)); }
+  disegna();
+}
+carica();
+</script>
+</body>
+</html>
