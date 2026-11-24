@@ -171,8 +171,8 @@
   "scuola": "Ufficio scolastico di Agrigento",
   "codice": "",
   "comune": "",
-  "provincia": "Agrigento",
-  "regione": "Sicilia",
+  "provincia": "Cagliari",
+  "regione": "Sardegna",
   "data_atto": "2026-11-30",
   "fonte": "USP",
   "classi": [
@@ -368,11 +368,11 @@
   "titolo": "Interpello per supplenza scuola primaria posto comune fino al 04/12/2026 presso I.C. “Valsinni – Tursi” di Valsinni. 24 Novembre 2026 Roberto Cavallo",
   "link": "https://www.istruzionepiemonte.it/cuneo/interpello-per-supplenza-scuola-primaria-posto-comune-fino-al-04-12-2026-presso-i-c-valsinni-tursi-di-valsinni/",
   "pagina_albo": "https://www.istitutoguala.edu.it/",
-  "scuola": "Bra - \"E. Guala\"",
-  "codice": "CNIS01600L",
-  "comune": "Bra",
-  "provincia": "Cuneo",
-  "regione": "Piemonte",
+  "scuola": "I.C. Valsinni – Tursi",
+  "codice": "",
+  "comune": "Valsinni",
+  "provincia": "Matera",
+  "regione": "Basilicata",
   "data_atto": "2026-12-04",
   "classi": [],
   "sostegno": false,
@@ -381,8 +381,8 @@
   ],
   "scadenza": "2026-12-04",
   "trovato_il": "2026-11-24",
-  "lat": 44.7069,
-  "lon": 7.8249
+  "lat": 40.158,
+  "lon": 16.4498
  },
  {
   "id": "b2ccf86ffab73567",
@@ -577,11 +577,11 @@
   "titolo": "Interpello c.d.c. AB56 18h fino al 17/12/2026 presso PRIMO IC “A. MORO P. V. MARONE” di Francavilla Fontana. 23 Novembre 2026 Roberto Cavallo",
   "link": "https://www.istruzionepiemonte.it/cuneo/interpello-c-d-c-ab56-18h-fino-al-17-12-2026-presso-primo-ic-a-moro-p-v-marone-di-francavilla-fontana/",
   "pagina_albo": "https://www.istitutoguala.edu.it/",
-  "scuola": "Bra - \"E. Guala\"",
-  "codice": "CNIS01600L",
-  "comune": "Bra",
-  "provincia": "Cuneo",
-  "regione": "Piemonte",
+  "scuola": "PRIMO IC A. MORO P. V. MARONE",
+  "codice": "",
+  "comune": "Francavilla Fontana",
+  "provincia": "Brindisi",
+  "regione": "Puglia",
   "data_atto": "2026-12-17",
   "classi": [
    "AB56"
@@ -590,8 +590,8 @@
   "gradi": [],
   "scadenza": "2026-12-17",
   "trovato_il": "2026-11-24",
-  "lat": 44.7069,
-  "lon": 7.8249
+  "lat": 40.5299,
+  "lon": 17.5637
  },
  {
   "id": "11e69e5faa5184cd",
@@ -639,51 +639,11 @@
   "titolo": "Interpelli , Nazionale 23/11/2026 INTERPELLO per supplenza n. 15 ore C.D.C. A041 fino al 22.12.2026 presso l’Istituto di Istruzione Superiore “Beccaria Loi” – Carbonia L’articolo in oggetto è visualizzabile sul sito USP Cagliari attraverso il seguente link https://www.mim.gov.it/web/cagliari/-/2-int",
   "link": "https://ag.usr.sicilia.it/interpello-per-supplenza-n-15-ore-c-d-c-a041-fino-al-22-12-2026-presso-listituto-di-istruzione-superiore-beccaria-loi-carbonia/",
   "pagina_albo": "https://ag.usr.sicilia.it/category/personale-scuola/personale-docente/interpelli/",
-  "scuola": "Istituto di Istruzione Superiore “Beccaria Loi”",
+  "scuola": "Istituto di Istruzione Superiore Beccaria Loi – Carbonia L’a",
   "codice": "",
   "comune": "",
-  "provincia": "Agrigento",
-  "regione": "Sicilia",
-  "data_atto": "2026-12-22",
-  "fonte": "USP",
-  "classi": [
-   "A041"
-  ],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": "2026-12-22",
-  "trovato_il": "2026-11-24"
- },
- {
-  "id": "67957e9368c872a6",
-  "titolo": "2°INTERPELLO per supplenza n. 15 ore C.D.C. A041 fino al 22.12.2026 presso l’Istituto di Istruzione Superiore “Beccaria Loi” – Carbonia",
-  "link": "https://www.istruzionepiemonte.it/biella/2interpello-per-supplenza-n-15-ore-c-d-c-a041-fino-al-22-12-2026-presso-listituto-di-istruzione-superiore-beccaria-loi-carbonia/",
-  "pagina_albo": "https://www.istruzionepiemonte.it/biella/interpelli-supplenze/",
-  "scuola": "Istituto di Istruzione Superiore “Beccaria Loi”",
-  "codice": "",
-  "comune": "",
-  "provincia": "Biella",
-  "regione": "Piemonte",
-  "data_atto": "2026-12-22",
-  "fonte": "USP",
-  "classi": [
-   "A041"
-  ],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": "2026-12-22",
-  "trovato_il": "2026-11-24"
- },
- {
-  "id": "31da6c97b18b4bf8",
-  "titolo": "Interpello c.d.c. A041 15h fino al 22-12-2026 presso l’Istituto di Istruzione Superiore “Beccaria Loi” di Carbonia.",
-  "link": "https://www.istruzionepiemonte.it/cuneo/interpello-c-d-c-a041-15h-fino-al-22-12-2026-presso-listituto-di-istruzione-superiore-beccaria-loi-di-carbonia/",
-  "pagina_albo": "https://www.istruzionepiemonte.it/cuneo/interpelli-supplenze-personale-docente/",
-  "scuola": "Istituto di Istruzione Superiore “Beccaria Loi” di Carbonia",
-  "codice": "",
-  "comune": "",
-  "provincia": "Cuneo",
-  "regione": "Piemonte",
+  "provincia": "Sulcis Iglesiente",
+  "regione": "Sardegna",
   "data_atto": "2026-12-22",
   "fonte": "USP",
   "classi": [
@@ -704,26 +664,6 @@
   "comune": "",
   "provincia": "Foggia",
   "regione": "Puglia",
-  "data_atto": "2026-12-22",
-  "fonte": "USP",
-  "classi": [
-   "A041"
-  ],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": "2026-12-22",
-  "trovato_il": "2026-11-24"
- },
- {
-  "id": "5f313f17f1423485",
-  "titolo": "2°INTERPELLO per supplenza n. 15 ore C.D.C. A041 fino al 22.12.2026 presso l’Istituto di Istruzione Superiore “Beccaria Loi” – Carbonia",
-  "link": "https://me.usr.sicilia.it/2interpello-per-supplenza-n-15-ore-c-d-c-a041-fino-al-22-12-2026-presso-listituto-di-istruzione-superiore-beccaria-loi-carbonia/",
-  "pagina_albo": "https://me.usr.sicilia.it/personale-scuola/interpelli/",
-  "scuola": "Istituto di Istruzione Superiore “Beccaria Loi”",
-  "codice": "",
-  "comune": "",
-  "provincia": "Messina",
-  "regione": "Sicilia",
   "data_atto": "2026-12-22",
   "fonte": "USP",
   "classi": [
@@ -780,11 +720,11 @@
   "titolo": "Interpello c.d.c. ADEE 24h fino al 20/01/2027 presso I.C. “G. NICOLINI” di Capranica. 23 Novembre 2026 Roberto Cavallo",
   "link": "https://www.istruzionepiemonte.it/cuneo/interpello-c-d-c-adee-24h-fino-al-20-01-2027-presso-i-c-g-nicolini-di-capranica/",
   "pagina_albo": "https://www.istitutoguala.edu.it/",
-  "scuola": "Bra - \"E. Guala\"",
-  "codice": "CNIS01600L",
-  "comune": "Bra",
-  "provincia": "Cuneo",
-  "regione": "Piemonte",
+  "scuola": "I.C. G. NICOLINI",
+  "codice": "",
+  "comune": "Capranica",
+  "provincia": "Viterbo",
+  "regione": "Lazio",
   "data_atto": "2027-01-20",
   "classi": [],
   "sostegno": true,
@@ -793,8 +733,8 @@
   ],
   "scadenza": "2027-01-20",
   "trovato_il": "2026-11-24",
-  "lat": 44.7069,
-  "lon": 7.8249
+  "lat": 42.2608,
+  "lon": 12.1546
  },
  {
   "id": "e40424fd4dcc5463",
@@ -970,18 +910,16 @@
   "link": "https://www.mim.gov.it/web/guest/-/avviso-prot-n-2540-del-16-novembre-2026",
   "pagina_albo": "https://www.mim.gov.it/web/guest/avvisi-per-incarichi-dirigenziali-generali-e-non-generali",
   "scuola": "Na - IC Michelangelo Augusto",
-  "codice": "NAIC8GT00P",
-  "comune": "Napoli",
-  "provincia": "Napoli",
-  "regione": "Campania",
+  "codice": "",
+  "comune": "",
+  "provincia": "Ancona",
+  "regione": "Marche",
   "data_atto": "2026-11-28",
   "classi": [],
   "sostegno": false,
   "gradi": [],
   "scadenza": null,
-  "trovato_il": "2026-11-24",
-  "lat": 40.8566,
-  "lon": 14.2399
+  "trovato_il": "2026-11-24"
  },
  {
   "id": "130808f2092ecb8b",
@@ -2610,11 +2548,11 @@
   "titolo": "Interpello c.d.c. A040 18h dal 30.11.2026 al 04.12.2026 presso Istituto Omnicomprensivo “Leonardo da Vinci” di Acquapendente. 24 Novembre 2026 Roberto Cavallo",
   "link": "https://www.istruzionepiemonte.it/cuneo/interpello-c-d-c-a040-18h-dal-30-11-2026-al-04-12-2026-presso-istituto-omnicomprensivo-leonardo-da-vinci-di-acquapendente/",
   "pagina_albo": "https://www.istitutoguala.edu.it/",
-  "scuola": "Bra - \"E. Guala\"",
-  "codice": "CNIS01600L",
-  "comune": "Bra",
-  "provincia": "Cuneo",
-  "regione": "Piemonte",
+  "scuola": "Istituto Omnicomprensivo Leonardo da Vinci",
+  "codice": "",
+  "comune": "Acquapendente",
+  "provincia": "Viterbo",
+  "regione": "Lazio",
   "data_atto": "2026-12-04",
   "classi": [
    "A040"
@@ -2623,19 +2561,19 @@
   "gradi": [],
   "scadenza": null,
   "trovato_il": "2026-11-24",
-  "lat": 44.7069,
-  "lon": 7.8249
+  "lat": 42.7625,
+  "lon": 11.8868
  },
  {
   "id": "6a5519b3a307e30b",
   "titolo": "Interpello c.d.c. A041 12h dal 27/11/2026 al 22/12/2026 presso Istituto Ferraris Brunelleschi di Empoli. 24 Novembre 2026 Roberto Cavallo",
   "link": "https://www.istruzionepiemonte.it/cuneo/interpello-c-d-c-a041-12h-dal-27-11-2026-al-22-12-2026-presso-istituto-ferraris-brunelleschi-di-empoli/",
   "pagina_albo": "https://www.istitutoguala.edu.it/",
-  "scuola": "Bra - \"E. Guala\"",
-  "codice": "CNIS01600L",
-  "comune": "Bra",
-  "provincia": "Cuneo",
-  "regione": "Piemonte",
+  "scuola": "Istituto Ferraris Brunelleschi",
+  "codice": "",
+  "comune": "Empoli",
+  "provincia": "Firenze",
+  "regione": "Toscana",
   "data_atto": "2026-12-22",
   "classi": [
    "A041"
@@ -2644,19 +2582,19 @@
   "gradi": [],
   "scadenza": null,
   "trovato_il": "2026-11-24",
-  "lat": 44.7069,
-  "lon": 7.8249
+  "lat": 43.6985,
+  "lon": 10.9449
  },
  {
   "id": "220a526e47cf8dd4",
   "titolo": "Interpello c.d.c. A042 4h fino al 08/06/2027 presso I.S. “Enzo Ferrari” di Chiaravalle Centrale. 23 Novembre 2026 Roberto Cavallo",
   "link": "https://www.istruzionepiemonte.it/cuneo/interpello-c-d-c-a042-4h-fino-al-08-06-2027-presso-i-s-enzo-ferrari-di-chiaravalle-centrale/",
   "pagina_albo": "https://www.istitutoguala.edu.it/",
-  "scuola": "Bra - \"E. Guala\"",
-  "codice": "CNIS01600L",
-  "comune": "Bra",
-  "provincia": "Cuneo",
-  "regione": "Piemonte",
+  "scuola": "I.S. Enzo Ferrari",
+  "codice": "",
+  "comune": "Chiaravalle Centrale",
+  "provincia": "Catanzaro",
+  "regione": "Calabria",
   "data_atto": "2027-06-08",
   "classi": [
    "A042"
@@ -2665,8 +2603,8 @@
   "gradi": [],
   "scadenza": null,
   "trovato_il": "2026-11-24",
-  "lat": 44.7069,
-  "lon": 7.8249
+  "lat": 38.6903,
+  "lon": 16.3931
  },
  {
   "id": "b5dd7f1a2b20de3d",
@@ -3322,7 +3260,7 @@
   "titolo": "Interpello per supplenza breve CdC A023 presso il C.P.I.A. di Agrigento",
   "link": "https://www.cpia-agrigento.edu.it/interpello-per-supplenza-breve-cdc-a023-presso-il-c-p-i-a-di-agrigento/",
   "pagina_albo": "https://www.cpia-agrigento.edu.it/servizio/albo-online/",
-  "scuola": "CPIA - Agrigento",
+  "scuola": "C.P.I.A.",
   "codice": "AGMM083009",
   "comune": "Realmonte",
   "provincia": "Agrigento",
@@ -4014,27 +3952,6 @@
   "provincia": "Modena",
   "regione": "Emilia Romagna",
   "data_atto": null,
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "infanzia"
-  ],
-  "scadenza": null,
-  "trovato_il": "2026-11-24",
-  "lat": 44.5331,
-  "lon": 10.7782
- },
- {
-  "id": "b4edd51a676342d7",
-  "titolo": "INTERPELLO PER SUPPLENZA SU CLASSE DI CONCORSO POSTO SOSTEGNO INFANZIA (ADAA) ORE IN DEROGA –AL 30/06/2027. 26-10-2026 REGISTRO PROTOCOLLO",
-  "link": "https://nuvola.madisoft.it/bacheca-digitale/7604/documento/MOIC82700L/1",
-  "pagina_albo": "https://nuvola.madisoft.it/bacheca-digitale/bacheca/MOIC82700L/3",
-  "scuola": "I.C. Sassuolo 4^ Ovest",
-  "codice": "MOIC82700L",
-  "comune": "Sassuolo",
-  "provincia": "Modena",
-  "regione": "Emilia Romagna",
-  "data_atto": "2027-06-30",
   "classi": [],
   "sostegno": true,
   "gradi": [
@@ -6749,7 +6666,7 @@
   "titolo": "Interpello per n. 1 POSTO fino al 30/06/2027 – Posto sostegno presso la scuola dell’infanzia di San Martino in strada (LO)",
   "link": "https://iclodidue.edu.it/2026/11/04/interpello-per-n-1-posto-fino-al-30-06-2027-posto-sostegno-presso-la-scuola-dellinfanzia-di-san-martino-in-strada-lo/",
   "pagina_albo": "https://iclodidue.edu.it/",
-  "scuola": "I.C. Lodi Ii -G. Spezzaferri-",
+  "scuola": "scuola dell’infanzia",
   "codice": "LOIC812009",
   "comune": "Cavenago D'Adda",
   "provincia": "Lodi",
@@ -6918,7 +6835,7 @@
   "titolo": "Interpello Nazionale – avviso finalizzato al reclutamento di docenti forniti della specializzazione per la classe di concorso ADEE – Sostegno Scuola Primaria – presso Istituzione Educativa P. COLLETTA di Avellino",
   "link": "https://www.convittocolletta.edu.it/interpello-nazionale-avviso-finalizzato-al-reclutamento-di-docenti-forniti-della-specializzazione-per-la-classe-di-concorso-adee-sostegno-scuola-primaria-presso-istituzione-educa/",
   "pagina_albo": "https://www.convittocolletta.edu.it/",
-  "scuola": "P Colletta",
+  "scuola": "Istituzione Educativa P. COLLETTA",
   "codice": "AVVC01000E",
   "comune": "Avellino",
   "provincia": "Avellino",
@@ -11395,7 +11312,7 @@
   "titolo": "Interpello 6 – Avviso finalizzato al reclutamento di un docente scuola infanzia posto comune 25/25 ore presso Istituto Comprensivo Statale di Bovezzo",
   "link": "https://www.icbovezzo.edu.it/albo-pretorio/interpello-6-avviso-finalizzato-al-reclutamento-di-un-docente-scuola-infanzia-posto",
   "pagina_albo": "https://www.icbovezzo.edu.it/novita/albo-pretorio",
-  "scuola": "I.C. Bovezzo",
+  "scuola": "Istituto Comprensivo Statale",
   "codice": "BSIC836004",
   "comune": "Bovezzo",
   "provincia": "Brescia",
@@ -12476,27 +12393,6 @@
   "lon": 9.5058
  },
  {
-  "id": "e2d336aba59bec97",
-  "titolo": "Avviso di interpello per il conferimento di supplenza fino al 30/06/2027 – Classe di concorso A063 TECNOLOGIE MUSICALI n.4 ore settimanali – a.s. 2026/2027.",
-  "link": "https://liceotco.edu.it/avviso-di-interpello-per-il-conferimento-di-supplenza-fino-al-30-06-2027-classe-di-concorso-a063-tecnologie-musicali-n-4-ore-settimanali-a-s-2026-2027/",
-  "pagina_albo": "https://liceotco.edu.it/",
-  "scuola": "Liceo Scientifico Statale \"T. C. Onesti\"",
-  "codice": "APPS030005",
-  "comune": "Fermo",
-  "provincia": "Fermo",
-  "regione": "Marche",
-  "data_atto": "2027-06-30",
-  "classi": [
-   "A063"
-  ],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "trovato_il": "2026-11-24",
-  "lat": 43.1608,
-  "lon": 13.7248
- },
- {
   "id": "58f865f142f20b61",
   "titolo": "INTERPELLO SOSTEGNO",
   "link": "https://icrodarimarconi.edu.it/servizio/interpello-sostegno/",
@@ -12727,8 +12623,8 @@
   "scuola": "Ufficio scolastico di Agrigento",
   "codice": "",
   "comune": "",
-  "provincia": "Agrigento",
-  "regione": "Sicilia",
+  "provincia": "Cagliari",
+  "regione": "Sardegna",
   "data_atto": "2026-11-24",
   "fonte": "USP",
   "classi": [],
@@ -12787,8 +12683,8 @@
   "scuola": "Ufficio scolastico di Agrigento",
   "codice": "",
   "comune": "",
-  "provincia": "Agrigento",
-  "regione": "Sicilia",
+  "provincia": "Cagliari",
+  "regione": "Sardegna",
   "data_atto": "2026-11-23",
   "fonte": "USP",
   "classi": [
@@ -12807,8 +12703,8 @@
   "scuola": "IIS VIGNARELLI SANLURI L’articolo in oggetto è visualizzabile s",
   "codice": "",
   "comune": "",
-  "provincia": "Agrigento",
-  "regione": "Sicilia",
+  "provincia": "Cagliari",
+  "regione": "Sardegna",
   "data_atto": "2027-02-12",
   "fonte": "USP",
   "classi": [],
@@ -13197,28 +13093,6 @@
   "trovato_il": "2026-11-24"
  },
  {
-  "id": "69f516c2b4a336ca",
-  "titolo": "Interpello CDC AB56 strumento musicale nella scuola secondaria di primo grado (chitarra)-PRIMO IC A.MORO P.V.MARONE Francavilla F.na (BR)",
-  "link": "https://www.istruzionepiemonte.it/biella/interpello-cdc-ab56-strumento-musicale-nella-scuola-secondaria-di-primo-grado-chitarra-primo-ic-a-moro-p-v-marone-francavilla-f-na-br/",
-  "pagina_albo": "https://www.istruzionepiemonte.it/biella/interpelli-supplenze/",
-  "scuola": "PRIMO IC A.MORO P.V.MARONE Francavilla F.na",
-  "codice": "",
-  "comune": "",
-  "provincia": "Brindisi",
-  "regione": "Puglia",
-  "data_atto": null,
-  "fonte": "USP",
-  "classi": [
-   "AB56"
-  ],
-  "sostegno": false,
-  "gradi": [
-   "secondaria I grado"
-  ],
-  "scadenza": null,
-  "trovato_il": "2026-11-24"
- },
- {
   "id": "0db4e55874d2e65a",
   "titolo": "Interpello per la supplenza classe di concorso – A013 – Discipline Letterarie, Latino e Greco – L.C. “G.M. DETTORI” Cagliari",
   "link": "https://www.istruzionepiemonte.it/biella/interpello-per-la-supplenza-classe-di-concorso-a013-discipline-letterarie-latino-e-greco-l-c-g-m-dettori-cagliari/",
@@ -13226,8 +13100,8 @@
   "scuola": "Ufficio scolastico di Biella",
   "codice": "",
   "comune": "",
-  "provincia": "Biella",
-  "regione": "Piemonte",
+  "provincia": "Cagliari",
+  "regione": "Sardegna",
   "data_atto": null,
   "fonte": "USP",
   "classi": [
@@ -13664,7 +13538,7 @@
   "scuola": "Ufficio scolastico di Catanzaro",
   "codice": "",
   "comune": "",
-  "provincia": "Catanzaro",
+  "provincia": "Cosenza",
   "regione": "Calabria",
   "data_atto": "2026-11-23",
   "fonte": "USP",
@@ -13821,11 +13695,11 @@
   "titolo": "Interpello c.d.c. AB56 18h fino al 09/06/2027 presso I.C. Pescara 8.",
   "link": "https://www.istruzionepiemonte.it/cuneo/interpello-c-d-c-ab56-18h-fino-al-09-06-2027-presso-i-c-pescara-8/",
   "pagina_albo": "https://www.istruzionepiemonte.it/cuneo/interpelli-supplenze-personale-docente/",
-  "scuola": "Ufficio scolastico di Cuneo",
+  "scuola": "I.C. Pescara 8",
   "codice": "",
   "comune": "",
-  "provincia": "Cuneo",
-  "regione": "Piemonte",
+  "provincia": "Pescara",
+  "regione": "Abruzzo",
   "data_atto": "2027-06-09",
   "fonte": "USP",
   "classi": [
@@ -13841,7 +13715,7 @@
   "titolo": "Si pubblica l’interpello, ai sensi dell’articolo 13, comma 23, dell’Ordinanza ministeriale del 16 febbraio 2026, n. 27, per provvedere al conferimento di una supplenza per la classe di concorso AAAA – POST COMUNE INFANZIA, presso IC “T. Bonati” di Bondeno",
   "link": "https://fe.istruzioneer.gov.it/2026/11/24/interpello-per-una-supplenza-su-classe-di-concorso-aaaa-posto-comune-infanzia-8/",
   "pagina_albo": "https://fe.istruzioneer.gov.it/category/assunzioni-e-concorsi/interpelli_docenti/",
-  "scuola": "IC “T. Bonati” di Bondeno",
+  "scuola": "IC T. Bonati",
   "codice": "",
   "comune": "",
   "provincia": "Ferrara",
@@ -13875,26 +13749,6 @@
   "gradi": [
    "secondaria II grado"
   ],
-  "scadenza": null,
-  "trovato_il": "2026-11-24"
- },
- {
-  "id": "36b24c924537275d",
-  "titolo": "Interpello nazionale C.D.C. A041 – Istituto Ferraris Brunelleschi di Empoli (FI)",
-  "link": "https://www.ustfoggia.it/2026/11/24/interpello-nazionale-c-d-c-a041-istituto-ferraris-brunelleschi-di-empoli-fi/",
-  "pagina_albo": "https://www.ustfoggia.it/",
-  "scuola": "Istituto Ferraris Brunelleschi di Empoli",
-  "codice": "",
-  "comune": "",
-  "provincia": "Firenze",
-  "regione": "Toscana",
-  "data_atto": "2026-11-28",
-  "fonte": "USP",
-  "classi": [
-   "A041"
-  ],
-  "sostegno": false,
-  "gradi": [],
   "scadenza": null,
   "trovato_il": "2026-11-24"
  },
@@ -14010,26 +13864,6 @@
   "fonte": "USP",
   "classi": [
    "A042"
-  ],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "trovato_il": "2026-11-24"
- },
- {
-  "id": "e813973b57b6962a",
-  "titolo": "Interpello CDC AB56 – PRIMO IC A.MORO P.V.MARONE di Francavilla Fontana (BR) Categorie Albo Pretorio Comunicazioni Leggi di più",
-  "link": "https://www.ustfoggia.it/2026/11/23/interpello-cdc-ab56-primo-ic-a-moro-p-v-marone-di-francavilla-fontana-br/",
-  "pagina_albo": "https://www.ustfoggia.it/",
-  "scuola": "PRIMO IC A.MORO P.V.MARONE di Francavilla Fontana",
-  "codice": "",
-  "comune": "",
-  "provincia": "Brindisi",
-  "regione": "Puglia",
-  "data_atto": "2026-11-28",
-  "fonte": "USP",
-  "classi": [
-   "AB56"
   ],
   "sostegno": false,
   "gradi": [],
@@ -14328,26 +14162,6 @@
   "fonte": "USP",
   "classi": [
    "AS12"
-  ],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "trovato_il": "2026-11-24"
- },
- {
-  "id": "6f109c85c0de9b8e",
-  "titolo": "ITT “Altamura Da Vinci” di Foggia – Interpello cdc B010 – 16h fino al 30/06/2027 Categorie Albo Pretorio Comunicazioni Leggi di più",
-  "link": "https://www.ustfoggia.it/2026/11/13/itt-altamura-da-vinci-di-foggia-interpello-cdc-b010-16h-fino-al-30-06-2027/",
-  "pagina_albo": "https://www.ustfoggia.it/",
-  "scuola": "ITT “Altamura Da Vinci” di Foggia",
-  "codice": "",
-  "comune": "",
-  "provincia": "Foggia",
-  "regione": "Puglia",
-  "data_atto": "2027-06-30",
-  "fonte": "USP",
-  "classi": [
-   "B010"
   ],
   "sostegno": false,
   "gradi": [],
@@ -15902,8 +15716,8 @@
   "scuola": "Ufficio scolastico di Messina",
   "codice": "",
   "comune": "",
-  "provincia": "Messina",
-  "regione": "Sicilia",
+  "provincia": "Cagliari",
+  "regione": "Sardegna",
   "data_atto": "2026-11-23",
   "fonte": "USP",
   "classi": [
@@ -18170,7 +17984,7 @@
   "scuola": "Ufficio scolastico di Viterbo",
   "codice": "",
   "comune": "",
-  "provincia": "Viterbo",
+  "provincia": "Roma",
   "regione": "Lazio",
   "data_atto": null,
   "fonte": "USP",

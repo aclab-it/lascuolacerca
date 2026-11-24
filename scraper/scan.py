@@ -602,7 +602,7 @@ def salva_interpelli(trovati_lista, n_scuole, completo):
         nome_file = urlparse(it.get("link", "")).path.rsplit("/", 1)[-1]
         if id_ not in trovati and ip_mod.classifica(it.get("titolo", ""), it.get("titolo", "") + " " + nome_file):
             trovati[id_] = it
-    validi = [it for it in trovati.values() if ip_mod.ancora_valido(it)]
+    validi = togli_doppioni([rilocalizza(it) for it in trovati.values() if ip_mod.ancora_valido(it)])
     validi.sort(key=lambda a: (a.get("scadenza") or "9999", a["trovato_il"]))
     try:
         import geo
@@ -706,6 +706,85 @@ def leggi_usp():
     ok = sum(1 for e in stato if e["interpelli"])
     print(f"USP: {len(stato)} pagine, {ok} con interpelli, {len(trovati)} interpelli")
     return trovati, stato
+
+
+# ---- interpelli ripubblicati: "presso l'IIS X di Carbonia" -> provincia del Sud Sardegna
+RE_PRESSO = re.compile(r"\bpresso\s+(?:l['’]\s*|la\s+|il\s+)?(.{3,90}?)\s+di\s+([A-ZÀ-Ý][\w'’À-ÿ]+(?:[ -][A-ZÀ-Ýa-z][\w'’À-ÿ]+){0,3}?)"
+                       r"(?=\s*[.,;()\-–]|\s+\d|\s*$)")
+CAPOLUOGHI_AMBIGUI = {"fermo", "prato", "massa", "lodi", "enna", "como", "asti", "terni", "sondrio"}
+_geo_cache = {}
+
+
+def _geo():
+    if not _geo_cache:
+        import geo
+        _geo_cache["istat"] = geo.carica_istat(DATA)
+        _geo_cache["norm"] = geo.norm
+        _geo_cache["pr"] = {geo.norm(k): v for k, v in province_regioni().items()}
+        cap = {geo.norm(v.split("-")[0].split(" e ")[0]): v for v in SIGLE_PROVINCE.values()}
+        for citta, prov in {"Carbonia": "Sulcis Iglesiente", "Iglesias": "Sulcis Iglesiente", "Olbia": "Gallura Nord-Est Sardegna",
+                            "Tempio Pausania": "Gallura Nord-Est Sardegna", "Sanluri": "Medio Campidano", "Tortoli": "Ogliastra",
+                            "Lanusei": "Ogliastra", "Cesena": "Forli'-Cesena", "Forli": "Forli'-Cesena", "Urbino": "Pesaro e Urbino",
+                            "Pesaro": "Pesaro e Urbino", "Andria": "Barletta-Andria-Trani", "Barletta": "Barletta-Andria-Trani",
+                            "Trani": "Barletta-Andria-Trani", "Carrara": "Massa-Carrara", "Verbania": "Verbano-Cusio-Ossola",
+                            "Monza": "Monza e della Brianza"}.items():
+            cap[geo.norm(citta)] = prov
+        _geo_cache["capoluoghi"] = cap
+    return _geo_cache
+
+
+def rilocalizza(it):
+    """Se il titolo indica una scuola di un'altra provincia, sposta l'interpello li'."""
+    g = _geo()
+    titolo = it.get("titolo", "")
+    nuova = None
+    m = RE_PRESSO.search(titolo)
+    if m:
+        comune = m.group(2).strip()
+        cand = g["istat"].get(g["norm"](comune))
+        if cand and len({c[2] for c in cand}) == 1:
+            nuova = (cand[0][2], comune.title() if comune.isupper() else comune)
+            scuola = re.sub(r"[“”\"«»]", "", m.group(1)).strip(" '")
+            if 3 <= len(scuola) <= 90:
+                it["scuola"] = scuola
+    if not nuova:
+        for parola in re.findall(r"\b[A-Z][a-zà-ÿ']+(?:\s[A-Z][a-zà-ÿ']+)?\b", titolo):
+            k = g["norm"](parola)
+            if k in g["capoluoghi"] and k not in CAPOLUOGHI_AMBIGUI:
+                nuova = (g["norm"](g["capoluoghi"][k]), "")
+                m2 = re.search(r"\bpresso\s+(?:l['’]\s*)?(.+)$", titolo)
+                if m2:
+                    sc = re.sub(r"\s+\d{1,2}\s+[A-Za-z]+\s+20\d\d.*$", "", m2.group(1))  # data e autore in coda
+                    it["scuola"] = re.sub(r"[“”\"«»]", "", sc).strip(" .'")[:60]
+                break
+    if not nuova:
+        return it
+    prov_norm, comune = nuova
+    if prov_norm == g["norm"](it.get("provincia", "")):
+        return it
+    prov, reg = g["pr"].get(prov_norm, (prov_norm.title(), it.get("regione", "")))
+    it.update({"provincia": prov, "regione": reg, "comune": comune, "codice": ""})
+    it.pop("lat", None), it.pop("lon", None)
+    return it
+
+
+def togli_doppioni(lista):
+    """Lo stesso interpello ripubblicato da piu' uffici/siti diventa uno (stessa provincia, scuola, classe).
+    Due interpelli dello stesso sito restano sempre separati."""
+    def k(a):
+        sc = re.sub(r"[^a-z0-9]", "", (a.get("scuola") or "").lower().replace("istitutodiistruzionesuperiore", "iis"))[:18]
+        return (a.get("provincia", "").lower(), sc, tuple(a.get("classi") or []), bool(a.get("sostegno")),
+                tuple(a.get("gradi") or []))
+    host = lambda a: urlparse(a.get("pagina_albo") or a.get("link", "")).netloc.lower().removeprefix("www.")
+    siti, out = {}, []
+    for a in sorted(lista, key=lambda a: a.get("fonte") == "USP"):  # prima le versioni delle scuole
+        kk = k(a)
+        generico = kk[1].startswith("ufficioscolastico") or not (kk[2] or kk[3])
+        if not generico and kk in siti and host(a) not in siti[kk]:
+            continue
+        siti.setdefault(kk, set()).add(host(a))
+        out.append(a)
+    return out
 
 
 def unisci_fonti(da_scuole, da_usp):
