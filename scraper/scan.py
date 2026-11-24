@@ -71,7 +71,7 @@ CATEGORIE = [
     ("madrelingua", "Esperto madrelingua", r"madre\s*lingua"),
     ("rspp", "RSPP / sicurezza", r"\br\.?s\.?p\.?p\b|prevenzione e protezione|medico competente"),
     ("dpo", "DPO / privacy", r"\bdpo\b|protezione dei dati|\brpd\b"),
-    ("tutor", "Tutor", r"\btutor"),
+    ("tutor", "Tutor", r"\btutor(?!ial)"),
     ("collaudo", "Progettista / collaudatore", r"collaudator|progettist"),
     ("asacom", "Assistente comunicazione / educatore",
      r"assistent[ei] (alla |all['’])?(comunicazione|autonomia)|asacom|educator"),
@@ -98,6 +98,7 @@ RE_MENU = re.compile(r"amministrazione trasparente|albo on\W?line|registro elett
 MESI = {m: i for i, m in enumerate(
     "gen feb mar apr mag giu lug ago set ott nov dic".split(), 1)}
 RE_DATA_NUM = re.compile(r"\b(\d{1,2})[/.-](\d{1,2})[/.-](20\d\d)\b")
+RE_DATA_NUVOLA = re.compile(r"\b(20\d\d)\s+(\d{1,2})\s+(gen|feb|mar|apr|mag|giu|lug|ago|set|ott|nov|dic)[a-z]*\b", re.I)
 RE_DATA_TXT = re.compile(r"\b(\d{1,2})\s+(gen|feb|mar|apr|mag|giu|lug|ago|set|ott|nov|dic)[a-z]*\.?\s+(20\d\d)\b", re.I)
 RE_DATA_ISO = re.compile(r"\b(20\d\d)[-_](\d{2})[-_](\d{2})\b")
 RE_DATA_WP = re.compile(r"/(20\d\d)/(0[1-9]|1[0-2])/")   # es. /wp-content/uploads/2024/09/
@@ -114,6 +115,8 @@ def data_piu_recente(testo):
         date.append((int(a), MESI[m.lower()[:3]], int(g)))
     for a, m, g in RE_DATA_ISO.findall(testo):
         date.append((int(a), int(m), int(g)))
+    for a, g, m in RE_DATA_NUVOLA.findall(testo):
+        date.append((int(a), MESI[m.lower()[:3]], int(g)))
     for a, m in RE_DATA_WP.findall(testo):
         date.append((int(a), int(m), 28))
     valide = []
@@ -146,6 +149,8 @@ def classifica(testo):
     """Ritorna (chiave, etichetta) se il testo e' un avviso per esperti, altrimenti None."""
     t = " ".join(testo.split())
     if len(t) < 15 or not RE_SELEZIONE.search(t) or RE_ESCLUDI.search(t):
+        return None
+    if re.match(r"\s*(domanda|allegat|modell|modulistica|scheda|griglia|informativa|video)", t, re.I):
         return None
     if len(RE_MENU.findall(t)) >= 2 or re.search(r"commm|istituzione commiss", t, re.I):
         return None
@@ -321,12 +326,49 @@ def titolo_pulito(a):
     return t[:300]
 
 
+def alternative(ist):
+    """Indirizzi da provare se quello dell'anagrafe non risponde."""
+    u = urlparse(ist["sito"])
+    host = u.netloc.lower()
+    nudo = host[4:] if host.startswith("www.") else host
+    cand = [ist["sito"],
+            f"https://{'www.' + nudo if host == nudo else nudo}/",
+            f"http://{host}/"]
+    cod = (ist.get("codice") or "").lower()
+    if re.fullmatch(r"[a-z]{4}[0-9a-z]{6}", cod):
+        # molte scuole sono passate al dominio <codice>.edu.it
+        cand += [f"https://www.{cod}.edu.it/", f"https://{cod}.edu.it/"]
+    base = re.sub(r"\.(gov\.it|it|eu|org|net|com|info)$", "", nudo)
+    if not nudo.endswith(".edu.it") and "." in nudo:
+        cand.append(f"https://www.{base}.edu.it/")
+    visti, out = set(), []
+    for c in cand:
+        if c not in visti:
+            visti.add(c)
+            out.append(c)
+    return out
+
+
+def apri_home(ist):
+    ultimo = "home non raggiungibile"
+    for url in alternative(ist):
+        try:
+            res = scarica(url)
+            if res is not None:
+                return res, None
+        except requests.exceptions.SSLError:
+            ultimo = "SSLError"
+        except requests.RequestException as e:
+            ultimo = type(e).__name__
+    return None, ultimo
+
+
 def scansiona(ist):
     trovati, errore = [], None
     try:
-        res = scarica(ist["sito"])
+        res, err = apri_home(ist)
         if res is None:
-            return trovati, "home non raggiungibile"
+            return trovati, err
         home_url, home = res
         pagine = [(home_url, home)]
         visti = {home_url}
@@ -436,6 +478,7 @@ def main():
     # tiene anche gli avvisi non piu' visti (scuole irraggiungibili oggi), finche' recenti
     for id_, it in vecchi.items():
         if (id_ not in trovati and it.get("trovato_il", oggi) >= limite
+                and len(it.get("titolo", "").strip()) >= 12
                 and classifica(it.get("titolo", "") + " " + it.get("link", ""))):  # riapplica le regole aggiornate
             trovati[id_] = it
     tutti = sorted(trovati.values(), key=lambda a: (a["trovato_il"], a["scuola"]), reverse=True)
