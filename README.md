@@ -37,14 +37,14 @@ Quando funziona, cancella le due variabili e verranno scansionate tutte le scuol
 Se il salvataggio finale fallisce con "permission denied", vai in
 **Settings → Actions → General → Workflow permissions** e seleziona **Read and write**.
 
-## Canale Telegram (facoltativo, consigliato)
+## Canali Telegram (per regione)
+Un solo bot pubblica in più canali: un canale **Interpelli** per ogni regione e un canale nazionale **Esperti**.
 1. Su Telegram scrivi a **@BotFather** → `/newbot` → ottieni il token.
-2. Crea un canale pubblico e aggiungi il bot come amministratore.
-3. In **Settings → Secrets and variables → Actions → Secrets** crea
-   `TELEGRAM_BOT_TOKEN` (il token) e `TELEGRAM_CHAT_ID` (es. `@nomecanale`).
-4. In `index.html` scrivi il link del canale in `TELEGRAM_URL`.
+2. Crea i canali pubblici (es. `@lascuolacerca_piemonte`, `@lascuolacerca_esperti`) e aggiungi il bot come amministratore.
+3. In **Settings → Secrets and variables → Actions → Secrets** crea `TELEGRAM_BOT_TOKEN` con il token.
+4. In `data/telegram_canali.csv` scrivi il nome del canale accanto alla regione (le righe vuote sono ignorate).
 
-Ogni nuovo avviso verrà pubblicato in automatico sul canale.
+Quando un canale viene attivato non riceve gli annunci già presenti: da lì in poi arrivano solo i nuovi.
 
 ## Pubblicità
 Quando il sito ha traffico: in `index.html` imposta `AD_OGNI` (es. 8) e inserisci il codice

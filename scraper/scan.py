@@ -487,21 +487,12 @@ def voce_copertura(ist, err, info, n_avvisi):
 
 
 # ---------------------------------------------------------------- telegram
-def pubblica_telegram(nuovi):
-    token = os.environ.get("TELEGRAM_BOT_TOKEN")
-    chat = os.environ.get("TELEGRAM_CHAT_ID")
-    if not token or not chat or not nuovi:
-        return
-    for av in nuovi[:40]:  # limite per non fare spam al primo giro
-        msg = (f"🆕 <b>{av['categoria_label']}</b>\n{av['titolo'][:250]}\n"
-               f"🏫 {av['scuola']} – {av['comune']} ({av['provincia']})\n{av['link']}")
-        try:
-            requests.post(f"https://api.telegram.org/bot{token}/sendMessage",
-                          data={"chat_id": chat, "text": msg, "parse_mode": "HTML",
-                                "disable_web_page_preview": "true"}, timeout=15)
-            time.sleep(3)
-        except requests.RequestException:
-            pass
+def pubblica_telegram(sezione, elementi):
+    try:
+        import telegram
+        telegram.pubblica(sezione, elementi, DATA, SITO_URL)
+    except Exception as e:  # Telegram non deve mai bloccare l'aggiornamento
+        print(f"  [telegram] errore: {type(e).__name__}: {e}")
 
 
 # ---------------------------------------------------------------- main
@@ -584,7 +575,7 @@ def main():
         print(f"Pagine statiche generate: {n}")
     except Exception as e:  # le pagine SEO non devono mai bloccare l'aggiornamento
         print(f"  [pagine] generazione fallita: {type(e).__name__}: {e}")
-    pubblica_telegram(nuovi)
+    pubblica_telegram("esperti", tutti)
     (DATA / "albi.json").write_text(json.dumps(albi, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     salva_interpelli(unisci_fonti(tutti_interpelli, leggi_usp()[0]), len(istituti), completo=True)
 
@@ -618,6 +609,7 @@ def salva_interpelli(trovati_lista, n_scuole, completo):
         print(f"  [interpelli] coordinate non aggiunte: {type(e).__name__}: {e}")
     INTERPELLI.write_text(json.dumps(validi, ensure_ascii=False, indent=1), encoding="utf-8")
     aggiorna_pagine_interpelli(trovati_lista, oggi)
+    pubblica_telegram("interpelli", validi)
     (DATA / "interpelli_stato.json").write_text(json.dumps({
         "aggiornato": dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes"),
         "giro": "completo" if completo else "rapido",
