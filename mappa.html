@@ -13,10 +13,6 @@
   *{box-sizing:border-box}
   html,body{margin:0;height:100%;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink)}
   body{display:flex;flex-direction:column}
-  header{background:var(--accent);color:#fff;padding:12px 16px}
-  header a{color:#fff;text-decoration:none;font-weight:600;font-size:.88rem;opacity:.9}
-  header h1{margin:4px 0 2px;font-size:1.2rem}
-  header p{margin:0;font-size:.85rem;opacity:.9}
   .tabs{display:flex;gap:6px;padding:8px 12px 0;background:#fff}
   .tab{flex:1;border:1px solid var(--line);background:#f6f5f1;border-radius:10px;padding:8px 6px;font-size:.88rem;font-weight:600;cursor:pointer;color:var(--ink)}
   .tab.on{background:var(--accent);border-color:var(--accent);color:#fff}
@@ -35,14 +31,31 @@
   .pop .s{color:var(--muted);font-size:.78rem}
   .pop a.tutti{display:inline-block;margin-top:4px;font-weight:600;color:var(--accent)}
   .nota{font-size:.75rem;color:var(--muted);padding:6px 12px;background:#fff;border-top:1px solid var(--line)}
+
+  /* testata comune a tutte le sezioni */
+  header.sito{background:#0f5c4d;color:#fff;padding:16px 16px 0}
+  header.sito .w{max-width:860px;margin:auto}
+  header.sito .brand{color:#fff;font-weight:800;font-size:1.3rem;text-decoration:none;letter-spacing:-.01em}
+  header.sito .claim{margin:4px 0 12px;opacity:.9;font-size:.9rem;line-height:1.4}
+  header.sito nav{display:flex;gap:4px}
+  header.sito nav a{flex:1;text-align:center;color:#fff;text-decoration:none;font-weight:600;font-size:.88rem;padding:10px 6px;border-radius:10px 10px 0 0;opacity:.85;white-space:nowrap}
+  header.sito nav a.on{background:#f6f5f1;color:#0f5c4d;opacity:1}
+  header.sito nav a.on.ip{color:#24456b}
+  .intro{max-width:860px;margin:auto;padding:16px 16px 0}
+  .intro h1{font-size:1.35rem;margin:0 0 4px;letter-spacing:-.01em}
+  .intro p{margin:0;color:#4a4a50;font-size:.95rem}
+  .intro .stats{color:#6b6b70;font-size:.84rem;margin-top:6px}
+  .intro .stats a{color:#0f5c4d;font-weight:600}
+  @media(max-width:420px){header.sito nav a{font-size:.8rem;padding:9px 3px}}
 </style>
 </head>
 <body>
-<header>
-  <a href="./">← Avvisi esperti</a> &nbsp; <a href="interpelli.html">📚 Interpelli</a>
-  <h1 id="titolo">🗺️ Mappa degli avvisi</h1>
-  <p id="sub">Caricamento…</p>
-</header>
+<header class="sito"><div class="w">
+  <a class="brand" href="./">📋 La Scuola Cerca</a>
+  <p class="claim">Le scuole d'Italia che cercano te: avvisi per esperti esterni e interpelli per docenti. Gratis, senza registrazione.</p>
+  <nav><a href="./" class="">🧑‍🏫 Esperti esterni</a><a href="interpelli.html" class="">📚 Interpelli docenti</a><a href="mappa.html" class="on">🗺️ Mappa</a></nav>
+</div></header>
+<section class="intro" style="padding-bottom:8px;text-align:left;width:100%"><h1 id="titolo">🗺️ Mappa degli avvisi</h1><div class="stats" id="sub">Caricamento…</div></section>
 <div class="tabs"><button class="tab on" data-s="esperti">Avvisi esperti</button><button class="tab ip" data-s="interpelli">📚 Interpelli docenti</button></div>
 <div class="chips" id="chips"></div>
 <div id="map"></div>

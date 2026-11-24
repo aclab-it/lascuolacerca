@@ -10,11 +10,6 @@
   :root{--bg:#f6f5f1;--card:#fff;--ink:#1d1d1f;--muted:#6b6b70;--line:#e4e2dc;--accent:#0f5c4d;--accent-soft:#e3f0ec;--new:#c2410c}
   *{box-sizing:border-box}
   body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.45}
-  header{background:var(--accent);color:#fff;padding:28px 18px 22px}
-  header .wrap{max-width:860px;margin:auto}
-  h1{margin:0 0 6px;font-size:1.6rem;letter-spacing:-.01em}
-  header p{margin:0;opacity:.9;font-size:.98rem}
-  .stats{margin-top:12px;font-size:.85rem;opacity:.85}
   main{max-width:860px;margin:auto;padding:16px}
   .filters{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px;display:grid;gap:10px;position:sticky;top:0;z-index:5}
   .row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
@@ -38,15 +33,34 @@
   .tg a{color:#0b6aa8;font-weight:600}
   footer{max-width:860px;margin:30px auto;padding:0 16px 30px;color:var(--muted);font-size:.8rem}
   @media(max-width:520px){.row{grid-template-columns:1fr}h1{font-size:1.35rem}}
+
+  /* testata comune a tutte le sezioni */
+  header.sito{background:#0f5c4d;color:#fff;padding:16px 16px 0}
+  header.sito .w{max-width:860px;margin:auto}
+  header.sito .brand{color:#fff;font-weight:800;font-size:1.3rem;text-decoration:none;letter-spacing:-.01em}
+  header.sito .claim{margin:4px 0 12px;opacity:.9;font-size:.9rem;line-height:1.4}
+  header.sito nav{display:flex;gap:4px}
+  header.sito nav a{flex:1;text-align:center;color:#fff;text-decoration:none;font-weight:600;font-size:.88rem;padding:10px 6px;border-radius:10px 10px 0 0;opacity:.85;white-space:nowrap}
+  header.sito nav a.on{background:#f6f5f1;color:#0f5c4d;opacity:1}
+  header.sito nav a.on.ip{color:#24456b}
+  .intro{max-width:860px;margin:auto;padding:16px 16px 0}
+  .intro h1{font-size:1.35rem;margin:0 0 4px;letter-spacing:-.01em}
+  .intro p{margin:0;color:#4a4a50;font-size:.95rem}
+  .intro .stats{color:#6b6b70;font-size:.84rem;margin-top:6px}
+  .intro .stats a{color:#0f5c4d;font-weight:600}
+  @media(max-width:420px){header.sito nav a{font-size:.8rem;padding:9px 3px}}
 </style>
 </head>
 <body>
-<header><div class="wrap">
-  <h1>📋 La Scuola Cerca</h1>
-  <p>Psicologi, formatori, tutor, madrelingua: tutte le scuole d'Italia che stanno cercando te. Gratis, senza registrazione.</p>
-  <div class="stats" id="stats">Caricamento…</div>
-  <div class="stats"><a href="interpelli.html" style="color:#fff;font-weight:600">📚 Interpelli docenti</a> · <a href="mappa.html" style="color:#fff;font-weight:600">🗺️ Vedi sulla mappa</a> · <a href="copertura.html" style="color:#fff;font-weight:600">Quali scuole controlliamo</a></div>
+<header class="sito"><div class="w">
+  <a class="brand" href="./">📋 La Scuola Cerca</a>
+  <p class="claim">Le scuole d'Italia che cercano te: avvisi per esperti esterni e interpelli per docenti. Gratis, senza registrazione.</p>
+  <nav><a href="./" class="on">🧑‍🏫 Esperti esterni</a><a href="interpelli.html" class="">📚 Interpelli docenti</a><a href="mappa.html" class="">🗺️ Mappa</a></nav>
 </div></header>
+<section class="intro"><h1>Avvisi per esperti esterni</h1>
+  <p>Psicologi, formatori, tutor, madrelingua, RSPP: gli avvisi di selezione pubblicati dalle scuole di tutta Italia.</p>
+  <div class="stats" id="stats">Caricamento…</div>
+  <div class="stats"><a href="copertura.html">Quali scuole controlliamo</a></div></section>
 
 <main>
   <div class="filters">
