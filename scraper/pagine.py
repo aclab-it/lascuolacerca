@@ -16,6 +16,8 @@ from collections import defaultdict
 from pathlib import Path
 
 NOME_SITO = "La Scuola Cerca"
+CF_ANALYTICS = ("<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' "
+                "data-cf-beacon='{\"token\": \"c80732ec638842438606fb0b7b7c47bd\"}'></script><!-- End Cloudflare Web Analytics -->")
 
 PLURALE = {
     "psicologo": "psicologi e sportello d'ascolto",
@@ -90,7 +92,8 @@ def _pagina(base, profondita, titolo, descrizione, h1, intro, avvisi, correlati,
 {"".join(righe)}
 <nav class="rel">{"".join(blocchi)}</nav></main>
 <footer>Avvisi raccolti automaticamente dagli albi online delle scuole: verifica sempre requisiti e scadenze sul documento ufficiale.
-Sito non affiliato al Ministero dell'Istruzione e del Merito. · <a href="{su}privacy.html">Privacy e cookie</a></footer></body></html>"""
+Sito non affiliato al Ministero dell'Istruzione e del Merito. · <a href="{su}privacy.html">Privacy e cookie</a></footer>
+{CF_ANALYTICS}</body></html>"""
 
 
 def genera(avvisi, root: Path, base_url: str, oggi: str):
