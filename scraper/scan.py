@@ -85,7 +85,7 @@ CATEGORIE = [(k, label, re.compile(rx, re.I)) for k, label, rx in CATEGORIE]
 RE_ESCLUDI = re.compile(
     r"graduatori|esit[oi]\b|verbal[ei]|nomina|aggiudicazion|decret[oi]|determin|"
     r"lettera\W{0,3}(di\W{0,3})?incarico|contratt|revoca|annullament|rettifica|"
-    r"elenco ammessi|convocazione|commission[ei]|individuazione|affid|"
+    r"elenco (ammessi|dei partecipanti|partecipanti|candidat)|convocazione|commission[ei]|individuazione|affid|"
     r"conferimento incarico (a|al|alla|prof|dott|sig)|accettazione|"
     r"proroga|liquidazion|attestazione|dichiarazion[ei]|interpell", re.I)
 RE_INTERNI = re.compile(r"\binterni\b|\binterna\b|\binterno\b|\binterne\b", re.I)
@@ -153,6 +153,8 @@ def classifica(testo):
     if re.match(r"\s*(domanda|allegat|modell|modulistica|scheda|griglia|informativa|video)", t, re.I):
         return None
     if len(RE_MENU.findall(t)) >= 2 or re.search(r"commm|istituzione commiss", t, re.I):
+        return None
+    if RE_LINK_GENERICO.match(t.split(" http")[0]):
         return None
     if RE_INTERNI.search(t) and not RE_ESTERNI.search(t):
         return None
@@ -320,8 +322,17 @@ def testo_link(a):
     return " ".join(p for p in parti if p)
 
 
+RE_LINK_GENERICO = re.compile(r"^(scopri di pi\S*|leggi (tutto|di pi\S*|l'articolo)|continua( a leggere)?|dettagli|"
+                              r"visualizza|download|scarica|apri|vai (a|al|ai|alla)\b.*|clicca qui|qui|link( alla?\b.*)?|"
+                              r"allegato|pdf)\W*$", re.I)
+
+
 def titolo_pulito(a):
     t = a.get_text(" ", strip=True)
+    if RE_LINK_GENERICO.match(t) and len(t) < 40:
+        riga = a.find_parent(["tr", "li", "article", "div"])
+        t = riga.get_text(" ", strip=True)[:300] if riga is not None else ""
+        t = re.sub(r"\s*(scopri di pi\S*|leggi tutto|continua a leggere)\s*$", "", t, flags=re.I)
     if len(t) < 25 and _riga(a):
         t = _riga(a)
     t = " ".join(t.split())
@@ -394,11 +405,14 @@ def estrai(pagine, ist, solo_interpelli=False):
                 "regione": ist["regione"],
                 "data_atto": data_piu_recente(testo)[0],
             }
-            ip = ip_mod.classifica(testo)
+            nome_file = urlparse(link).path.rsplit("/", 1)[-1]
+            ip = ip_mod.classifica(testo, titolo + " " + nome_file)
             if ip:
                 if recente(testo) or ip.get("scadenza"):
-                    interp.append({**base, **ip})
+                    interp.append({**base, **ip, "titolo": ip_mod.pulisci(titolo)})
                 continue
+            if ip_mod.RE_INTERPELLO.search(titolo):
+                continue  # interpello generico/menu: non e' nemmeno un avviso per esperti
             if solo_interpelli:
                 continue
             cat = classifica(testo)
@@ -592,7 +606,8 @@ def salva_interpelli(trovati_lista, n_scuole, completo):
         trovati.setdefault(it["id"], it)
     nuovi = [it for id_, it in trovati.items() if id_ not in vecchi]
     for id_, it in vecchi.items():  # scuole non lette in questo giro: li tiene finche' validi
-        if id_ not in trovati:
+        nome_file = urlparse(it.get("link", "")).path.rsplit("/", 1)[-1]
+        if id_ not in trovati and ip_mod.classifica(it.get("titolo", ""), it.get("titolo", "") + " " + nome_file):
             trovati[id_] = it
     validi = [it for it in trovati.values() if ip_mod.ancora_valido(it)]
     validi.sort(key=lambda a: (a.get("scadenza") or "9999", a["trovato_il"]))

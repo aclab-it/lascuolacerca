@@ -16,7 +16,7 @@ RE_ESCLUDI = re.compile(
     r"elenco (candidati|domande|ammessi)|verbale|deserto", re.I)
 
 # classi di concorso: A022, A-22, A 022, B015, AB24, AJ56 (strumento), ecc.
-RE_CDC = re.compile(r"\b(A[A-Z]?|B)-?(\d{2,3})\b")
+RE_CDC = re.compile(r"\b(A[A-Z]?|B[A-Z]?)-?(\d{2,3})\b")
 RE_CDC_ESTESA = re.compile(r"(?:classe di concorso|classi di concorso|cdc|c\.d\.c\.)\s*:?\s*(A[A-Z]?|B)\s?-?\s?(\d{2,3})\b", re.I)
 RE_SOSTEGNO = re.compile(r"sostegno|\bAD(SS|MM|EE|AA)\b", re.I)
 GRADI = [
@@ -37,7 +37,8 @@ RE_SCAD = re.compile(
 
 def classi_concorso(testo):
     out = []
-    for pref, num in RE_CDC.findall(testo or "") + RE_CDC_ESTESA.findall(testo or ""):
+    testo = re.sub(r"\bA[oO](\d{2})\b", r"A0\1", testo or "")  # "Ao41" -> "A041"
+    for pref, num in RE_CDC.findall(testo) + RE_CDC_ESTESA.findall(testo):
         pref = pref.upper()
         num = num.zfill(3) if pref in ("A", "B") else num.zfill(2)
         cdc = f"{pref.upper()}{num}"
@@ -67,10 +68,48 @@ def scadenza(testo, oggi=None):
     return None
 
 
-def classifica(testo):
-    """Dati dell'interpello se il testo e' un interpello aperto, altrimenti None."""
-    t = " ".join((testo or "").split())
-    if len(t) < 12 or not RE_INTERPELLO.search(t) or RE_ESCLUDI.search(t):
+# link di menu/sezione o pagine di servizio, non singoli interpelli
+RE_GENERICO = re.compile(
+    r"\bmad\b|messa a disposizione|come (mettersi|candidarsi|fare|presentare)|servizio dedicato|"
+    r"informativa|modell|modulo|domanda di|vai al|footer|menu|\bargo\b|istruzioni|guida|faq|"
+    r"tutti gli interpelli|archivio|sezione", re.I)
+# un interpello vero cita almeno uno di questi elementi specifici
+RE_SPECIFICO = re.compile(
+    r"supplenz|\bposto\b|\bposti\b|\bore\b|cattedr|spezzone|sostegno|classe di concorso|\bcdc\b|"
+    r"\bn\.?\s*\d|\bprot|\bAAAA\b|\bEEEE\b|\bAD(MM|SS|EE|AA)\b|\b[AB]\d{2,3}\b|\bA[A-Z]\d{2}\b|"
+    r"docente di|insegnante|infanzia|primaria|secondaria|lingua|matematica|italiano|inglese|"
+    r"musica|strumento|tecnologia|religione|educazione", re.I)
+
+
+# per le voci al plurale ("Interpelli ...") serve un dettaglio forte: altrimenti e' una sezione
+RE_FORTE = re.compile(
+    r"\b(posto|posti|ore|h)\b|\d+\s*h\b|sostegno|\bAAAA\b|\bEEEE\b|\bAD(MM|SS|EE|AA)\b|"
+    r"\b[AB]\d{2,3}\b|\bA[A-Z0O]\d{2}\b|classe di concorso|\bn\.?\s*\d", re.I)
+RE_MENU = re.compile(r"ptof|blog|calendario|registro|circolari|organigramma|modulistica|contatti|"
+                     r"amministrazione trasparente|albo on\W?line|news|home", re.I)
+
+
+def pulisci(t):
+    """Nomi di file come 'Avviso-Interpello_Supplenza_AAAA-2.pdf' -> testo leggibile."""
+    t = re.sub(r"\.(pdf|docx?|odt)(\.pades|\.p7m)?\b.*$", "", t, flags=re.I)
+    t = re.sub(r"[_]+|(?<=[A-Za-z])-(?=[A-Za-z])", " ", t)
+    return " ".join(t.split())
+
+
+def classifica(testo, titolo=None):
+    """Dati dell'interpello se il testo e' un interpello aperto, altrimenti None.
+    Se c'e' il titolo, la parola 'interpello' deve stare li' (o nel nome del file), non solo nella riga."""
+    t = " ".join(pulisci(testo or "").split())
+    tit = pulisci(titolo) if titolo is not None else t
+    if len(tit) < 15 or not RE_INTERPELLO.search(tit) or RE_ESCLUDI.search(t):
+        return None
+    if RE_GENERICO.search(tit) and not RE_CDC.search(tit):
+        return None
+    if not RE_SPECIFICO.search(tit):
+        return None
+    if re.search(r"\binterpelli\b", tit, re.I) and not RE_FORTE.search(tit):
+        return None
+    if len(RE_MENU.findall(tit)) >= 2:
         return None
     cdc = classi_concorso(t)
     sostegno = bool(RE_SOSTEGNO.search(t))
