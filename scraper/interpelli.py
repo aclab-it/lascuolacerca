@@ -11,6 +11,7 @@ RE_INTERPELLO = re.compile(r"interpell", re.I)
 
 # atti che non sono interpelli aperti: esiti, individuazioni, nomine, revoche...
 RE_ESCLUDI = re.compile(
+    r"assistente tecnico|assistenti tecnici|collaborator[ei] scolastic|assistente amministrativ|\bATA\b|\bDSGA\b|"
     r"esit[oi]\b|individuazion|individuat|nomina|graduatori|decreto di (conferimento|individuazione)|"
     r"revoca|annullament|rettifica|accettazione|contratt|presa di servizio|convocazion|"
     r"elenco (candidati|domande|ammessi)|verbale|deserto", re.I)
@@ -89,8 +90,13 @@ RE_MENU = re.compile(r"ptof|blog|calendario|registro|circolari|organigramma|modu
                      r"amministrazione trasparente|albo on\W?line|news|home", re.I)
 
 
+RE_DATA_INIZIO = re.compile(r"^\s*\d{1,2}\s+(gennaio|febbraio|marzo|aprile|maggio|giugno|luglio|agosto|settembre|"
+                            r"ottobre|novembre|dicembre)\s+20\d\d\s*[-–:]?\s*", re.I)
+
+
 def pulisci(t):
-    """Nomi di file come 'Avviso-Interpello_Supplenza_AAAA-2.pdf' -> testo leggibile."""
+    """Nomi di file come 'Avviso-Interpello_Supplenza_AAAA-2.pdf' -> testo leggibile; toglie la data iniziale."""
+    t = RE_DATA_INIZIO.sub("", t or "")
     t = re.sub(r"\.(pdf|docx?|odt)(\.pades|\.p7m)?\b.*$", "", t, flags=re.I)
     t = re.sub(r"[_]+|(?<=[A-Za-z])-(?=[A-Za-z])", " ", t)
     return " ".join(t.split())

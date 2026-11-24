@@ -37,6 +37,8 @@ from urllib.parse import urljoin, urlparse
 import requests
 from bs4 import BeautifulSoup
 
+from sigle import SIGLE as SIGLE_PROVINCE
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 OUT = DATA / "avvisi.json"
@@ -621,10 +623,15 @@ def salva_interpelli(trovati_lista, n_scuole, completo):
 
 
 # ---------------------------------------------------------------- USP
+# nome della scuola nel titolo: sigle e parole tipiche, a inizio parola
 RE_SCUOLA_TITOLO = re.compile(
-    r"((?:I\.?\s?C\.?|I\.?\s?I\.?\s?S\.?\s?S?\.?|I\.?T\.?[A-Z\.]{0,4}|I\.?P\.?[A-Z\.]{0,5}|"
-    r"Istituto|Liceo|Convitto|Circolo|D\.?\s?D\.?|C\.?P\.?I\.?A\.?|Scuola|Educandato|IIS|ITIS|IPSIA|ITC|ITT|ITE|"
-    r"ISIS|IPSEOA|CPIA|Comprensivo)\b[^–\-:|,;]{3,70})", re.I)
+    r"(?:^|[–\-|:,]\s*|\bc/o\s+|\bpresso\s+(?:l['’])?)"
+    r"((?:I\.\s?C\.|IC|I\.\s?I\.\s?S\.(?:\s?S\.)?|IIS|IISS|ITIS|ITI|ITC|ITT|ITE|ITET|IPSIA|IPSEOA|IPSSAR|ISIS|CPIA|D\.\s?D\.|"
+    r"Istituto|"
+    r"Liceo|Convitto|Circolo Didattico|Educandato|Primo IC|Secondo IC|\d+°?\s?I\.?C\.?)\b[^–|,;()]{2,60})",
+    re.I)
+RE_SIGLA = re.compile(r"\(([A-Z]{2})\)")
+RE_LINK_NAVIGAZIONE = re.compile(r"/(tag|category|categoria|argomento|author|page)/", re.I)
 
 
 def province_regioni():
@@ -666,7 +673,9 @@ def leggi_usp():
                     if in_menu(a):
                         continue
                     link = urljoin(url_pagina, a["href"])
-                    titolo = titolo_pulito(a)
+                    if RE_LINK_NAVIGAZIONE.search(urlparse(link).path):
+                        continue
+                    titolo = ip_mod.pulisci(titolo_pulito(a))
                     if len(titolo) < 15:
                         continue
                     testo = testo_link(a) + " " + link
@@ -675,11 +684,15 @@ def leggi_usp():
                     if not ip or not (recente(testo) or ip.get("scadenza")):
                         continue
                     m = RE_SCUOLA_TITOLO.search(titolo)
+                    prov_it, reg_it = provincia, regione
+                    sig = [x for x in RE_SIGLA.findall(titolo) if x in SIGLE_PROVINCE]
+                    if sig:  # alcuni uffici ripubblicano interpelli di altre province
+                        prov_it, reg_it = pr.get(SIGLE_PROVINCE[sig[-1]].lower(), (SIGLE_PROVINCE[sig[-1]], ""))
                     trovati.append({
                         "id": hashlib.sha1(link.encode()).hexdigest()[:16],
-                        "titolo": ip_mod.pulisci(titolo), "link": link, "pagina_albo": url_pagina,
+                        "titolo": titolo, "link": link, "pagina_albo": url_pagina,
                         "scuola": (m.group(1).strip(" .") if m else f"Ufficio scolastico di {prov_testo}"),
-                        "codice": "", "comune": "", "provincia": provincia, "regione": regione,
+                        "codice": "", "comune": "", "provincia": prov_it, "regione": reg_it,
                         "data_atto": data_piu_recente(testo)[0], "fonte": "USP", **ip,
                     })
                     esito["interpelli"] += 1
@@ -696,10 +709,21 @@ def leggi_usp():
 
 
 def unisci_fonti(da_scuole, da_usp):
-    """Lo stesso interpello puo' arrivare da scuola e USP: tiene quello della scuola."""
-    chiave = lambda a: (a.get("provincia", "").lower(), re.sub(r"\W+", " ", a["titolo"].lower())[:70])
-    noti = {chiave(a) for a in da_scuole}
-    return da_scuole + [a for a in da_usp if chiave(a) not in noti]
+    """Lo stesso interpello puo' arrivare da scuola e USP (o due volte, con http e https): uno solo."""
+    def chiave(a):
+        return (a.get("provincia", "").lower(), re.sub(r"\W+", " ", a["titolo"].lower())[:70])
+
+    def link(a):
+        return re.sub(r"^https?://(www\.)?", "", a.get("link", "")).rstrip("/")
+
+    noti, link_noti, out = {chiave(a) for a in da_scuole}, {link(a) for a in da_scuole}, list(da_scuole)
+    for a in da_usp:
+        if chiave(a) in noti or link(a) in link_noti:
+            continue
+        noti.add(chiave(a))
+        link_noti.add(link(a))
+        out.append(a)
+    return out
 
 
 PAGINE_IP = DATA / "pagine_interpelli.json"
