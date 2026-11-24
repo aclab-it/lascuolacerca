@@ -617,6 +617,7 @@ def salva_interpelli(trovati_lista, n_scuole, completo):
     except Exception as e:
         print(f"  [interpelli] coordinate non aggiunte: {type(e).__name__}: {e}")
     INTERPELLI.write_text(json.dumps(validi, ensure_ascii=False, indent=1), encoding="utf-8")
+    aggiorna_pagine_interpelli(trovati_lista, oggi)
     (DATA / "interpelli_stato.json").write_text(json.dumps({
         "aggiornato": dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes"),
         "giro": "completo" if completo else "rapido",
@@ -709,6 +710,28 @@ def unisci_fonti(da_scuole, da_usp):
     return da_scuole + [a for a in da_usp if chiave(a) not in noti]
 
 
+PAGINE_IP = DATA / "pagine_interpelli.json"
+GIORNI_PAGINE_IP = 30
+
+
+def aggiorna_pagine_interpelli(lista, oggi):
+    """Ricorda su quali pagine degli albi compaiono interpelli (per il giro rapido)."""
+    try:
+        pagine = json.loads(PAGINE_IP.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        pagine = {}
+    for it in lista:
+        if it.get("fonte") == "USP" or not it.get("pagina_albo"):
+            continue
+        pagine[it["pagina_albo"]] = {
+            "visto": oggi, "nome": it["scuola"], "codice": it.get("codice", ""),
+            "comune": it.get("comune", ""), "provincia": it.get("provincia", ""), "regione": it.get("regione", ""),
+        }
+    limite = (dt.date.fromisoformat(oggi) - dt.timedelta(days=GIORNI_PAGINE_IP)).isoformat()
+    pagine = {u: v for u, v in pagine.items() if v.get("visto", oggi) >= limite}
+    PAGINE_IP.write_text(json.dumps(pagine, ensure_ascii=False, indent=0, sort_keys=True), encoding="utf-8")
+
+
 def leggi_albi(voce):
     """Giro rapido: rilegge solo le pagine albo gia' note di una scuola."""
     pagine = []
@@ -727,17 +750,29 @@ def leggi_albi(voce):
 
 
 def main_rapido():
+    """Giro rapido: solo le pagine dove negli ultimi 30 giorni sono comparsi interpelli, piu' gli USP."""
     try:
-        albi = json.loads((DATA / "albi.json").read_text(encoding="utf-8"))
+        pagine = json.loads(PAGINE_IP.read_text(encoding="utf-8"))
     except (FileNotFoundError, json.JSONDecodeError):
-        print("Nessun albo noto: serve prima un giro completo.")
-        return
-    voci = list(albi.values())
+        pagine = {}
+    voci = {}
+    if pagine:
+        for url, info in pagine.items():
+            k = info.get("codice") or info.get("nome")
+            v = voci.setdefault(k, {**info, "nome": info.get("nome", ""), "albi": []})
+            v["albi"].append(url)
+    else:  # prima volta: usa tutti gli albi noti
+        try:
+            voci = json.loads((DATA / "albi.json").read_text(encoding="utf-8"))
+        except (FileNotFoundError, json.JSONDecodeError):
+            print("Nessun albo noto: serve prima un giro completo.")
+            return
+    voci = list(voci.values())
     if REGIONE != "TUTTE":
         voci = [v for v in voci if (v.get("regione") or "").upper() in REGIONE.split(",")]
     if MAX_ISTITUTI:
         voci = voci[:MAX_ISTITUTI]
-    print(f"Giro rapido interpelli: {len(voci)} scuole")
+    print(f"Giro rapido interpelli: {len(voci)} scuole, {sum(len(v['albi']) for v in voci)} pagine")
     trovati = []
     with cf.ThreadPoolExecutor(max_workers=THREADS) as ex:
         for lista in ex.map(leggi_albi, voci):
