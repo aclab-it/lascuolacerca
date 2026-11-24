@@ -285,9 +285,13 @@ def consentito(url):
     return _robots[base].can_fetch(UA, url)
 
 
+class BloccatoRobots(Exception):
+    pass
+
+
 def scarica(url):
     if not consentito(url):
-        return None
+        raise BloccatoRobots(url)
     r = SESSION.get(url, timeout=TIMEOUT, allow_redirects=True)
     if r.status_code != 200 or "html" not in r.headers.get("Content-Type", "html"):
         return None
@@ -356,6 +360,8 @@ def apri_home(ist):
             res = scarica(url)
             if res is not None:
                 return res, None
+        except BloccatoRobots:
+            return None, "robots"
         except requests.exceptions.SSLError:
             ultimo = "SSLError"
         except requests.RequestException as e:
@@ -364,12 +370,16 @@ def apri_home(ist):
 
 
 def scansiona(ist):
+    """Ritorna (avvisi trovati, errore o None, info per il report di copertura)."""
     trovati, errore = [], None
+    info = {"url": None, "albo": 0}
+    albo_letti = 0
     try:
         res, err = apri_home(ist)
         if res is None:
-            return trovati, err
+            return trovati, err, info
         home_url, home = res
+        info["url"] = home_url
         pagine = [(home_url, home)]
         visti = {home_url}
         for a in home.find_all("a", href=True):
@@ -384,7 +394,9 @@ def scansiona(ist):
                     r = scarica(href)
                     if r:
                         pagine.append(r)
-                except requests.RequestException:
+                        if RE_LINK_ALBO.search(r[0]) or RE_LINK_ALBO.search(a.get_text(" ", strip=True)):
+                            albo_letti += 1
+                except (requests.RequestException, BloccatoRobots):
                     pass
                 time.sleep(0.5)
         for url_pagina, soup in pagine:
@@ -416,7 +428,33 @@ def scansiona(ist):
         errore = type(e).__name__
     except Exception as e:  # una scuola rotta non deve fermare tutto
         errore = "errore: " + type(e).__name__
-    return trovati, errore
+    info["albo"] = albo_letti
+    return trovati, errore, info
+
+
+MOTIVI = {
+    "ConnectionError": "indirizzo inesistente o sito spento",
+    "InvalidURL": "indirizzo non valido",
+    "errore: LocationParseError": "indirizzo non valido",
+    "SSLError": "certificato di sicurezza del sito non valido",
+    "ConnectTimeout": "il sito non risponde (troppo lento)",
+    "ReadTimeout": "il sito non risponde (troppo lento)",
+    "TooManyRedirects": "il sito rimanda all'infinito ad altre pagine",
+    "home non raggiungibile": "il sito risponde con un errore o blocca le visite automatiche",
+    "robots": "il sito chiede di non essere letto in automatico",
+}
+
+
+def voce_copertura(ist, err, info, n_avvisi):
+    if err or not info["url"]:
+        esito, motivo = "err", MOTIVI.get(err, "errore tecnico del sito")
+    elif info["albo"] == 0:
+        esito, motivo = "home", "sito raggiunto, ma la sezione albo/bandi non è stata trovata"
+    else:
+        esito, motivo = "ok", ""
+    return {"c": ist["codice"], "n": ist["nome"], "m": ist["comune"], "p": ist["provincia"],
+            "r": ist["regione"], "s": info["url"] or ist["sito"], "e": esito, "x": motivo,
+            "a": n_avvisi}
 
 
 # ---------------------------------------------------------------- telegram
@@ -456,10 +494,12 @@ def main():
     trovati, errori = {}, 0
     tipi_errore = collections.Counter()
     with cf.ThreadPoolExecutor(max_workers=THREADS) as ex:
-        for i, (items, err) in enumerate(ex.map(scansiona, istituti), 1):
+        copertura = []
+        for i, (ist, (items, err, info)) in enumerate(zip(istituti, ex.map(scansiona, istituti)), 1):
             if err:
                 errori += 1
                 tipi_errore[err] += 1
+            copertura.append(voce_copertura(ist, err, info, len({x["id"] for x in items})))
             for it in items:
                 trovati.setdefault(it["id"], it)
             if i % 100 == 0:
@@ -484,6 +524,11 @@ def main():
     tutti = sorted(trovati.values(), key=lambda a: (a["trovato_il"], a["scuola"]), reverse=True)
 
     OUT.write_text(json.dumps(tutti, ensure_ascii=False, indent=1), encoding="utf-8")
+    copertura.sort(key=lambda c: (c["r"], c["p"], c["n"]))
+    (DATA / "copertura.json").write_text(
+        json.dumps({"aggiornato": oggi, "scuole": copertura}, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8")
+    esiti = collections.Counter(c["e"] for c in copertura)
     STATO.write_text(json.dumps({
         "aggiornato": dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes"),
         "istituti_scansionati": len(istituti),
@@ -492,6 +537,8 @@ def main():
         "nuovi_oggi": len(nuovi),
         "regione": REGIONE,
         "tipi_errore": dict(tipi_errore.most_common()),
+        "copertura": {"albo_letto": esiti["ok"], "albo_non_trovato": esiti["home"],
+                      "non_raggiungibili": esiti["err"]},
     }, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"Fatto: {len(tutti)} avvisi ({len(nuovi)} nuovi), {errori} scuole non raggiungibili")
     try:

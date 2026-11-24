@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Copertura: quali scuole controlliamo – Avvisi Esperti Scuola</title>
+<meta name="description" content="Elenco delle scuole controllate ogni giorno: per ognuna, se l'albo online è stato letto, se non è stato trovato o se il sito non era raggiungibile.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📋</text></svg>">
+<style>
+  :root{--bg:#f6f5f1;--card:#fff;--ink:#1d1d1f;--muted:#6b6b70;--line:#e4e2dc;--accent:#0f5c4d;--ok:#0f7a4f;--ok-soft:#e1f3ea;--warn:#a15c00;--warn-soft:#fdf0dc;--err:#b42318;--err-soft:#fde8e6}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.45}
+  header{background:var(--accent);color:#fff;padding:22px 18px 18px}
+  header .wrap{max-width:860px;margin:auto}
+  header a{color:#fff;text-decoration:none;font-weight:600;opacity:.9;font-size:.9rem}
+  h1{margin:8px 0 4px;font-size:1.45rem}
+  header p{margin:0;opacity:.9;font-size:.95rem}
+  main{max-width:860px;margin:auto;padding:16px}
+  .legend{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;font-size:.88rem;display:grid;gap:6px;margin-bottom:12px}
+  .tot{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:12px}
+  .box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 12px}
+  .box b{display:block;font-size:1.35rem;font-variant-numeric:tabular-nums}
+  .box span{font-size:.78rem;color:var(--muted)}
+  .badge{display:inline-block;font-size:.74rem;font-weight:600;border-radius:6px;padding:2px 8px;white-space:nowrap}
+  .b-ok{background:var(--ok-soft);color:var(--ok)} .b-home{background:var(--warn-soft);color:var(--warn)} .b-err{background:var(--err-soft);color:var(--err)}
+  table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;font-size:.86rem;margin-bottom:14px}
+  th,td{padding:8px 10px;text-align:left;border-bottom:1px solid var(--line)}
+  th{font-weight:600;color:var(--muted);font-size:.78rem;text-transform:uppercase;letter-spacing:.03em}
+  td.n{text-align:right;font-variant-numeric:tabular-nums}
+  tr.reg{cursor:pointer} tr.reg:hover{background:#faf9f6}
+  .bar{display:flex;height:8px;border-radius:4px;overflow:hidden;background:#eee;min-width:80px}
+  .bar i{display:block;height:100%}
+  .filters{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;display:grid;gap:8px;position:sticky;top:0;z-index:5}
+  .row{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px}
+  input,select{width:100%;padding:10px 11px;border:1px solid var(--line);border-radius:10px;font-size:.95rem;background:#fff;color:var(--ink)}
+  .count{color:var(--muted);font-size:.88rem;margin:12px 2px 8px}
+  .item{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px 12px;margin-bottom:8px}
+  .item .top{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+  .item h3{font-size:.95rem;margin:0}
+  .meta{color:var(--muted);font-size:.83rem;margin-top:3px}
+  .meta a{color:var(--accent)}
+  .more{display:block;margin:10px auto 0;padding:10px 18px;border:1px solid var(--accent);color:var(--accent);background:#fff;border-radius:10px;font-size:.95rem;cursor:pointer}
+  .more[hidden]{display:none}
+  .hide-m{}
+  footer{max-width:860px;margin:24px auto;padding:0 16px 30px;color:var(--muted);font-size:.8rem}
+  @media(max-width:560px){.tot{grid-template-columns:1fr 1fr}.row{grid-template-columns:1fr}.hide-m{display:none}h1{font-size:1.25rem}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a href="./">← Torna agli avvisi</a>
+  <h1>Quali scuole controlliamo</h1>
+  <p id="sub">Caricamento…</p>
+</div></header>
+
+<main>
+  <div class="legend">
+    <div><span class="badge b-ok">Albo letto</span> abbiamo letto l'albo della scuola: se non vedi avvisi, al momento non ne ha pubblicati.</div>
+    <div><span class="badge b-home">Albo non trovato</span> il sito risponde, ma non abbiamo trovato la sezione albo/bandi: gli avvisi potrebbero esserci.</div>
+    <div><span class="badge b-err">Non raggiungibile</span> il sito non era raggiungibile durante il controllo: gli avvisi potrebbero esserci.</div>
+  </div>
+
+  <div class="tot" id="tot"></div>
+
+  <table id="regioni"><thead><tr><th>Regione</th><th class="n">Scuole</th><th>Copertura</th><th class="n">Albo letto</th><th class="n hide-m">Con avvisi</th></tr></thead><tbody></tbody></table>
+
+  <div class="filters">
+    <input id="q" type="search" placeholder="Cerca la tua scuola: nome, comune o codice…" autocomplete="off">
+    <div class="row">
+      <select id="regione"><option value="">Tutte le regioni</option></select>
+      <select id="provincia"><option value="">Tutte le province</option></select>
+      <select id="esito"><option value="">Tutti gli stati</option><option value="ok">Albo letto</option><option value="home">Albo non trovato</option><option value="err">Non raggiungibile</option><option value="avvisi">Con avvisi</option></select>
+    </div>
+  </div>
+  <div class="count" id="count"></div>
+  <div id="list"></div>
+  <button class="more" id="more" hidden>Mostra altre</button>
+</main>
+
+<footer>
+  Il controllo è automatico e avviene una volta al giorno: un sito non raggiungibile oggi potrebbe esserlo domani.
+  Per le scuole non coperte, controlla direttamente l'albo online sul sito della scuola.
+</footer>
+
+<script>
+const PAGINA = 50;
+const LAB = {ok:["Albo letto","b-ok"], home:["Albo non trovato","b-home"], err:["Non raggiungibile","b-err"]};
+let scuole = [], filtrate = [], mostrate = 0;
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt = n => n.toLocaleString("it-IT");
+const pct = (a,b) => b ? Math.round(100*a/b) : 0;
+
+async function carica(){
+  let dati;
+  try { dati = await (await fetch("data/copertura.json",{cache:"no-store"})).json(); }
+  catch(e) { $("sub").textContent = "Il report sarà disponibile dopo il prossimo aggiornamento."; return; }
+  scuole = dati.scuole || [];
+  const c = {ok:0,home:0,err:0}, conAvvisi = scuole.filter(s=>s.a>0).length;
+  scuole.forEach(s => c[s.e]++);
+  $("sub").textContent = `${fmt(scuole.length)} scuole controllate · ultimo controllo ${new Date(dati.aggiornato+"T12:00").toLocaleDateString("it-IT",{day:"numeric",month:"long"})}`;
+  $("tot").innerHTML = [
+    [c.ok,"albo letto ("+pct(c.ok,scuole.length)+"%)","var(--ok)"],
+    [c.home,"albo non trovato","var(--warn)"],
+    [c.err,"non raggiungibili","var(--err)"],
+    [conAvvisi,"con avvisi aperti","var(--accent)"]
+  ].map(([n,l,col]) => `<div class="box"><b style="color:${col}">${fmt(n)}</b><span>${l}</span></div>`).join("");
+
+  const per = {};
+  scuole.forEach(s => { const r = per[s.r] ||= {t:0,ok:0,home:0,err:0,av:0}; r.t++; r[s.e]++; if (s.a>0) r.av++; });
+  $("regioni").querySelector("tbody").innerHTML = Object.keys(per).sort().map(r => { const x = per[r]; return `
+    <tr class="reg" data-r="${esc(r)}"><td>${esc(r)}</td><td class="n">${fmt(x.t)}</td>
+    <td><div class="bar" title="verde: albo letto · arancio: albo non trovato · rosso: non raggiungibile">
+      <i style="width:${pct(x.ok,x.t)}%;background:var(--ok)"></i><i style="width:${pct(x.home,x.t)}%;background:#e2a23b"></i><i style="width:${pct(x.err,x.t)}%;background:#e0695f"></i></div></td>
+    <td class="n">${pct(x.ok,x.t)}%</td><td class="n hide-m">${fmt(x.av)}</td></tr>`; }).join("");
+  $("regioni").addEventListener("click", e => { const tr = e.target.closest("tr.reg"); if (!tr) return;
+    $("regione").value = tr.dataset.r; aggiornaProvince(); filtra(); $("q").scrollIntoView({behavior:"smooth"}); });
+
+  Object.keys(per).sort().forEach(r => $("regione").add(new Option(r, r)));
+  const p = new URLSearchParams(location.search);
+  if (p.get("regione")) $("regione").value = p.get("regione");
+  aggiornaProvince();
+  if (p.get("q")) $("q").value = p.get("q");
+  filtra();
+}
+
+function aggiornaProvince(){
+  const r = $("regione").value, sel = $("provincia"); sel.length = 1;
+  [...new Set(scuole.filter(s=>!r||s.r===r).map(s=>s.p).filter(Boolean))].sort().forEach(p => sel.add(new Option(p,p)));
+}
+
+function filtra(){
+  const q = $("q").value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  const r = $("regione").value, p = $("provincia").value, e = $("esito").value;
+  filtrate = scuole.filter(s => (!r||s.r===r) && (!p||s.p===p) &&
+    (!e || (e==="avvisi" ? s.a>0 : s.e===e)) &&
+    q.every(w => (s.n+" "+s.m+" "+s.c).toLowerCase().includes(w)));
+  $("list").innerHTML = ""; mostrate = 0; altre();
+  $("count").textContent = `${fmt(filtrate.length)} ${filtrate.length===1?"scuola":"scuole"}`;
+}
+
+function altre(){
+  $("list").insertAdjacentHTML("beforeend", filtrate.slice(mostrate, mostrate+PAGINA).map(s => {
+    const [lab, cls] = LAB[s.e];
+    const dettaglio = s.e==="ok"
+      ? (s.a ? `<a href="./?q=${encodeURIComponent(s.n)}">${s.a} ${s.a===1?"avviso aperto":"avvisi aperti"} →</a>` : "nessun avviso per esperti al momento")
+      : esc(s.x);
+    let host = ""; try { host = new URL(s.s).hostname; } catch(e) {}
+    return `<div class="item"><div class="top"><h3>${esc(s.n)}</h3><span class="badge ${cls}">${lab}</span></div>
+      <div class="meta">📍 ${esc(s.m)}${s.p?" ("+esc(s.p)+")":""}${s.c?" · "+esc(s.c):""}<br>${dettaglio}${host?` · <a href="${esc(s.s)}" target="_blank" rel="noopener nofollow">${esc(host)}</a>`:""}</div></div>`;
+  }).join(""));
+  mostrate += PAGINA;
+  $("more").hidden = mostrate >= filtrate.length;
+  if (!filtrate.length) $("list").innerHTML = `<div class="item">Nessuna scuola con questi filtri.</div>`;
+}
+
+let t;
+$("q").addEventListener("input", () => { clearTimeout(t); t = setTimeout(filtra, 200); });
+$("regione").addEventListener("change", () => { aggiornaProvince(); filtra(); });
+$("provincia").addEventListener("change", filtra);
+$("esito").addEventListener("change", filtra);
+$("more").addEventListener("click", altre);
+carica();
+</script>
+</body>
+</html>

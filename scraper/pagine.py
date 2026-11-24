@@ -175,7 +175,7 @@ def genera(avvisi, root: Path, base_url: str, oggi: str):
 
     # sitemap + robots
     if base:
-        urls = [""] + pagine
+        urls = ["", "copertura.html"] + pagine
         voci = "".join(f"<url><loc>{_e(base + u)}</loc><lastmod>{oggi}</lastmod></url>" for u in urls)
         (root / "sitemap.xml").write_text(
             '<?xml version="1.0" encoding="UTF-8"?>\n'
