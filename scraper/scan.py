@@ -50,7 +50,7 @@ GIORNI_CONSERVAZIONE = 120
 TIMEOUT = 15
 MAX_PAGINE_ALBO = 4
 
-UA = "AvvisiEspertiScuolaBot/1.0 (+%s)" % (SITO_URL or "aggregatore avvisi pubblici")
+UA = "LaScuolaCercaBot/1.0 (+%s)" % (SITO_URL or "aggregatore avvisi pubblici")
 SESSION = requests.Session()
 SESSION.headers.update({"User-Agent": UA, "Accept-Language": "it-IT,it;q=0.9"})
 

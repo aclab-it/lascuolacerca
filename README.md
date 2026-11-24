@@ -1,4 +1,4 @@
-# Avvisi Esperti Scuola
+# La Scuola Cerca
 
 Sito gratuito che raccoglie ogni giorno gli avvisi delle scuole italiane per
 **psicologi, formatori, esperti esterni, tutor, madrelingua, RSPP, DPO**.

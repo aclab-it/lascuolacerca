@@ -15,7 +15,7 @@ import unicodedata
 from collections import defaultdict
 from pathlib import Path
 
-NOME_SITO = "Avvisi Esperti Scuola"
+NOME_SITO = "La Scuola Cerca"
 
 PLURALE = {
     "psicologo": "psicologi e sportello d'ascolto",
