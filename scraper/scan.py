@@ -369,10 +369,48 @@ def apri_home(ist):
     return None, ultimo
 
 
+def estrai(pagine, ist, solo_interpelli=False):
+    """Dalle pagine lette ricava (avvisi per esperti, interpelli)."""
+    import interpelli as ip_mod
+    esperti, interp = [], []
+    for url_pagina, soup in pagine:
+        for a in soup.find_all("a", href=True):
+            if in_menu(a):
+                continue
+            link = urljoin(url_pagina, a["href"])
+            testo = testo_link(a) + " " + link
+            titolo = titolo_pulito(a)
+            if len(titolo) < 12:
+                continue
+            base = {
+                "id": hashlib.sha1(link.encode()).hexdigest()[:16],
+                "titolo": titolo,
+                "link": link,
+                "pagina_albo": url_pagina,
+                "scuola": ist["nome"],
+                "codice": ist["codice"],
+                "comune": ist["comune"],
+                "provincia": ist["provincia"],
+                "regione": ist["regione"],
+                "data_atto": data_piu_recente(testo)[0],
+            }
+            ip = ip_mod.classifica(testo)
+            if ip:
+                if recente(testo) or ip.get("scadenza"):
+                    interp.append({**base, **ip})
+                continue
+            if solo_interpelli:
+                continue
+            cat = classifica(testo)
+            if cat:
+                esperti.append({**base, "categoria": cat[0], "categoria_label": cat[1]})
+    return esperti, interp
+
+
 def scansiona(ist):
     """Ritorna (avvisi trovati, errore o None, info per il report di copertura)."""
     trovati, errore = [], None
-    info = {"url": None, "albo": 0}
+    info = {"url": None, "albo": 0, "interpelli": [], "albi": []}
     albo_letti = 0
     try:
         res, err = apri_home(ist)
@@ -399,31 +437,8 @@ def scansiona(ist):
                 except (requests.RequestException, BloccatoRobots):
                     pass
                 time.sleep(0.5)
-        for url_pagina, soup in pagine:
-            for a in soup.find_all("a", href=True):
-                if in_menu(a):
-                    continue
-                link = urljoin(url_pagina, a["href"])
-                testo = testo_link(a) + " " + link
-                cat = classifica(testo)
-                if not cat:
-                    continue
-                if len(titolo_pulito(a)) < 12:
-                    continue
-                trovati.append({
-                    "id": hashlib.sha1(link.encode()).hexdigest()[:16],
-                    "titolo": titolo_pulito(a),
-                    "categoria": cat[0],
-                    "categoria_label": cat[1],
-                    "link": link,
-                    "pagina_albo": url_pagina,
-                    "scuola": ist["nome"],
-                    "codice": ist["codice"],
-                    "comune": ist["comune"],
-                    "provincia": ist["provincia"],
-                    "regione": ist["regione"],
-                    "data_atto": data_piu_recente(testo)[0],
-                })
+        trovati, info["interpelli"] = estrai(pagine, ist)
+        info["albi"] = [u for u, _ in pagine]
     except requests.RequestException as e:
         errore = type(e).__name__
     except Exception as e:  # una scuola rotta non deve fermare tutto
@@ -494,8 +509,11 @@ def main():
     trovati, errori = {}, 0
     tipi_errore = collections.Counter()
     with cf.ThreadPoolExecutor(max_workers=THREADS) as ex:
-        copertura = []
+        copertura, tutti_interpelli, albi = [], [], {}
         for i, (ist, (items, err, info)) in enumerate(zip(istituti, ex.map(scansiona, istituti)), 1):
+            tutti_interpelli.extend(info.get("interpelli", []))
+            if info.get("albi"):
+                albi[ist["codice"] or ist["sito"]] = {**ist, "albi": info["albi"]}
             if err:
                 errori += 1
                 tipi_errore[err] += 1
@@ -553,7 +571,85 @@ def main():
     except Exception as e:  # le pagine SEO non devono mai bloccare l'aggiornamento
         print(f"  [pagine] generazione fallita: {type(e).__name__}: {e}")
     pubblica_telegram(nuovi)
+    (DATA / "albi.json").write_text(json.dumps(albi, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    salva_interpelli(tutti_interpelli, len(istituti), completo=True)
+
+
+# ---------------------------------------------------------------- interpelli
+INTERPELLI = DATA / "interpelli.json"
+
+
+def salva_interpelli(trovati_lista, n_scuole, completo):
+    import interpelli as ip_mod
+    oggi = dt.date.today().isoformat()
+    try:
+        vecchi = {a["id"]: a for a in json.loads(INTERPELLI.read_text(encoding="utf-8"))}
+    except (FileNotFoundError, json.JSONDecodeError, KeyError):
+        vecchi = {}
+    trovati = {}
+    for it in trovati_lista:
+        it["trovato_il"] = vecchi.get(it["id"], {}).get("trovato_il", oggi)
+        trovati.setdefault(it["id"], it)
+    nuovi = [it for id_, it in trovati.items() if id_ not in vecchi]
+    for id_, it in vecchi.items():  # scuole non lette in questo giro: li tiene finche' validi
+        if id_ not in trovati:
+            trovati[id_] = it
+    validi = [it for it in trovati.values() if ip_mod.ancora_valido(it)]
+    validi.sort(key=lambda a: (a.get("scadenza") or "9999", a["trovato_il"]))
+    try:
+        import geo
+        geo.aggiungi_coordinate(validi, DATA, UA)
+    except Exception as e:
+        print(f"  [interpelli] coordinate non aggiunte: {type(e).__name__}: {e}")
+    INTERPELLI.write_text(json.dumps(validi, ensure_ascii=False, indent=1), encoding="utf-8")
+    (DATA / "interpelli_stato.json").write_text(json.dumps({
+        "aggiornato": dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes"),
+        "giro": "completo" if completo else "rapido",
+        "scuole_controllate": n_scuole,
+        "interpelli": len(validi),
+        "nuovi": len(nuovi),
+    }, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"Interpelli: {len(validi)} aperti ({len(nuovi)} nuovi)")
+
+
+def leggi_albi(voce):
+    """Giro rapido: rilegge solo le pagine albo gia' note di una scuola."""
+    pagine = []
+    for u in voce.get("albi", [])[:MAX_PAGINE_ALBO + 1]:
+        try:
+            r = scarica(u)
+            if r:
+                pagine.append(r)
+        except (requests.RequestException, BloccatoRobots):
+            pass
+        time.sleep(0.3)
+    try:
+        return estrai(pagine, voce, solo_interpelli=True)[1]
+    except Exception:
+        return []
+
+
+def main_rapido():
+    try:
+        albi = json.loads((DATA / "albi.json").read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        print("Nessun albo noto: serve prima un giro completo.")
+        return
+    voci = list(albi.values())
+    if REGIONE != "TUTTE":
+        voci = [v for v in voci if (v.get("regione") or "").upper() in REGIONE.split(",")]
+    if MAX_ISTITUTI:
+        voci = voci[:MAX_ISTITUTI]
+    print(f"Giro rapido interpelli: {len(voci)} scuole")
+    trovati = []
+    with cf.ThreadPoolExecutor(max_workers=THREADS) as ex:
+        for lista in ex.map(leggi_albi, voci):
+            trovati.extend(lista)
+    salva_interpelli(trovati, len(voci), completo=False)
 
 
 if __name__ == "__main__":
-    main()
+    if os.environ.get("MODO", "").lower() == "interpelli":
+        main_rapido()
+    else:
+        main()

@@ -1,0 +1,43 @@
+name: Interpelli rapidi
+
+on:
+  schedule:
+    - cron: "47 6-18/3 * * 1-6"   # circa ogni 3 ore, 7:47-19:47 ora italiana, lun-sab
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: aggiorna-avvisi          # stesso gruppo del giro completo: mai due insieme
+  cancel-in-progress: false
+
+jobs:
+  interpelli:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installa librerie
+        run: pip install requests beautifulsoup4
+
+      - name: Rilegge gli albi noti
+        env:
+          MODO: interpelli
+          THREADS: "16"
+          SITO_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: python scraper/scan.py
+
+      - name: Salva i risultati
+        run: |
+          git config user.name "aggiornamento-automatico"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A data
+          git diff --cached --quiet || git commit -m "Interpelli $(date +%F\ %H:%M)"
+          git pull --rebase -X theirs origin main
+          git push

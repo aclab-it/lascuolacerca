@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Interpelli docenti in tutta Italia, gratis e senza registrazione – La Scuola Cerca</title>
+<meta name="description" content="Tutti gli interpelli per supplenze pubblicati dalle scuole italiane: filtra per classe di concorso, sostegno, regione e provincia. Aggiornato più volte al giorno, gratis, senza registrazione.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📋</text></svg>">
+<style>
+  :root{--bg:#f6f5f1;--card:#fff;--ink:#1d1d1f;--muted:#6b6b70;--line:#e4e2dc;--accent:#24456b;--accent-soft:#e6edf5;--red:#b42318;--red-soft:#fde8e6;--org:#a15c00;--org-soft:#fdf0dc}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink);line-height:1.45}
+  header{background:var(--accent);color:#fff;padding:22px 18px 18px}
+  header .wrap{max-width:860px;margin:auto}
+  header nav a{color:#fff;text-decoration:none;font-weight:600;font-size:.88rem;opacity:.9;margin-right:12px}
+  h1{margin:10px 0 6px;font-size:1.5rem;letter-spacing:-.01em}
+  header p{margin:0;opacity:.92;font-size:.96rem}
+  .stats{margin-top:10px;font-size:.84rem;opacity:.85}
+  main{max-width:860px;margin:auto;padding:16px}
+  .filters{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px;display:grid;gap:8px;position:sticky;top:0;z-index:5}
+  .row{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  input,select{width:100%;padding:10px 11px;border:1px solid var(--line);border-radius:10px;font-size:.96rem;background:#fff;color:var(--ink)}
+  .chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:none}
+  .chip{flex:0 0 auto;border:1px solid var(--line);background:#fff;border-radius:999px;padding:6px 12px;font-size:.84rem;cursor:pointer;white-space:nowrap}
+  .chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+  .count{color:var(--muted);font-size:.9rem;margin:14px 2px 8px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:13px 15px;margin-bottom:10px}
+  .tags{display:flex;flex-wrap:wrap;gap:5px;align-items:center}
+  .tag{display:inline-block;background:var(--accent-soft);color:var(--accent);font-size:.75rem;font-weight:700;border-radius:6px;padding:2px 8px}
+  .tag.sost{background:#efe7f7;color:#5b2d8a}
+  .tag.gr{background:#f1f0ec;color:#55555a;font-weight:600}
+  .scad{margin-left:auto;font-size:.76rem;font-weight:700;border-radius:6px;padding:2px 8px;background:#f1f0ec;color:#55555a}
+  .scad.oggi{background:var(--red-soft);color:var(--red)} .scad.dom{background:var(--org-soft);color:var(--org)}
+  .card h2{font-size:.98rem;margin:8px 0 6px;font-weight:600}
+  .meta{color:var(--muted);font-size:.86rem}
+  .links{margin-top:9px;display:flex;gap:14px;flex-wrap:wrap;font-size:.9rem}
+  .links a{color:var(--accent);font-weight:600;text-decoration:none}
+  .empty{text-align:center;color:var(--muted);padding:36px 10px}
+  .more{display:block;margin:10px auto 0;padding:10px 18px;border:1px solid var(--accent);color:var(--accent);background:#fff;border-radius:10px;font-size:.95rem;cursor:pointer}
+  .more[hidden]{display:none}
+  .info{background:var(--accent-soft);border-radius:12px;padding:10px 12px;font-size:.84rem;color:#33475e;margin-top:12px}
+  footer{max-width:860px;margin:26px auto;padding:0 16px 30px;color:var(--muted);font-size:.8rem}
+  footer a{color:var(--accent)}
+  @media(max-width:520px){.row{grid-template-columns:1fr}h1{font-size:1.3rem}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <nav><a href="./">← Avvisi per esperti</a><a href="mappa.html">🗺️ Mappa</a></nav>
+  <h1>📚 Interpelli docenti</h1>
+  <p>Tutti gli interpelli per supplenze delle scuole italiane in un unico posto. Gratis, <b>senza registrazione</b>.</p>
+  <div class="stats" id="stats">Caricamento…</div>
+</div></header>
+
+<main>
+  <div class="filters">
+    <input id="q" type="search" placeholder="Cerca: classe di concorso (es. A022), materia, scuola, comune…" autocomplete="off">
+    <div class="row">
+      <select id="regione"><option value="">Tutte le regioni</option></select>
+      <select id="provincia"><option value="">Tutte le province</option></select>
+    </div>
+    <div class="row">
+      <select id="cdc"><option value="">Tutte le classi di concorso</option></select>
+      <select id="ordine"><option value="scad">Prima quelli in scadenza</option><option value="nuovi">Prima i più recenti</option></select>
+    </div>
+    <div class="chips" id="chips">
+      <button class="chip on" data-k="">Tutti</button>
+      <button class="chip" data-k="sostegno">Sostegno</button>
+      <button class="chip" data-k="infanzia">Infanzia</button>
+      <button class="chip" data-k="primaria">Primaria</button>
+      <button class="chip" data-k="secondaria I grado">Secondaria I grado</button>
+      <button class="chip" data-k="secondaria II grado">Secondaria II grado</button>
+    </div>
+  </div>
+  <div class="info">Gli interpelli scadono spesso in 24–48 ore: questa pagina si aggiorna più volte al giorno.
+    Verifica sempre requisiti e scadenza sul documento della scuola.</div>
+  <div class="count" id="count"></div>
+  <div id="list"></div>
+  <button class="more" id="more" hidden>Mostra altri</button>
+</main>
+
+<footer>
+  Interpelli raccolti automaticamente dagli albi online delle scuole: possono contenere errori o essere già chiusi.
+  <a href="copertura.html">Quali scuole controlliamo</a> · Sito non affiliato al Ministero dell'Istruzione e del Merito.
+</footer>
+
+<script>
+const PAGINA = 30;
+let tutti = [], filtrati = [], mostrati = 0, tipo = "";
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const oggiD = new Date(); const iso = d => d.toISOString().slice(0,10);
+const oggi = iso(oggiD), domani = iso(new Date(oggiD.getTime() + 864e5));
+const fmt = d => new Date(d + "T12:00").toLocaleDateString("it-IT", {day:"numeric", month:"short"});
+
+async function carica(){
+  let stato = {};
+  try {
+    const [a, s] = await Promise.all([fetch("data/interpelli.json",{cache:"no-store"}), fetch("data/interpelli_stato.json",{cache:"no-store"})]);
+    tutti = await a.json(); stato = await s.json().catch(() => ({}));
+  } catch(e) { tutti = []; }
+  $("stats").textContent = stato.aggiornato
+    ? `${tutti.length} interpelli aperti · ultimo controllo ${new Date(stato.aggiornato).toLocaleString("it-IT",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})}`
+    : "Il primo controllo degli interpelli è in arrivo.";
+  [...new Set(tutti.map(a => a.regione).filter(Boolean))].sort().forEach(r => $("regione").add(new Option(r, r)));
+  [...new Set(tutti.flatMap(a => a.classi || []))].sort().forEach(c => $("cdc").add(new Option(c, c)));
+  const p = new URLSearchParams(location.search);
+  if (p.get("regione")) $("regione").value = p.get("regione");
+  aggiornaProvince();
+  if (p.get("provincia")) $("provincia").value = p.get("provincia");
+  if (p.get("cdc")) $("cdc").value = p.get("cdc");
+  if (p.get("q")) $("q").value = p.get("q");
+  if (p.get("tipo")) { tipo = p.get("tipo"); segna(); }
+  filtra();
+}
+
+function aggiornaProvince(){
+  const r = $("regione").value, sel = $("provincia"); sel.length = 1;
+  [...new Set(tutti.filter(a => !r || a.regione === r).map(a => a.provincia).filter(Boolean))].sort().forEach(p => sel.add(new Option(p, p)));
+}
+function segna(){ document.querySelectorAll(".chip").forEach(c => c.classList.toggle("on", c.dataset.k === tipo)); }
+
+function filtra(){
+  const q = $("q").value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  const r = $("regione").value, p = $("provincia").value, c = $("cdc").value;
+  filtrati = tutti.filter(a =>
+    (!r || a.regione === r) && (!p || a.provincia === p) && (!c || (a.classi || []).includes(c)) &&
+    (!tipo || (tipo === "sostegno" ? a.sostegno : (a.gradi || []).includes(tipo))) &&
+    q.every(w => (a.titolo + " " + a.scuola + " " + a.comune + " " + a.provincia + " " + (a.classi || []).join(" ")).toLowerCase().includes(w)));
+  if ($("ordine").value === "nuovi") filtrati.sort((x, y) => (y.trovato_il || "").localeCompare(x.trovato_il || ""));
+  else filtrati.sort((x, y) => (x.scadenza || "9999").localeCompare(y.scadenza || "9999"));
+  const u = new URLSearchParams();
+  if (r) u.set("regione", r); if (p) u.set("provincia", p); if (c) u.set("cdc", c); if (tipo) u.set("tipo", tipo);
+  if ($("q").value.trim()) u.set("q", $("q").value.trim());
+  history.replaceState(null, "", u.toString() ? "?" + u : location.pathname);
+  $("list").innerHTML = ""; mostrati = 0; altri();
+  $("count").textContent = filtrati.length === 1 ? "1 interpello" : `${filtrati.length} interpelli`;
+}
+
+function badgeScadenza(a){
+  if (!a.scadenza) return `<span class="scad">Scadenza nel documento</span>`;
+  if (a.scadenza === oggi) return `<span class="scad oggi">Scade oggi</span>`;
+  if (a.scadenza === domani) return `<span class="scad dom">Scade domani</span>`;
+  return `<span class="scad">Scade il ${fmt(a.scadenza)}</span>`;
+}
+
+function altri(){
+  $("list").insertAdjacentHTML("beforeend", filtrati.slice(mostrati, mostrati + PAGINA).map(a => `
+    <article class="card">
+      <div class="tags">${(a.classi || []).map(c => `<span class="tag">${esc(c)}</span>`).join("")}
+        ${a.sostegno ? '<span class="tag sost">Sostegno</span>' : ""}
+        ${(a.gradi || []).map(g => `<span class="tag gr">${esc(g)}</span>`).join("")}
+        ${badgeScadenza(a)}</div>
+      <h2>${esc(a.titolo)}</h2>
+      <div class="meta">🏫 ${esc(a.scuola)}<br>📍 ${esc(a.comune)}${a.provincia ? " (" + esc(a.provincia) + ")" : ""} · trovato il ${fmt(a.trovato_il)}</div>
+      <div class="links"><a href="${esc(a.link)}" target="_blank" rel="noopener nofollow">Apri l'interpello →</a><a href="${esc(a.pagina_albo)}" target="_blank" rel="noopener nofollow">Albo della scuola</a></div>
+    </article>`).join(""));
+  mostrati += PAGINA;
+  $("more").hidden = mostrati >= filtrati.length;
+  if (!filtrati.length) $("list").innerHTML = `<div class="empty">Nessun interpello aperto con questi filtri.<br>Prova ad allargare la ricerca.</div>`;
+}
+
+let t;
+$("q").addEventListener("input", () => { clearTimeout(t); t = setTimeout(filtra, 200); });
+$("regione").addEventListener("change", () => { aggiornaProvince(); filtra(); });
+["provincia", "cdc", "ordine"].forEach(id => $(id).addEventListener("change", filtra));
+$("chips").addEventListener("click", e => { const b = e.target.closest(".chip"); if (!b) return; tipo = b.dataset.k; segna(); filtra(); });
+$("more").addEventListener("click", altri);
+carica();
+</script>
+</body>
+</html>

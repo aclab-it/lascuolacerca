@@ -2,7 +2,8 @@ name: Aggiorna avvisi
 
 on:
   schedule:
-    - cron: "17 5 * * *"   # ogni giorno alle 6:17 ora italiana (inverno)
+    - cron: "17 5 * * *"    # ogni giorno alle 6:17 ora italiana (inverno)
+    - cron: "37 12 * * *"   # secondo giro alle 13:37, se GitHub ritarda o salta il primo
   workflow_dispatch:        # pulsante "Run workflow" per lanciarlo a mano
 
 permissions:
