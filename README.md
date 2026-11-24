@@ -56,3 +56,6 @@ Con la pubblicità servono anche un banner cookie e una privacy policy (obbligo 
   piattaforme esterne) per ora non vengono letti.
 - Gli avvisi vengono riconosciuti dal testo, quindi possono esserci falsi positivi o mancanze.
   Le regole sono in cima a `scan.py` (`CATEGORIE`, `RE_ESCLUDI`) e si possono affinare.
+
+## Licenza
+© 2026 La Scuola Cerca (aclab-it) – tutti i diritti riservati. Il codice è visibile per trasparenza ma non è riutilizzabile senza autorizzazione: vedi il file `LICENSE`.

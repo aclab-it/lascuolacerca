@@ -92,7 +92,7 @@ def _pagina(base, profondita, titolo, descrizione, h1, intro, avvisi, correlati,
 {"".join(righe)}
 <nav class="rel">{"".join(blocchi)}</nav></main>
 <footer>Avvisi raccolti automaticamente dagli albi online delle scuole: verifica sempre requisiti e scadenze sul documento ufficiale.
-Sito non affiliato al Ministero dell'Istruzione e del Merito. · <a href="{su}privacy.html">Privacy e cookie</a></footer>
+Sito non affiliato al Ministero dell'Istruzione e del Merito. · <a href="{su}privacy.html">Privacy e cookie</a><br>© 2026 La Scuola Cerca – tutti i diritti riservati</footer>
 {CF_ANALYTICS}</body></html>"""
 
 
