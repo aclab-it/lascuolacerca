@@ -53,10 +53,10 @@
 <header class="sito"><div class="w">
   <a class="brand" href="./">📋 La Scuola Cerca</a>
   <p class="claim">Le scuole d'Italia che cercano te: avvisi per esperti esterni e interpelli per docenti. Gratis, senza registrazione.</p>
-  <nav><a href="./" class="">🧑‍🏫 Esperti esterni</a><a href="interpelli.html" class="">📚 Interpelli docenti</a><a href="mappa.html" class="on">🗺️ Mappa</a></nav>
+  <nav><a href="./" class="">🧑‍🏫 Esperti esterni</a><a href="interpelli.html" class="">📚 Interpelli</a><a href="mappa.html" class="on">🗺️ Mappa</a></nav>
 </div></header>
 <section class="intro" style="padding-bottom:8px;text-align:left;width:100%"><h1 id="titolo">🗺️ Mappa degli avvisi</h1><div class="stats" id="sub">Caricamento…</div></section>
-<div class="tabs"><button class="tab on" data-s="esperti">Avvisi esperti</button><button class="tab ip" data-s="interpelli">📚 Interpelli docenti</button></div>
+<div class="tabs"><button class="tab on" data-s="esperti">Avvisi esperti</button><button class="tab ip" data-s="interpelli">📚 Interpelli docenti e ATA</button></div>
 <div class="chips" id="chips"></div>
 <div id="map"></div>
 <div class="nota">Ogni bolla indica un comune con il numero di annunci; da lontano i comuni vicini si raggruppano. Tocca una bolla per vederli o ingrandire.
@@ -110,7 +110,7 @@ const livello = (L.markerClusterGroup ? L.markerClusterGroup({
 }) : L.layerGroup()).addTo(map);
 
 // filtri per sezione: [chiave, etichetta, funzione]
-const FILTRI_IP = [["", "Tutti"], ["sostegno", "Sostegno", a => a.sostegno],
+const FILTRI_IP = [["", "Tutti"], ["sostegno", "Sostegno", a => a.sostegno], ["ata", "Personale ATA", a => !!a.ata],
   ["infanzia", "Infanzia", a => (a.gradi||[]).includes("infanzia")], ["primaria", "Primaria", a => (a.gradi||[]).includes("primaria")],
   ["secondaria I grado", "Secondaria I grado", a => (a.gradi||[]).includes("secondaria I grado")],
   ["secondaria II grado", "Secondaria II grado", a => (a.gradi||[]).includes("secondaria II grado")]];
@@ -128,7 +128,7 @@ function rigaPopup(a){
   const titolo = `<a href="${esc(a.link)}" target="_blank" rel="noopener nofollow">${esc(a.titolo.slice(0,110))}${a.titolo.length>110?"…":""}</a>`;
   if (sezione === "esperti")
     return `<li>${titolo}<div class="s">${esc(CAT[a.categoria]||a.categoria_label)} · ${esc(a.scuola)}</div></li>`;
-  const tag = [...(a.classi||[]), ...(a.sostegno ? ["Sostegno"] : [])].map(t => `<span class="k">${esc(t)}</span>`).join("");
+  const tag = [...(a.ata ? ["ATA · " + a.ata] : []), ...(a.classi||[]), ...(a.sostegno ? ["Sostegno"] : [])].map(t => `<span class="k">${esc(t)}</span>`).join("");
   const scad = a.scadenza ? ` · scade il ${fmt(a.scadenza)}` : "";
   return `<li>${tag}${titolo}<div class="s">${esc(a.scuola)}${scad}</div></li>`;
 }

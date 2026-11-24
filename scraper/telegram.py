@@ -55,7 +55,8 @@ def canale_per(canali, sezione, regione):
 def messaggio(sezione, a, sito):
     luogo = f"{a.get('comune')} ({a.get('provincia')})" if a.get("comune") else f"Provincia di {a.get('provincia')}"
     if sezione == "interpelli":
-        tag = " · ".join([*a.get("classi", []), *(["Sostegno"] if a.get("sostegno") else []), *a.get("gradi", [])[:1]])
+        tag = " · ".join([*([f"ATA · {a['ata']}"] if a.get("ata") else []), *a.get("classi", []),
+                          *(["Sostegno"] if a.get("sostegno") else []), *a.get("gradi", [])[:1]])
         righe = [f"📚 <b>{_e(tag or 'Interpello')}</b>", _e(a["titolo"][:250]), f"🏫 {_e(a['scuola'])} – {_e(luogo)}"]
         if a.get("scadenza"):
             righe.append("⏰ Scade il " + dt.date.fromisoformat(a["scadenza"]).strftime("%d/%m"))

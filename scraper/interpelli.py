@@ -11,7 +11,6 @@ RE_INTERPELLO = re.compile(r"interpell", re.I)
 
 # atti che non sono interpelli aperti: esiti, individuazioni, nomine, revoche...
 RE_ESCLUDI = re.compile(
-    r"assistente tecnico|assistenti tecnici|collaborator[ei] scolastic|assistente amministrativ|\bATA\b|\bDSGA\b|"
     r"esit[oi]\b|individuazion|individuat|nomina|graduatori|decreto di (conferimento|individuazione)|"
     r"revoca|annullament|rettifica|accettazione|contratt|presa di servizio|convocazion|"
     r"elenco (candidati|domande|ammessi)|verbale|deserto", re.I)
@@ -26,6 +25,26 @@ GRADI = [
     ("secondaria I grado", re.compile(r"(secondaria|scuola) (di )?(i|1|primo)\s*(°|grado)|\bADMM\b|scuola media", re.I)),
     ("secondaria II grado", re.compile(r"(secondaria|scuola) (di )?(ii|2|secondo)\s*(°|grado)|\bADSS\b|liceo|istituto tecnico|professionale", re.I)),
 ]
+
+# personale ATA: profilo -> espressione
+PROFILI_ATA = [
+    ("DSGA", re.compile(r"\bDSGA\b|direttore dei servizi generali|funzionari[oa] (dell['’]|dall['’]|di |ad )?elevata qualificazione|\bEQ\b", re.I)),
+    ("Assistente tecnico", re.compile(r"assistent[ei] tecnic|\bAR\s?\d{2}\b", re.I)),
+    ("Assistente amministrativo", re.compile(r"assistent[ei] amministrativ", re.I)),
+    ("Collaboratore scolastico", re.compile(r"collaborator[ei] scolastic", re.I)),
+    ("Infermiere", re.compile(r"infermier", re.I)),
+    ("Cuoco / guardarobiere", re.compile(r"\bcuoc[oh]i?\b|guardarobier", re.I)),
+    ("ATA", re.compile(r"\bATA\b|personale ausiliario", re.I)),
+]
+RE_AREA_AR = re.compile(r"\b(AR)\s?(\d{2})\b", re.I)
+
+
+def profilo_ata(testo):
+    for nome, rx in PROFILI_ATA:
+        if rx.search(testo or ""):
+            return nome
+    return None
+
 
 MESI = {m: i for i, m in enumerate("gen feb mar apr mag giu lug ago set ott nov dic".split(), 1)}
 # "entro il 26/11/2026", "scadenza: 26.11.2026", "entro le ore 12:00 del 26 novembre 2026"
@@ -79,13 +98,16 @@ RE_SPECIFICO = re.compile(
     r"supplenz|\bposto\b|\bposti\b|\bore\b|cattedr|spezzone|sostegno|classe di concorso|\bcdc\b|"
     r"\bn\.?\s*\d|\bprot|\bAAAA\b|\bEEEE\b|\bAD(MM|SS|EE|AA)\b|\b[AB]\d{2,3}\b|\bA[A-Z]\d{2}\b|"
     r"docente di|insegnante|infanzia|primaria|secondaria|lingua|matematica|italiano|inglese|"
-    r"musica|strumento|tecnologia|religione|educazione", re.I)
+    r"musica|strumento|tecnologia|religione|educazione|"
+    r"assistent[ei] (tecnic|amministrativ)|collaborator[ei] scolastic|\bDSGA\b|elevata qualificazione|\bAR\s?\d{2}\b|"
+    r"\bATA\b|infermier|cuoc|guardarobier", re.I)
 
 
 # per le voci al plurale ("Interpelli ...") serve un dettaglio forte: altrimenti e' una sezione
 RE_FORTE = re.compile(
     r"\b(posto|posti|ore|h)\b|\d+\s*h\b|sostegno|\bAAAA\b|\bEEEE\b|\bAD(MM|SS|EE|AA)\b|"
-    r"\b[AB]\d{2,3}\b|\bA[A-Z0O]\d{2}\b|classe di concorso|\bn\.?\s*\d", re.I)
+    r"\b[AB]\d{2,3}\b|\bA[A-Z0O]\d{2}\b|classe di concorso|\bn\.?\s*\d|"
+    r"assistent[ei] (tecnic|amministrativ)|collaborator[ei] scolastic|\bDSGA\b|\bAR\s?\d{2}\b|\bATA\b", re.I)
 RE_MENU = re.compile(r"ptof|blog|calendario|registro|circolari|organigramma|modulistica|contatti|"
                      r"amministrazione trasparente|albo on\W?line|news|home", re.I)
 
@@ -117,13 +139,16 @@ def classifica(testo, titolo=None):
         return None
     if len(RE_MENU.findall(tit)) >= 2:
         return None
-    cdc = classi_concorso(t)
-    sostegno = bool(RE_SOSTEGNO.search(t))
+    ata = profilo_ata(tit)
+    cdc = [] if ata else classi_concorso(t)
+    if ata:  # area di laboratorio degli assistenti tecnici (es. AR02)
+        cdc = [f"{a.upper()}{n}" for a, n in RE_AREA_AR.findall(t)][:3]
     return {
         "classi": cdc,
-        "sostegno": sostegno,
-        "gradi": grado(t),
+        "sostegno": False if ata else bool(RE_SOSTEGNO.search(t)),
+        "gradi": [] if ata else grado(t),
         "scadenza": scadenza(t),
+        "ata": ata,
     }
 
 

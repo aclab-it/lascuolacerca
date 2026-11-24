@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Interpelli docenti in tutta Italia, gratis e senza registrazione – La Scuola Cerca</title>
-<meta name="description" content="Tutti gli interpelli per supplenze pubblicati dalle scuole italiane: filtra per classe di concorso, sostegno, regione e provincia. Aggiornato più volte al giorno, gratis, senza registrazione.">
+<title>Interpelli docenti e ATA in tutta Italia, gratis e senza registrazione – La Scuola Cerca</title>
+<meta name="description" content="Tutti gli interpelli per supplenze di docenti e personale ATA pubblicati dalle scuole italiane: filtra per classe di concorso, sostegno, profilo ATA, regione e provincia. Aggiornato più volte al giorno, gratis, senza registrazione.">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📋</text></svg>">
 <style>
   :root{--bg:#f6f5f1;--card:#fff;--ink:#1d1d1f;--muted:#6b6b70;--line:#e4e2dc;--accent:#24456b;--accent-soft:#e6edf5;--red:#b42318;--red-soft:#fde8e6;--org:#a15c00;--org-soft:#fdf0dc}
@@ -22,6 +22,7 @@
   .tags{display:flex;flex-wrap:wrap;gap:5px;align-items:center}
   .tag{display:inline-block;background:var(--accent-soft);color:var(--accent);font-size:.75rem;font-weight:700;border-radius:6px;padding:2px 8px}
   .tag.sost{background:#efe7f7;color:#5b2d8a}
+  .tag.ata{background:#fdf0dc;color:#8a4b00}
   .tag.gr{background:#f1f0ec;color:#55555a;font-weight:600}
   .scad{margin-left:auto;font-size:.76rem;font-weight:700;border-radius:6px;padding:2px 8px;background:#f1f0ec;color:#55555a}
   .scad.oggi{background:var(--red-soft);color:var(--red)} .scad.dom{background:var(--org-soft);color:var(--org)}
@@ -58,10 +59,10 @@
 <header class="sito"><div class="w">
   <a class="brand" href="./">📋 La Scuola Cerca</a>
   <p class="claim">Le scuole d'Italia che cercano te: avvisi per esperti esterni e interpelli per docenti. Gratis, senza registrazione.</p>
-  <nav><a href="./" class="">🧑‍🏫 Esperti esterni</a><a href="interpelli.html" class="on ip">📚 Interpelli docenti</a><a href="mappa.html" class="">🗺️ Mappa</a></nav>
+  <nav><a href="./" class="">🧑‍🏫 Esperti esterni</a><a href="interpelli.html" class="on ip">📚 Interpelli</a><a href="mappa.html" class="">🗺️ Mappa</a></nav>
 </div></header>
-<section class="intro"><h1>Interpelli docenti</h1>
-  <p>Tutti gli interpelli per supplenze delle scuole italiane, con classe di concorso, sostegno e scadenza.</p>
+<section class="intro"><h1>Interpelli docenti e ATA</h1>
+  <p>Tutti gli interpelli per supplenze delle scuole italiane: docenti (classe di concorso, sostegno) e personale ATA. Ricerche illimitate, senza registrazione.</p>
   <div class="stats" id="stats">Caricamento…</div></section>
 
 <main>
@@ -78,6 +79,7 @@
     <div class="chips" id="chips">
       <button class="chip on" data-k="">Tutti</button>
       <button class="chip" data-k="sostegno">Sostegno</button>
+      <button class="chip" data-k="ata">Personale ATA</button>
       <button class="chip" data-k="infanzia">Infanzia</button>
       <button class="chip" data-k="primaria">Primaria</button>
       <button class="chip" data-k="secondaria I grado">Secondaria I grado</button>
@@ -138,8 +140,8 @@ function filtra(){
   const r = $("regione").value, p = $("provincia").value, c = $("cdc").value;
   filtrati = tutti.filter(a =>
     (!r || a.regione === r) && (!p || a.provincia === p) && (!c || (a.classi || []).includes(c)) &&
-    (!tipo || (tipo === "sostegno" ? a.sostegno : (a.gradi || []).includes(tipo))) &&
-    q.every(w => (a.titolo + " " + a.scuola + " " + a.comune + " " + a.provincia + " " + (a.classi || []).join(" ")).toLowerCase().includes(w)));
+    (!tipo || (tipo === "sostegno" ? a.sostegno : tipo === "ata" ? !!a.ata : (a.gradi || []).includes(tipo))) &&
+    q.every(w => (a.titolo + " " + a.scuola + " " + a.comune + " " + a.provincia + " " + (a.classi || []).join(" ") + " " + (a.ata ? "ata " + a.ata : "")).toLowerCase().includes(w)));
   if ($("ordine").value === "nuovi") filtrati.sort((x, y) => (y.trovato_il || "").localeCompare(x.trovato_il || ""));
   else filtrati.sort((x, y) => (x.scadenza || "9999").localeCompare(y.scadenza || "9999"));
   const u = new URLSearchParams();
@@ -160,7 +162,7 @@ function badgeScadenza(a){
 function altri(){
   $("list").insertAdjacentHTML("beforeend", filtrati.slice(mostrati, mostrati + PAGINA).map(a => `
     <article class="card">
-      <div class="tags">${(a.classi || []).map(c => `<span class="tag">${esc(c)}</span>`).join("")}
+      <div class="tags">${a.ata ? `<span class="tag ata">ATA · ${esc(a.ata)}</span>` : ""}${(a.classi || []).map(c => `<span class="tag">${esc(c)}</span>`).join("")}
         ${a.sostegno ? '<span class="tag sost">Sostegno</span>' : ""}
         ${(a.gradi || []).map(g => `<span class="tag gr">${esc(g)}</span>`).join("")}
         ${badgeScadenza(a)}</div>
