@@ -1,0 +1,596 @@
+[
+ {
+  "provincia": "Agrigento",
+  "url": "https://ag.usr.sicilia.it/category/personale-scuola/personale-docente/interpelli/",
+  "esito": "ok",
+  "interpelli": 25
+ },
+ {
+  "provincia": "Alessandria",
+  "url": "https://servizi.istruzionepiemonte.it/interpello2024/ric_interpello_ambito_al.php",
+  "esito": "pagina non leggibile",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Ancona",
+  "url": "https://www.istruzione-ancona.it/category/docenti/",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Arezzo",
+  "url": "https://www.arezzoistruzione.it/usparezzo/index.php/interpelli",
+  "esito": "ok",
+  "interpelli": 10
+ },
+ {
+  "provincia": "Ascoli Piceno/Fermo",
+  "url": "https://www.uspascolipiceno.it/wordpress/interpelli/",
+  "esito": "ok",
+  "interpelli": 8
+ },
+ {
+  "provincia": "Asti",
+  "url": "https://servizi.istruzionepiemonte.it/interpello2024/ric_interpello_ambito_at.php",
+  "esito": "pagina non leggibile",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Avellino",
+  "url": "https://atavellino.it/",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Barletta-Andria-Trani",
+  "url": "https://www.istruzionebat.it/category/interpello/",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Belluno",
+  "url": "https://belluno.istruzioneveneto.gov.it/category/news/area-amministrativa/interpelli/",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Benevento",
+  "url": "https://www.uspbenevento.it/uat/category/interpelli-e-varie/",
+  "esito": "pagina non leggibile",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Bergamo",
+  "url": "https://bergamo.istruzionelombardia.gov.it/argomento/interpelli-ricerca-supplenti/",
+  "esito": "certificato di sicurezza del sito non valido",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Biella",
+  "url": "https://www.istruzionepiemonte.it/biella/interpelli-supplenze/",
+  "esito": "ok",
+  "interpelli": 9
+ },
+ {
+  "provincia": "Bologna",
+  "url": "https://bo.istruzioneer.gov.it/tag/interpello/",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Brescia",
+  "url": "https://brescia.istruzionelombardia.gov.it/argomento/interpelli-ricerca-supplenti/",
+  "esito": "certificato di sicurezza del sito non valido",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Brindisi",
+  "url": "https://www.istruzionebrindisi.it/category/interpelli/",
+  "esito": "ok",
+  "interpelli": 25
+ },
+ {
+  "provincia": "Cagliari/Medio Campidano",
+  "url": "https://www.uspcagliari.it/",
+  "esito": "pagina non leggibile",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Caltanissetta/Enna",
+  "url": "https://cl-en.usr.sicilia.it/category/personale-scuola/personale-docente/reclutamento-docenti/",
+  "esito": "ok",
+  "interpelli": 14
+ },
+ {
+  "provincia": "Campobasso",
+  "url": "https://atcampobasso.it/argomento/servizi/servizi-al-personale-scolastico/interpelli-nazionali/",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Caserta",
+  "url": "https://www.uat-caserta.it/category/segnalazioni-dalle-scuole/",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Catanzaro",
+  "url": "https://www.istruzione.calabria.it/catanzaro/category/nca/",
+  "esito": "ok",
+  "interpelli": 2
+ },
+ {
+  "provincia": "Chieti/Pescara",
+  "url": "https://www.istruzionechietipescara.it/category/dalle-istituzioni-scolatiche/",
+  "esito": "ok",
+  "interpelli": 6
+ },
+ {
+  "provincia": "Como",
+  "url": "https://como.istruzionelombardia.gov.it/argomento/altre-comunicazioni/interpelli-ricerca-supplenti/",
+  "esito": "certificato di sicurezza del sito non valido",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Cosenza",
+  "url": "https://www.istruzione.calabria.it/cosenza/category/interdoc/",
+  "esito": "ok",
+  "interpelli": 12
+ },
+ {
+  "provincia": "Cremona",
+  "url": "https://cremona.istruzionelombardia.gov.it/argomento/reclutamento-3/",
+  "esito": "certificato di sicurezza del sito non valido",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Crotone",
+  "url": "https://www.istruzione.calabria.it/crotone/category/notizie/interpelli-per-supplenza/",
+  "esito": "ok",
+  "interpelli": 21
+ },
+ {
+  "provincia": "Cuneo",
+  "url": "https://www.istruzionepiemonte.it/cuneo/interpelli-supplenze-personale-docente/",
+  "esito": "ok",
+  "interpelli": 8
+ },
+ {
+  "provincia": "Ferrara",
+  "url": "https://fe.istruzioneer.gov.it/category/assunzioni-e-concorsi/interpelli_docenti/",
+  "esito": "ok",
+  "interpelli": 10
+ },
+ {
+  "provincia": "Firenze",
+  "url": "https://www.csa.fi.it/",
+  "esito": "il sito non risponde (troppo lento)",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Forli'-Cesena",
+  "url": "https://fc.istruzioneer.gov.it/category/interpelli-a-s-2024-25/",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Foggia",
+  "url": "https://www.ustfoggia.it/",
+  "esito": "ok",
+  "interpelli": 711
+ },
+ {
+  "provincia": "Frosinone",
+  "url": "https://lnx.uspistruzione.fr.it/wp2/category/interpello-nazionale",
+  "esito": "indirizzo inesistente o sito spento",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Genova",
+  "url": "https://www.istruzionegenova.gov.it/pagine/interpelli---docenti",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Gorizia",
+  "url": "https://usrfvg.gov.it/it/home/menu/uffici/ufficio-territoriale-di-gorizia/index.html",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Grosseto",
+  "url": "https://www.ufficioscolasticogrosseto.it/uff7/index.php/pubblicazioni",
+  "esito": "ok",
+  "interpelli": 7
+ },
+ {
+  "provincia": "Imperia",
+  "url": "https://www.istruzioneimperia.gov.it/pagine/interpelli---imperia",
+  "esito": "pagina non leggibile",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Isernia",
+  "url": "https://atpisernia.it/category/interpelli",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "L'Aquila",
+  "url": "https://lnx.csalaquila.it/wp/category/interpelli/",
+  "esito": "ok",
+  "interpelli": 20
+ },
+ {
+  "provincia": "La Spezia",
+  "url": "https://www.istruzionelaspezia.gov.it/pagine/interpelli-1",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Latina",
+  "url": "https://lnx.csalatina.it/jclub/",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Lecce",
+  "url": "https://www.ustlecce.it/index.php/personale-docente",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Lecco",
+  "url": "https://lecco.istruzionelombardia.gov.it/argomento/altre-comunicazioni/interpelli-ricerca-supplenti/",
+  "esito": "certificato di sicurezza del sito non valido",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Livorno",
+  "url": "https://www.ustli.it/usp_livorno/index.php/docenti/interpelli",
+  "esito": "ok",
+  "interpelli": 10
+ },
+ {
+  "provincia": "Lodi",
+  "url": "https://lodi.istruzionelombardia.gov.it/argomento/interpelli-ricerca-supplenti/",
+  "esito": "certificato di sicurezza del sito non valido",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Lucca",
+  "url": "http://www.ustlucca.it/",
+  "esito": "ok",
+  "interpelli": 7
+ },
+ {
+  "provincia": "Macerata",
+  "url": "http://www.uspmc.sinp.net/documenti-uspmc-cms/?cat-documenti-uspmc=reclutamento-pd",
+  "esito": "il sito non risponde (troppo lento)",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Mantova",
+  "url": "https://mantova.istruzionelombardia.gov.it/argomento/interpelli-ricerca-supplenti/",
+  "esito": "certificato di sicurezza del sito non valido",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Massa-Carrara",
+  "url": "http://www.uspms.it/",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Matera",
+  "url": "https://www.istruzionematera.it/category/interpelli/",
+  "esito": "ok",
+  "interpelli": 6
+ },
+ {
+  "provincia": "Messina",
+  "url": "https://me.usr.sicilia.it/personale-scuola/interpelli/",
+  "esito": "ok",
+  "interpelli": 18
+ },
+ {
+  "provincia": "Milano",
+  "url": "https://milano.istruzionelombardia.gov.it/argomento/altre-comunicazioni/interpelli-ricerca-supplenti/",
+  "esito": "certificato di sicurezza del sito non valido",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Modena",
+  "url": "https://mo.istruzioneer.gov.it/category/interpelli-personale-docente-2024-25/",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Monza e della Brianza",
+  "url": "https://monza.istruzionelombardia.gov.it/argomento/interpelli-ricerca-supplenti",
+  "esito": "certificato di sicurezza del sito non valido",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Napoli",
+  "url": "https://www.uat-napoli.it/tag/interpelli-personale-docente/",
+  "esito": "ok",
+  "interpelli": 32
+ },
+ {
+  "provincia": "Novara",
+  "url": "https://www.istruzionepiemonte.it/novara/interpelli-supplenze/",
+  "esito": "ok",
+  "interpelli": 1
+ },
+ {
+  "provincia": "Nuoro",
+  "url": "https://www.csanuoro.it/wp2019/",
+  "esito": "il sito chiede di non essere letto in automatico",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Oristano",
+  "url": "https://lnx.csaoristano.it/category/reclutamento/",
+  "esito": "indirizzo inesistente o sito spento",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Padova",
+  "url": "https://padova.istruzioneveneto.gov.it/category/interpelli-personale-docente/",
+  "esito": "ok",
+  "interpelli": 31
+ },
+ {
+  "provincia": "Palermo/Ragusa",
+  "url": "https://www.usr.sicilia.it/category/personale-scuola/docenti/interpelli-nazionali-contratti-a-tempo-determinato-docenti/",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Parma",
+  "url": "https://pr.istruzioneer.gov.it/interpelli-2/",
+  "esito": "pagina non leggibile",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Pavia",
+  "url": "https://pavia.istruzionelombardia.gov.it/argomento/interpelli-ricerca-supplenti",
+  "esito": "certificato di sicurezza del sito non valido",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Perugia/Terni",
+  "url": "https://istruzione.umbria.it/interpello-personale-scolastico/",
+  "esito": "pagina non leggibile",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Pesaro e Urbino",
+  "url": "http://www.usppesarourbino.it/category/interpelli/",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Piacenza",
+  "url": "https://pc.istruzioneer.gov.it/interpelli/",
+  "esito": "ok",
+  "interpelli": 74
+ },
+ {
+  "provincia": "Pisa",
+  "url": "https://www.toscana-istruzione.it/atpisa/category/news/",
+  "esito": "pagina non leggibile",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Pistoia",
+  "url": "https://www.ufficioscolasticoprovinciale.pistoia.it/category/docenti/",
+  "esito": "ok",
+  "interpelli": 18
+ },
+ {
+  "provincia": "Pordenone",
+  "url": "https://www.usrfvg.gov.it/it/home/menu/uffici/ufficio-territoriale-di-pordenone/",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Prato",
+  "url": "https://www.ufficioscolasticoprovinciale.prato.it/Mese/nomine-a-tempo-determinato/",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Ravenna",
+  "url": "https://ra.istruzioneer.gov.it/conferimento-supplenze-per-esaurimento-graduatorie-di-istituto/",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Reggio Calabria",
+  "url": "https://www.istruzioneatprc.it/category/recl/int/",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Reggio Emilia",
+  "url": "https://re.istruzioneer.gov.it/category/docenti/",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Rieti",
+  "url": "https://www.usp-rieti.it/it/302-docenti/interpelli-supplenze-altre-province.html",
+  "esito": "pagina non leggibile",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Rimini",
+  "url": "https://rn.istruzioneer.gov.it/category/personale-docente/interpelli_docenti/",
+  "esito": "pagina non leggibile",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Roma",
+  "url": "https://www.atpromaistruzione.it/atp/category/reclutamento/interpelli-personale-docente/",
+  "esito": "ok",
+  "interpelli": 56
+ },
+ {
+  "provincia": "Rovigo",
+  "url": "https://rovigo.istruzioneveneto.gov.it/category/5-interpelli/docenti-rovigo/",
+  "esito": "ok",
+  "interpelli": 10
+ },
+ {
+  "provincia": "Salerno",
+  "url": "https://uat-salerno.it/Documenti/CIRCOLARI/Interpelli-per-reclutamento-personale-docente",
+  "esito": "certificato di sicurezza del sito non valido",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Sassari",
+  "url": "http://www.uspss.it/",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Savona",
+  "url": "https://www.istruzionesavona.gov.it/",
+  "esito": "il sito chiede di non essere letto in automatico",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Siena",
+  "url": "https://www.uspsi.it/?cat=264",
+  "esito": "ok",
+  "interpelli": 3
+ },
+ {
+  "provincia": "Siracusa",
+  "url": "https://sr.usr.sicilia.it/tag/interpelli/",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Sondrio",
+  "url": "https://sondrio.istruzionelombardia.gov.it/argomento/interpelli-ricerca-supplenti/",
+  "esito": "certificato di sicurezza del sito non valido",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Taranto",
+  "url": "https://www.usptaranto.it/",
+  "esito": "ok",
+  "interpelli": 11
+ },
+ {
+  "provincia": "Teramo",
+  "url": "https://www.csateramo.it/wpusp/archive/category/news",
+  "esito": "ok",
+  "interpelli": 4
+ },
+ {
+  "provincia": "Torino",
+  "url": "https://www.istruzionepiemonte.it/torino/interpelli-supplenze/",
+  "esito": "ok",
+  "interpelli": 8
+ },
+ {
+  "provincia": "Trapani",
+  "url": "https://tp.usr.sicilia.it/personale-scuola/interpelli/",
+  "esito": "ok",
+  "interpelli": 7
+ },
+ {
+  "provincia": "Treviso",
+  "url": "https://treviso.istruzioneveneto.gov.it/tag/interpelli-istituti-scolastici/",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Udine/Trieste",
+  "url": "https://usrfvg.gov.it/it/home/menu/uffici/ufficio-territoriale-di-udine/",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Varese",
+  "url": "https://varese.istruzionelombardia.gov.it/argomento/interpelli-ricerca-supplenti-2/",
+  "esito": "certificato di sicurezza del sito non valido",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Venezia",
+  "url": "https://venezia.istruzioneveneto.gov.it/argomenti/personale/docenti/interpelli/",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Verbano-Cusio-Ossola",
+  "url": "https://servizi.istruzionepiemonte.it/interpello2024/ric_interpello_ambito_vb.php",
+  "esito": "pagina non leggibile",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Verona",
+  "url": "https://win.istruzioneverona.it/uspvr/index.php/interpelli-docenti/",
+  "esito": "indirizzo inesistente o sito spento",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Vercelli",
+  "url": "https://www.istruzionepiemonte.it/vercelli/tag/interpelli-supplenze/",
+  "esito": "pagina non leggibile",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Vibo Valentia",
+  "url": "https://www.istruzione.calabria.it/vibovalentia/",
+  "esito": "ok",
+  "interpelli": 5
+ },
+ {
+  "provincia": "Vicenza",
+  "url": "https://vicenza.istruzioneveneto.gov.it/avvisi-interpelli-docenti-vicenza/",
+  "esito": "ok",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Viterbo",
+  "url": "http://www.provveditoratostudiviterbo.it/DOCENTI/interpelli/INTERPELLIDOC.htm",
+  "esito": "ok",
+  "interpelli": 151
+ },
+ {
+  "provincia": "Cuneo",
+  "url": "https://servizi.istruzionepiemonte.it/interpello2024/ric_interpello_ambito_cn.php",
+  "esito": "pagina non leggibile",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Torino",
+  "url": "https://servizi.istruzionepiemonte.it/interpello2024/ric_interpello_ambito_to.php",
+  "esito": "pagina non leggibile",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Novara",
+  "url": "https://servizi.istruzionepiemonte.it/interpello2024/ric_interpello_ambito_no.php",
+  "esito": "pagina non leggibile",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Vercelli",
+  "url": "https://servizi.istruzionepiemonte.it/interpello2024/ric_interpello_ambito_vc.php",
+  "esito": "pagina non leggibile",
+  "interpelli": 0
+ },
+ {
+  "provincia": "Biella",
+  "url": "https://servizi.istruzionepiemonte.it/interpello2024/ric_interpello_ambito_bi.php",
+  "esito": "pagina non leggibile",
+  "interpelli": 0
+ }
+]
