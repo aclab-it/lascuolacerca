@@ -57,7 +57,7 @@
   "provincia": "Biella",
   "url": "https://www.istruzionepiemonte.it/biella/interpelli-supplenze/",
   "esito": "ok",
-  "interpelli": 9
+  "interpelli": 8
  },
  {
   "provincia": "Bologna",
@@ -165,7 +165,7 @@
   "provincia": "Foggia",
   "url": "https://www.ustfoggia.it/",
   "esito": "ok",
-  "interpelli": 358
+  "interpelli": 362
  },
  {
   "provincia": "Frosinone",
@@ -393,12 +393,12 @@
   "provincia": "Ravenna",
   "url": "https://ra.istruzioneer.gov.it/conferimento-supplenze-per-esaurimento-graduatorie-di-istituto/",
   "esito": "ok",
-  "interpelli": 0
+  "interpelli": 161
  },
  {
   "provincia": "Reggio Calabria",
   "url": "https://www.istruzioneatprc.it/category/recl/int/",
-  "esito": "il sito non risponde (troppo lento)",
+  "esito": "ok",
   "interpelli": 0
  },
  {
@@ -429,7 +429,7 @@
   "provincia": "Rovigo",
   "url": "https://rovigo.istruzioneveneto.gov.it/category/5-interpelli/docenti-rovigo/",
   "esito": "ok",
-  "interpelli": 10
+  "interpelli": 9
  },
  {
   "provincia": "Salerno",
@@ -471,7 +471,7 @@
   "provincia": "Taranto",
   "url": "https://www.usptaranto.it/",
   "esito": "ok",
-  "interpelli": 11
+  "interpelli": 10
  },
  {
   "provincia": "Teramo",
@@ -543,6 +543,6 @@
   "provincia": "Viterbo",
   "url": "http://www.provveditoratostudiviterbo.it/DOCENTI/interpelli/INTERPELLIDOC.htm",
   "esito": "ok",
-  "interpelli": 151
+  "interpelli": 153
  }
 ]

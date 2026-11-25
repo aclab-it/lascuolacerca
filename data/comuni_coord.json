@@ -367,6 +367,10 @@
 45.8491,
 8.6554
 ],
+"biancavilla|catania": [
+37.6704,
+14.9009
+],
 "biandrate|novara": [
 45.4503,
 8.4752
@@ -1054,6 +1058,10 @@
 "cicala|catanzaro": [
 39.0213,
 16.4804
+],
+"cingoli|macerata": [
+43.3832,
+13.2307
 ],
 "cinigiano|grosseto": [
 42.8996,
@@ -2095,6 +2103,10 @@
 37.9102,
 15.0403
 ],
+"molfetta|bari": [
+41.1828,
+16.5702
+],
 "mombasiglio|cuneo": [
 44.3569,
 7.9636
@@ -2214,6 +2226,10 @@
 "montelparo|fermo": [
 43.0133,
 13.5466
+],
+"montelupo fiorentino|firenze": [
+43.7236,
+11.0249
 ],
 "montemarciano|ancona": [
 43.6419,
@@ -2526,6 +2542,10 @@
 "piadena drizzona|cremona": [
 45.1313,
 10.37
+],
+"piancogno|brescia": [
+45.9307,
+10.1973
 ],
 "pianiga|venezia": [
 45.455,
@@ -2846,6 +2866,10 @@
 "roccastrada|grosseto": [
 42.9965,
 11.13
+],
+"romagnano al monte|salerno": [
+40.624,
+15.4413
 ],
 "romano d'ezzelino|vicenza": [
 45.7902,
@@ -3274,6 +3298,10 @@
 "sernaglia della battaglia|treviso": [
 45.8661,
 12.1433
+],
+"serra ricco'|genova": [
+44.5138,
+8.9463
 ],
 "serramanna|medio campidano": [
 39.4354,
@@ -3818,6 +3846,10 @@
 "vizzini|catania": [
 37.181,
 14.7752
+],
+"vo'|padova": [
+45.326,
+11.6464
 ],
 "voghera|pavia": [
 45.0083,
