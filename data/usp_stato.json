@@ -3,13 +3,7 @@
   "provincia": "Agrigento",
   "url": "https://ag.usr.sicilia.it/category/personale-scuola/personale-docente/interpelli/",
   "esito": "ok",
-  "interpelli": 25
- },
- {
-  "provincia": "Alessandria",
-  "url": "https://servizi.istruzionepiemonte.it/interpello2024/ric_interpello_ambito_al.php",
-  "esito": "pagina non leggibile",
-  "interpelli": 0
+  "interpelli": 9
  },
  {
   "provincia": "Ancona",
@@ -27,13 +21,7 @@
   "provincia": "Ascoli Piceno/Fermo",
   "url": "https://www.uspascolipiceno.it/wordpress/interpelli/",
   "esito": "ok",
-  "interpelli": 8
- },
- {
-  "provincia": "Asti",
-  "url": "https://servizi.istruzionepiemonte.it/interpello2024/ric_interpello_ambito_at.php",
-  "esito": "pagina non leggibile",
-  "interpelli": 0
+  "interpelli": 9
  },
  {
   "provincia": "Avellino",
@@ -87,7 +75,7 @@
   "provincia": "Brindisi",
   "url": "https://www.istruzionebrindisi.it/category/interpelli/",
   "esito": "ok",
-  "interpelli": 25
+  "interpelli": 26
  },
  {
   "provincia": "Cagliari/Medio Campidano",
@@ -99,7 +87,7 @@
   "provincia": "Caltanissetta/Enna",
   "url": "https://cl-en.usr.sicilia.it/category/personale-scuola/personale-docente/reclutamento-docenti/",
   "esito": "ok",
-  "interpelli": 14
+  "interpelli": 5
  },
  {
   "provincia": "Campobasso",
@@ -116,8 +104,8 @@
  {
   "provincia": "Catanzaro",
   "url": "https://www.istruzione.calabria.it/catanzaro/category/nca/",
-  "esito": "ok",
-  "interpelli": 2
+  "esito": "il sito non risponde (troppo lento)",
+  "interpelli": 0
  },
  {
   "provincia": "Chieti/Pescara",
@@ -134,8 +122,8 @@
  {
   "provincia": "Cosenza",
   "url": "https://www.istruzione.calabria.it/cosenza/category/interdoc/",
-  "esito": "ok",
-  "interpelli": 12
+  "esito": "il sito non risponde (troppo lento)",
+  "interpelli": 0
  },
  {
   "provincia": "Cremona",
@@ -146,8 +134,8 @@
  {
   "provincia": "Crotone",
   "url": "https://www.istruzione.calabria.it/crotone/category/notizie/interpelli-per-supplenza/",
-  "esito": "ok",
-  "interpelli": 21
+  "esito": "il sito non risponde (troppo lento)",
+  "interpelli": 0
  },
  {
   "provincia": "Cuneo",
@@ -177,7 +165,7 @@
   "provincia": "Foggia",
   "url": "https://www.ustfoggia.it/",
   "esito": "ok",
-  "interpelli": 711
+  "interpelli": 358
  },
  {
   "provincia": "Frosinone",
@@ -219,7 +207,7 @@
   "provincia": "L'Aquila",
   "url": "https://lnx.csalaquila.it/wp/category/interpelli/",
   "esito": "ok",
-  "interpelli": 20
+  "interpelli": 11
  },
  {
   "provincia": "La Spezia",
@@ -261,7 +249,7 @@
   "provincia": "Lucca",
   "url": "http://www.ustlucca.it/",
   "esito": "ok",
-  "interpelli": 7
+  "interpelli": 4
  },
  {
   "provincia": "Macerata",
@@ -315,7 +303,7 @@
   "provincia": "Napoli",
   "url": "https://www.uat-napoli.it/tag/interpelli-personale-docente/",
   "esito": "ok",
-  "interpelli": 32
+  "interpelli": 12
  },
  {
   "provincia": "Novara",
@@ -369,7 +357,7 @@
   "provincia": "Pesaro e Urbino",
   "url": "http://www.usppesarourbino.it/category/interpelli/",
   "esito": "ok",
-  "interpelli": 0
+  "interpelli": 1
  },
  {
   "provincia": "Piacenza",
@@ -387,7 +375,7 @@
   "provincia": "Pistoia",
   "url": "https://www.ufficioscolasticoprovinciale.pistoia.it/category/docenti/",
   "esito": "ok",
-  "interpelli": 18
+  "interpelli": 8
  },
  {
   "provincia": "Pordenone",
@@ -410,7 +398,7 @@
  {
   "provincia": "Reggio Calabria",
   "url": "https://www.istruzioneatprc.it/category/recl/int/",
-  "esito": "ok",
+  "esito": "il sito non risponde (troppo lento)",
   "interpelli": 0
  },
  {
@@ -435,7 +423,7 @@
   "provincia": "Roma",
   "url": "https://www.atpromaistruzione.it/atp/category/reclutamento/interpelli-personale-docente/",
   "esito": "ok",
-  "interpelli": 56
+  "interpelli": 9
  },
  {
   "provincia": "Rovigo",
@@ -528,12 +516,6 @@
   "interpelli": 0
  },
  {
-  "provincia": "Verbano-Cusio-Ossola",
-  "url": "https://servizi.istruzionepiemonte.it/interpello2024/ric_interpello_ambito_vb.php",
-  "esito": "pagina non leggibile",
-  "interpelli": 0
- },
- {
   "provincia": "Verona",
   "url": "https://win.istruzioneverona.it/uspvr/index.php/interpelli-docenti/",
   "esito": "indirizzo inesistente o sito spento",
@@ -548,8 +530,8 @@
  {
   "provincia": "Vibo Valentia",
   "url": "https://www.istruzione.calabria.it/vibovalentia/",
-  "esito": "ok",
-  "interpelli": 5
+  "esito": "il sito non risponde (troppo lento)",
+  "interpelli": 0
  },
  {
   "provincia": "Vicenza",
@@ -562,35 +544,5 @@
   "url": "http://www.provveditoratostudiviterbo.it/DOCENTI/interpelli/INTERPELLIDOC.htm",
   "esito": "ok",
   "interpelli": 151
- },
- {
-  "provincia": "Cuneo",
-  "url": "https://servizi.istruzionepiemonte.it/interpello2024/ric_interpello_ambito_cn.php",
-  "esito": "pagina non leggibile",
-  "interpelli": 0
- },
- {
-  "provincia": "Torino",
-  "url": "https://servizi.istruzionepiemonte.it/interpello2024/ric_interpello_ambito_to.php",
-  "esito": "pagina non leggibile",
-  "interpelli": 0
- },
- {
-  "provincia": "Novara",
-  "url": "https://servizi.istruzionepiemonte.it/interpello2024/ric_interpello_ambito_no.php",
-  "esito": "pagina non leggibile",
-  "interpelli": 0
- },
- {
-  "provincia": "Vercelli",
-  "url": "https://servizi.istruzionepiemonte.it/interpello2024/ric_interpello_ambito_vc.php",
-  "esito": "pagina non leggibile",
-  "interpelli": 0
- },
- {
-  "provincia": "Biella",
-  "url": "https://servizi.istruzionepiemonte.it/interpello2024/ric_interpello_ambito_bi.php",
-  "esito": "pagina non leggibile",
-  "interpelli": 0
  }
 ]
