@@ -119,6 +119,14 @@
 "regione": "Lombardia",
 "visto": "2026-11-26"
 },
+"https://dd4cesena.edu.it/": {
+"codice": "FOEE020009",
+"comune": "Montiano",
+"nome": "Cd Cesena 4",
+"provincia": "Forli'-Cesena",
+"regione": "Emilia Romagna",
+"visto": "2026-11-26"
+},
 "https://dedalo2000.edu.it/": {
 "codice": "CRIC81300R",
 "comune": "Solarolo Rainerio",
@@ -1682,7 +1690,7 @@
 "https://www.convittocolletta.edu.it/": {
 "codice": "AVMM007002",
 "comune": "Avellino",
-"nome": "Istituzione Educativa P. COLLETTA",
+"nome": "Convitto Colletta Sec Di I Gr.",
 "provincia": "Avellino",
 "regione": "Campania",
 "visto": "2026-11-26"
@@ -1749,6 +1757,14 @@
 "nome": "C.P.I.A.",
 "provincia": "Mantova",
 "regione": "Lombardia",
+"visto": "2026-11-26"
+},
+"https://www.dallachiesaspinelli.edu.it/": {
+"codice": "VBIS00400B",
+"comune": "Omegna",
+"nome": "IS \"Dalla Chiesa-Spinelli\"",
+"provincia": "Verbano-Cusio-Ossola",
+"regione": "Piemonte",
 "visto": "2026-11-26"
 },
 "https://www.defranceschipacinotti.edu.it/": {
@@ -2047,6 +2063,14 @@
 "regione": "Lombardia",
 "visto": "2026-11-26"
 },
+"https://www.iccerretoguidi.edu.it/": {
+"codice": "FIIC867007",
+"comune": "Cerreto Guidi",
+"nome": "Gino Strada",
+"provincia": "Firenze",
+"regione": "Toscana",
+"visto": "2026-11-26"
+},
 "https://www.iccervia2.edu.it/": {
 "codice": "RAIC829007",
 "comune": "Cervia",
@@ -2325,6 +2349,14 @@
 "nome": "Treviglio \"Grossi\"",
 "provincia": "Bergamo",
 "regione": "Lombardia",
+"visto": "2026-11-26"
+},
+"https://www.icimprunetaprimolevi.edu.it/servizio/albo-online/": {
+"codice": "FIIC824009",
+"comune": "Impruneta",
+"nome": "Primo Levi",
+"provincia": "Firenze",
+"regione": "Toscana",
 "visto": "2026-11-26"
 },
 "https://www.icivrea2.edu.it/": {
@@ -3157,7 +3189,7 @@
 "nome": "I.C. Via Soriso",
 "provincia": "Roma",
 "regione": "Lazio",
-"visto": "2026-11-25"
+"visto": "2026-11-26"
 },
 "https://www.icvillanterio.edu.it/": {
 "codice": "PVIC813007",
@@ -3541,7 +3573,7 @@
 "nome": "Baccio Da Montelupo",
 "provincia": "Firenze",
 "regione": "Toscana",
-"visto": "2026-11-25"
+"visto": "2026-11-26"
 },
 "https://www.istitutocomprensivopetrarca.edu.it/": {
 "codice": "CTIC87500P",
@@ -3617,10 +3649,10 @@
 },
 "https://www.istitutoguala.edu.it/": {
 "codice": "",
-"comune": "Chiaravalle Centrale",
-"nome": "I.S. Enzo Ferrari",
-"provincia": "Catanzaro",
-"regione": "Calabria",
+"comune": "Valsinni",
+"nome": "I.C. Valsinni – Tursi",
+"provincia": "Matera",
+"regione": "Basilicata",
 "visto": "2026-11-26"
 },
 "https://www.istitutoleardi.edu.it/": {

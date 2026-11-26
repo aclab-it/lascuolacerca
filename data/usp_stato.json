@@ -3,7 +3,7 @@
   "provincia": "Agrigento",
   "url": "https://ag.usr.sicilia.it/category/personale-scuola/personale-docente/interpelli/",
   "esito": "ok",
-  "interpelli": 9
+  "interpelli": 8
  },
  {
   "provincia": "Ancona",
@@ -104,8 +104,8 @@
  {
   "provincia": "Catanzaro",
   "url": "https://www.istruzione.calabria.it/catanzaro/category/nca/",
-  "esito": "il sito non risponde (troppo lento)",
-  "interpelli": 0
+  "esito": "ok",
+  "interpelli": 1
  },
  {
   "provincia": "Chieti/Pescara",
@@ -122,8 +122,8 @@
  {
   "provincia": "Cosenza",
   "url": "https://www.istruzione.calabria.it/cosenza/category/interdoc/",
-  "esito": "il sito non risponde (troppo lento)",
-  "interpelli": 0
+  "esito": "ok",
+  "interpelli": 6
  },
  {
   "provincia": "Cremona",
@@ -134,8 +134,8 @@
  {
   "provincia": "Crotone",
   "url": "https://www.istruzione.calabria.it/crotone/category/notizie/interpelli-per-supplenza/",
-  "esito": "il sito non risponde (troppo lento)",
-  "interpelli": 0
+  "esito": "ok",
+  "interpelli": 7
  },
  {
   "provincia": "Cuneo",
@@ -165,7 +165,7 @@
   "provincia": "Foggia",
   "url": "https://www.ustfoggia.it/",
   "esito": "ok",
-  "interpelli": 362
+  "interpelli": 370
  },
  {
   "provincia": "Frosinone",
@@ -189,7 +189,7 @@
   "provincia": "Grosseto",
   "url": "https://www.ufficioscolasticogrosseto.it/uff7/index.php/pubblicazioni",
   "esito": "ok",
-  "interpelli": 7
+  "interpelli": 5
  },
  {
   "provincia": "Imperia",
@@ -279,7 +279,7 @@
   "provincia": "Messina",
   "url": "https://me.usr.sicilia.it/personale-scuola/interpelli/",
   "esito": "ok",
-  "interpelli": 18
+  "interpelli": 17
  },
  {
   "provincia": "Milano",
@@ -327,7 +327,7 @@
   "provincia": "Padova",
   "url": "https://padova.istruzioneveneto.gov.it/category/interpelli-personale-docente/",
   "esito": "ok",
-  "interpelli": 31
+  "interpelli": 32
  },
  {
   "provincia": "Palermo/Ragusa",
@@ -375,7 +375,7 @@
   "provincia": "Pistoia",
   "url": "https://www.ufficioscolasticoprovinciale.pistoia.it/category/docenti/",
   "esito": "ok",
-  "interpelli": 8
+  "interpelli": 7
  },
  {
   "provincia": "Pordenone",
@@ -393,7 +393,7 @@
   "provincia": "Ravenna",
   "url": "https://ra.istruzioneer.gov.it/conferimento-supplenze-per-esaurimento-graduatorie-di-istituto/",
   "esito": "ok",
-  "interpelli": 161
+  "interpelli": 162
  },
  {
   "provincia": "Reggio Calabria",
@@ -471,7 +471,7 @@
   "provincia": "Taranto",
   "url": "https://www.usptaranto.it/",
   "esito": "ok",
-  "interpelli": 10
+  "interpelli": 9
  },
  {
   "provincia": "Teramo",
@@ -483,13 +483,13 @@
   "provincia": "Torino",
   "url": "https://www.istruzionepiemonte.it/torino/interpelli-supplenze/",
   "esito": "ok",
-  "interpelli": 8
+  "interpelli": 7
  },
  {
   "provincia": "Trapani",
   "url": "https://tp.usr.sicilia.it/personale-scuola/interpelli/",
   "esito": "ok",
-  "interpelli": 7
+  "interpelli": 8
  },
  {
   "provincia": "Treviso",
@@ -530,8 +530,8 @@
  {
   "provincia": "Vibo Valentia",
   "url": "https://www.istruzione.calabria.it/vibovalentia/",
-  "esito": "il sito non risponde (troppo lento)",
-  "interpelli": 0
+  "esito": "ok",
+  "interpelli": 2
  },
  {
   "provincia": "Vicenza",
@@ -543,6 +543,6 @@
   "provincia": "Viterbo",
   "url": "http://www.provveditoratostudiviterbo.it/DOCENTI/interpelli/INTERPELLIDOC.htm",
   "esito": "ok",
-  "interpelli": 153
+  "interpelli": 154
  }
 ]
