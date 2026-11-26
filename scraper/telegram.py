@@ -162,6 +162,13 @@ def pubblica(sezione, elementi, data_dir: Path, sito=""):
     for c, lista in per_canale.items():
         if f"_init:{sezione}:{c}" not in inviati:
             # canale appena attivato: non inondarlo con l'arretrato
+            try:
+                g = requests.get(f"https://api.telegram.org/bot{token}/getChat", params={"chat_id": c}, timeout=20).json()
+                if not g.get("ok"):
+                    print(f"  [telegram] {c}: ATTENZIONE canale non raggiungibile: {g.get('description')}")
+                    continue
+            except (requests.RequestException, ValueError):
+                pass
             for a in lista:
                 inviati[chiave(a)] = oggi
             inviati[f"_init:{sezione}:{c}"] = "9999-12-31"
