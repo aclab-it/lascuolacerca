@@ -275,18 +275,25 @@ def carica_istituti():
 _robots = {}
 
 
+NOME_BOT = "lascuolacercabot"
+
+
 def consentito(url):
+    """Ignora i blocchi generici del robots.txt (spesso impostazioni di default delle piattaforme),
+    ma rispetta quelli rivolti esplicitamente a LaScuolaCercaBot: li' la scuola ha scelto di non comparire."""
     host = urlparse(url)
     base = f"{host.scheme}://{host.netloc}"
     if base not in _robots:
-        rp = urllib.robotparser.RobotFileParser()
+        regole = None
         try:
             r = SESSION.get(base + "/robots.txt", timeout=8)
-            rp.parse(r.text.splitlines() if r.status_code == 200 else [])
+            if r.status_code == 200 and re.search(r"(?im)^\s*user-agent\s*:\s*" + NOME_BOT + r"\b", r.text):
+                regole = urllib.robotparser.RobotFileParser()
+                regole.parse(r.text.splitlines())
         except requests.RequestException:
-            rp.parse([])
-        _robots[base] = rp
-    return _robots[base].can_fetch(UA, url)
+            pass
+        _robots[base] = regole
+    return _robots[base] is None or _robots[base].can_fetch(UA, url)
 
 
 class BloccatoRobots(Exception):
@@ -472,7 +479,7 @@ MOTIVI = {
     "ReadTimeout": "il sito non risponde (troppo lento)",
     "TooManyRedirects": "il sito rimanda all'infinito ad altre pagine",
     "home non raggiungibile": "il sito risponde con un errore o blocca le visite automatiche",
-    "robots": "il sito chiede di non essere letto in automatico",
+    "robots": "la scuola ha chiesto di non comparire su questo sito",
 }
 
 
@@ -697,7 +704,7 @@ def leggi_usp():
                     })
                     esito["interpelli"] += 1
         except BloccatoRobots:
-            esito["esito"] = "il sito chiede di non essere letto in automatico"
+            esito["esito"] = "l'ufficio ha chiesto di non comparire su questo sito"
         except requests.RequestException as e:
             esito["esito"] = MOTIVI.get(type(e).__name__, type(e).__name__)
         stato.append(esito)
