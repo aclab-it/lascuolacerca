@@ -33,6 +33,9 @@
   .empty{text-align:center;color:var(--muted);padding:36px 10px}
   .more{display:block;margin:10px auto 0;padding:10px 18px;border:1px solid var(--accent);color:var(--accent);background:#fff;border-radius:10px;font-size:.95rem;cursor:pointer}
   .more[hidden]{display:none}
+  .tg{background:#e8f3fb;border:1px solid #cfe5f5;border-radius:12px;padding:10px 12px;margin-top:10px;font-size:.9rem;color:#20435e}
+  .tg[hidden]{display:none}
+  .tg a{color:#0b6aa8;font-weight:700;text-decoration:none;white-space:nowrap}
   .info{background:var(--accent-soft);border-radius:12px;padding:10px 12px;font-size:.84rem;color:#33475e;margin-top:12px}
   footer{max-width:860px;margin:26px auto;padding:0 16px 30px;color:var(--muted);font-size:.8rem}
   footer a{color:var(--accent)}
@@ -63,7 +66,8 @@
 </div></header>
 <section class="intro"><h1>Interpelli docenti e ATA</h1>
   <p>Tutti gli interpelli per supplenze delle scuole italiane: docenti (classe di concorso, sostegno) e personale ATA. Ricerche illimitate, senza registrazione.</p>
-  <div class="stats" id="stats">Caricamento…</div></section>
+  <div class="stats" id="stats">Caricamento…</div>
+  <div class="tg" id="tg" hidden></div></section>
 
 <main>
   <div class="filters">
@@ -101,7 +105,20 @@
 
 <script>
 const PAGINA = 30;
-let tutti = [], filtrati = [], mostrati = 0, tipo = "";
+let tutti = [], filtrati = [], mostrati = 0, tipo = "", canali = {};
+fetch("data/telegram_canali.csv", {cache:"no-store"}).then(r => r.text()).then(t => {
+  t.split(/\r?\n/).slice(1).forEach(riga => { const [sez, reg, can] = riga.split(";");
+    if (sez === "interpelli" && reg && can && can.trim()) canali[reg.trim()] = can.trim().replace(/^@/, ""); });
+  aggiornaTelegram();
+}).catch(() => {});
+function aggiornaTelegram(){
+  const box = document.getElementById("tg"), r = document.getElementById("regione").value, nomi = Object.keys(canali).sort();
+  if (!nomi.length) { box.hidden = true; return; }
+  if (r && canali[r]) box.innerHTML = `🔔 Ricevi gratis i nuovi interpelli in ${esc(r)} su Telegram: <a href="https://t.me/${esc(canali[r])}" target="_blank" rel="noopener">@${esc(canali[r])}</a>`;
+  else if (r) { box.hidden = true; return; }
+  else box.innerHTML = "🔔 Nuovi interpelli su Telegram, gratis: " + nomi.map(n => `<a href="https://t.me/${esc(canali[n])}" target="_blank" rel="noopener">${esc(n)}</a>`).join(" · ");
+  box.hidden = false;
+}
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const oggiD = new Date(); const iso = d => d.toISOString().slice(0,10);
@@ -148,7 +165,7 @@ function filtra(){
   if (r) u.set("regione", r); if (p) u.set("provincia", p); if (c) u.set("cdc", c); if (tipo) u.set("tipo", tipo);
   if ($("q").value.trim()) u.set("q", $("q").value.trim());
   history.replaceState(null, "", u.toString() ? "?" + u : location.pathname);
-  $("list").innerHTML = ""; mostrati = 0; altri();
+  $("list").innerHTML = ""; mostrati = 0; altri(); aggiornaTelegram();
   $("count").textContent = filtrati.length === 1 ? "1 interpello" : `${filtrati.length} interpelli`;
 }
 
