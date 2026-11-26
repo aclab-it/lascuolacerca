@@ -1,23 +1,22 @@
 {
- "aggiornato": "2026-11-25T17:54+00:00",
+ "aggiornato": "2026-11-26T00:17+00:00",
  "istituti_scansionati": 12831,
- "istituti_non_raggiungibili": 4514,
- "avvisi_totali": 834,
- "nuovi_oggi": 68,
+ "istituti_non_raggiungibili": 4542,
+ "avvisi_totali": 856,
+ "nuovi_oggi": 23,
  "regione": "TUTTE",
  "tipi_errore": {
-  "ConnectionError": 3491,
-  "robots": 948,
+  "ConnectionError": 3573,
+  "robots": 905,
   "InvalidURL": 26,
   "SSLError": 20,
-  "ConnectTimeout": 12,
   "errore: LocationParseError": 10,
-  "ReadTimeout": 5,
+  "ConnectTimeout": 6,
   "errore: ValueError": 2
  },
  "copertura": {
-  "albo_letto": 5281,
-  "albo_non_trovato": 3036,
-  "non_raggiungibili": 4514
+  "albo_letto": 5283,
+  "albo_non_trovato": 3006,
+  "non_raggiungibili": 4542
  }
 }
