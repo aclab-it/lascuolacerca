@@ -22,7 +22,6 @@ from pathlib import Path
 
 import requests
 
-MAX_PER_CANALE = 25      # messaggi massimi per canale a ogni giro
 PAUSA = 3.2              # secondi tra un messaggio e l'altro (limiti di Telegram)
 GIORNI_MEMORIA = 60
 
@@ -52,20 +51,43 @@ def canale_per(canali, sezione, regione):
     return canali.get((sezione, (regione or "").lower())) or canali.get((sezione, "*"))
 
 
-def messaggio(sezione, a, sito):
-    luogo = f"{a.get('comune')} ({a.get('provincia')})" if a.get("comune") else f"Provincia di {a.get('provincia')}"
+MAX_RIGHE = 15
+
+
+def _url(sito, sezione, a=None, regione=None):
+    from urllib.parse import urlencode
+    pagina = "interpelli.html" if sezione == "interpelli" else ""
+    q = {}
+    if regione or (a and a.get("regione")):
+        q["regione"] = regione or a.get("regione")
+    if a and a.get("provincia"):
+        q["provincia"] = a["provincia"]
+    return f"{sito}{pagina}" + (("?" + urlencode(q)) if q else "")
+
+
+def riga(sezione, a, sito):
+    luogo = a.get("comune") or a.get("provincia") or ""
     if sezione == "interpelli":
-        tag = " · ".join([*([f"ATA · {a['ata']}"] if a.get("ata") else []), *a.get("classi", []),
-                          *(["Sostegno"] if a.get("sostegno") else []), *a.get("gradi", [])[:1]])
-        righe = [f"📚 <b>{_e(tag or 'Interpello')}</b>", _e(a["titolo"][:250]), f"🏫 {_e(a['scuola'])} – {_e(luogo)}"]
-        if a.get("scadenza"):
-            righe.append("⏰ Scade il " + dt.date.fromisoformat(a["scadenza"]).strftime("%d/%m"))
+        tag = " · ".join([*([f"ATA {a['ata']}"] if a.get("ata") else []), *a.get("classi", [])[:2],
+                          *(["Sostegno"] if a.get("sostegno") else []), *a.get("gradi", [])[:1]]) or "Interpello"
+        scad = (" · scade il " + dt.date.fromisoformat(a["scadenza"]).strftime("%d/%m")) if a.get("scadenza") else ""
     else:
-        righe = [f"🧑‍🏫 <b>{_e(ETICHETTE.get(a.get('categoria'), a.get('categoria_label', 'Avviso')))}</b>",
-                 _e(a["titolo"][:250]), f"🏫 {_e(a['scuola'])} – {_e(luogo)}"]
-    righe.append(_e(a["link"]))
-    if sito:
-        righe.append(f'<a href="{_e(sito)}{"interpelli.html" if sezione == "interpelli" else ""}">Tutti gli annunci su La Scuola Cerca</a>')
+        tag = ETICHETTE.get(a.get("categoria"), a.get("categoria_label", "Avviso"))
+        scad = ""
+    return (f'• <b>{_e(tag)}</b> · {_e(luogo)} – {_e(a["scuola"][:45])}{scad} '
+            f'<a href="{_e(_url(sito, sezione, a))}">→</a>')
+
+
+def riepilogo(sezione, lista, sito, regione):
+    n = len(lista)
+    if sezione == "interpelli":
+        titolo = f"📚 <b>{n} {'nuovo interpello' if n == 1 else 'nuovi interpelli'}" + (f" in {_e(regione)}" if regione else "") + "</b>"
+    else:
+        titolo = f"🧑‍🏫 <b>{n} {'nuovo avviso' if n == 1 else 'nuovi avvisi'} per esperti esterni</b>"
+    righe = [titolo, ""] + [riga(sezione, a, sito) for a in lista[:MAX_RIGHE]]
+    if n > MAX_RIGHE:
+        righe.append(f"…e altri {n - MAX_RIGHE}")
+    righe += ["", f'👉 <a href="{_e(_url(sito, sezione, regione=regione))}">Vedili tutti su La Scuola Cerca</a>']
     return "\n".join(righe)
 
 
@@ -96,23 +118,25 @@ def pubblica(sezione, elementi, data_dir: Path, sito=""):
             inviati[f"_init:{sezione}:{c}"] = "9999-12-31"
             print(f"  [telegram] {c}: attivato, {len(lista)} {sezione} gia' presenti non verranno inviati")
             continue
-        for a in [x for x in lista if chiave(x) not in inviati][:MAX_PER_CANALE]:
-            try:
-                r = requests.post(f"https://api.telegram.org/bot{token}/sendMessage", timeout=20, data={
-                    "chat_id": c, "text": messaggio(sezione, a, sito), "parse_mode": "HTML",
-                    "disable_web_page_preview": "true"})
-                if r.status_code == 200:
-                    inviati[chiave(a)] = oggi
-                    inviati_ora += 1
-                elif r.status_code == 429:  # troppi messaggi: il resto al prossimo giro
-                    time.sleep(int(r.json().get("parameters", {}).get("retry_after", 30)))
-                else:
-                    print(f"  [telegram] {c}: errore {r.status_code} {r.text[:120]}")
-                    break  # canale sbagliato o bot non amministratore
-            except requests.RequestException:
-                pass
-            time.sleep(PAUSA)
-    print(f"  [telegram] {sezione}: inviati {inviati_ora} messaggi su {len(per_canale)} canali")
+        nuovi = [x for x in lista if chiave(x) not in inviati]
+        if not nuovi:
+            continue
+        regioni = {x.get("regione") for x in nuovi}
+        regione = regioni.pop() if len(regioni) == 1 and sezione == "interpelli" else None
+        try:
+            r = requests.post(f"https://api.telegram.org/bot{token}/sendMessage", timeout=20, data={
+                "chat_id": c, "text": riepilogo(sezione, nuovi, sito, regione), "parse_mode": "HTML",
+                "disable_web_page_preview": "true"})
+            if r.status_code == 200:
+                for x in nuovi:
+                    inviati[chiave(x)] = oggi
+                inviati_ora += 1
+            else:
+                print(f"  [telegram] {c}: errore {r.status_code} {r.text[:150]}")
+        except requests.RequestException as e:
+            print(f"  [telegram] {c}: {type(e).__name__}")
+        time.sleep(PAUSA)
+    print(f"  [telegram] {sezione}: {inviati_ora} riepiloghi inviati su {len(per_canale)} canali")
 
     limite = (dt.date.today() - dt.timedelta(days=GIORNI_MEMORIA)).isoformat()
     inviati = {k: v for k, v in inviati.items() if v >= limite}
