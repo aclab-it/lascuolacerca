@@ -108,15 +108,16 @@ const PAGINA = 30;
 let tutti = [], filtrati = [], mostrati = 0, tipo = "", canali = {};
 fetch("data/telegram_canali.csv", {cache:"no-store"}).then(r => r.text()).then(t => {
   t.split(/\r?\n/).slice(1).forEach(riga => { const [sez, reg, can] = riga.split(";");
-    if (sez === "interpelli" && reg && can && can.trim()) canali[reg.trim()] = can.trim().replace(/^@/, ""); });
+    if (sez === "interpelli" && reg && can && can.trim()) canali[reg.trim()] = can.trim(); });
   aggiornaTelegram();
 }).catch(() => {});
+function tgUrl(c){ return /^https?:\/\//.test(c) ? c : "https://t.me/" + c.replace(/^@/, ""); }
 function aggiornaTelegram(){
   const box = document.getElementById("tg"), r = document.getElementById("regione").value, nomi = Object.keys(canali).sort();
   if (!nomi.length) { box.hidden = true; return; }
-  if (r && canali[r]) box.innerHTML = `🔔 Ricevi gratis i nuovi interpelli in ${esc(r)} su Telegram: <a href="https://t.me/${esc(canali[r])}" target="_blank" rel="noopener">@${esc(canali[r])}</a>`;
+  if (r && canali[r]) box.innerHTML = `🔔 Ricevi gratis i nuovi interpelli in ${esc(r)} su Telegram: <a href="${esc(tgUrl(canali[r]))}" target="_blank" rel="noopener">unisciti al canale</a>`;
   else if (r) { box.hidden = true; return; }
-  else box.innerHTML = "🔔 Nuovi interpelli su Telegram, gratis: " + nomi.map(n => `<a href="https://t.me/${esc(canali[n])}" target="_blank" rel="noopener">${esc(n)}</a>`).join(" · ");
+  else box.innerHTML = "🔔 Nuovi interpelli su Telegram, gratis: " + nomi.map(n => `<a href="${esc(tgUrl(canali[n]))}" target="_blank" rel="noopener">${esc(n)}</a>`).join(" · ");
   box.hidden = false;
 }
 const $ = id => document.getElementById(id);

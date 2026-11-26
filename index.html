@@ -133,6 +133,12 @@ async function carica(){
   const chips = [["", "Tutti"], ...Object.entries(CAT).filter(([k])=>presenti.has(k))];
   $("chips").innerHTML = chips.map(([k,l]) => `<button class="chip${k===cat?" on":""}" data-k="${k}">${l}</button>`).join("");
   if (TELEGRAM_URL) { $("tg").style.display = "block"; $("tglink").href = TELEGRAM_URL; }
+  fetch("data/telegram_canali.csv", {cache:"no-store"}).then(r => r.text()).then(x => {
+    const riga = x.split(/\r?\n/).map(l => l.split(";")).find(c => c[0] === "esperti" && (c[2] || "").trim());
+    if (!riga) return; const c = riga[2].trim();
+    $("tglink").href = /^https?:\/\//.test(c) ? c : "https://t.me/" + c.replace(/^@/, "");
+    $("tg").style.display = "block";
+  }).catch(() => {});
 
   const p = new URLSearchParams(location.search);
   if (p.get("regione")) $("regione").value = p.get("regione");

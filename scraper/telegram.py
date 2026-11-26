@@ -6,6 +6,11 @@ Pubblicazione dei nuovi annunci sui canali Telegram.
     interpelli;Piemonte;@lascuolacerca_piemonte
     esperti;*;@lascuolacerca_esperti        (* = tutte le regioni)
   Le righe con canale vuoto sono ignorate.
+  Canali privati: nella colonna canale si mette il link d'invito (https://t.me/+...).
+  Il bot non puo' scrivere a un link d'invito, gli serve l'id numerico del canale:
+  lo ricava da getUpdates (quando viene nominato amministratore Telegram glielo
+  comunica) e lo salva in data/telegram_chat.json, abbinandolo per titolo
+  ("Interpelli <Regione> - La Scuola Cerca", "Esperti esterni - La Scuola Cerca").
 - il token del bot sta nel secret GitHub TELEGRAM_BOT_TOKEN (mai nel codice).
 - data/telegram_inviati.json ricorda cosa e' gia' stato inviato, per non ripetere.
   Quando un canale viene attivato, segna come "gia' inviato" tutto quello che c'e',
@@ -45,6 +50,49 @@ def carica_canali(data_dir: Path):
         if (r.get("canale") or "").strip():
             canali[(r["sezione"].strip().lower(), (r.get("regione") or "*").strip().lower())] = r["canale"].strip()
     return canali
+
+
+def _norm(t):
+    return "".join(ch for ch in (t or "").lower() if ch.isalnum())
+
+
+def _parola_regione(regione):
+    # "Emilia Romagna" -> "emilia", "Friuli-Venezia G." -> "friuli"
+    return _norm((regione or "").replace("-", " ").split()[0]) if regione else ""
+
+
+def risolvi_privati(canali, token, data_dir: Path):
+    """Sostituisce i link d'invito con l'id numerico del canale."""
+    privati = {k: v for k, v in canali.items() if "t.me/+" in v or "joinchat" in v}
+    if not privati:
+        return canali
+    f = data_dir / "telegram_chat.json"
+    try:
+        noti = json.loads(f.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError):
+        noti = {}
+    try:
+        r = requests.get(f"https://api.telegram.org/bot{token}/getUpdates", timeout=20,
+                         params={"allowed_updates": json.dumps(["my_chat_member", "channel_post"])})
+        for u in r.json().get("result", []):
+            chat = (u.get("my_chat_member") or u.get("channel_post") or {}).get("chat") or {}
+            if chat.get("type") == "channel" and chat.get("title"):
+                noti[chat["title"]] = chat["id"]
+    except (requests.RequestException, ValueError) as e:
+        print(f"  [telegram] getUpdates: {type(e).__name__}")
+    f.write_text(json.dumps(noti, ensure_ascii=False, sort_keys=True, indent=0), encoding="utf-8")
+    out = dict(canali)
+    for (sezione, regione), link in privati.items():
+        parola = "esperti" if sezione == "esperti" else _parola_regione(regione)
+        trovati = [cid for titolo, cid in noti.items()
+                   if parola and parola in _norm(titolo) and (sezione != "interpelli" or "interpell" in _norm(titolo))]
+        if trovati:
+            out[(sezione, regione)] = str(trovati[0])
+        else:
+            out.pop((sezione, regione))
+            print(f"  [telegram] {sezione}/{regione}: id del canale privato non ancora noto "
+                  f"(aggiungi il bot come amministratore e scrivi un messaggio nel canale)")
+    return out
 
 
 def canale_per(canali, sezione, regione):
@@ -96,6 +144,7 @@ def pubblica(sezione, elementi, data_dir: Path, sito=""):
     canali = carica_canali(data_dir)
     if not token or not canali:
         return
+    canali = risolvi_privati(canali, token, data_dir)
     file_inviati = data_dir / "telegram_inviati.json"
     oggi = dt.date.today().isoformat()
     try:
