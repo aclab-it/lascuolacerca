@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chi siamo – La Scuola Cerca</title>
+<meta name="description" content="Cos'è La Scuola Cerca: un servizio gratuito e senza registrazione che raccoglie gli avvisi delle scuole per esperti esterni e gli interpelli per docenti e personale ATA.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📋</text></svg>">
+<style>
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:#f6f5f1;color:#1d1d1f;line-height:1.6}
+  main{max-width:760px;margin:auto;padding:8px 16px 40px}
+  h2{font-size:1.1rem;margin:28px 0 6px}
+  p,li{font-size:.96rem}
+  a{color:#0f5c4d}
+  .box{background:#fff;border:1px solid #e4e2dc;border-radius:12px;padding:14px 16px;margin-top:14px}
+  .num{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:12px}
+  .num div{background:#fff;border:1px solid #e4e2dc;border-radius:12px;padding:10px 12px;font-size:.82rem;color:#6b6b70}
+  .num b{display:block;font-size:1.25rem;color:#0f5c4d}
+  code{background:#efeee9;border-radius:4px;padding:1px 5px;font-size:.88rem}
+  footer{max-width:760px;margin:10px auto 30px;padding:0 16px;color:#6b6b70;font-size:.8rem}
+  footer a{color:#0f5c4d}
+  @media(max-width:520px){.num{grid-template-columns:1fr}}
+  /* testata comune a tutte le sezioni */
+  header.sito{background:#0f5c4d;color:#fff;padding:16px 16px 0}
+  header.sito .w{max-width:860px;margin:auto}
+  header.sito .brand{color:#fff;font-weight:800;font-size:1.3rem;text-decoration:none;letter-spacing:-.01em}
+  header.sito .claim{margin:4px 0 12px;opacity:.9;font-size:.9rem;line-height:1.4}
+  header.sito nav{display:flex;gap:4px}
+  header.sito nav a{flex:1;text-align:center;color:#fff;text-decoration:none;font-weight:600;font-size:.88rem;padding:10px 6px;border-radius:10px 10px 0 0;opacity:.85;white-space:nowrap}
+  header.sito nav a.on{background:#f6f5f1;color:#0f5c4d;opacity:1}
+  header.sito nav a.on.ip{color:#24456b}
+  .intro{max-width:860px;margin:auto;padding:16px 16px 0}
+  .intro h1{font-size:1.35rem;margin:0 0 4px;letter-spacing:-.01em}
+  .intro p{margin:0;color:#4a4a50;font-size:.95rem}
+  .intro .stats{color:#6b6b70;font-size:.84rem;margin-top:6px}
+  .intro .stats a{color:#0f5c4d;font-weight:600}
+  @media(max-width:420px){header.sito nav a{font-size:.8rem;padding:9px 3px}}
+</style>
+</head>
+<body>
+<header class="sito"><div class="w">
+  <a class="brand" href="./">📋 La Scuola Cerca</a>
+  <p class="claim">Le scuole d'Italia che cercano te: avvisi per esperti esterni e interpelli per docenti e ATA. Gratis, senza registrazione.</p>
+  <nav><a href="./" class="">🧑‍🏫 Esperti esterni</a><a href="interpelli.html" class="">📚 Interpelli</a><a href="mappa.html" class="">🗺️ Mappa</a></nav>
+</div></header>
+<section class="intro"><h1>Chi siamo</h1>
+  <p>La Scuola Cerca è un servizio gratuito e indipendente che raccoglie in un unico posto gli annunci con cui le scuole italiane cercano persone.</p></section>
+<main>
+  <div class="num" id="num">
+    <div><b id="n-scuole">–</b>scuole controllate ogni giorno</div>
+    <div><b id="n-avvisi">–</b>avvisi per esperti aperti</div>
+    <div><b id="n-interpelli">–</b>interpelli aperti</div>
+  </div>
+
+  <h2>Perché esiste</h2>
+  <p>Ogni anno le scuole pubblicano migliaia di avvisi per psicologi, formatori, tutor ed esperti, e di interpelli per supplenze.
+  Ognuno sta sull'albo online di una scuola diversa e molti scadono in pochi giorni: trovarli significa controllare decine di siti ogni giorno.
+  Gli strumenti che li raccolgono spesso chiedono una registrazione o un abbonamento. Questo sito li mette insieme, gratis e senza registrazione.</p>
+
+  <h2>Come funziona</h2>
+  <ul>
+    <li>Un programma legge ogni giorno gli albi online delle scuole statali e paritarie (indirizzi dall'anagrafe ufficiale del Ministero) e le pagine degli Uffici scolastici provinciali.</li>
+    <li>Riconosce gli avvisi di selezione per esperti esterni e gli interpelli per docenti e personale ATA, e scarta graduatorie, esiti, nomine e altri atti.</li>
+    <li>Il giro completo avviene due volte al giorno; gli interpelli, che scadono in fretta, vengono ricontrollati ogni 3 ore nei giorni feriali.</li>
+    <li>Ogni annuncio rimanda sempre al documento originale della scuola: requisiti e scadenze vanno verificati lì.</li>
+  </ul>
+  <p>Il programma è automatico e può sbagliare: un annuncio può mancare, essere già chiuso o essere classificato male.
+  La pagina <a href="copertura.html">Quali scuole controlliamo</a> mostra, scuola per scuola, se l'albo è stato letto.</p>
+
+  <h2>I nostri principi</h2>
+  <ul>
+    <li><b>Gratis e senza registrazione</b>, con ricerche illimitate.</li>
+    <li><b>Nessun cookie</b> e nessun profilo dei visitatori: solo statistiche anonime delle visite (<a href="privacy.html">privacy</a>).</li>
+    <li><b>Solo atti pubblici</b>: titoli e link degli annunci che le scuole pubblicano per legge; niente graduatorie né nomi di persone.</li>
+    <li><b>Richieste leggere</b>: il programma si presenta con il nome <code>LaScuolaCercaBot</code> e legge poche pagine per sito, con pause tra una richiesta e l'altra.</li>
+  </ul>
+  <p>È un progetto personale, sviluppato nel tempo libero da un appassionato di automazione.</p>
+
+  <h2 id="scuole">Per le scuole</h2>
+  <div class="box">
+    <p style="margin-top:0"><b>I vostri annunci compaiono qui per aiutarvi a trovare candidati più in fretta</b>, senza costi e senza nulla da fare da parte vostra.</p>
+    <ul>
+      <li><b>Un annuncio è sbagliato o già chiuso?</b> Scriveteci e lo correggiamo.</li>
+      <li><b>Preferite che la vostra scuola non compaia?</b> Scriveteci e la escludiamo; in alternativa, chi gestisce il vostro sito può aggiungere al file <code>robots.txt</code> queste righe, che il nostro programma rispetta:
+        <br><code>User-agent: LaScuolaCercaBot</code><br><code>Disallow: /</code></li>
+      <li><b>Il nostro programma non trova il vostro albo?</b> Mandateci l'indirizzo della pagina e lo aggiungiamo.</li>
+    </ul>
+  </div>
+
+  <h2>Contatti</h2>
+  <p><a href="mailto:lascuolacerca.info@gmail.com">lascuolacerca.info@gmail.com</a> – per segnalazioni, correzioni, richieste di esclusione o suggerimenti.</p>
+</main>
+<footer>Sito non affiliato al Ministero dell'Istruzione e del Merito. · <a href="privacy.html">Privacy e cookie</a><br>© 2026 La Scuola Cerca – tutti i diritti riservati</footer>
+<script>
+Promise.all([fetch("data/stato.json",{cache:"no-store"}).then(r=>r.json()).catch(()=>({})),
+             fetch("data/interpelli_stato.json",{cache:"no-store"}).then(r=>r.json()).catch(()=>({}))])
+  .then(([s, i]) => {
+    const f = n => (n ?? "–").toLocaleString ? Number(n).toLocaleString("it-IT") : n;
+    if (s.istituti_scansionati) document.getElementById("n-scuole").textContent = f(s.istituti_scansionati);
+    if (s.avvisi_totali != null) document.getElementById("n-avvisi").textContent = f(s.avvisi_totali);
+    if (i.interpelli != null) document.getElementById("n-interpelli").textContent = f(i.interpelli);
+  });
+</script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c80732ec638842438606fb0b7b7c47bd"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

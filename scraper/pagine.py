@@ -92,7 +92,7 @@ def _pagina(base, profondita, titolo, descrizione, h1, intro, avvisi, correlati,
 {"".join(righe)}
 <nav class="rel">{"".join(blocchi)}</nav></main>
 <footer>Avvisi raccolti automaticamente dagli albi online delle scuole: verifica sempre requisiti e scadenze sul documento ufficiale.
-Sito non affiliato al Ministero dell'Istruzione e del Merito. · <a href="{su}privacy.html">Privacy e cookie</a><br>© 2026 La Scuola Cerca – tutti i diritti riservati</footer>
+Sito non affiliato al Ministero dell'Istruzione e del Merito. · <a href="{su}chi-siamo.html">Chi siamo</a> · <a href="{su}privacy.html">Privacy e cookie</a><br>© 2026 La Scuola Cerca – tutti i diritti riservati</footer>
 {CF_ANALYTICS}</body></html>"""
 
 
@@ -178,7 +178,7 @@ def genera(avvisi, root: Path, base_url: str, oggi: str):
 
     # sitemap + robots
     if base:
-        urls = ["", "interpelli.html", "mappa.html", "copertura.html"] + pagine
+        urls = ["", "interpelli.html", "mappa.html", "copertura.html", "chi-siamo.html"] + pagine
         voci = "".join(f"<url><loc>{_e(base + u)}</loc><lastmod>{oggi}</lastmod></url>" for u in urls)
         (root / "sitemap.xml").write_text(
             '<?xml version="1.0" encoding="UTF-8"?>\n'
