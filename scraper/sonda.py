@@ -6,7 +6,12 @@ url = os.environ["URL"]
 s = requests.Session()
 s.headers.update({"User-Agent": "Mozilla/5.0 (compatible; LaScuolaCercaBot/1.0; +https://aclab-it.github.io/lascuolacerca/chi-siamo.html)",
                   "Accept-Language": "it-IT,it;q=0.9"})
-r = s.get(url, timeout=30)
+try:
+    r = s.get(url, timeout=30)
+except requests.exceptions.SSLError as e:
+    print("SSL", e)
+    r = s.get(url, timeout=30, verify=False)
+print("HEADERS", dict(list(r.headers.items())[:12]))
 print("STATO", r.status_code, r.headers.get("Content-Type"), "byte", len(r.content), "url finale", r.url)
 soup = BeautifulSoup(r.text, "html.parser")
 print("TITOLO", soup.title.get_text(strip=True) if soup.title else "")
