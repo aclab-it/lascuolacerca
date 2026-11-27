@@ -139,10 +139,6 @@
 40.8597,
 16.5504
 ],
-"altavilla vicentina|vicenza": [
-45.5045,
-11.4772
-],
 "alto reno terme|bologna": [
 44.1279,
 10.9361
@@ -743,6 +739,10 @@
 43.8353,
 10.5773
 ],
+"capolona|arezzo": [
+43.5608,
+11.8299
+],
 "capranica|viterbo": [
 42.2608,
 12.1546
@@ -1255,6 +1255,10 @@
 42.3871,
 12.967
 ],
+"cittanova|reggio calabria": [
+38.3609,
+16.0736
+],
 "cittiglio|varese": [
 45.9067,
 8.6615
@@ -1419,6 +1423,10 @@
 39.1721,
 16.7187
 ],
+"covo|bergamo": [
+45.5054,
+9.7883
+],
 "cravanzana|cuneo": [
 44.5705,
 8.1214
@@ -1490,6 +1498,10 @@
 "darfo boario terme|brescia": [
 45.8872,
 10.1976
+],
+"delianuova|reggio calabria": [
+38.2198,
+15.9214
 ],
 "desenzano del garda|brescia": [
 45.4539,
@@ -1607,6 +1619,10 @@
 45.6331,
 9.551
 ],
+"finale ligure|savona": [
+44.1888,
+8.3426
+],
 "fiorano modenese|modena": [
 44.5304,
 10.826
@@ -1702,6 +1718,10 @@
 "gaggiano|milano": [
 45.3998,
 9.0264
+],
+"galati mamertino|messina": [
+38.0033,
+14.7903
 ],
 "gambatesa|campobasso": [
 41.5171,
@@ -1822,6 +1842,10 @@
 "grazzanise|caserta": [
 41.0936,
 14.0823
+],
+"grosotto|sondrio": [
+46.2963,
+10.2147
 ],
 "grosseto|grosseto": [
 42.7672,
@@ -2423,6 +2447,10 @@
 45.8339,
 11.9368
 ],
+"monopoli|bari": [
+40.8983,
+17.2781
+],
 "monserrato|cagliari": [
 39.2658,
 9.1335
@@ -2546,6 +2574,10 @@
 "montesano sulla marcellana|salerno": [
 40.2646,
 15.7259
+],
+"montescudaio|pisa": [
+43.3303,
+10.5921
 ],
 "montescudo-monte colombo|rimini": [
 43.9254,
@@ -3231,6 +3263,10 @@
 38.3472,
 16.3748
 ],
+"rodi garganico|foggia": [
+41.9216,
+15.881
+],
 "romagnano al monte|salerno": [
 40.624,
 15.4413
@@ -3498,6 +3534,10 @@
 "san vito al tagliamento|pordenone": [
 45.9143,
 12.8616
+],
+"san zenone al po|pavia": [
+45.1123,
+9.3706
 ],
 "san zenone degli ezzelini|treviso": [
 45.7774,
@@ -3787,6 +3827,10 @@
 44.8872,
 10.4388
 ],
+"soresina|cremona": [
+45.2909,
+9.8511
+],
 "sorrento|napoli": [
 40.6172,
 14.3814
@@ -3967,6 +4011,10 @@
 42.3607,
 12.6278
 ],
+"tortoli'|ogliastra": [
+39.9146,
+9.6643
+],
 "tortona|alessandria": [
 44.8869,
 8.8419
@@ -4127,6 +4175,10 @@
 43.7978,
 7.6472
 ],
+"vallefoglia|pesaro e urbino": [
+43.8278,
+12.7369
+],
 "vallo della lucania|salerno": [
 40.2246,
 15.2466
@@ -4218,6 +4270,10 @@
 "viadana|mantova": [
 44.9767,
 10.5823
+],
+"viareggio|lucca": [
+43.8545,
+10.2673
 ],
 "vibo valentia|vibo valentia": [
 38.6826,
