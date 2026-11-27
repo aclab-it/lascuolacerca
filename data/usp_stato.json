@@ -50,7 +50,7 @@
  {
   "provincia": "Bergamo",
   "url": "https://bergamo.istruzionelombardia.gov.it/argomento/interpelli-ricerca-supplenti/",
-  "esito": "certificato di sicurezza del sito non valido",
+  "esito": "pagina non leggibile",
   "interpelli": 0
  },
  {
@@ -68,7 +68,7 @@
  {
   "provincia": "Brescia",
   "url": "https://brescia.istruzionelombardia.gov.it/argomento/interpelli-ricerca-supplenti/",
-  "esito": "certificato di sicurezza del sito non valido",
+  "esito": "pagina non leggibile",
   "interpelli": 0
  },
  {
@@ -116,7 +116,7 @@
  {
   "provincia": "Como",
   "url": "https://como.istruzionelombardia.gov.it/argomento/altre-comunicazioni/interpelli-ricerca-supplenti/",
-  "esito": "certificato di sicurezza del sito non valido",
+  "esito": "pagina non leggibile",
   "interpelli": 0
  },
  {
@@ -128,7 +128,7 @@
  {
   "provincia": "Cremona",
   "url": "https://cremona.istruzionelombardia.gov.it/argomento/reclutamento-3/",
-  "esito": "certificato di sicurezza del sito non valido",
+  "esito": "pagina non leggibile",
   "interpelli": 0
  },
  {
@@ -230,7 +230,7 @@
  {
   "provincia": "Lecco",
   "url": "https://lecco.istruzionelombardia.gov.it/argomento/altre-comunicazioni/interpelli-ricerca-supplenti/",
-  "esito": "certificato di sicurezza del sito non valido",
+  "esito": "pagina non leggibile",
   "interpelli": 0
  },
  {
@@ -242,14 +242,14 @@
  {
   "provincia": "Lodi",
   "url": "https://lodi.istruzionelombardia.gov.it/argomento/interpelli-ricerca-supplenti/",
-  "esito": "certificato di sicurezza del sito non valido",
+  "esito": "pagina non leggibile",
   "interpelli": 0
  },
  {
   "provincia": "Lucca",
   "url": "http://www.ustlucca.it/",
   "esito": "ok",
-  "interpelli": 4
+  "interpelli": 0
  },
  {
   "provincia": "Macerata",
@@ -260,7 +260,7 @@
  {
   "provincia": "Mantova",
   "url": "https://mantova.istruzionelombardia.gov.it/argomento/interpelli-ricerca-supplenti/",
-  "esito": "certificato di sicurezza del sito non valido",
+  "esito": "pagina non leggibile",
   "interpelli": 0
  },
  {
@@ -284,7 +284,7 @@
  {
   "provincia": "Milano",
   "url": "https://milano.istruzionelombardia.gov.it/argomento/altre-comunicazioni/interpelli-ricerca-supplenti/",
-  "esito": "certificato di sicurezza del sito non valido",
+  "esito": "pagina non leggibile",
   "interpelli": 0
  },
  {
@@ -296,7 +296,7 @@
  {
   "provincia": "Monza e della Brianza",
   "url": "https://monza.istruzionelombardia.gov.it/argomento/interpelli-ricerca-supplenti",
-  "esito": "certificato di sicurezza del sito non valido",
+  "esito": "pagina non leggibile",
   "interpelli": 0
  },
  {
@@ -344,7 +344,7 @@
  {
   "provincia": "Pavia",
   "url": "https://pavia.istruzionelombardia.gov.it/argomento/interpelli-ricerca-supplenti",
-  "esito": "certificato di sicurezza del sito non valido",
+  "esito": "pagina non leggibile",
   "interpelli": 0
  },
  {
@@ -434,7 +434,7 @@
  {
   "provincia": "Salerno",
   "url": "https://uat-salerno.it/Documenti/CIRCOLARI/Interpelli-per-reclutamento-personale-docente",
-  "esito": "certificato di sicurezza del sito non valido",
+  "esito": "pagina non leggibile",
   "interpelli": 0
  },
  {
@@ -464,7 +464,7 @@
  {
   "provincia": "Sondrio",
   "url": "https://sondrio.istruzionelombardia.gov.it/argomento/interpelli-ricerca-supplenti/",
-  "esito": "certificato di sicurezza del sito non valido",
+  "esito": "pagina non leggibile",
   "interpelli": 0
  },
  {
@@ -506,7 +506,7 @@
  {
   "provincia": "Varese",
   "url": "https://varese.istruzionelombardia.gov.it/argomento/interpelli-ricerca-supplenti-2/",
-  "esito": "certificato di sicurezza del sito non valido",
+  "esito": "pagina non leggibile",
   "interpelli": 0
  },
  {
@@ -544,5 +544,23 @@
   "url": "http://www.provveditoratostudiviterbo.it/DOCENTI/interpelli/INTERPELLIDOC.htm",
   "esito": "ok",
   "interpelli": 154
+ },
+ {
+  "provincia": "Arezzo",
+  "url": "https://www.arezzoistruzione.it/usparezzo/index.php/interpelli/2159-tabella-degli-avvisi-di-interpello-o-m-n-27-2026-art-14-comma-22",
+  "esito": "ok",
+  "interpelli": 23
+ },
+ {
+  "provincia": "Bari",
+  "url": "https://www.uspbari.it/usp/category/interpelli-della-provincia-di-bari",
+  "esito": "ok",
+  "interpelli": 46
+ },
+ {
+  "provincia": "Catania",
+  "url": "https://ct.usr.sicilia.it/category/aree-tematiche/interpelli/",
+  "esito": "ok",
+  "interpelli": 4
  }
 ]
