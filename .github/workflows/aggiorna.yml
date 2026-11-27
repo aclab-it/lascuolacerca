@@ -8,6 +8,7 @@ on:
 
 permissions:
   contents: write
+  actions: read
 
 concurrency:
   group: aggiorna-avvisi
@@ -18,16 +19,31 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 300
     steps:
+      - name: Evita i doppioni (giro programmato di GitHub arrivato in ritardo)
+        id: guardia
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            n=$(gh api "repos/${{ github.repository }}/actions/workflows/aggiorna.yml/runs?per_page=10" \
+              --jq "[.workflow_runs[] | select(.id != ${{ github.run_id }}) | select(.conclusion != \"cancelled\") | select((now - (.created_at|fromdateiso8601)) < 5*3600)] | length")
+            if [ "$n" -gt 0 ]; then echo "Gia' fatto un giro nelle ultime 5 ore: salto."; echo "salta=1" >> "$GITHUB_OUTPUT"; fi
+          fi
+
       - uses: actions/checkout@v4
+        if: steps.guardia.outputs.salta != '1'
 
       - uses: actions/setup-python@v5
+        if: steps.guardia.outputs.salta != '1'
         with:
           python-version: "3.12"
 
       - name: Installa librerie
+        if: steps.guardia.outputs.salta != '1'
         run: pip install requests beautifulsoup4
 
       - name: Scansiona le scuole
+        if: steps.guardia.outputs.salta != '1'
         env:
           REGIONE: ${{ vars.REGIONE || 'TUTTE' }}
           MAX_ISTITUTI: ${{ vars.MAX_ISTITUTI || '0' }}
@@ -37,9 +53,11 @@ jobs:
         run: python scraper/scan.py
 
       - name: Salva i risultati
+        if: steps.guardia.outputs.salta != '1'
         run: |
           git config user.name "aggiornamento-automatico"
           git config user.email "actions@users.noreply.github.com"
+          git fetch -q origin main && python scraper/unisci_remoto.py
           git add -A data avvisi sitemap.xml robots.txt
           git diff --cached --quiet || git commit -m "Aggiornamento avvisi $(date +%F)"
           git pull --rebase -X theirs origin main

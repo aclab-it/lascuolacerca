@@ -271,17 +271,7 @@ def carica_istituti():
                 "regione": re.sub(r"\bD'", "d'", regione.title()),
                 "sito": sito,
             }
-    for codice, (row, nome) in senza_sito.items():
-        if codice in istituti:
-            continue
-        regione = _col(row, "REGIONE").upper()
-        istituti[codice] = {
-            "codice": codice, "nome": titolo(nome),
-            "comune": _col(row, "DESCRIZIONECOMUNE").title(),
-            "provincia": _col(row, "PROVINCIA").title(),
-            "regione": re.sub(r"\bD'", "d'", regione.title()),
-            "sito": f"https://www.{codice.lower()}.edu.it/",
-        }
+    # (le statali senza indirizzo provate su <codice>.edu.it non rispondevano mai: tolte)
     extra = DATA / "siti_extra.txt"
     if extra.exists():
         # formato: url ; nome scuola ; comune ; provincia ; regione
