@@ -899,7 +899,7 @@ def leggi_piemonte(istituti_per_codice=None):
                 continue
             prog = tr.find("input", attrs={"name": "progr"})
             sigla_cdc = cdc.split(" - ")[0].strip().upper()
-            classi, gradi, sostegno = [], [], False
+            classi, gradi, sostegno = ([sigla_cdc] if re.fullmatch(r"[A-Z]{4}", sigla_cdc) else []), [], False
             if sigla_cdc in CDC_GRADI:
                 g, sostegno = CDC_GRADI[sigla_cdc]
                 gradi = [g]

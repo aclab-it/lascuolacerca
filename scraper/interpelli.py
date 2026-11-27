@@ -17,6 +17,7 @@ RE_ESCLUDI = re.compile(
 
 # classi di concorso: A022, A-22, A 022, B015, AB24, AJ56 (strumento), ecc.
 RE_CDC = re.compile(r"\b(A[A-Z]?|B[A-Z]?)-?(\d{2,3})\b")
+RE_POSTO = re.compile(r"\b(AA[A-Z]{2}|EE[A-Z]{2}|AD(?:AA|EE|MM|SS))\b")
 RE_CDC_ESTESA = re.compile(r"(?:classe di concorso|classi di concorso|cdc|c\.d\.c\.)\s*:?\s*(A[A-Z]?|B)\s?-?\s?(\d{2,3})\b", re.I)
 RE_SOSTEGNO = re.compile(r"sostegno|\bAD(SS|MM|EE|AA)\b", re.I)
 GRADI = [
@@ -64,6 +65,10 @@ def classi_concorso(testo):
         cdc = f"{pref.upper()}{num}"
         if cdc not in out:
             out.append(cdc)
+    # codici dei posti di infanzia/primaria/sostegno (AAAA, EEEE, EEEM, ADEE, ADMM...): solo maiuscoli
+    for cod in RE_POSTO.findall(testo):
+        if cod not in out:
+            out.append(cod)
     return out[:6]
 
 

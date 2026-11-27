@@ -136,7 +136,14 @@ async function carica(){
     ? `${tutti.length} interpelli aperti · ultimo controllo ${new Date(stato.aggiornato).toLocaleString("it-IT",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})}`
     : "Il primo controllo degli interpelli è in arrivo.";
   [...new Set(tutti.map(a => a.regione).filter(Boolean))].sort().forEach(r => $("regione").add(new Option(r, r)));
-  [...new Set(tutti.flatMap(a => a.classi || []))].sort().forEach(c => $("cdc").add(new Option(c, c)));
+  const POSTI = {AAAA:"Infanzia – posto comune", EEEE:"Primaria – posto comune", ADAA:"Sostegno infanzia",
+                 ADEE:"Sostegno primaria", ADMM:"Sostegno secondaria I grado", ADSS:"Sostegno secondaria II grado"};
+  const cdcTutte = [...new Set(tutti.flatMap(a => a.classi || []))];
+  const ePosto = c => /^[A-Z]{4}$/.test(c);
+  // prima i posti di infanzia/primaria/sostegno, poi le classi di concorso
+  cdcTutte.filter(ePosto).sort((a, b) => (POSTI[a] ? 0 : 1) - (POSTI[b] ? 0 : 1) || a.localeCompare(b))
+    .concat(cdcTutte.filter(c => !ePosto(c)).sort())
+    .forEach(c => $("cdc").add(new Option(POSTI[c] ? `${c} – ${POSTI[c]}` : c, c)));
   const p = new URLSearchParams(location.search);
   if (p.get("regione")) $("regione").value = p.get("regione");
   aggiornaProvince();
