@@ -288,7 +288,8 @@ def consentito(url):
     if base not in _robots:
         regole = None
         try:
-            r = SESSION.get(base + "/robots.txt", timeout=8)
+            with _Turno(base):
+                r = SESSION.get(base + "/robots.txt", timeout=8)
             if r.status_code == 200 and re.search(r"(?im)^\s*user-agent\s*:\s*" + NOME_BOT + r"\b", r.text):
                 regole = urllib.robotparser.RobotFileParser()
                 regole.parse(r.text.splitlines())
@@ -302,11 +303,53 @@ class BloccatoRobots(Exception):
     pass
 
 
+# ---- gentilezza verso i server condivisi
+# Molte scuole stanno sullo stesso server (stesso hosting o stessa piattaforma di albo).
+# Le richieste allo stesso server non partono mai piu' di PER_SERVER alla volta e sono
+# distanziate di almeno PAUSA_SERVER secondi, anche se arrivano da scuole diverse.
+import socket
+import threading
+PER_SERVER = int(os.environ.get("PER_SERVER", "2") or 2)
+PAUSA_SERVER = float(os.environ.get("PAUSA_SERVER", "0.4") or 0.4)
+_ip_host, _sem_server, _ultimo_server = {}, {}, {}
+_lock_server = threading.Lock()
+
+
+def _server(url):
+    host = (urlparse(url).hostname or "").lower()
+    if host not in _ip_host:
+        try:
+            _ip_host[host] = socket.gethostbyname(host)
+        except OSError:
+            _ip_host[host] = host
+    return _ip_host[host]
+
+
+class _Turno:
+    """Aspetta il proprio turno sul server di destinazione."""
+    def __init__(self, url):
+        self.srv = _server(url)
+        with _lock_server:
+            self.sem = _sem_server.setdefault(self.srv, threading.Semaphore(PER_SERVER))
+
+    def __enter__(self):
+        self.sem.acquire()
+        with _lock_server:
+            attesa = _ultimo_server.get(self.srv, 0) + PAUSA_SERVER - time.monotonic()
+            _ultimo_server[self.srv] = max(time.monotonic(), _ultimo_server.get(self.srv, 0) + PAUSA_SERVER)
+        if attesa > 0:
+            time.sleep(attesa)
+
+    def __exit__(self, *exc):
+        self.sem.release()
+
+
 def scarica(url):
     if not consentito(url):
         raise BloccatoRobots(url)
     _ultima_risposta.stato = None
-    r = SESSION.get(url, timeout=TIMEOUT, allow_redirects=True)
+    with _Turno(url):
+        r = SESSION.get(url, timeout=TIMEOUT, allow_redirects=True)
     if r.status_code != 200 or "html" not in r.headers.get("Content-Type", "html"):
         _ultima_risposta.stato = f"HTTP {r.status_code}" if r.status_code != 200 else "non html"
         return None
@@ -567,6 +610,8 @@ def main():
         print("Nessun istituto: carica data/scuole.csv (vedi README).")
         sys.exit(0)
     print(f"Istituti da scansionare: {len(istituti)} (regione: {REGIONE})")
+    # ordine mescolato: le scuole dello stesso hosting (spesso vicine nell'elenco) non arrivano tutte insieme
+    __import__("random").Random(oggi).shuffle(istituti)
 
     vecchi = {}
     if OUT.exists():
