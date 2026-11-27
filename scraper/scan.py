@@ -54,7 +54,9 @@ MAX_PAGINE_ALBO = 4
 
 UA = "LaScuolaCercaBot/1.0 (+%s)" % (SITO_URL or "aggregatore avvisi pubblici")
 SESSION = requests.Session()
-SESSION.headers.update({"User-Agent": UA, "Accept-Language": "it-IT,it;q=0.9"})
+SESSION.headers.update({"User-Agent": UA, "Accept-Language": "it-IT,it;q=0.9",
+                        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8"})
+_ultima_risposta = __import__("threading").local()   # stato HTTP dell'ultima pagina scaricata (per il report)
 
 # ---------------------------------------------------------------- regole
 # link verso la sezione albo / bandi della scuola
@@ -303,8 +305,10 @@ class BloccatoRobots(Exception):
 def scarica(url):
     if not consentito(url):
         raise BloccatoRobots(url)
+    _ultima_risposta.stato = None
     r = SESSION.get(url, timeout=TIMEOUT, allow_redirects=True)
     if r.status_code != 200 or "html" not in r.headers.get("Content-Type", "html"):
+        _ultima_risposta.stato = f"HTTP {r.status_code}" if r.status_code != 200 else "non html"
         return None
     r.encoding = r.apparent_encoding if not r.encoding or r.encoding.lower() == "iso-8859-1" else r.encoding
     return r.url, BeautifulSoup(r.text, "html.parser")
@@ -373,20 +377,34 @@ def alternative(ist):
     return out
 
 
+# quale motivo mostrare se nessun indirizzo funziona: il piu' informativo, non l'ultimo provato
+# (prima "ConnectionError" dell'ultima variante copriva un 403 del sito vero)
+PRIORITA_ERRORE = ["HTTP 403", "HTTP 401", "HTTP 429", "HTTP 503", "HTTP 5xx", "HTTP 4xx", "non html",
+                   "SSLError", "ReadTimeout", "ConnectTimeout", "TooManyRedirects", "ConnectionError"]
+
+
+def _rango(err):
+    e = err if err in PRIORITA_ERRORE else (err[:6] + "xx" if err.startswith("HTTP ") else err)
+    return PRIORITA_ERRORE.index(e) if e in PRIORITA_ERRORE else len(PRIORITA_ERRORE)
+
+
 def apri_home(ist):
-    ultimo = "home non raggiungibile"
+    errori = []
     for url in alternative(ist):
         try:
             res = scarica(url)
             if res is not None:
                 return res, None
+            errori.append(getattr(_ultima_risposta, "stato", None) or "home non raggiungibile")
         except BloccatoRobots:
             return None, "robots"
         except requests.exceptions.SSLError:
-            ultimo = "SSLError"
+            errori.append("SSLError")
         except requests.RequestException as e:
-            ultimo = type(e).__name__
-    return None, ultimo
+            errori.append(type(e).__name__)
+    if not errori:
+        return None, "home non raggiungibile"
+    return None, min(errori, key=_rango)
 
 
 def estrai(pagine, ist, solo_interpelli=False):
@@ -511,12 +529,18 @@ MOTIVI = {
     "TooManyRedirects": "il sito rimanda all'infinito ad altre pagine",
     "home non raggiungibile": "il sito risponde con un errore o blocca le visite automatiche",
     "robots": "la scuola ha chiesto di non comparire su questo sito",
+    "HTTP 403": "il sito blocca le visite automatiche (errore 403)",
+    "HTTP 401": "il sito chiede una password",
+    "HTTP 429": "il sito limita le visite troppo frequenti (errore 429)",
+    "HTTP 404": "la pagina indicata nell'anagrafe non esiste più (errore 404)",
+    "HTTP 503": "il sito è temporaneamente non disponibile (errore 503)",
+    "non html": "all'indirizzo non c'è una pagina web (es. un file)",
 }
 
 
 def voce_copertura(ist, err, info, n_avvisi):
     if err or not info["url"]:
-        esito, motivo = "err", MOTIVI.get(err, "errore tecnico del sito")
+        esito, motivo = "err", MOTIVI.get(err) or (f"il sito risponde con un errore ({err})" if str(err).startswith("HTTP ") else "errore tecnico del sito")
     elif info["albo"] == 0:
         esito, motivo = "home", "sito raggiunto, ma la sezione albo/bandi non è stata trovata"
     else:
