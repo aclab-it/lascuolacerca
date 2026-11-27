@@ -63,6 +63,10 @@
 40.9266,
 14.3269
 ],
+"agerola|napoli": [
+40.6407,
+14.5437
+],
 "agira|enna": [
 37.6024,
 14.5467
@@ -83,13 +87,25 @@
 42.075,
 13.5818
 ],
+"alatri|frosinone": [
+41.7134,
+13.3432
+],
 "albano laziale|roma": [
 41.7098,
 12.6327
 ],
+"albavilla|como": [
+45.8091,
+9.1856
+],
 "alba|cuneo": [
 44.6878,
 8.0304
+],
+"albino|bergamo": [
+45.758,
+9.8225
 ],
 "alcamo|trapani": [
 37.9637,
@@ -118,6 +134,14 @@
 "alserio|como": [
 45.7803,
 9.2037
+],
+"altamura|bari": [
+40.8597,
+16.5504
+],
+"altavilla vicentina|vicenza": [
+45.5045,
+11.4772
 ],
 "alto reno terme|bologna": [
 44.1279,
@@ -166,6 +190,10 @@
 "appignano|macerata": [
 43.3706,
 13.3604
+],
+"apricale|imperia": [
+43.8887,
+7.6751
 ],
 "aprilia|latina": [
 41.5788,
@@ -227,6 +255,10 @@
 41.6466,
 13.6247
 ],
+"arrone|terni": [
+42.5675,
+12.7984
+],
 "arsago seprio|varese": [
 45.6966,
 8.7348
@@ -246,6 +278,10 @@
 "ascea|salerno": [
 40.1578,
 15.196
+],
+"asciano|siena": [
+43.2433,
+11.5229
 ],
 "asiago|vicenza": [
 45.9291,
@@ -279,6 +315,14 @@
 42.6645,
 12.4099
 ],
+"avigliano|potenza": [
+40.7705,
+15.7573
+],
+"bacoli|napoli": [
+40.8176,
+14.0641
+],
 "badia polesine|rovigo": [
 45.093,
 11.4972
@@ -310,6 +354,10 @@
 "bagnolo san vito|mantova": [
 45.0796,
 10.8818
+],
+"baiano|avellino": [
+40.93,
+14.6297
 ],
 "baiso|reggio emilia": [
 44.4815,
@@ -423,9 +471,17 @@
 41.0663,
 16.6135
 ],
+"bolgare|bergamo": [
+45.6314,
+9.819
+],
 "bologna|bologna": [
 44.498,
 11.3332
+],
+"borgaro torinese|torino": [
+45.1469,
+7.6632
 ],
 "borghetto di borbera|alessandria": [
 44.735,
@@ -511,6 +567,10 @@
 45.732,
 8.4573
 ],
+"brindisi|brindisi": [
+40.6061,
+17.899
+],
 "brugherio|monza e della brianza": [
 45.5526,
 9.3022
@@ -579,6 +639,10 @@
 44.5902,
 10.1306
 ],
+"caltanissetta|caltanissetta": [
+37.4695,
+14.0073
+],
 "caltrano|vicenza": [
 45.7897,
 11.4736
@@ -594,6 +658,10 @@
 "calvizzano|napoli": [
 40.9092,
 14.1772
+],
+"camerino|macerata": [
+43.1356,
+13.0748
 ],
 "cameri|novara": [
 45.5147,
@@ -650,6 +718,10 @@
 "canegrate|milano": [
 45.5661,
 8.9253
+],
+"canosa di puglia|barletta-andria-trani": [
+41.1898,
+16.0175
 ],
 "canossa|reggio emilia": [
 44.5509,
@@ -730,6 +802,10 @@
 "carmignano|prato": [
 43.7998,
 11.0182
+],
+"caronia|messina": [
+37.9739,
+14.4916
 ],
 "carosino|taranto": [
 40.472,
@@ -863,6 +939,10 @@
 45.669,
 8.8291
 ],
+"cassina de' pecchi|milano": [
+45.516,
+9.3756
+],
 "cassina rizzardi|como": [
 45.7509,
 9.0272
@@ -882,6 +962,10 @@
 "castel di sangro|l'aquila": [
 41.7817,
 14.1204
+],
+"castel focognano|arezzo": [
+43.6416,
+11.7827
 ],
 "castel giorgio|terni": [
 42.701,
@@ -911,6 +995,10 @@
 43.4643,
 13.5633
 ],
+"castelfranco emilia|modena": [
+44.5981,
+11.0731
+],
 "castelfranco piandisco'|arezzo": [
 43.6384,
 11.5596
@@ -926,6 +1014,10 @@
 "castellana grotte|bari": [
 40.8686,
 17.1857
+],
+"castellanza|varese": [
+45.611,
+8.8985
 ],
 "castellarano|reggio emilia": [
 44.5229,
@@ -955,9 +1047,17 @@
 43.3293,
 11.9267
 ],
+"castiglione dei pepoli|bologna": [
+44.1504,
+11.1833
+],
 "castiglione di garfagnana|lucca": [
 44.1836,
 10.4497
+],
+"castronuovo di sant'andrea|potenza": [
+40.1825,
+16.1739
 ],
 "catania|catania": [
 37.4424,
@@ -990,6 +1090,14 @@
 "cazzago brabbia|varese": [
 45.7999,
 8.7333
+],
+"ceccano|frosinone": [
+41.5665,
+13.3315
+],
+"cecina|livorno": [
+43.3147,
+10.5196
 ],
 "cedegolo|brescia": [
 46.0618,
@@ -1063,9 +1171,17 @@
 44.1759,
 12.3802
 ],
+"cesena|forli'-cesena": [
+44.1305,
+12.235
+],
 "cessalto|treviso": [
 45.7131,
 12.6252
+],
+"chianciano terme|siena": [
+43.0414,
+11.8301
 ],
 "chiaravalle centrale|catanzaro": [
 38.6903,
@@ -1090,6 +1206,10 @@
 "chioggia|venezia": [
 45.2179,
 12.2464
+],
+"ciampino|roma": [
+41.7933,
+12.6145
 ],
 "cicala|catanzaro": [
 39.0213,
@@ -1134,6 +1254,10 @@
 "cittaducale|rieti": [
 42.3871,
 12.967
+],
+"cittiglio|varese": [
+45.9067,
+8.6615
 ],
 "cividale del friuli|udine": [
 46.0825,
@@ -1207,6 +1331,10 @@
 45.8046,
 9.0806
 ],
+"conegliano|treviso": [
+45.8997,
+12.2935
+],
 "conversano|bari": [
 40.9534,
 17.1036
@@ -1267,6 +1395,10 @@
 43.2618,
 12.0001
 ],
+"corzano|brescia": [
+45.4392,
+10.017
+],
 "cosenza|cosenza": [
 39.2784,
 16.2713
@@ -1323,9 +1455,17 @@
 39.0929,
 17.088
 ],
+"cucciago|como": [
+45.7397,
+9.0971
+],
 "cuneo|cuneo": [
 44.4163,
 7.5529
+],
+"cupra marittima|ascoli piceno": [
+43.0205,
+13.8415
 ],
 "cupramontana|ancona": [
 43.4499,
@@ -1366,6 +1506,10 @@
 "diano san pietro|imperia": [
 43.9534,
 8.0613
+],
+"dolo|venezia": [
+45.4196,
+12.0864
 ],
 "domodossola|verbano-cusio-ossola": [
 46.1228,
@@ -1443,6 +1587,10 @@
 45.6954,
 8.9992
 ],
+"fermignano|pesaro e urbino": [
+43.6664,
+12.6411
+],
 "fermo|fermo": [
 43.1608,
 13.7248
@@ -1470,6 +1618,10 @@
 "fiumicino|roma": [
 41.8876,
 12.2282
+],
+"flumeri|avellino": [
+41.0761,
+15.1484
 ],
 "foggia|foggia": [
 41.4567,
@@ -1510,6 +1662,10 @@
 "forli'|forli'-cesena": [
 44.2275,
 12.0499
+],
+"formicola|caserta": [
+41.2213,
+14.2204
 ],
 "forte dei marmi|lucca": [
 43.9644,
@@ -1635,6 +1791,10 @@
 44.8892,
 9.0668
 ],
+"goito|mantova": [
+45.2505,
+10.6608
+],
 "gonars|udine": [
 45.893,
 13.2496
@@ -1695,9 +1855,17 @@
 41.9806,
 12.7029
 ],
+"guiglia|modena": [
+44.4017,
+10.9561
+],
 "guspini|medio campidano": [
 39.6069,
 8.6086
+],
+"gussago|brescia": [
+45.5905,
+10.151
 ],
 "iglesias|sulcis iglesiente": [
 39.3181,
@@ -1738,6 +1906,10 @@
 "ivrea|torino": [
 45.4536,
 7.8914
+],
+"jerago con orago|varese": [
+45.7076,
+8.7932
 ],
 "jerzu|ogliastra": [
 39.7669,
@@ -1782,6 +1954,10 @@
 "lainate|milano": [
 45.5662,
 9.026
+],
+"lamezia terme|catanzaro": [
+38.9378,
+16.2776
 ],
 "langhirano|parma": [
 44.6146,
@@ -1839,6 +2015,10 @@
 37.6444,
 14.3657
 ],
+"licata|agrigento": [
+37.1544,
+13.9189
+],
 "licciana nardi|massa-carrara": [
 44.2829,
 10.0465
@@ -1846,6 +2026,10 @@
 "lignano sabbiadoro|udine": [
 45.6722,
 13.1027
+],
+"limbadi|vibo valentia": [
+38.5628,
+15.979
 ],
 "limbiate|monza e della brianza": [
 45.601,
@@ -1882,6 +2066,10 @@
 "lonate pozzolo|varese": [
 45.5898,
 8.7349
+],
+"longiano|forli'-cesena": [
+44.0825,
+12.342
 ],
 "lonigo|vicenza": [
 45.3856,
@@ -1979,6 +2167,10 @@
 43.8801,
 12.314
 ],
+"malalbergo|bologna": [
+44.6877,
+11.5099
+],
 "maleo|lodi": [
 45.1629,
 9.7636
@@ -1999,6 +2191,10 @@
 45.7067,
 9.5409
 ],
+"maranello|modena": [
+44.5079,
+10.87
+],
 "marano di napoli|napoli": [
 40.8916,
 14.1693
@@ -2006,6 +2202,10 @@
 "marcallo con casone|milano": [
 45.4864,
 8.8698
+],
+"marcaria|mantova": [
+45.1046,
+10.5971
 ],
 "marcellina|roma": [
 42.0135,
@@ -2030,6 +2230,10 @@
 "marigliano|napoli": [
 40.9365,
 14.4533
+],
+"marradi|firenze": [
+44.0617,
+11.6342
 ],
 "marsala|trapani": [
 37.8129,
@@ -2062,6 +2266,10 @@
 "mattinata|foggia": [
 41.7381,
 16.0719
+],
+"mazara del vallo|trapani": [
+37.7016,
+12.6461
 ],
 "mazzano|brescia": [
 45.4997,
@@ -2110,6 +2318,10 @@
 "messina|messina": [
 38.1911,
 15.5104
+],
+"meta|napoli": [
+40.6405,
+14.4188
 ],
 "mezzomerico|novara": [
 45.6207,
@@ -2167,6 +2379,10 @@
 44.6439,
 10.9156
 ],
+"modica|ragusa": [
+36.8388,
+14.8161
+],
 "moio alcantara|messina": [
 37.9102,
 15.0403
@@ -2194,6 +2410,10 @@
 "mondovi'|cuneo": [
 44.4088,
 7.813
+],
+"mondragone|caserta": [
+41.1099,
+13.9148
 ],
 "monesiglio|cuneo": [
 44.4641,
@@ -2239,6 +2459,10 @@
 45.3758,
 9.57
 ],
+"monte di procida|napoli": [
+40.7978,
+14.0524
+],
 "monte san biagio|latina": [
 41.3659,
 13.3169
@@ -2250,6 +2474,10 @@
 "monte urano|fermo": [
 43.1972,
 13.672
+],
+"monte vidon corrado|fermo": [
+43.1206,
+13.4854
 ],
 "montecassiano|macerata": [
 43.3624,
@@ -2318,6 +2546,10 @@
 "montesano sulla marcellana|salerno": [
 40.2646,
 15.7259
+],
+"montescudo-monte colombo|rimini": [
+43.9254,
+12.5505
 ],
 "montevarchi|arezzo": [
 43.5007,
@@ -2447,6 +2679,10 @@
 45.2851,
 11.5587
 ],
+"novi di modena|modena": [
+44.8729,
+10.9295
+],
 "nurri|cagliari": [
 39.7087,
 9.2159
@@ -2543,6 +2779,10 @@
 38.1303,
 13.331
 ],
+"palma campania|napoli": [
+40.8586,
+14.5571
+],
 "palombara sabina|roma": [
 42.0807,
 12.7461
@@ -2562,6 +2802,10 @@
 "parenti|cosenza": [
 39.1606,
 16.46
+],
+"parete|caserta": [
+40.9564,
+14.1528
 ],
 "parma|parma": [
 44.7938,
@@ -2594,6 +2838,10 @@
 "pavia|pavia": [
 45.1978,
 9.1652
+],
+"pavullo nel frignano|modena": [
+44.3375,
+10.8442
 ],
 "peglio|como": [
 46.1811,
@@ -2654,6 +2902,10 @@
 "piazzola sul brenta|padova": [
 45.5416,
 11.7775
+],
+"piedimonte matese|caserta": [
+41.3695,
+14.3563
 ],
 "pienza|siena": [
 43.0637,
@@ -2734,6 +2986,10 @@
 "pollenza|macerata": [
 43.2623,
 13.3541
+],
+"pomarance|pisa": [
+43.2682,
+10.8295
 ],
 "pomezia|roma": [
 41.6619,
@@ -2831,6 +3087,10 @@
 41.4262,
 14.2021
 ],
+"pratiglione|torino": [
+45.3618,
+7.5779
+],
 "prato|prato": [
 43.8782,
 11.0851
@@ -2886,6 +3146,10 @@
 "ravanusa|agrigento": [
 37.2498,
 13.9856
+],
+"ravarino|modena": [
+44.7441,
+11.0928
 ],
 "ravenna|ravenna": [
 44.4127,
@@ -2995,6 +3259,10 @@
 44.6059,
 8.9443
 ],
+"roncoferraro|mantova": [
+45.1227,
+10.9486
+],
 "rotella|ascoli piceno": [
 42.9479,
 13.5494
@@ -3010,6 +3278,10 @@
 "rovigo|rovigo": [
 45.0696,
 11.795
+],
+"rozzano|milano": [
+45.3842,
+9.1595
 ],
 "russi|ravenna": [
 44.3728,
@@ -3055,6 +3327,10 @@
 45.2391,
 9.8008
 ],
+"san bellino|rovigo": [
+45.0265,
+11.5883
+],
 "san benedetto po|mantova": [
 45.0344,
 10.9302
@@ -3070,6 +3346,10 @@
 "san cesareo|roma": [
 41.8267,
 12.7855
+],
+"san cipirello|palermo": [
+37.9404,
+13.1819
 ],
 "san daniele del friuli|udine": [
 46.1567,
@@ -3098,6 +3378,10 @@
 "san fiorano|lodi": [
 45.1338,
 9.7146
+],
+"san giorgio a cremano|napoli": [
+40.8345,
+14.3408
 ],
 "san giorgio canavese|torino": [
 45.3207,
@@ -3207,6 +3491,10 @@
 41.6571,
 15.4228
 ],
+"san stino di livenza|venezia": [
+45.6969,
+12.7517
+],
 "san vito al tagliamento|pordenone": [
 45.9143,
 12.8616
@@ -3218,6 +3506,10 @@
 "sangineto|cosenza": [
 39.6112,
 15.9131
+],
+"sanluri|medio campidano": [
+39.5472,
+8.8787
 ],
 "sannicandro di bari|bari": [
 40.9764,
@@ -3399,6 +3691,14 @@
 43.6817,
 13.201
 ],
+"senna comasco|como": [
+45.7607,
+9.1016
+],
+"senorbi'|cagliari": [
+39.5271,
+9.1435
+],
 "seregno|monza e della brianza": [
 45.6496,
 9.2042
@@ -3555,6 +3855,10 @@
 45.004,
 10.7434
 ],
+"talamello|rimini": [
+43.9134,
+12.2794
+],
 "taormina|messina": [
 37.8449,
 15.2643
@@ -3583,6 +3887,10 @@
 45.6424,
 8.0594
 ],
+"tempio pausania|gallura nord-est sardegna": [
+40.9023,
+9.1026
+],
 "temu'|brescia": [
 46.2532,
 10.4812
@@ -3594,6 +3902,10 @@
 "terlizzi|bari": [
 41.1131,
 16.549
+],
+"termini imerese|palermo": [
+37.9591,
+13.7429
 ],
 "termoli|campobasso": [
 41.9816,
@@ -3663,9 +3975,17 @@
 37.996,
 14.8393
 ],
+"tossicia|teramo": [
+42.5489,
+13.6362
+],
 "trani|barletta-andria-trani": [
 41.2394,
 16.3896
+],
+"traona|sondrio": [
+46.1512,
+9.5274
 ],
 "trapani|trapani": [
 37.9057,
@@ -3727,6 +4047,10 @@
 45.9398,
 13.3373
 ],
+"tronzano vercellese|vercelli": [
+45.3205,
+8.186
+],
 "tropea|vibo valentia": [
 38.6719,
 15.8913
@@ -3738,6 +4062,10 @@
 "udine|udine": [
 46.0645,
 13.2456
+],
+"uggiate con ronago|como": [
+45.8256,
+8.9689
 ],
 "umbriatico|crotone": [
 39.3594,
@@ -3754,6 +4082,10 @@
 "vado ligure|savona": [
 44.2579,
 8.3954
+],
+"vaiano|prato": [
+43.9529,
+11.1345
 ],
 "val brembilla|bergamo": [
 45.8295,
@@ -3839,6 +4171,10 @@
 45.4669,
 12.346
 ],
+"ventimiglia|imperia": [
+43.8219,
+7.5602
+],
 "vercelli|vercelli": [
 45.3198,
 8.4112
@@ -3854,6 +4190,10 @@
 "vernasca|piacenza": [
 44.7878,
 9.8431
+],
+"vernio|prato": [
+44.0673,
+11.1517
 ],
 "verolavecchia|brescia": [
 45.3145,
@@ -3931,6 +4271,10 @@
 45.5664,
 8.8864
 ],
+"villa di chiavenna|sondrio": [
+46.3215,
+9.4963
+],
 "villa san giovanni|reggio calabria": [
 38.2288,
 15.6671
@@ -3938,6 +4282,10 @@
 "villa santa maria|chieti": [
 41.9698,
 14.3527
+],
+"villabate|palermo": [
+38.0784,
+13.4429
 ],
 "villaga|vicenza": [
 45.3916,
@@ -3950,6 +4298,10 @@
 "villanova del sillaro|lodi": [
 45.2412,
 9.473
+],
+"villanova monteleone|sassari": [
+40.4728,
+8.4719
 ],
 "villanova sull'arda|piacenza": [
 45.0301,
@@ -3998,6 +4350,10 @@
 "volla|napoli": [
 40.8831,
 14.3449
+],
+"volpago del montello|treviso": [
+45.7858,
+12.1233
 ],
 "volvera|torino": [
 44.9597,
