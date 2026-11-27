@@ -13,7 +13,7 @@
 "nome": "Fossano - \"G.Vallauri\"",
 "provincia": "Cuneo",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://albinoni.edu.it/servizio/pagamenti-digitali/": {
 "codice": "PDIC89700X",
@@ -23,13 +23,21 @@
 "regione": "Veneto",
 "visto": "2026-11-26"
 },
+"https://albopretorio.nettunopa.it/lssereni": {
+"codice": "VAPS11000A",
+"comune": "Laveno-Mombello",
+"nome": "L. Scient. \"Sereni\" - Luino",
+"provincia": "Varese",
+"regione": "Lombardia",
+"visto": "2026-11-27"
+},
 "https://calvino.edu.it/": {
 "codice": "GEIS01400Q",
 "comune": "Genova",
 "nome": "I.S. I. Calvino",
 "provincia": "Genova",
 "regione": "Liguria",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://comprensivodante.edu.it/": {
 "codice": "MIIC8C800T",
@@ -37,7 +45,7 @@
 "nome": "IC Dante Alighieri",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://comprensivodante.edu.it/novita/albo_online_portal/": {
 "codice": "MIIC8C800T",
@@ -45,7 +53,7 @@
 "nome": "IC Dante Alighieri",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://comprensivodante.edu.it/novita/bacheca_sindacale_portal/": {
 "codice": "MIIC8C800T",
@@ -53,7 +61,7 @@
 "nome": "IC Dante Alighieri",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://comprensivodante.edu.it/tipologia-articolo/bacheca-sindacale/": {
 "codice": "MIIC8C800T",
@@ -61,7 +69,7 @@
 "nome": "IC Dante Alighieri",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://comprensivomoie.edu.it/": {
 "codice": "ANIC83700Q",
@@ -69,7 +77,7 @@
 "nome": "Moie \"Carlo Urbani\"",
 "provincia": "Ancona",
 "regione": "Marche",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://comprensivomoie.edu.it/novita/albo_online_portal/": {
 "codice": "ANIC83700Q",
@@ -77,7 +85,7 @@
 "nome": "Moie \"Carlo Urbani\"",
 "provincia": "Ancona",
 "regione": "Marche",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://comprensivomoie.edu.it/novita/amministrazione_trasparente_portal/": {
 "codice": "ANIC83700Q",
@@ -85,7 +93,7 @@
 "nome": "Moie \"Carlo Urbani\"",
 "provincia": "Ancona",
 "regione": "Marche",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://comprensivomoie.edu.it/novita/bacheca-sindacale/": {
 "codice": "ANIC83700Q",
@@ -93,7 +101,7 @@
 "nome": "Moie \"Carlo Urbani\"",
 "provincia": "Ancona",
 "regione": "Marche",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://convittonovara.edu.it/": {
 "codice": "NOMM00800G",
@@ -101,7 +109,7 @@
 "nome": "\"Carlo Alberto\"",
 "provincia": "Novara",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://cpia1bergamo.edu.it/": {
 "codice": "BGMM18500P",
@@ -109,7 +117,7 @@
 "nome": "C.P.I.A. 1 Bergamo",
 "provincia": "Bergamo",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://davinciripamonti.edu.it/": {
 "codice": "COIS009006",
@@ -117,7 +125,7 @@
 "nome": "Leonardo Da Vinci - Ripamonti",
 "provincia": "Como",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://dd4cesena.edu.it/": {
 "codice": "FOEE020009",
@@ -125,7 +133,7 @@
 "nome": "Cd Cesena 4",
 "provincia": "Forli'-Cesena",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://dedalo2000.edu.it/": {
 "codice": "CRIC81300R",
@@ -133,7 +141,7 @@
 "nome": "I.C. Gussola \"Dedalo 2000\"",
 "provincia": "Cremona",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://divini.edu.it/": {
 "codice": "MCTF010005",
@@ -141,7 +149,7 @@
 "nome": "\"E. Divini\"",
 "provincia": "Macerata",
 "regione": "Marche",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://divini.edu.it/albo-online/": {
 "codice": "MCTF010005",
@@ -149,7 +157,7 @@
 "nome": "\"E. Divini\"",
 "provincia": "Macerata",
 "regione": "Marche",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://ic-cadorago.edu.it/": {
 "codice": "COIC83000B",
@@ -157,7 +165,7 @@
 "nome": "I.C. Cadorago",
 "provincia": "Como",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://ic-lamorra.edu.it/": {
 "codice": "CNIC81900X",
@@ -165,7 +173,7 @@
 "nome": "La Morra",
 "provincia": "Cuneo",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://ic1montecchio.edu.it/": {
 "codice": "VIIC876008",
@@ -173,7 +181,7 @@
 "nome": "IC Anna Frank- Montecchio M.1",
 "provincia": "Vicenza",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://ic1morbegno.edu.it/": {
 "codice": "SOIC81700Q",
@@ -181,7 +189,7 @@
 "nome": "I.C. 1 \"Spini Vanoni\" Morbegno",
 "provincia": "Sondrio",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://ic2viastelvio.edu.it/": {
 "codice": "MBIC8E2001",
@@ -189,7 +197,7 @@
 "nome": "Ii Via Stelvio",
 "provincia": "Monza E Della Brianza",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icadro.edu.it/": {
 "codice": "BSIC835008",
@@ -197,7 +205,7 @@
 "nome": "Ics \"Paolo Borsellino\" Adro",
 "provincia": "Brescia",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icadua.edu.it/": {
 "codice": "MBIC86300B",
@@ -229,7 +237,7 @@
 "nome": "IC Don Gnocchi",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icarquatavignole.edu.it/": {
 "codice": "ALIC81300L",
@@ -237,7 +245,7 @@
 "nome": "Arquata Scr. /Vignole Borbera",
 "provincia": "Alessandria",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icbarberacaccamo.edu.it/": {
 "codice": "PAIC8AF00B",
@@ -245,7 +253,7 @@
 "nome": "I.C. Caccamo - G. Barbera",
 "provincia": "Palermo",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icbarberacaccamo.edu.it/novita/albo_online_portal/": {
 "codice": "PAIC8AF00B",
@@ -253,7 +261,7 @@
 "nome": "I.C. Caccamo - G. Barbera",
 "provincia": "Palermo",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icbarberacaccamo.edu.it/novita/amministrazione_trasparente_portal/": {
 "codice": "PAIC8AF00B",
@@ -261,7 +269,7 @@
 "nome": "I.C. Caccamo - G. Barbera",
 "provincia": "Palermo",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icbariano.edu.it/": {
 "codice": "BGIC825005",
@@ -269,7 +277,7 @@
 "nome": "Bariano",
 "provincia": "Bergamo",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icbariano.edu.it/novita/albo_online_portal/": {
 "codice": "BGIC825005",
@@ -277,7 +285,7 @@
 "nome": "Bariano",
 "provincia": "Bergamo",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icbobbionovaro.edu.it/": {
 "codice": "TOIC8CF006",
@@ -285,7 +293,7 @@
 "nome": "I.C. Bobbio/Novaro - To",
 "provincia": "Torino",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://iccapriate.edu.it/": {
 "codice": "BGIC83400X",
@@ -293,7 +301,7 @@
 "nome": "Capriate S.G. \" A. Manzoni\"",
 "provincia": "Bergamo",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://iccaprino.edu.it/": {
 "codice": "VRIC86300E",
@@ -301,7 +309,7 @@
 "nome": "IC Caprino Veronese",
 "provincia": "Verona",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://iccarpaneto.edu.it/": {
 "codice": "PCIC814001",
@@ -309,7 +317,7 @@
 "nome": "IC Carpaneto",
 "provincia": "Piacenza",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://iccarpaneto.edu.it/novita/albo_online_portal/": {
 "codice": "PCIC814001",
@@ -317,7 +325,7 @@
 "nome": "IC Carpaneto",
 "provincia": "Piacenza",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://iccarpaneto.edu.it/novita/amministrazione_trasparente_portal/": {
 "codice": "PCIC814001",
@@ -325,7 +333,7 @@
 "nome": "IC Carpaneto",
 "provincia": "Piacenza",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://iccastellarquato.edu.it/": {
 "codice": "PCIC81500R",
@@ -333,7 +341,7 @@
 "nome": "IC Castell'Arquato",
 "provincia": "Piacenza",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://iccastelmaggiore.edu.it/": {
 "codice": "BOIC82200G",
@@ -341,7 +349,7 @@
 "nome": "I.C. Di Castel Maggiore",
 "provincia": "Bologna",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://iccetona.edu.it/": {
 "codice": "SIIC813007",
@@ -349,7 +357,7 @@
 "nome": "Istituto Comprensivo Cetona",
 "provincia": "Siena",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://iccittadella.edu.it/": {
 "codice": "PDIC896004",
@@ -373,7 +381,7 @@
 "nome": "I.C. Piero Angela",
 "provincia": "Roma",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://iccomorebbio.edu.it/": {
 "codice": "COIC84300D",
@@ -381,7 +389,7 @@
 "nome": "IST. Comprensivo Como Rebbio",
 "provincia": "Como",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://iccomorebbio.edu.it/giocare-con-lalbo-illustrato-incontro-di-formazione/": {
 "codice": "COIC84300D",
@@ -389,7 +397,7 @@
 "nome": "IST. Comprensivo Como Rebbio",
 "provincia": "Como",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://iccomorebbio.edu.it/novita/albo_online_portal/": {
 "codice": "COIC84300D",
@@ -397,7 +405,7 @@
 "nome": "IST. Comprensivo Como Rebbio",
 "provincia": "Como",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://iccomorebbio.edu.it/novita/amministrazione_trasparente_portal/": {
 "codice": "COIC84300D",
@@ -405,7 +413,7 @@
 "nome": "IST. Comprensivo Como Rebbio",
 "provincia": "Como",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://iccomorebbio.edu.it/tipologia-articolo/bacheca-sindacale/": {
 "codice": "COIC84300D",
@@ -413,7 +421,7 @@
 "nome": "IST. Comprensivo Como Rebbio",
 "provincia": "Como",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://iccomprensivofucecchio.edu.it/": {
 "codice": "FIIC87700T",
@@ -437,7 +445,7 @@
 "nome": "IC Cremona Uno",
 "provincia": "Cremona",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icfanellimarini.edu.it/": {
 "codice": "RMIC834003",
@@ -445,7 +453,7 @@
 "nome": "Fanelli - F.Marini",
 "provincia": "Roma",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icfornaraossola.edu.it/": {
 "codice": "NOIC82400C",
@@ -453,7 +461,7 @@
 "nome": "Fornara - Ossola - Novara",
 "provincia": "Novara",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icfucinipisa.edu.it/": {
 "codice": "PIIC82100L",
@@ -461,7 +469,7 @@
 "nome": "I.C. Fucini Pisa",
 "provincia": "Pisa",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icfucinipisa.edu.it/argomento/albo-sindacale/": {
 "codice": "PIIC82100L",
@@ -469,7 +477,7 @@
 "nome": "I.C. Fucini Pisa",
 "provincia": "Pisa",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icfucinipisa.edu.it/argomento/bacheca-sindacale/": {
 "codice": "PIIC82100L",
@@ -477,7 +485,7 @@
 "nome": "I.C. Fucini Pisa",
 "provincia": "Pisa",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icfucinipisa.edu.it/novita/albo_online_portal/": {
 "codice": "PIIC82100L",
@@ -485,7 +493,7 @@
 "nome": "I.C. Fucini Pisa",
 "provincia": "Pisa",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icfucinipisa.edu.it/tipologia-articolo/bacheca-sindacale/": {
 "codice": "PIIC82100L",
@@ -493,7 +501,7 @@
 "nome": "I.C. Fucini Pisa",
 "provincia": "Pisa",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icgaressio.edu.it/": {
 "codice": "CNIC83600N",
@@ -501,7 +509,7 @@
 "nome": "Garessio",
 "provincia": "Cuneo",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icgio23.edu.it/": {
 "codice": "MIIC8AY00D",
@@ -509,7 +517,7 @@
 "nome": "Giovanni Xxiii",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icgonnelli.edu.it/": {
 "codice": "FIIC809007",
@@ -525,7 +533,7 @@
 "nome": "I.C. Granarolo Dell'Emilia",
 "provincia": "Bologna",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icgranarolo.edu.it/bacheca-sindacale/": {
 "codice": "BOIC82600V",
@@ -533,7 +541,7 @@
 "nome": "I.C. Granarolo Dell'Emilia",
 "provincia": "Bologna",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icgranarolo.edu.it/novita/amministrazione_trasparente/": {
 "codice": "BOIC82600V",
@@ -541,7 +549,7 @@
 "nome": "I.C. Granarolo Dell'Emilia",
 "provincia": "Bologna",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icgranarolo.edu.it/tipologia-documento/albo-online/": {
 "codice": "BOIC82600V",
@@ -549,7 +557,7 @@
 "nome": "I.C. Granarolo Dell'Emilia",
 "provincia": "Bologna",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://iclodidue.edu.it/": {
 "codice": "LOIC812009",
@@ -581,7 +589,7 @@
 "nome": "IC Di Lozzo Atestino",
 "provincia": "Padova",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icmandellolario.edu.it/": {
 "codice": "LCIC80400L",
@@ -589,7 +597,7 @@
 "nome": "I.C. A. Volta Mandello D. L.",
 "provincia": "Lecco",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icmatteottiaprilia.edu.it/": {
 "codice": "LTIC824009",
@@ -597,7 +605,7 @@
 "nome": "I.C. Giacomo Matteotti",
 "provincia": "Latina",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icmontalcinigorgonzola.edu.it/": {
 "codice": "MIIC8BF00G",
@@ -605,7 +613,7 @@
 "nome": "IC Rita Levi Montalcini",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icmontalcinigorgonzola.edu.it/albo-fornitori/": {
 "codice": "MIIC8BF00G",
@@ -613,7 +621,7 @@
 "nome": "IC Rita Levi Montalcini",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icmoretta.edu.it/": {
 "codice": "CNIC83100E",
@@ -621,7 +629,7 @@
 "nome": "Moretta",
 "provincia": "Cuneo",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icmorosinimanara.edu.it/": {
 "codice": "MIIC8B9003",
@@ -637,7 +645,7 @@
 "nome": "I.C. Di Novate Mezzola",
 "provincia": "Sondrio",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icparcodegliacquedotti.edu.it/": {
 "codice": "RMIC8GG001",
@@ -645,7 +653,7 @@
 "nome": "IC Parco Degli Acquedotti",
 "provincia": "Roma",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icpegli.edu.it/": {
 "codice": "GEIC85000P",
@@ -661,7 +669,7 @@
 "nome": "I.C. Busto A.\"Pertini\"",
 "provincia": "Varese",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icpiazzacapri.edu.it/": {
 "codice": "RMIC8EF00X",
@@ -669,7 +677,7 @@
 "nome": "IC Piazza Capri",
 "provincia": "Roma",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icpierodellafrancescaarezzo.edu.it/": {
 "codice": "ARIC83600Q",
@@ -677,7 +685,7 @@
 "nome": "I.C. Piero Della Francesca",
 "provincia": "Arezzo",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icportalurago.edu.it/": {
 "codice": "COIC84100T",
@@ -685,7 +693,7 @@
 "nome": "I.C. Lurago D'Erba",
 "provincia": "Como",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icradiceovidio.edu.it/": {
 "codice": "AQIC835009",
@@ -693,7 +701,7 @@
 "nome": "I.C.\"Lombardo Radice\"-\"Ovidio\"",
 "provincia": "L'Aquila",
 "regione": "Abruzzo",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icrodarimarconi.edu.it/": {
 "codice": "APIC83700A",
@@ -701,7 +709,7 @@
 "nome": "Rodari-Marconi",
 "provincia": "Fermo",
 "regione": "Marche",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icrovigo4.edu.it/": {
 "codice": "ROIC81900G",
@@ -709,7 +717,7 @@
 "nome": "IC Rovigo 4",
 "provincia": "Rovigo",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icsagliana.edu.it/": {
 "codice": "PTIC808005",
@@ -717,7 +725,7 @@
 "nome": "Statale B.Sestini",
 "provincia": "Pistoia",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icsagliana.edu.it/novita/albo_online_portal/": {
 "codice": "PTIC808005",
@@ -725,7 +733,7 @@
 "nome": "Statale B.Sestini",
 "provincia": "Pistoia",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icsagliana.edu.it/novita/amministrazione_trasparente_portal/": {
 "codice": "PTIC808005",
@@ -733,7 +741,7 @@
 "nome": "Statale B.Sestini",
 "provincia": "Pistoia",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icsangiorgiodipiano.edu.it/": {
 "codice": "BOIC83400T",
@@ -741,7 +749,7 @@
 "nome": "I.C. Di San Giorgio Di Piano",
 "provincia": "Bologna",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icsantalucia.edu.it/bacheca-sindacale/": {
 "codice": "BGIC80800B",
@@ -749,7 +757,7 @@
 "nome": "Bergamo - S.Lucia",
 "provincia": "Bergamo",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icsassoferrato.edu.it/": {
 "codice": "ANIC806004",
@@ -757,7 +765,7 @@
 "nome": "Sassoferrato \"Bartolo Da Sass.\"",
 "provincia": "Ancona",
 "regione": "Marche",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icsassuolo4ovest.edu.it/": {
 "codice": "MOIC82700L",
@@ -765,7 +773,7 @@
 "nome": "I.C. Sassuolo 4^ Ovest",
 "provincia": "Modena",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icsbarano.edu.it/": {
 "codice": "NAIC839007",
@@ -773,7 +781,7 @@
 "nome": "I.C. S. Anna Baldino-Barano",
 "provincia": "Napoli",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icscastano.edu.it/": {
 "codice": "MIIC837002",
@@ -781,7 +789,7 @@
 "nome": "IC G. Falcone E P. Borsellino",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icsfdm.edu.it/": {
 "codice": "LUIC81700N",
@@ -789,7 +797,7 @@
 "nome": "Ist.Comprensivo Forte Dei Marmi",
 "provincia": "Lucca",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icsfinomornasco.edu.it/": {
 "codice": "COIC83600A",
@@ -797,7 +805,7 @@
 "nome": "I.C. Fino Mornasco",
 "provincia": "Como",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icsfinomornasco.edu.it/novita/albo_online_portal/": {
 "codice": "COIC83600A",
@@ -805,7 +813,7 @@
 "nome": "I.C. Fino Mornasco",
 "provincia": "Como",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icsfinomornasco.edu.it/novita/amministrazione_trasparente_portal/": {
 "codice": "COIC83600A",
@@ -813,7 +821,7 @@
 "nome": "I.C. Fino Mornasco",
 "provincia": "Como",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icslendinara.edu.it/": {
 "codice": "ROIC81700X",
@@ -821,7 +829,7 @@
 "nome": "IC Di Lendinara",
 "provincia": "Rovigo",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icsp.edu.it/": {
 "codice": "LUIC84100E",
@@ -829,7 +837,7 @@
 "nome": "Porcari Montecarlo Villa Basili",
 "provincia": "Lucca",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icsp.edu.it/albo-online/": {
 "codice": "LUIC84100E",
@@ -837,7 +845,7 @@
 "nome": "Porcari Montecarlo Villa Basili",
 "provincia": "Lucca",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icsvolterra.edu.it/": {
 "codice": "PIIC84200N",
@@ -845,7 +853,7 @@
 "nome": "I.C. Volterra",
 "provincia": "Pisa",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://ictortonab.edu.it/": {
 "codice": "ALIC83500D",
@@ -853,7 +861,7 @@
 "nome": "Tortona \"B\" - IST. Compr.",
 "provincia": "Alessandria",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://ictortonab.edu.it/bacheca-degli-interpelli/": {
 "codice": "ALIC83500D",
@@ -861,7 +869,7 @@
 "nome": "Tortona \"B\" - IST. Compr.",
 "provincia": "Alessandria",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://ictortonab.edu.it/novita/albo_online_portal/": {
 "codice": "ALIC83500D",
@@ -869,7 +877,7 @@
 "nome": "Tortona \"B\" - IST. Compr.",
 "provincia": "Alessandria",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://ictortonab.edu.it/novita/amministrazione_trasparente_portal/": {
 "codice": "ALIC83500D",
@@ -877,7 +885,7 @@
 "nome": "Tortona \"B\" - IST. Compr.",
 "provincia": "Alessandria",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://ictortonab.edu.it/novita/bacheca_sindacale_portal/": {
 "codice": "ALIC83500D",
@@ -885,7 +893,7 @@
 "nome": "Tortona \"B\" - IST. Compr.",
 "provincia": "Alessandria",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://ictremezzina.edu.it/": {
 "codice": "COIC84900C",
@@ -893,7 +901,7 @@
 "nome": "I.C. Della Tremezzina",
 "provincia": "Como",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://ictrilliniosimo.edu.it/": {
 "codice": "ANIC84400V",
@@ -901,7 +909,15 @@
 "nome": "Osimo \"F.Lli Trillini\"",
 "provincia": "Ancona",
 "regione": "Marche",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
+},
+"https://icvgalilei.edu.it/": {
+"codice": "PIIC832003",
+"comune": "Pisa",
+"nome": "I.C. V.Galilei Pisa",
+"provincia": "Pisa",
+"regione": "Toscana",
+"visto": "2026-11-27"
 },
 "https://icviaboccea590.edu.it/": {
 "codice": "RMIC84400N",
@@ -909,7 +925,7 @@
 "nome": "Via Boccea 590",
 "provincia": "Roma",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://icvillorbapovegliano.edu.it/": {
 "codice": "TVIC876001",
@@ -917,7 +933,7 @@
 "nome": "IC Villorba E Povegliano",
 "provincia": "Treviso",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://iis-russell.edu.it/": {
 "codice": "MIIS03900T",
@@ -925,7 +941,7 @@
 "nome": "B. Russell",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://iosvizzini.edu.it/": {
 "codice": "CTIC85900R",
@@ -933,7 +949,7 @@
 "nome": "Istituto Comprensivo G.Verga",
 "provincia": "Catania",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://iscgaribaldi.edu.it/": {
 "codice": "MIIC8AR001",
@@ -941,7 +957,7 @@
 "nome": "IC G. Garibaldi",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://isisfermi.edu.it/": {
 "codice": "ARIS01200B",
@@ -949,7 +965,7 @@
 "nome": "Enrico Fermi",
 "provincia": "Arezzo",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://istituto-marconi.edu.it/": {
 "codice": "LIIC81000C",
@@ -965,7 +981,7 @@
 "nome": "I.C. Anzio Ii",
 "provincia": "Roma",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://istitutocomprensivoprimosora.edu.it/": {
 "codice": "FRIC849002",
@@ -973,7 +989,7 @@
 "nome": "I.C. 1^ Sora",
 "provincia": "Frosinone",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://istitutodeandre.edu.it/": {
 "codice": "PIIC83900T",
@@ -997,7 +1013,7 @@
 "nome": "Liceo \"Carlo Cafiero\"",
 "provincia": "Barletta-Andria-Trani",
 "regione": "Puglia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://liceocavalleri.edu.it/": {
 "codice": "MIPS290006",
@@ -1013,7 +1029,7 @@
 "nome": "Liceo Cl/Ling/Sc. Um. \"Motzo\" Quartu S.E",
 "provincia": "Cagliari",
 "regione": "Sardegna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://liceoporta.edu.it/": {
 "codice": "COPM030002",
@@ -1021,7 +1037,7 @@
 "nome": "Liceo Statale \" Carlo Porta \" Erba",
 "provincia": "Como",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://liceotco.edu.it/": {
 "codice": "APPS030005",
@@ -1029,7 +1045,7 @@
 "nome": "Liceo Scientifico Statale \"T. C. Onesti\"",
 "provincia": "Fermo",
 "regione": "Marche",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://liceovoltacomo.edu.it/": {
 "codice": "COPC020007",
@@ -1045,7 +1061,7 @@
 "nome": "IC Marco Polo",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://massarosadue.edu.it/": {
 "codice": "LUIC83100X",
@@ -1053,7 +1069,7 @@
 "nome": "Armando Sforzi Ex Massarosa 2",
 "provincia": "Lucca",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://massarosadue.edu.it/albo-online/": {
 "codice": "LUIC83100X",
@@ -1061,7 +1077,7 @@
 "nome": "Armando Sforzi Ex Massarosa 2",
 "provincia": "Lucca",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://massarosadue.edu.it/argomento/albo-sindacale/": {
 "codice": "LUIC83100X",
@@ -1069,7 +1085,7 @@
 "nome": "Armando Sforzi Ex Massarosa 2",
 "provincia": "Lucca",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://massarosadue.edu.it/argomento/gare-sportive/": {
 "codice": "LUIC83100X",
@@ -1077,7 +1093,7 @@
 "nome": "Armando Sforzi Ex Massarosa 2",
 "provincia": "Lucca",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://massarosadue.edu.it/tipologia-articolo/albo-sindacale/": {
 "codice": "LUIC83100X",
@@ -1085,7 +1101,7 @@
 "nome": "Armando Sforzi Ex Massarosa 2",
 "provincia": "Lucca",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nerviferrari.edu.it/": {
 "codice": "SOPS050001",
@@ -1093,7 +1109,7 @@
 "nome": "Liceo P.Nervi - G.Ferrari",
 "provincia": "Sondrio",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/ANIC83800G/5": {
 "codice": "ANIC83800G",
@@ -1101,7 +1117,7 @@
 "nome": "\"Don Costantini - L.Bartolini\"",
 "provincia": "Ancona",
 "regione": "Marche",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/APPS030005/1/IN_PUBBLICAZIONE/0/show": {
 "codice": "APPS030005",
@@ -1109,7 +1125,7 @@
 "nome": "Liceo Scientifico Statale \"T. C. Onesti\"",
 "provincia": "Fermo",
 "regione": "Marche",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/ARIC818006/1": {
 "codice": "ARIC818006",
@@ -1117,7 +1133,7 @@
 "nome": "I. Omnicomprensivo Marcelli",
 "provincia": "Arezzo",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/BGIC825005/5": {
 "codice": "BGIC825005",
@@ -1125,7 +1141,7 @@
 "nome": "Bariano",
 "provincia": "Bergamo",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/BGIC84900N/5/IN_PUBBLICAZIONE/0/show": {
 "codice": "BGIC84900N",
@@ -1133,7 +1149,7 @@
 "nome": "Gorlago - Aldo Moro",
 "provincia": "Bergamo",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/BGIC85100N/1": {
 "codice": "BGIC85100N",
@@ -1141,7 +1157,7 @@
 "nome": "Gromo - Sorelle De Marchi",
 "provincia": "Bergamo",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/BGIC853009/5/IN_PUBBLICAZIONE/0/show": {
 "codice": "BGIC853009",
@@ -1149,7 +1165,7 @@
 "nome": "Leffe",
 "provincia": "Bergamo",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/BGIC87900D/11/IN_PUBBLICAZIONE/0/show": {
 "codice": "BGIC87900D",
@@ -1157,7 +1173,7 @@
 "nome": "Stezzano \"Caroli\"",
 "provincia": "Bergamo",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/BGIC8AE00E/5/IN_PUBBLICAZIONE/0/show": {
 "codice": "BGIC8AE00E",
@@ -1165,7 +1181,7 @@
 "nome": "Treviglio \"De Amicis\"",
 "provincia": "Bergamo",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/BOIC84200R/3/IN_PUBBLICAZIONE/0/show": {
 "codice": "BOIC84200R",
@@ -1173,7 +1189,7 @@
 "nome": "I.C. N.5 Via Pirandello - Imola",
 "provincia": "Bologna",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/BOIC85600P/3/0/0/show": {
 "codice": "BOIC85600P",
@@ -1181,7 +1197,7 @@
 "nome": "I.C. N.7 Via Vivaldi - Imola",
 "provincia": "Bologna",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/BSIC835008/1/IN_PUBBLICAZIONE/0/show": {
 "codice": "BSIC835008",
@@ -1189,7 +1205,7 @@
 "nome": "Ics \"Paolo Borsellino\" Adro",
 "provincia": "Brescia",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/BSIC83900G/1/IN_PUBBLICAZIONE/0/show": {
 "codice": "BSIC83900G",
@@ -1197,7 +1213,7 @@
 "nome": "IST. Comprensivo Coccaglio",
 "provincia": "Brescia",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/CNIC825007/3": {
 "codice": "CNIC825007",
@@ -1205,7 +1221,7 @@
 "nome": "Cherasco \"Sebastiano Taricco\"",
 "provincia": "Cuneo",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/ENIC810007/1": {
 "codice": "ENIC810007",
@@ -1221,7 +1237,7 @@
 "nome": "I.C. \"F. De Pisis\" - Ferrara",
 "provincia": "Ferrara",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/GEIC86500C/3": {
 "codice": "GEIC86500C",
@@ -1229,7 +1245,7 @@
 "nome": "I.C. G.B. Della Torre",
 "provincia": "Genova",
 "regione": "Liguria",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/KRIC820006/1": {
 "codice": "KRIC820006",
@@ -1237,7 +1253,7 @@
 "nome": "I.O. \"L. Lilio\" Ciro'",
 "provincia": "Crotone",
 "regione": "Calabria",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/MIIC858003/6/IN_PUBBLICAZIONE/0/show": {
 "codice": "MIIC858003",
@@ -1245,7 +1261,7 @@
 "nome": "IC E. De Amicis",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/MOIC80700B/3": {
 "codice": "MOIC80700B",
@@ -1253,7 +1269,7 @@
 "nome": "I.C. Sestola",
 "provincia": "Modena",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/MOIC82700L/3": {
 "codice": "MOIC82700L",
@@ -1261,7 +1277,7 @@
 "nome": "I.C. Sassuolo 4^ Ovest",
 "provincia": "Modena",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/PCIC80700T/4": {
 "codice": "PCIC80700T",
@@ -1269,7 +1285,7 @@
 "nome": "IC Della Val Nure",
 "provincia": "Piacenza",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/PDIC84700V/4": {
 "codice": "PDIC84700V",
@@ -1277,7 +1293,7 @@
 "nome": "IC Noventa Padovana G.Santini",
 "provincia": "Padova",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/PRIC83800A/7/IN_PUBBLICAZIONE/0/show": {
 "codice": "PRIC83800A",
@@ -1285,7 +1301,7 @@
 "nome": "I.C. Langhirano \"Fermi Ferrari\"",
 "provincia": "Parma",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/REIC81500Q/1": {
 "codice": "REIC81500Q",
@@ -1293,7 +1309,7 @@
 "nome": "Toano-Foscolo",
 "provincia": "Reggio Emilia",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/SVIC810009/5": {
 "codice": "SVIC810009",
@@ -1301,7 +1317,7 @@
 "nome": "I. C. Vado Ligure",
 "provincia": "Savona",
 "regione": "Liguria",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/TRIC81400C/3": {
 "codice": "TRIC81400C",
@@ -1309,7 +1325,7 @@
 "nome": "I.C. Acquasparta",
 "provincia": "Terni",
 "regione": "Umbria",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/TSPC02000N/4": {
 "codice": "TSPC02000N",
@@ -1317,7 +1333,7 @@
 "nome": "Francesco Petrarca",
 "provincia": "Trieste",
 "regione": "Friuli-Venezia G.",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/TVIC83700A/5/IN_PUBBLICAZIONE/0/show": {
 "codice": "TVIC83700A",
@@ -1333,7 +1349,7 @@
 "nome": "Tolmezzo",
 "provincia": "Udine",
 "regione": "Friuli-Venezia G.",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/UDIC856004/1": {
 "codice": "UDIC856004",
@@ -1349,7 +1365,7 @@
 "nome": "Ic\"R. Fabiani\"Barbarano-Mossano",
 "provincia": "Vicenza",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://nuvola.madisoft.it/bacheca-digitale/bacheca/VIIC876008/1/IN_PUBBLICAZIONE/0/show#new_tab": {
 "codice": "VIIC876008",
@@ -1357,7 +1373,7 @@
 "nome": "IC Anna Frank- Montecchio M.1",
 "provincia": "Vicenza",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://omnicomprensivosanginesio.edu.it/": {
 "codice": "MCIC80600T",
@@ -1373,7 +1389,7 @@
 "nome": "\"M. Polo - R. Bonghi\"",
 "provincia": "Perugia",
 "regione": "Umbria",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://polobonghi.it/albo-online-2/": {
 "codice": "PGIS02900P",
@@ -1381,7 +1397,7 @@
 "nome": "\"M. Polo - R. Bonghi\"",
 "provincia": "Perugia",
 "regione": "Umbria",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://polobonghi.it/amministrazione-trasparente-2/": {
 "codice": "PGIS02900P",
@@ -1389,7 +1405,7 @@
 "nome": "\"M. Polo - R. Bonghi\"",
 "provincia": "Perugia",
 "regione": "Umbria",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://polobonghi.it/tipologia-articolo/albo-sindacale/": {
 "codice": "PGIS02900P",
@@ -1397,7 +1413,7 @@
 "nome": "\"M. Polo - R. Bonghi\"",
 "provincia": "Perugia",
 "regione": "Umbria",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://pompeisecondocircolo.edu.it/": {
 "codice": "NAEE220002",
@@ -1405,7 +1421,7 @@
 "nome": "Cd2 \"Celentano\" Pompei",
 "provincia": "Napoli",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://scuolacilea.edu.it/": {
 "codice": "RMIC8FR002",
@@ -1421,7 +1437,7 @@
 "nome": "I. Omnicomprensivo Marcelli",
 "provincia": "Arezzo",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://scuolafoiano.edu.it/novita/albo-online/": {
 "codice": "ARIC818006",
@@ -1429,7 +1445,7 @@
 "nome": "I. Omnicomprensivo Marcelli",
 "provincia": "Arezzo",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://scuolafoiano.edu.it/novita/amministrazione-trasparente-2/": {
 "codice": "ARIC818006",
@@ -1437,7 +1453,7 @@
 "nome": "I. Omnicomprensivo Marcelli",
 "provincia": "Arezzo",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://scuolavedano.edu.it/": {
 "codice": "VAIC86300C",
@@ -1445,7 +1461,7 @@
 "nome": "I.C. Vedano Olona \"S.Pellico\"",
 "provincia": "Varese",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://scuolavedano.edu.it/tipologia-articolo/avvisi/": {
 "codice": "VAIC86300C",
@@ -1453,7 +1469,7 @@
 "nome": "I.C. Vedano Olona \"S.Pellico\"",
 "provincia": "Varese",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://scuolavedano.edu.it/vademecum-illustrativo-delle-note-tecniche-concernenti-le-indicazioni-finalizzate-a-mitigare-gli-effetti-delle-infezioni-da-sars-cov-2-in-ambito-scolastico-nei-servizi-educativi-per-linfanzi/": {
 "codice": "VAIC86300C",
@@ -1461,7 +1477,7 @@
 "nome": "I.C. Vedano Olona \"S.Pellico\"",
 "provincia": "Varese",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://scuoledellojato.edu.it/": {
 "codice": "PAIC884002",
@@ -1469,7 +1485,7 @@
 "nome": "I.C.S.Giuseppe Jato/S.Cipirello",
 "provincia": "Palermo",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://scuolepelago.edu.it/": {
 "codice": "FIIC83100C",
@@ -1477,7 +1493,7 @@
 "nome": "Istituto Comprensivo Pelago",
 "provincia": "Firenze",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://sommadue.edu.it/": {
 "codice": "NAEE21400P",
@@ -1485,7 +1501,7 @@
 "nome": "Somma Ves. 2 - Don Minzoni",
 "provincia": "Napoli",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://sommadue.edu.it/novita/albo_online_portal/": {
 "codice": "NAEE21400P",
@@ -1493,7 +1509,7 @@
 "nome": "Somma Ves. 2 - Don Minzoni",
 "provincia": "Napoli",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://sommadue.edu.it/novita/amministrazione_trasparente_portal/": {
 "codice": "NAEE21400P",
@@ -1501,7 +1517,7 @@
 "nome": "Somma Ves. 2 - Don Minzoni",
 "provincia": "Napoli",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://sommadue.edu.it/tipologia-articolo/bacheca-sindacale/": {
 "codice": "NAEE21400P",
@@ -1509,7 +1525,15 @@
 "nome": "Somma Ves. 2 - Don Minzoni",
 "provincia": "Napoli",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
+},
+"https://www.aldomorosaronno.edu.it/": {
+"codice": "VAIC84800A",
+"comune": "Saronno",
+"nome": "I. C. Saronno \"A.Moro\"",
+"provincia": "Varese",
+"regione": "Lombardia",
+"visto": "2026-11-27"
 },
 "https://www.avogadro-vinci.edu.it/": {
 "codice": "SITF05000T",
@@ -1517,7 +1541,7 @@
 "nome": "Istituto Di Istruzione Sup. \"Avogadro\"",
 "provincia": "Siena",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.bagnoloscuole.edu.it/albo-online/": {
 "codice": "BSIC844003",
@@ -1525,7 +1549,7 @@
 "nome": "I. C. Bagnolo Mella",
 "provincia": "Brescia",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.castiglioneuno.edu.it/interpelli-avvisi-e-regolamento-per-il-reclutamento-dei-supplenti/": {
 "codice": "MNIC80800E",
@@ -1533,7 +1557,7 @@
 "nome": "I.C. Castiglione Stiviere 1",
 "provincia": "Mantova",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.cellinifirenze.edu.it/": {
 "codice": "FIIS00600X",
@@ -1541,7 +1565,7 @@
 "nome": "IS Benvenuto Cellini",
 "provincia": "Firenze",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.centrostorico.edu.it/wordpress2/": {
 "codice": "RNIC817007",
@@ -1549,7 +1573,7 @@
 "nome": "Centro Storico",
 "provincia": "Rimini",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.chinochini.edu.it/": {
 "codice": "FIIS02300N",
@@ -1557,7 +1581,7 @@
 "nome": "Chino Chini",
 "provincia": "Firenze",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.circolodidatticoeduardodefilippo.edu.it/": {
 "codice": "NAEE21900T",
@@ -1589,7 +1613,7 @@
 "nome": "I.C. Casapesenna-San Cipriano",
 "provincia": "Caserta",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.comprensivocassanomagnago2.edu.it/novita/albo-online/": {
 "codice": "VAIC81600V",
@@ -1597,7 +1621,7 @@
 "nome": "I.C. Cassano Magnago \"Ii\"",
 "provincia": "Varese",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.comprensivogalileimontopoli.it/": {
 "codice": "PIIC82200C",
@@ -1605,7 +1629,7 @@
 "nome": "I.C. G.Galilei Montopoli",
 "provincia": "Pisa",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.comprensivogalileimontopoli.it/albo-sindacale/": {
 "codice": "PIIC82200C",
@@ -1621,7 +1645,7 @@
 "nome": "I.C. G.Galilei Montopoli",
 "provincia": "Pisa",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.comprensivogalileimontopoli.it/argomento/bacheca-sindacale/": {
 "codice": "PIIC82200C",
@@ -1629,7 +1653,7 @@
 "nome": "I.C. G.Galilei Montopoli",
 "provincia": "Pisa",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.comprensivogaribaldiaprilia.edu.it/": {
 "codice": "LTIC83700B",
@@ -1637,7 +1661,7 @@
 "nome": "I.C. Garibaldi",
 "provincia": "Latina",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.comprensivonurri.edu.it/servizio/albo-pretorio/": {
 "codice": "CAIC8AC00P",
@@ -1645,7 +1669,7 @@
 "nome": "I.C. Nurri",
 "provincia": "Cagliari",
 "regione": "Sardegna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.comprensivoportoferraio.edu.it/": {
 "codice": "LIIC811008",
@@ -1653,7 +1677,7 @@
 "nome": "Sandro Pertini",
 "provincia": "Livorno",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.comprensivopuos.it/novita/albo-pretorio": {
 "codice": "BLIC822008",
@@ -1661,7 +1685,7 @@
 "nome": "IC Puos D'Alpago",
 "provincia": "Belluno",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.comprensivosamugheo.edu.it/": {
 "codice": "ORIC803004",
@@ -1669,7 +1693,7 @@
 "nome": "I.C. Samugheo",
 "provincia": "Oristano",
 "regione": "Sardegna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.comprensivovergiate.edu.it/": {
 "codice": "VAIC83400C",
@@ -1677,7 +1701,7 @@
 "nome": "I.C. Vergiate",
 "provincia": "Varese",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.convittocanopoleno.edu.it/": {
 "codice": "SSEE01100D",
@@ -1690,10 +1714,10 @@
 "https://www.convittocolletta.edu.it/": {
 "codice": "AVMM007002",
 "comune": "Avellino",
-"nome": "Istituzione Educativa P. COLLETTA",
+"nome": "Convitto Colletta Sec Di I Gr.",
 "provincia": "Avellino",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.convittocolletta.edu.it/category/avvisi/": {
 "codice": "AVMM007002",
@@ -1701,7 +1725,7 @@
 "nome": "Convitto Colletta Sec Di I Gr.",
 "provincia": "Avellino",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.cornaro.edu.it/": {
 "codice": "VERH020008",
@@ -1709,7 +1733,7 @@
 "nome": "Elena Cornaro",
 "provincia": "Venezia",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.cornaro.edu.it/argomento/bacheca-sindacale/": {
 "codice": "VERH020008",
@@ -1717,7 +1741,7 @@
 "nome": "Elena Cornaro",
 "provincia": "Venezia",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.cornaro.edu.it/novita/albo-online/": {
 "codice": "VERH020008",
@@ -1725,7 +1749,7 @@
 "nome": "Elena Cornaro",
 "provincia": "Venezia",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.cornaro.edu.it/tipologia-articolo/bacheca-sindacale/": {
 "codice": "VERH020008",
@@ -1733,7 +1757,7 @@
 "nome": "Elena Cornaro",
 "provincia": "Venezia",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.cpia-agrigento.edu.it/servizio/albo-online/": {
 "codice": "AGMM083009",
@@ -1741,7 +1765,7 @@
 "nome": "C.P.I.A.",
 "provincia": "Agrigento",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.cpia4torino.edu.it/": {
 "codice": "TOMM326007",
@@ -1749,7 +1773,7 @@
 "nome": "CPIA 4 Torino - A. Olivetti",
 "provincia": "Torino",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.cpiamantova.edu.it/": {
 "codice": "MNMM11600B",
@@ -1757,7 +1781,7 @@
 "nome": "C.P.I.A.",
 "provincia": "Mantova",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.dallachiesaspinelli.edu.it/": {
 "codice": "VBIS00400B",
@@ -1765,7 +1789,7 @@
 "nome": "IS \"Dalla Chiesa-Spinelli\"",
 "provincia": "Verbano-Cusio-Ossola",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.defranceschipacinotti.edu.it/": {
 "codice": "PTRA010008",
@@ -1773,7 +1797,7 @@
 "nome": "Ist.Prof \"De' Franceschi - A.Pacinotti\"",
 "provincia": "Pistoia",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.direzionedidattica-vignola.edu.it/": {
 "codice": "MOEE06000A",
@@ -1781,7 +1805,7 @@
 "nome": "D.D. Vignola",
 "provincia": "Modena",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.donmilanipertinimorante.edu.it/": {
 "codice": "TAIS04700T",
@@ -1789,7 +1813,7 @@
 "nome": "I.I.S.S. \"Don Milani-Pertini-E.Morante\"",
 "provincia": "Taranto",
 "regione": "Puglia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.ettoreconti.edu.it/albo_pretorio.asp": {
 "codice": "MITF290008",
@@ -1797,7 +1821,7 @@
 "nome": "Istituto Tecnico E Liceo - E. Conti",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.ettoreconti.edu.it/albo_pretorio_archivio.asp": {
 "codice": "MITF290008",
@@ -1805,7 +1829,7 @@
 "nome": "Istituto Tecnico E Liceo - E. Conti",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.ferrajolosiani.edu.it/": {
 "codice": "NAIC8GP002",
@@ -1813,7 +1837,7 @@
 "nome": "Acerra IC Ferrajolo-Siani",
 "provincia": "Napoli",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.giottoulivi.edu.it/": {
 "codice": "FIIS026005",
@@ -1821,7 +1845,7 @@
 "nome": "Giotto Ulivi",
 "provincia": "Firenze",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.gmarconi4.edu.it/servizio/albo-online/": {
 "codice": "NAEE332005",
@@ -1829,7 +1853,7 @@
 "nome": "Frattamaggiore 4 - Marconi",
 "provincia": "Napoli",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.ic1riccione.edu.it/": {
 "codice": "RNIC81400Q",
@@ -1837,7 +1861,7 @@
 "nome": "IC N. 1 Riccione",
 "provincia": "Rimini",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.ic2sassuolonord.edu.it/": {
 "codice": "MOIC829008",
@@ -1845,7 +1869,7 @@
 "nome": "I.C. Sassuolo 2^ Nord",
 "provincia": "Modena",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.ic2tortoli.edu.it/": {
 "codice": "NUIC87000B",
@@ -1853,7 +1877,7 @@
 "nome": "Tortoli' 2 - \"Monte Attu\"",
 "provincia": "Ogliastra",
 "regione": "Sardegna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.ic4delauzieresportici.edu.it/": {
 "codice": "NAIC8CC008",
@@ -1861,7 +1885,7 @@
 "nome": "Portici IC 4 De Lauzieres",
 "provincia": "Napoli",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icalbanopavona.edu.it/": {
 "codice": "RMIC8AX006",
@@ -1877,7 +1901,7 @@
 "nome": "I.C. Corso Matteotti Alfonsine",
 "provincia": "Ravenna",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icalfonsine.edu.it/albo-sindacale/": {
 "codice": "RAIC81200T",
@@ -1885,7 +1909,7 @@
 "nome": "I.C. Corso Matteotti Alfonsine",
 "provincia": "Ravenna",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icb.edu.it/": {
 "codice": "MIIC8GF00L",
@@ -1893,7 +1917,7 @@
 "nome": "IC Don Pino Puglisi",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icb.edu.it/albo-sindacale/": {
 "codice": "MIIC8GF00L",
@@ -1901,7 +1925,7 @@
 "nome": "IC Don Pino Puglisi",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icb.edu.it/amministrazione-trasparente/": {
 "codice": "MIIC8GF00L",
@@ -1909,7 +1933,7 @@
 "nome": "IC Don Pino Puglisi",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icb.edu.it/servizi/pubblicita-legale/": {
 "codice": "MIIC8GF00L",
@@ -1917,7 +1941,7 @@
 "nome": "IC Don Pino Puglisi",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icbeltrami.edu.it/": {
 "codice": "VBIC817009",
@@ -1925,7 +1949,7 @@
 "nome": "IC \"Filippo Maria Beltrami\"",
 "provincia": "Verbano-Cusio-Ossola",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icbovezzo.edu.it/novita/albo-pretorio": {
 "codice": "BSIC836004",
@@ -1933,7 +1957,7 @@
 "nome": "I.C. Bovezzo",
 "provincia": "Brescia",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icbredasesto.edu.it/": {
 "codice": "MIIC8EU00Q",
@@ -1941,7 +1965,7 @@
 "nome": "I.C.Breda",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icbredasesto.edu.it/albo-sindacale/": {
 "codice": "MIIC8EU00Q",
@@ -1949,7 +1973,7 @@
 "nome": "I.C.Breda",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icbrembate.edu.it/": {
 "codice": "BGIC82900C",
@@ -1957,7 +1981,7 @@
 "nome": "Brembate Sotto",
 "provincia": "Bergamo",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccaposele.edu.it/": {
 "codice": "AVIC871008",
@@ -1965,7 +1989,7 @@
 "nome": "Istituto Compr. \"F. De Sanctis\"",
 "provincia": "Avellino",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccarpineticasina.edu.it/": {
 "codice": "REIC826006",
@@ -1981,7 +2005,7 @@
 "nome": "I.C. \"Carrara E Paesi A Monte\"",
 "provincia": "Massa-Carrara",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccarraraepaesiamonte.it/albo-sindacale/": {
 "codice": "MSIC822004",
@@ -1997,7 +2021,7 @@
 "nome": "I.C. \"Carrara E Paesi A Monte\"",
 "provincia": "Massa-Carrara",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccarraraepaesiamonte.it/argomento/bacheca-sindacale/": {
 "codice": "MSIC822004",
@@ -2005,7 +2029,7 @@
 "nome": "I.C. \"Carrara E Paesi A Monte\"",
 "provincia": "Massa-Carrara",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccasanovacostantinopoli.edu.it/": {
 "codice": "NAIC8BV009",
@@ -2021,7 +2045,7 @@
 "nome": "Alda Merini",
 "provincia": "L'Aquila",
 "regione": "Abruzzo",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccattolica.edu.it/novita/albo-online/": {
 "codice": "RNIC804005",
@@ -2029,7 +2053,7 @@
 "nome": "IC Cattolica",
 "provincia": "Rimini",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccencenighe.edu.it/": {
 "codice": "BLIC82600G",
@@ -2037,7 +2061,7 @@
 "nome": "IC Cencenighe Agordino",
 "provincia": "Belluno",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccencenighe.edu.it/index.php/tipologia-documento/albo-online/": {
 "codice": "BLIC82600G",
@@ -2045,7 +2069,7 @@
 "nome": "IC Cencenighe Agordino",
 "provincia": "Belluno",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccencenighe.edu.it/index.php/tipologia-documento/albo_sindacale/": {
 "codice": "BLIC82600G",
@@ -2053,7 +2077,7 @@
 "nome": "IC Cencenighe Agordino",
 "provincia": "Belluno",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccermenate.edu.it/novita/albo-pretorio": {
 "codice": "COIC84700R",
@@ -2061,7 +2085,7 @@
 "nome": "I.C.Cermenate",
 "provincia": "Como",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccerretoguidi.edu.it/": {
 "codice": "FIIC867007",
@@ -2069,7 +2093,7 @@
 "nome": "Gino Strada",
 "provincia": "Firenze",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccervia2.edu.it/": {
 "codice": "RAIC829007",
@@ -2077,7 +2101,7 @@
 "nome": "I.C. Cervia 2",
 "provincia": "Ravenna",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccervia2.edu.it/argomento/albo-sindacale/": {
 "codice": "RAIC829007",
@@ -2085,7 +2109,7 @@
 "nome": "I.C. Cervia 2",
 "provincia": "Ravenna",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccervia2.edu.it/argomento/albo/": {
 "codice": "RAIC829007",
@@ -2093,7 +2117,7 @@
 "nome": "I.C. Cervia 2",
 "provincia": "Ravenna",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccervia2.edu.it/argomento/bacheca-sindacale/": {
 "codice": "RAIC829007",
@@ -2101,7 +2125,7 @@
 "nome": "I.C. Cervia 2",
 "provincia": "Ravenna",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccervia2.edu.it/novita/albo-online/": {
 "codice": "RAIC829007",
@@ -2109,7 +2133,7 @@
 "nome": "I.C. Cervia 2",
 "provincia": "Ravenna",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccocchilicciananardi.it/": {
 "codice": "MSIC81000T",
@@ -2117,7 +2141,7 @@
 "nome": "I.C. \"Cocchi\" Licciana Nardi",
 "provincia": "Massa-Carrara",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccocchilicciananardi.it/albo-sindacale/": {
 "codice": "MSIC81000T",
@@ -2125,7 +2149,7 @@
 "nome": "I.C. \"Cocchi\" Licciana Nardi",
 "provincia": "Massa-Carrara",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccocchilicciananardi.it/argomento/albo-sindacale/": {
 "codice": "MSIC81000T",
@@ -2133,7 +2157,7 @@
 "nome": "I.C. \"Cocchi\" Licciana Nardi",
 "provincia": "Massa-Carrara",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccodogne.edu.it/": {
 "codice": "TVIC84800R",
@@ -2141,7 +2165,7 @@
 "nome": "IC Codogne' E Gaiarine",
 "provincia": "Treviso",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccolozzabonfiglio.edu.it/": {
 "codice": "PAIC85100P",
@@ -2149,7 +2173,7 @@
 "nome": "I.C. G.A.Colozza /Bonfiglio-Pa",
 "provincia": "Palermo",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccolozzabonfiglio.edu.it/argomento/albo-sindacale/": {
 "codice": "PAIC85100P",
@@ -2157,7 +2181,7 @@
 "nome": "I.C. G.A.Colozza /Bonfiglio-Pa",
 "provincia": "Palermo",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccolozzabonfiglio.edu.it/argomento/albo/": {
 "codice": "PAIC85100P",
@@ -2165,7 +2189,7 @@
 "nome": "I.C. G.A.Colozza /Bonfiglio-Pa",
 "provincia": "Palermo",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccolozzabonfiglio.edu.it/novita/albo-online/": {
 "codice": "PAIC85100P",
@@ -2173,7 +2197,7 @@
 "nome": "I.C. G.A.Colozza /Bonfiglio-Pa",
 "provincia": "Palermo",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccolozzabonfiglio.edu.it/servizio/albo-online/": {
 "codice": "PAIC85100P",
@@ -2181,7 +2205,7 @@
 "nome": "I.C. G.A.Colozza /Bonfiglio-Pa",
 "provincia": "Palermo",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iccsmaleo.edu.it/": {
 "codice": "LOIC806002",
@@ -2189,7 +2213,7 @@
 "nome": "IC Aldo Moro Di Maleo",
 "provincia": "Lodi",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icdarfo2.edu.it/": {
 "codice": "BSIC864008",
@@ -2197,7 +2221,7 @@
 "nome": "Istituto Comprensivo Darfo 2",
 "provincia": "Brescia",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icdenza.edu.it/": {
 "codice": "NAIC847006",
@@ -2253,7 +2277,7 @@
 "nome": "IC Futura",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icgabrielimirano.edu.it/servizio/albo-online/": {
 "codice": "VEIC85600Q",
@@ -2277,7 +2301,7 @@
 "nome": "Gazzaniga",
 "provincia": "Bergamo",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icgazzaniga.edu.it/argomento/albo-sindacale/": {
 "codice": "BGIC84800T",
@@ -2285,7 +2309,7 @@
 "nome": "Gazzaniga",
 "provincia": "Bergamo",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icgazzaniga.edu.it/argomento/albo/": {
 "codice": "BGIC84800T",
@@ -2293,7 +2317,7 @@
 "nome": "Gazzaniga",
 "provincia": "Bergamo",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icgazzaniga.edu.it/servizio/albo-pretorio-online/": {
 "codice": "BGIC84800T",
@@ -2301,7 +2325,7 @@
 "nome": "Gazzaniga",
 "provincia": "Bergamo",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icgazzaniga.edu.it/servizio/albo-sindacale-rsu/": {
 "codice": "BGIC84800T",
@@ -2309,7 +2333,7 @@
 "nome": "Gazzaniga",
 "provincia": "Bergamo",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icgiovanni23isernia.edu.it/": {
 "codice": "ISIC822007",
@@ -2317,7 +2341,7 @@
 "nome": "IST. Comp. \"Giovanni Xxiii\"",
 "provincia": "Isernia",
 "regione": "Molise",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icgiovannipaoloii.edu.it/": {
 "codice": "RMIC841006",
@@ -2325,7 +2349,7 @@
 "nome": "I.C.Giovanni Paolo Ii",
 "provincia": "Roma",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icgiuseppegaribaldi.it/": {
 "codice": "RMIC8AH005",
@@ -2341,7 +2365,7 @@
 "nome": "I.C. \"G.Pagoto\" Erice",
 "provincia": "Trapani",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icgrossitreviglio.edu.it/": {
 "codice": "BGIC8AD00P",
@@ -2349,7 +2373,7 @@
 "nome": "Treviglio \"Grossi\"",
 "provincia": "Bergamo",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icimprunetaprimolevi.edu.it/servizio/albo-online/": {
 "codice": "FIIC824009",
@@ -2357,7 +2381,7 @@
 "nome": "Primo Levi",
 "provincia": "Firenze",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icivrea2.edu.it/": {
 "codice": "TOIC8AB00N",
@@ -2365,7 +2389,7 @@
 "nome": "I.C. Ivrea Ii",
 "provincia": "Torino",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icivrea2.edu.it/argomento/albo-sindacale/": {
 "codice": "TOIC8AB00N",
@@ -2373,7 +2397,7 @@
 "nome": "I.C. Ivrea Ii",
 "provincia": "Torino",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icivrea2.edu.it/argomento/albo/": {
 "codice": "TOIC8AB00N",
@@ -2381,7 +2405,7 @@
 "nome": "I.C. Ivrea Ii",
 "provincia": "Torino",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icivrea2.edu.it/argomento/bacheca-sindacale/": {
 "codice": "TOIC8AB00N",
@@ -2389,7 +2413,7 @@
 "nome": "I.C. Ivrea Ii",
 "provincia": "Torino",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icivrea2.edu.it/servizio/albo-online/": {
 "codice": "TOIC8AB00N",
@@ -2397,7 +2421,7 @@
 "nome": "I.C. Ivrea Ii",
 "provincia": "Torino",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iclapira.edu.it/novita/albo-pretorio": {
 "codice": "BSIC8AF00V",
@@ -2413,7 +2437,7 @@
 "nome": "Enrico Toti",
 "provincia": "Monza E Della Brianza",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icleonardodavincivenezia.edu.it/": {
 "codice": "VEIC87300D",
@@ -2421,7 +2445,7 @@
 "nome": "I.C. Leonardo Da Vinci",
 "provincia": "Venezia",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icleonardodavincivenezia.edu.it/albo-online/": {
 "codice": "VEIC87300D",
@@ -2429,7 +2453,7 @@
 "nome": "I.C. Leonardo Da Vinci",
 "provincia": "Venezia",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icleonardodavincivenezia.edu.it/amministrazione-trasparente-2/": {
 "codice": "VEIC87300D",
@@ -2437,7 +2461,7 @@
 "nome": "I.C. Leonardo Da Vinci",
 "provincia": "Venezia",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icleonardodavincivenezia.edu.it/bacheca-sindacale-ic-da-vinci/": {
 "codice": "VEIC87300D",
@@ -2445,7 +2469,7 @@
 "nome": "I.C. Leonardo Da Vinci",
 "provincia": "Venezia",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icleonardodavincivenezia.edu.it/tipologia-documento/albo-online/": {
 "codice": "VEIC87300D",
@@ -2453,7 +2477,7 @@
 "nome": "I.C. Leonardo Da Vinci",
 "provincia": "Venezia",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iclodiprimo.edu.it/": {
 "codice": "LOIC81100D",
@@ -2461,7 +2485,7 @@
 "nome": "IC Di Lodi I",
 "provincia": "Lodi",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iclodiprimo.edu.it/albo-sindacale/": {
 "codice": "LOIC81100D",
@@ -2469,7 +2493,7 @@
 "nome": "IC Di Lodi I",
 "provincia": "Lodi",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iclodiprimo.edu.it/argomento/albo-sindacale/": {
 "codice": "LOIC81100D",
@@ -2477,7 +2501,7 @@
 "nome": "IC Di Lodi I",
 "provincia": "Lodi",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iclodiprimo.edu.it/servizio/la-segreteria-comunica/": {
 "codice": "LOIC81100D",
@@ -2493,7 +2517,7 @@
 "nome": "Via Luca Ghini",
 "provincia": "Roma",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iclugagnanovaldarda.edu.it/": {
 "codice": "PCIC80400A",
@@ -2501,7 +2525,7 @@
 "nome": "IC Lugagnano",
 "provincia": "Piacenza",
 "regione": "Emilia Romagna",
-"visto": "2026-11-24"
+"visto": "2026-11-27"
 },
 "https://www.icluiginono.edu.it/": {
 "codice": "VEIC868002",
@@ -2509,7 +2533,7 @@
 "nome": "I.C. Luigi Nono",
 "provincia": "Venezia",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icluiginono.edu.it/argomento/albo-sindacale/": {
 "codice": "VEIC868002",
@@ -2517,7 +2541,7 @@
 "nome": "I.C. Luigi Nono",
 "provincia": "Venezia",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icmarinadicerveteri.edu.it/": {
 "codice": "RMIC891007",
@@ -2525,7 +2549,7 @@
 "nome": "Marina Di Cerveteri",
 "provincia": "Roma",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icmede.edu.it/": {
 "codice": "PVIC80400C",
@@ -2533,7 +2557,7 @@
 "nome": "IC Mede",
 "provincia": "Pavia",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icmontezemolo.edu.it/": {
 "codice": "RMIC83000Q",
@@ -2541,7 +2565,7 @@
 "nome": "Giuseppe Montezemolo",
 "provincia": "Roma",
 "regione": "Lazio",
-"visto": "2026-11-24"
+"visto": "2026-11-27"
 },
 "https://www.icmorra.edu.it/": {
 "codice": "MTIC83400D",
@@ -2549,7 +2573,7 @@
 "nome": "I.C. Valsinni - Tursi",
 "provincia": "Matera",
 "regione": "Basilicata",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icnegliasavarese.edu.it/": {
 "codice": "ENIC82000T",
@@ -2557,7 +2581,7 @@
 "nome": "I.C. \"Neglia-Savarese\"",
 "provincia": "Enna",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icnegliasavarese.edu.it/albo-sindacale/": {
 "codice": "ENIC82000T",
@@ -2565,7 +2589,7 @@
 "nome": "I.C. \"Neglia-Savarese\"",
 "provincia": "Enna",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icnegliasavarese.edu.it/argomento/albo-sindacale/": {
 "codice": "ENIC82000T",
@@ -2573,7 +2597,7 @@
 "nome": "I.C. \"Neglia-Savarese\"",
 "provincia": "Enna",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icnegliasavarese.edu.it/argomento/bacheca-sindacale/": {
 "codice": "ENIC82000T",
@@ -2581,7 +2605,7 @@
 "nome": "I.C. \"Neglia-Savarese\"",
 "provincia": "Enna",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icnichelinouno.edu.it/": {
 "codice": "TOIC8A5005",
@@ -2589,7 +2613,7 @@
 "nome": "I.C. Nichelino I",
 "provincia": "Torino",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icnichelinouno.edu.it/argomento/albo-sindacale/": {
 "codice": "TOIC8A5005",
@@ -2597,7 +2621,7 @@
 "nome": "I.C. Nichelino I",
 "provincia": "Torino",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icnichelinouno.edu.it/la-segreteria-comunica/?cat=6503253919c2426ee58d90db": {
 "codice": "TOIC8A5005",
@@ -2605,7 +2629,7 @@
 "nome": "I.C. Nichelino I",
 "provincia": "Torino",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icorosei.edu.it/": {
 "codice": "NUIC877006",
@@ -2613,7 +2637,7 @@
 "nome": "Orosei - \"G.A. Muggianu\"",
 "provincia": "Nuoro",
 "regione": "Sardegna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icpaceco.edu.it/index.php/relazioni-sindacali/bacheca-sindacale": {
 "codice": "TPIC83300L",
@@ -2621,7 +2645,7 @@
 "nome": "I.C. \"Giovanni Xxiii\" Paceco",
 "provincia": "Trapani",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icpaoloterzo.edu.it/": {
 "codice": "VTIC804009",
@@ -2629,7 +2653,7 @@
 "nome": "Paolo Iii Canino",
 "provincia": "Viterbo",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icparri-vian.edu.it/": {
 "codice": "TOIC8BR003",
@@ -2637,7 +2661,7 @@
 "nome": "I.C. Parri/Vian - To",
 "provincia": "Torino",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icpascolicappuccini.edu.it/": {
 "codice": "BAIC838006",
@@ -2653,7 +2677,7 @@
 "nome": "Istituto Comprensivo \"P.Tola\"",
 "provincia": "Sassari",
 "regione": "Sardegna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icpeccioli.it/": {
 "codice": "PIIC81300N",
@@ -2661,7 +2685,7 @@
 "nome": "I.C. Fra D.Da Peccioli",
 "provincia": "Pisa",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icpennabilli.edu.it/": {
 "codice": "RNIC812004",
@@ -2669,7 +2693,7 @@
 "nome": "IC Pennabilli",
 "provincia": "Rimini",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icperottitoscanini.edu.it/?cat=1": {
 "codice": "TOIC8CE00A",
@@ -2677,7 +2701,7 @@
 "nome": "I.C. Perotti/Toscanini - To",
 "provincia": "Torino",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icpestalozzi.edu.it/albo-online/": {
 "codice": "RMIC8A9001",
@@ -2685,7 +2709,7 @@
 "nome": "Enrico Pestalozzi",
 "provincia": "Roma",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icpicerno.edu.it/": {
 "codice": "PZIC86200E",
@@ -2693,7 +2717,7 @@
 "nome": "I.C. Picerno",
 "provincia": "Potenza",
 "regione": "Basilicata",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icpicerno.edu.it/13-amministrazione-trasparente/3-amministrazione-trasparente.html": {
 "codice": "PZIC86200E",
@@ -2701,7 +2725,7 @@
 "nome": "I.C. Picerno",
 "provincia": "Potenza",
 "regione": "Basilicata",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icpicerno.edu.it/albo-pretorio-ricerca.html": {
 "codice": "PZIC86200E",
@@ -2709,7 +2733,7 @@
 "nome": "I.C. Picerno",
 "provincia": "Potenza",
 "regione": "Basilicata",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icpicerno.edu.it/bacheca-sindacale.html": {
 "codice": "PZIC86200E",
@@ -2717,7 +2741,7 @@
 "nome": "I.C. Picerno",
 "provincia": "Potenza",
 "regione": "Basilicata",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icpicerno.edu.it/component/chronoconnectivity5/?cont=lists&act=index&ccname=albo_pretorio": {
 "codice": "PZIC86200E",
@@ -2725,7 +2749,7 @@
 "nome": "I.C. Picerno",
 "provincia": "Potenza",
 "regione": "Basilicata",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icpietraligure.edu.it/": {
 "codice": "SVIC817004",
@@ -2733,7 +2757,7 @@
 "nome": "I. C. Pietra Ligure",
 "provincia": "Savona",
 "regione": "Liguria",
-"visto": "2026-11-24"
+"visto": "2026-11-27"
 },
 "https://www.icpontalpi.edu.it/novita/albo-pretorio": {
 "codice": "BLIC823004",
@@ -2741,7 +2765,7 @@
 "nome": "IC Ponte Nelle Alpi",
 "provincia": "Belluno",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icpontenossa.edu.it/": {
 "codice": "BGIC86400Q",
@@ -2749,7 +2773,7 @@
 "nome": "Ponte Nossa",
 "provincia": "Bergamo",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icpuccini.edu.it/": {
 "codice": "FIIC854005",
@@ -2757,7 +2781,15 @@
 "nome": "Puccini",
 "provincia": "Firenze",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
+},
+"https://www.icquarto.edu.it/": {
+"codice": "GEIC859005",
+"comune": "Genova",
+"nome": "I.C. Quarto",
+"provincia": "Genova",
+"regione": "Liguria",
+"visto": "2026-11-27"
 },
 "https://www.icraffaello.edu.it/": {
 "codice": "RMIC83700E",
@@ -2773,7 +2805,7 @@
 "nome": "IC Riccardo Massa",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icriccardomassa.edu.it/argomento/albo-sindacale/": {
 "codice": "MIIC8C300P",
@@ -2781,7 +2813,7 @@
 "nome": "IC Riccardo Massa",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icriccardomassa.edu.it/novita/bacheca-sindacale/": {
 "codice": "MIIC8C300P",
@@ -2789,7 +2821,7 @@
 "nome": "IC Riccardo Massa",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icriccardomassa.edu.it/novita/pubblicita-legale/": {
 "codice": "MIIC8C300P",
@@ -2797,7 +2829,7 @@
 "nome": "IC Riccardo Massa",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icriccardomassa.edu.it/novita/pubblicita-legale/amministrazione-trasparente/": {
 "codice": "MIIC8C300P",
@@ -2805,7 +2837,7 @@
 "nome": "IC Riccardo Massa",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icrodarisanbiagio.edu.it/": {
 "codice": "RGIC81500A",
@@ -2813,7 +2845,7 @@
 "nome": "Gianni Rodari - San Biagio",
 "provincia": "Ragusa",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icrossano2.edu.it/": {
 "codice": "CSIC8AN00X",
@@ -2821,7 +2853,7 @@
 "nome": "IC Rossano Ii",
 "provincia": "Cosenza",
 "regione": "Calabria",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icruggieroterzocircolo.edu.it/": {
 "codice": "CEIC8A000N",
@@ -2837,7 +2869,7 @@
 "nome": "Na - I.C. 88 E. De Filippo",
 "provincia": "Napoli",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icsanfrancescopetrarca.edu.it/": {
 "codice": "FGIC892007",
@@ -2845,7 +2877,7 @@
 "nome": "I.C. \"San Francesco-F. Petrarca",
 "provincia": "Foggia",
 "regione": "Puglia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icsangiulio.edu.it/": {
 "codice": "NOIC804007",
@@ -2853,7 +2885,7 @@
 "nome": "Istituto Comprensivo San Giulio",
 "provincia": "Novara",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icscanzorosciate.edu.it/": {
 "codice": "BGIC86300X",
@@ -2861,7 +2893,7 @@
 "nome": "\"Alda Merini\" Scanzorosciate",
 "provincia": "Bergamo",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icscastelvolturnocentro.edu.it/": {
 "codice": "CEIC88000X",
@@ -2869,7 +2901,7 @@
 "nome": "Castel Volturno Centro",
 "provincia": "Caserta",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icscastenedolo.edu.it/novita/albo-online/": {
 "codice": "BSIC80400L",
@@ -2877,7 +2909,7 @@
 "nome": "IC L.Da Vinci Castenedolo",
 "provincia": "Brescia",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icscastenedolo.edu.it/novita/albo-online/albo-storico/": {
 "codice": "BSIC80400L",
@@ -2885,7 +2917,7 @@
 "nome": "IC L.Da Vinci Castenedolo",
 "provincia": "Brescia",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icscroci.edu.it/": {
 "codice": "MIIC8FJ00V",
@@ -2893,7 +2925,7 @@
 "nome": "IC Teodoro Croci",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icsdeamicisgiovanni23.edu.it/": {
 "codice": "BTIC8AJ00V",
@@ -2901,7 +2933,7 @@
 "nome": "I.C. \"De Amicis-Giovanni Xxiii\"",
 "provincia": "Barletta-Andria-Trani",
 "regione": "Puglia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icsenatoremdu.it/": {
 "codice": "SAIC8CA003",
@@ -2909,7 +2941,7 @@
 "nome": "IC \"Senatore Martiri\" Scafati",
 "provincia": "Salerno",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icsenatoremdu.it/albo-sindacale/": {
 "codice": "SAIC8CA003",
@@ -2917,7 +2949,7 @@
 "nome": "IC \"Senatore Martiri\" Scafati",
 "provincia": "Salerno",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icsenatoremdu.it/servizio/la-segreteria-comunica/": {
 "codice": "SAIC8CA003",
@@ -2925,7 +2957,7 @@
 "nome": "IC \"Senatore Martiri\" Scafati",
 "provincia": "Salerno",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icserrariccosantolcese.edu.it/": {
 "codice": "GEIC804001",
@@ -2933,7 +2965,7 @@
 "nome": "I.C. Serra Ricco'",
 "provincia": "Genova",
 "regione": "Liguria",
-"visto": "2026-11-25"
+"visto": "2026-11-27"
 },
 "https://www.icsfermi.edu.it/": {
 "codice": "MIIC89300A",
@@ -2941,7 +2973,7 @@
 "nome": "IC Enrico Fermi",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icsfrank-sestosg.edu.it/": {
 "codice": "MIIC8A100T",
@@ -2957,7 +2989,7 @@
 "nome": "I.C.Gerenzano",
 "provincia": "Varese",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icsgermignaga.edu.it/": {
 "codice": "VAIC82000E",
@@ -2965,7 +2997,7 @@
 "nome": "I.C. Germignaga",
 "provincia": "Varese",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icsigillo.edu.it/": {
 "codice": "PGIC82200Q",
@@ -2981,7 +3013,7 @@
 "nome": "La Giustiniana",
 "provincia": "Roma",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icsmameli.edu.it/": {
 "codice": "NAIC8AP00V",
@@ -2989,7 +3021,7 @@
 "nome": "Nola - I.C. Mameli",
 "provincia": "Napoli",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icsmameli.edu.it/area-docenti-ata/avvisi-e-circolari-docenti/": {
 "codice": "NAIC8AP00V",
@@ -2997,7 +3029,7 @@
 "nome": "Nola - I.C. Mameli",
 "provincia": "Napoli",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icsmameli.edu.it/area-docenti-ata/avvisi-e-circolari-personale-ata/": {
 "codice": "NAIC8AP00V",
@@ -3005,7 +3037,7 @@
 "nome": "Nola - I.C. Mameli",
 "provincia": "Napoli",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icsmameli.edu.it/novita/albo-online/": {
 "codice": "NAIC8AP00V",
@@ -3013,7 +3045,7 @@
 "nome": "Nola - I.C. Mameli",
 "provincia": "Napoli",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icsmameli.edu.it/offerta-formativa/concorsi-gare/": {
 "codice": "NAIC8AP00V",
@@ -3021,7 +3053,7 @@
 "nome": "Nola - I.C. Mameli",
 "provincia": "Napoli",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icsolivelli.edu.it/novita/albo-pretorio": {
 "codice": "BSIC82600D",
@@ -3029,7 +3061,7 @@
 "nome": "I.C. T.Olivelli Villa Carcina",
 "provincia": "Brescia",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icsona.edu.it/": {
 "codice": "VRIC814009",
@@ -3037,7 +3069,7 @@
 "nome": "IC Sona",
 "provincia": "Verona",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icsrizzoli.edu.it/": {
 "codice": "MIIC810002",
@@ -3061,7 +3093,15 @@
 "nome": "I.C. Via Iv Novembre",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
+},
+"https://www.icsvignate.edu.it/": {
+"codice": "MIIC8BP00X",
+"comune": "Vignate",
+"nome": "I.C. \"Carlo Levi\"",
+"provincia": "Milano",
+"regione": "Lombardia",
+"visto": "2026-11-27"
 },
 "https://www.ictadini.edu.it/": {
 "codice": "NOIC81000E",
@@ -3069,7 +3109,7 @@
 "nome": "F. Tadini - Cameri",
 "provincia": "Novara",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.ictassolatina.edu.it/": {
 "codice": "LTIC85100N",
@@ -3077,7 +3117,7 @@
 "nome": "Torquato Tasso",
 "provincia": "Latina",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.ictauroviterbo.edu.it/": {
 "codice": "BAIC82600X",
@@ -3085,7 +3125,7 @@
 "nome": "I.C. \"G. Tauro - S. Viterbo\"",
 "provincia": "Bari",
 "regione": "Puglia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.ictinamerlin.edu.it/": {
 "codice": "BLIC831003",
@@ -3093,7 +3133,7 @@
 "nome": "IC 2 - Tina Merlin",
 "provincia": "Belluno",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.ictinamerlin.edu.it/albo-online/": {
 "codice": "BLIC831003",
@@ -3101,7 +3141,7 @@
 "nome": "IC 2 - Tina Merlin",
 "provincia": "Belluno",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.ictinamerlin.edu.it/albo-sindacale/": {
 "codice": "BLIC831003",
@@ -3109,7 +3149,7 @@
 "nome": "IC 2 - Tina Merlin",
 "provincia": "Belluno",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.ictrenzano.edu.it/": {
 "codice": "BSIC860001",
@@ -3117,7 +3157,7 @@
 "nome": "IC Oscar Di Prata Trenzano",
 "provincia": "Brescia",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.ictreviolo.edu.it/": {
 "codice": "BGIC884001",
@@ -3125,7 +3165,31 @@
 "nome": "Istituto Comprensivo \"C. Zonca\"",
 "provincia": "Bergamo",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
+},
+"https://www.ictreviolo.edu.it/argomento/albo/": {
+"codice": "BGIC884001",
+"comune": "Treviolo",
+"nome": "Istituto Comprensivo \"C. Zonca\"",
+"provincia": "Bergamo",
+"regione": "Lombardia",
+"visto": "2026-11-27"
+},
+"https://www.ictreviolo.edu.it/argomento/bacheca-sindacale/": {
+"codice": "BGIC884001",
+"comune": "Treviolo",
+"nome": "Istituto Comprensivo \"C. Zonca\"",
+"provincia": "Bergamo",
+"regione": "Lombardia",
+"visto": "2026-11-27"
+},
+"https://www.ictreviolo.edu.it/servizio/albo-online/": {
+"codice": "BGIC884001",
+"comune": "Treviolo",
+"nome": "Istituto Comprensivo \"C. Zonca\"",
+"provincia": "Bergamo",
+"regione": "Lombardia",
+"visto": "2026-11-27"
 },
 "https://www.icungarettilucca.edu.it/": {
 "codice": "LUIC849005",
@@ -3133,7 +3197,7 @@
 "nome": "Istituto Comprensivo Ungaretti",
 "provincia": "Lucca",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icverdifirenze.edu.it/": {
 "codice": "FIIC847002",
@@ -3149,7 +3213,7 @@
 "nome": "I.C. Verolengo",
 "provincia": "Torino",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icviacarotenuto.edu.it/": {
 "codice": "RMIC8CZ006",
@@ -3157,7 +3221,7 @@
 "nome": "\"Via Carotenuto 30\"",
 "provincia": "Roma",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icviadellatecnica.edu.it/": {
 "codice": "RMIC8D400N",
@@ -3165,7 +3229,7 @@
 "nome": "IC Pomezia Via Della Tecnica",
 "provincia": "Roma",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icviafabiola.edu.it/": {
 "codice": "RMIC8FV00P",
@@ -3173,7 +3237,7 @@
 "nome": "I.C. Via Fabiola",
 "provincia": "Roma",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icvialuigirizzo.edu.it/": {
 "codice": "RMIC848001",
@@ -3181,7 +3245,7 @@
 "nome": "Via L. Rizzo 1",
 "provincia": "Roma",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icviasoriso.edu.it/": {
 "codice": "RMIC8GL00N",
@@ -3189,7 +3253,7 @@
 "nome": "I.C. Via Soriso",
 "provincia": "Roma",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icvillanterio.edu.it/": {
 "codice": "PVIC813007",
@@ -3197,7 +3261,7 @@
 "nome": "IC Villanterio",
 "provincia": "Pavia",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.icvisconti.edu.it/": {
 "codice": "RMIC818005",
@@ -3213,7 +3277,7 @@
 "nome": "IC - Zelo Buon Persico",
 "provincia": "Lodi",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iischiaravalle.edu.it/": {
 "codice": "CZIS007001",
@@ -3221,7 +3285,7 @@
 "nome": "IS \"Enzo Ferrari\" Chiaravalle Centrale",
 "provincia": "Catanzaro",
 "regione": "Calabria",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iischiaravalle.edu.it/argomento/bacheca-sindacale/": {
 "codice": "CZIS007001",
@@ -3229,7 +3293,7 @@
 "nome": "IS \"Enzo Ferrari\" Chiaravalle Centrale",
 "provincia": "Catanzaro",
 "regione": "Calabria",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iischiaravalle.edu.it/novita/albo-online/": {
 "codice": "CZIS007001",
@@ -3237,7 +3301,7 @@
 "nome": "IS \"Enzo Ferrari\" Chiaravalle Centrale",
 "provincia": "Catanzaro",
 "regione": "Calabria",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iischiaravalle.edu.it/servizio/bacheca-sindacale/": {
 "codice": "CZIS007001",
@@ -3245,7 +3309,7 @@
 "nome": "IS \"Enzo Ferrari\" Chiaravalle Centrale",
 "provincia": "Catanzaro",
 "regione": "Calabria",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iischiaravalle.edu.it/tipologia-articolo/notizie-avvisi/": {
 "codice": "CZIS007001",
@@ -3253,7 +3317,7 @@
 "nome": "IS \"Enzo Ferrari\" Chiaravalle Centrale",
 "provincia": "Catanzaro",
 "regione": "Calabria",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iisfalcone-righi.edu.it/": {
 "codice": "MIIS096002",
@@ -3261,7 +3325,7 @@
 "nome": "G. Falcone - A. Righi",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iisfloriani.edu.it/": {
 "codice": "MIIS02600Q",
@@ -3269,7 +3333,7 @@
 "nome": "L. Cremona",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iisgalileiartiglio.it/": {
 "codice": "LUIS01800N",
@@ -3277,7 +3341,7 @@
 "nome": "\"Galilei-Artiglio\"",
 "provincia": "Lucca",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iisgaribaldi.edu.it/": {
 "codice": "SSIS02300T",
@@ -3285,7 +3349,7 @@
 "nome": "G.Garibaldi",
 "provincia": "Gallura Nord-Est Sardegna",
 "regione": "Sardegna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iisgaribaldi.edu.it/novita/albo-online/": {
 "codice": "SSIS02300T",
@@ -3293,7 +3357,7 @@
 "nome": "G.Garibaldi",
 "provincia": "Gallura Nord-Est Sardegna",
 "regione": "Sardegna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iisgaribaldi.edu.it/tipologia-documento/albo-online/": {
 "codice": "SSIS02300T",
@@ -3301,7 +3365,7 @@
 "nome": "G.Garibaldi",
 "provincia": "Gallura Nord-Est Sardegna",
 "regione": "Sardegna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iisjucci.edu.it/": {
 "codice": "RIIS00900X",
@@ -3317,7 +3381,7 @@
 "nome": "IIS Amantea \"Ls-Ipsia\"-Iti-Itc",
 "provincia": "Cosenza",
 "regione": "Calabria",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iisvittorioveneto.edu.it/": {
 "codice": "TVIS00700P",
@@ -3325,7 +3389,7 @@
 "nome": "IS Vittorio V. Citta' D.Vittoria",
 "provincia": "Treviso",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iisvittorioveneto.edu.it/avvisi-di-interpello-o-m-n-27-2026-art-14-comma-22/": {
 "codice": "TVIS00700P",
@@ -3333,7 +3397,7 @@
 "nome": "IS Vittorio V. Citta' D.Vittoria",
 "provincia": "Treviso",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.incannamorte.edu.it/": {
 "codice": "BAIC888007",
@@ -3341,7 +3405,7 @@
 "nome": "I.C. \"Nunzio Incannamorte\"",
 "provincia": "Bari",
 "regione": "Puglia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.ioleonardodavinci.it/": {
 "codice": "VTIC818007",
@@ -3349,7 +3413,7 @@
 "nome": "I.C. Acquapendente",
 "provincia": "Viterbo",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.iscsmontalegenova.it/": {
 "codice": "GEIS003009",
@@ -3357,7 +3421,7 @@
 "nome": "I.I.S. E. Montale-Nuovo I.P.C",
 "provincia": "Genova",
 "regione": "Liguria",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.isiscuocomanuppella.edu.it/": {
 "codice": "ISIS01400C",
@@ -3373,7 +3437,7 @@
 "nome": "Raffaello Foresi",
 "provincia": "Livorno",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.ispira.edu.it/": {
 "codice": "NUIS01800E",
@@ -3381,7 +3445,7 @@
 "nome": "I.I.S. Siniscola",
 "provincia": "Nuoro",
 "regione": "Sardegna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.issfermiempoli.edu.it/": {
 "codice": "FIIS01600E",
@@ -3389,7 +3453,7 @@
 "nome": "Enrico Fermi - Leonardo Da Vinci",
 "provincia": "Firenze",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.issfermiempoli.edu.it/albo-pretorio/": {
 "codice": "FIIS01600E",
@@ -3397,7 +3461,7 @@
 "nome": "Enrico Fermi - Leonardo Da Vinci",
 "provincia": "Firenze",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.issfermiempoli.edu.it/argomento/albo-sindacale/": {
 "codice": "FIIS01600E",
@@ -3405,7 +3469,7 @@
 "nome": "Enrico Fermi - Leonardo Da Vinci",
 "provincia": "Firenze",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.issfermiempoli.edu.it/argomento/albo/": {
 "codice": "FIIS01600E",
@@ -3413,7 +3477,7 @@
 "nome": "Enrico Fermi - Leonardo Da Vinci",
 "provincia": "Firenze",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.issfermiempoli.edu.it/novita/albo-online/": {
 "codice": "FIIS01600E",
@@ -3421,7 +3485,7 @@
 "nome": "Enrico Fermi - Leonardo Da Vinci",
 "provincia": "Firenze",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istcomazzate.edu.it/": {
 "codice": "VAIC806008",
@@ -3429,7 +3493,7 @@
 "nome": "I.C. Azzate \"L. Da Vinci\"",
 "provincia": "Varese",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istcomazzate.edu.it/novita/albo-online/": {
 "codice": "VAIC806008",
@@ -3437,7 +3501,7 @@
 "nome": "I.C. Azzate \"L. Da Vinci\"",
 "provincia": "Varese",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istcomazzate.edu.it/tipologia-documento/albo-online/": {
 "codice": "VAIC806008",
@@ -3445,7 +3509,7 @@
 "nome": "I.C. Azzate \"L. Da Vinci\"",
 "provincia": "Varese",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutocomprensivo1alghero.edu.it/": {
 "codice": "SSIC84400P",
@@ -3453,7 +3517,7 @@
 "nome": "Istituto Comprensivo N.1Alghero",
 "provincia": "Sassari",
 "regione": "Sardegna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutocomprensivo1alghero.edu.it/argomento/albo-sindacale/": {
 "codice": "SSIC84400P",
@@ -3461,7 +3525,7 @@
 "nome": "Istituto Comprensivo N.1Alghero",
 "provincia": "Sassari",
 "regione": "Sardegna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutocomprensivo1alghero.edu.it/argomento/bacheca-sindacale/": {
 "codice": "SSIC84400P",
@@ -3469,7 +3533,7 @@
 "nome": "Istituto Comprensivo N.1Alghero",
 "provincia": "Sassari",
 "regione": "Sardegna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutocomprensivo1alghero.edu.it/pubblicazione-su-albo-pretorio-genitori-eletti-consigli-di-classe-e-intersezione/": {
 "codice": "SSIC84400P",
@@ -3485,7 +3549,7 @@
 "nome": "Istituto Comprensivo N. 2",
 "provincia": "Sassari",
 "regione": "Sardegna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutocomprensivobiellatre.edu.it/": {
 "codice": "BIIC81300G",
@@ -3509,7 +3573,7 @@
 "nome": "IC Broni - Paolo Baffi",
 "provincia": "Pavia",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutocomprensivobudduso.edu.it/": {
 "codice": "SSIC80600X",
@@ -3533,7 +3597,7 @@
 "nome": "I.C. Tina Anselmi",
 "provincia": "Venezia",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutocomprensivoempoliest.edu.it/": {
 "codice": "FIIC87200P",
@@ -3541,7 +3605,7 @@
 "nome": "Empoli Est",
 "provincia": "Firenze",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutocomprensivoguspini.edu.it/": {
 "codice": "CAIC88400R",
@@ -3549,7 +3613,7 @@
 "nome": "I.C. Fermi - Da Vinci",
 "provincia": "Medio Campidano",
 "regione": "Sardegna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutocomprensivomenaggio.edu.it/": {
 "codice": "COIC85000L",
@@ -3557,7 +3621,7 @@
 "nome": "I.C. Menaggio",
 "provincia": "Como",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutocomprensivomontale.edu.it/": {
 "codice": "PTIC81700X",
@@ -3565,7 +3629,7 @@
 "nome": "Istituto Comprensivo Di Montale",
 "provincia": "Pistoia",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutocomprensivomontelupo.edu.it/": {
 "codice": "FIIC811007",
@@ -3581,7 +3645,7 @@
 "nome": "IC Francesco Petrarca - Catania",
 "provincia": "Catania",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutocomprensivovallecrosia.edu.it/": {
 "codice": "IMIC806004",
@@ -3589,7 +3653,7 @@
 "nome": "I.C. A.Doria Vallecrosia",
 "provincia": "Imperia",
 "regione": "Liguria",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutodante.it/": {
 "codice": "PAPM25500A",
@@ -3597,7 +3661,7 @@
 "nome": "Lic.Soc.P.Ped.Dante",
 "provincia": "Palermo",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutodelasalle.it/": {
 "codice": "BAPS035008",
@@ -3605,7 +3669,7 @@
 "nome": "San Giovanni Battista De La Salle",
 "provincia": "Bari",
 "regione": "Puglia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutogiorgi.edu.it/": {
 "codice": "RMIC8BD00C",
@@ -3613,7 +3677,7 @@
 "nome": "\"Cardinale Oreste Giorgi\"",
 "provincia": "Roma",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutogiorgi.edu.it/argomento/albo-sindacale/": {
 "codice": "RMIC8BD00C",
@@ -3621,7 +3685,7 @@
 "nome": "\"Cardinale Oreste Giorgi\"",
 "provincia": "Roma",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutogiorgi.edu.it/argomento/bacheca-sindacale/": {
 "codice": "RMIC8BD00C",
@@ -3629,7 +3693,7 @@
 "nome": "\"Cardinale Oreste Giorgi\"",
 "provincia": "Roma",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutogiorgi.edu.it/servizio/bacheca-sindacale/": {
 "codice": "RMIC8BD00C",
@@ -3645,7 +3709,7 @@
 "nome": "\"P. Gobetti\"",
 "provincia": "Reggio Emilia",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutoguala.edu.it/": {
 "codice": "",
@@ -3653,7 +3717,7 @@
 "nome": "I.C. Valsinni – Tursi",
 "provincia": "Matera",
 "regione": "Basilicata",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutoleardi.edu.it/": {
 "codice": "ALVC02000D",
@@ -3661,7 +3725,7 @@
 "nome": "S.Martino Di Rosignano",
 "provincia": "Alessandria",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutoleardi.edu.it/category/avvisi/": {
 "codice": "ALVC02000D",
@@ -3669,7 +3733,7 @@
 "nome": "S.Martino Di Rosignano",
 "provincia": "Alessandria",
 "regione": "Piemonte",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutonarcisi.edu.it/": {
 "codice": "MIIC8CZ00E",
@@ -3677,7 +3741,7 @@
 "nome": "IC Narcisi",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutonarcisi.edu.it/bandi-personale-ata-area-a-b/": {
 "codice": "MIIC8CZ00E",
@@ -3685,7 +3749,7 @@
 "nome": "IC Narcisi",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutonarcisi.edu.it/circ-n-27-assemblea-sindacale-provinciale-insegnanti-di-religione-cattolica-allalbo-sindacale-ex-art-25-legge-300-1970/": {
 "codice": "MIIC8CZ00E",
@@ -3693,7 +3757,7 @@
 "nome": "IC Narcisi",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutonarcisi.edu.it/novita/bacheca-sindacale/": {
 "codice": "MIIC8CZ00E",
@@ -3701,7 +3765,7 @@
 "nome": "IC Narcisi",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutonarcisi.edu.it/tipologia-documento/albo-online/": {
 "codice": "MIIC8CZ00E",
@@ -3709,7 +3773,7 @@
 "nome": "IC Narcisi",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutopasquini.edu.it/": {
 "codice": "PTIC80600D",
@@ -3717,7 +3781,7 @@
 "nome": "IC B.Pasquini",
 "provincia": "Pistoia",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutopasquini.edu.it/argomento/albo-sindacale/": {
 "codice": "PTIC80600D",
@@ -3725,7 +3789,7 @@
 "nome": "IC B.Pasquini",
 "provincia": "Pistoia",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutopasquini.edu.it/argomento/bacheca-sindacale/": {
 "codice": "PTIC80600D",
@@ -3733,7 +3797,7 @@
 "nome": "IC B.Pasquini",
 "provincia": "Pistoia",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutopasquini.edu.it/novita/albo-online/": {
 "codice": "PTIC80600D",
@@ -3741,7 +3805,7 @@
 "nome": "IC B.Pasquini",
 "provincia": "Pistoia",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutopasquini.edu.it/servizio/albo-online/": {
 "codice": "PTIC80600D",
@@ -3749,7 +3813,7 @@
 "nome": "IC B.Pasquini",
 "provincia": "Pistoia",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutoravascogenova.it/modulistica-scaricabile.html": {
 "codice": "GE1M013009",
@@ -3757,7 +3821,7 @@
 "nome": "Ravasco",
 "provincia": "Genova",
 "regione": "Liguria",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.itatrentin.edu.it/": {
 "codice": "VITA01000L",
@@ -3765,7 +3829,7 @@
 "nome": "Ita \"Alberto Trentin\"",
 "provincia": "Vicenza",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.itatrentin.edu.it/servizio/bacheca-sindacale/": {
 "codice": "VITA01000L",
@@ -3773,7 +3837,7 @@
 "nome": "Ita \"Alberto Trentin\"",
 "provincia": "Vicenza",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.itealberti.edu.it/": {
 "codice": "VETD030001",
@@ -3781,7 +3845,7 @@
 "nome": "Leon Battista Alberti",
 "provincia": "Venezia",
 "regione": "Veneto",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.itisfermiroma.edu.it/": {
 "codice": "RMTF040002",
@@ -3789,7 +3853,7 @@
 "nome": "E. Fermi",
 "provincia": "Roma",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.itisguidodorso.edu.it/": {
 "codice": "AVTF070004",
@@ -3797,7 +3861,7 @@
 "nome": "ITT Guido Dorso",
 "provincia": "Avellino",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.itismajoranasommaves.edu.it/": {
 "codice": "NATF15000E",
@@ -3805,7 +3869,7 @@
 "nome": "Iti E. Majorana Somma Vesuviana",
 "provincia": "Napoli",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.itismajoranasommaves.edu.it/argomento/albo-sindacale/": {
 "codice": "NATF15000E",
@@ -3813,7 +3877,7 @@
 "nome": "Iti E. Majorana Somma Vesuviana",
 "provincia": "Napoli",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.itismajoranasommaves.edu.it/argomento/albo/": {
 "codice": "NATF15000E",
@@ -3821,7 +3885,7 @@
 "nome": "Iti E. Majorana Somma Vesuviana",
 "provincia": "Napoli",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.itismajoranasommaves.edu.it/novita/albo-online/": {
 "codice": "NATF15000E",
@@ -3829,7 +3893,7 @@
 "nome": "Iti E. Majorana Somma Vesuviana",
 "provincia": "Napoli",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.itismajoranasommaves.edu.it/servizio/albo-online/": {
 "codice": "NATF15000E",
@@ -3837,7 +3901,7 @@
 "nome": "Iti E. Majorana Somma Vesuviana",
 "provincia": "Napoli",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.itstkennedy.edu.it/": {
 "codice": "PNTF01000A",
@@ -3861,7 +3925,7 @@
 "nome": "IC Kennedy Ovest 3 Brescia",
 "provincia": "Brescia",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.liceocomenio.edu.it/": {
 "codice": "NAPM160004",
@@ -3869,7 +3933,7 @@
 "nome": "\"Liceo Statale Comenio\"",
 "provincia": "Napoli",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.liceomoro.edu.it/": {
 "codice": "REPS03000B",
@@ -3877,7 +3941,7 @@
 "nome": "Aldo Moro",
 "provincia": "Reggio Emilia",
 "regione": "Emilia Romagna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.liceopaleocapa.edu.it/": {
 "codice": "ROPS01000P",
@@ -3893,7 +3957,15 @@
 "nome": "Galilei - Civitavecchia",
 "provincia": "Roma",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
+},
+"https://www.linussio.edu.it/": {
+"codice": "UDIS01100P",
+"comune": "Codroipo",
+"nome": "IIS J. Linussio",
+"provincia": "Udine",
+"regione": "Friuli-Venezia G.",
+"visto": "2026-11-27"
 },
 "https://www.majorana-giorgi.edu.it/": {
 "codice": "GEIS018003",
@@ -3901,7 +3973,7 @@
 "nome": "Istituto Majorana/Giorgi",
 "provincia": "Genova",
 "regione": "Liguria",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.marconiprato.edu.it/": {
 "codice": "PORI010006",
@@ -3909,7 +3981,7 @@
 "nome": "Guglielmo Marconi",
 "provincia": "Prato",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.marconiprato.edu.it/albo-sindacale/": {
 "codice": "PORI010006",
@@ -3917,7 +3989,7 @@
 "nome": "Guglielmo Marconi",
 "provincia": "Prato",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.matteotti-cirillo.edu.it/": {
 "codice": "NAIC897007",
@@ -3925,7 +3997,7 @@
 "nome": "Grumo Nevano I.C. Matteo. Ciril",
 "provincia": "Napoli",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.maurolicomessina.edu.it/": {
 "codice": "MEIS02900X",
@@ -3941,7 +4013,7 @@
 "nome": "IC G.Ungaretti",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.mim.gov.it/web/guest/avvisi-per-incarichi-dirigenziali-generali-e-non-generali": {
 "codice": "NAMM0CQ00C",
@@ -3949,7 +4021,7 @@
 "nome": "CPIA Napoli Citta' 2",
 "provincia": "Napoli",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.modugno.edu.it/": {
 "codice": "BARH120005",
@@ -3957,7 +4029,7 @@
 "nome": "I.P. \"Domenico Modugno\"",
 "provincia": "Bari",
 "regione": "Puglia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.montegrappa-sanzio.edu.it/": {
 "codice": "PAIC8AY003",
@@ -3965,7 +4037,7 @@
 "nome": "I.C. Montegrappa /R. Sanzio-Pa",
 "provincia": "Palermo",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.montegrappa-sanzio.edu.it/argomento/albo-sindacale/": {
 "codice": "PAIC8AY003",
@@ -3973,7 +4045,7 @@
 "nome": "I.C. Montegrappa /R. Sanzio-Pa",
 "provincia": "Palermo",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.montegrappa-sanzio.edu.it/argomento/albo/": {
 "codice": "PAIC8AY003",
@@ -3981,7 +4053,7 @@
 "nome": "I.C. Montegrappa /R. Sanzio-Pa",
 "provincia": "Palermo",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.montegrappa-sanzio.edu.it/novita/albo-online/": {
 "codice": "PAIC8AY003",
@@ -3989,7 +4061,7 @@
 "nome": "I.C. Montegrappa /R. Sanzio-Pa",
 "provincia": "Palermo",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.montegrappa-sanzio.edu.it/servizio/albo-online/": {
 "codice": "PAIC8AY003",
@@ -3997,7 +4069,7 @@
 "nome": "I.C. Montegrappa /R. Sanzio-Pa",
 "provincia": "Palermo",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.palizzicasoria.edu.it/": {
 "codice": "NAIC8EV005",
@@ -4005,7 +4077,7 @@
 "nome": "Casoria IC F. Palizzi",
 "provincia": "Napoli",
 "regione": "Campania",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.pisticcimontalbano.edu.it/": {
 "codice": "MTIS011001",
@@ -4013,7 +4085,7 @@
 "nome": "I.I.S. Pisticci - Montalbano",
 "provincia": "Matera",
 "regione": "Basilicata",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.polocelli.edu.it": {
 "codice": "PSRH02000X",
@@ -4021,7 +4093,7 @@
 "nome": "IPSSAR \"S.Marta\"",
 "provincia": "Pesaro E Urbino",
 "regione": "Marche",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.polocelli.edu.it/": {
 "codice": "PSIS00400V",
@@ -4037,7 +4109,7 @@
 "nome": "Prealpi",
 "provincia": "Varese",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.primoicdesenzano.edu.it/": {
 "codice": "BSIC8AA00Q",
@@ -4045,7 +4117,7 @@
 "nome": "1' IC Desenzano",
 "provincia": "Brescia",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.primoicdesenzano.edu.it/albo-online/": {
 "codice": "BSIC8AA00Q",
@@ -4053,7 +4125,7 @@
 "nome": "1' IC Desenzano",
 "provincia": "Brescia",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.primoicdesenzano.edu.it/amministrazione-trasparente/": {
 "codice": "BSIC8AA00Q",
@@ -4061,7 +4133,7 @@
 "nome": "1' IC Desenzano",
 "provincia": "Brescia",
 "regione": "Lombardia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.professionalevillaputzu.edu.it/": {
 "codice": "CAIS004004",
@@ -4069,7 +4141,7 @@
 "nome": "I.I.S. \"G. Dessi'\" Villaputzu",
 "provincia": "Cagliari",
 "regione": "Sardegna",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.ramati.edu.it/servizio/albo-sindacale/": {
 "codice": "NOIC80900A",
@@ -4085,7 +4157,7 @@
 "nome": "I.C. S. Alessandra Rosolini",
 "provincia": "Siracusa",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.sarrocchi.edu.it/wp/": {
 "codice": "SITF020002",
@@ -4093,7 +4165,7 @@
 "nome": "Tito Sarrocchi",
 "provincia": "Siena",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.scuolacarloamoremodica.it/": {
 "codice": "RGIC810007",
@@ -4101,7 +4173,7 @@
 "nome": "I.C. Carlo Amore - Piano Gesu'",
 "provincia": "Ragusa",
 "regione": "Sicilia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.scuolagenova.it/": {
 "codice": "GEPMUO500T",
@@ -4109,7 +4181,7 @@
 "nome": "Liceo Delle Scienze Umane S.G. Calasanzio",
 "provincia": "Genova",
 "regione": "Liguria",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.scuolailariaalpi.edu.it/": {
 "codice": "RMIC8CJ00G",
@@ -4117,7 +4189,7 @@
 "nome": "Ilaria Alpi",
 "provincia": "Roma",
 "regione": "Lazio",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.scuolesantateresa.it/": {
 "codice": "PI1E00300B",
@@ -4125,7 +4197,7 @@
 "nome": "Scuola Elementare Santa Teresa",
 "provincia": "Pisa",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.secondocircolobisceglie.edu.it/": {
 "codice": "BTEE06900L",
@@ -4133,7 +4205,7 @@
 "nome": "2 C.D. \"Prof. Arc. Caputi\"",
 "provincia": "Barletta-Andria-Trani",
 "regione": "Puglia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.secondocircolobisceglie.edu.it/category/albo-pretorio/": {
 "codice": "BTEE06900L",
@@ -4141,7 +4213,7 @@
 "nome": "2 C.D. \"Prof. Arc. Caputi\"",
 "provincia": "Barletta-Andria-Trani",
 "regione": "Puglia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.secondocircolobisceglie.edu.it/category/alunni/avvisi-alunni/": {
 "codice": "BTEE06900L",
@@ -4149,7 +4221,7 @@
 "nome": "2 C.D. \"Prof. Arc. Caputi\"",
 "provincia": "Barletta-Andria-Trani",
 "regione": "Puglia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.secondocircolobisceglie.edu.it/category/docenti/avvisi-docenti/": {
 "codice": "BTEE06900L",
@@ -4157,7 +4229,7 @@
 "nome": "2 C.D. \"Prof. Arc. Caputi\"",
 "provincia": "Barletta-Andria-Trani",
 "regione": "Puglia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.secondocircolobisceglie.edu.it/category/scuola/bacheca-sindacale/": {
 "codice": "BTEE06900L",
@@ -4165,7 +4237,7 @@
 "nome": "2 C.D. \"Prof. Arc. Caputi\"",
 "provincia": "Barletta-Andria-Trani",
 "regione": "Puglia",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.tecnicoprofessionalearezzo.edu.it/": {
 "codice": "ARIS00700X",
@@ -4173,6 +4245,6 @@
 "nome": "Margaritone-Vasari",
 "provincia": "Arezzo",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 }
 }

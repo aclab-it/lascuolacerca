@@ -249,7 +249,7 @@
   "provincia": "Lucca",
   "url": "http://www.ustlucca.it/",
   "esito": "ok",
-  "interpelli": 4
+  "interpelli": 0
  },
  {
   "provincia": "Macerata",
@@ -314,7 +314,7 @@
  {
   "provincia": "Nuoro",
   "url": "https://www.csanuoro.it/wp2019/",
-  "esito": "il sito chiede di non essere letto in automatico",
+  "esito": "ok",
   "interpelli": 0
  },
  {
@@ -446,8 +446,8 @@
  {
   "provincia": "Savona",
   "url": "https://www.istruzionesavona.gov.it/",
-  "esito": "il sito chiede di non essere letto in automatico",
-  "interpelli": 0
+  "esito": "ok",
+  "interpelli": 1
  },
  {
   "provincia": "Siena",
