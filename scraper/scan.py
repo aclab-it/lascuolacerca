@@ -577,6 +577,7 @@ MOTIVI = {
     "HTTP 429": "il sito limita le visite troppo frequenti (errore 429)",
     "HTTP 404": "la pagina indicata nell'anagrafe non esiste più (errore 404)",
     "HTTP 503": "il sito è temporaneamente non disponibile (errore 503)",
+    "HTTP 509": "il sito ha esaurito il traffico concesso dal suo hosting (errore 509)",
     "non html": "all'indirizzo non c'è una pagina web (es. un file)",
 }
 
