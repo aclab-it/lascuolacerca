@@ -361,12 +361,24 @@ class _Turno:
         self.sem.release()
 
 
+import urllib3
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+SSL_NON_VERIFICATI = set()
+
+
 def scarica(url):
     if not consentito(url):
         raise BloccatoRobots(url)
     _ultima_risposta.stato = None
     with _Turno(url):
-        r = SESSION.get(url, timeout=TIMEOUT, allow_redirects=True)
+        try:
+            r = SESSION.get(url, timeout=TIMEOUT, allow_redirects=True)
+        except requests.exceptions.SSLError:
+            # molti siti pubblici (es. tutti gli uffici scolastici lombardi) hanno il certificato
+            # configurato male (manca il certificato intermedio): sono pagine pubbliche da leggere,
+            # quindi riproviamo senza verifica invece di perderle
+            r = SESSION.get(url, timeout=TIMEOUT, allow_redirects=True, verify=False)
+            SSL_NON_VERIFICATI.add(urlparse(url).hostname)
     if r.status_code != 200 or "html" not in r.headers.get("Content-Type", "html"):
         _ultima_risposta.stato = f"HTTP {r.status_code}" if r.status_code != 200 else "non html"
         return None
@@ -784,6 +796,50 @@ def province_regioni():
     return mappa
 
 
+RE_CODICE_SCUOLA = re.compile(r"\b[A-Z]{2}[A-Z]{2}[0-9A-Z]{5}[0-9A-Z]\b")
+_ist_per_codice = {}
+
+
+def leggi_tabella_usp(soup, url_pagina, provincia, regione):
+    """Pagine degli uffici fatte a tabella (es. Arezzo): data | codice scuola | scuola | classe | LINK."""
+    import interpelli as ip_mod
+    if not _ist_per_codice:
+        _ist_per_codice.update({i["codice"]: i for i in carica_istituti() if i.get("codice")})
+    out, oggi = [], dt.date.today()
+    for t in soup.find_all("table"):
+        intest = re.sub(r"\s+", " ", (t.find("tr") or t).get_text(" ", strip=True)).lower()
+        if "meccanografico" not in intest and "classe di concorso" not in intest:
+            continue
+        for tr in t.find_all("tr")[1:]:
+            celle = [re.sub(r"\s+", " ", c.get_text(" ", strip=True)) for c in tr.find_all(["td", "th"])]
+            testo = " | ".join(celle)
+            m = RE_CODICE_SCUOLA.search(testo)
+            a = tr.find("a", href=True)
+            if not m or not a:
+                continue
+            data = _data_it(testo)
+            if data and (oggi - dt.date.fromisoformat(data)).days > 10:
+                continue
+            codice = m.group(0)
+            ist = _ist_per_codice.get(codice, {})
+            cdc = ip_mod.classi_concorso(testo)
+            altre = [c for c in celle if c and c != codice and not _data_it(c) and c.upper() != "LINK"]
+            nome = ist.get("nome") or (altre[0].title() if altre else codice)
+            titolo = f"Interpello {', '.join(cdc) if cdc else ''} – {nome}".replace("Interpello  –", "Interpello –")
+            ip = ip_mod.classifica(testo + " interpello", titolo) or {}
+            link = urljoin(url_pagina, a["href"])
+            out.append({
+                "id": hashlib.sha1((link + codice + testo).encode()).hexdigest()[:16],
+                "titolo": titolo, "link": link, "pagina_albo": url_pagina,
+                "scuola": nome, "codice": codice, "comune": ist.get("comune", ""),
+                "provincia": ist.get("provincia") or provincia, "regione": ist.get("regione") or regione,
+                "data_atto": data, "fonte": "USP",
+                "classi": cdc, "sostegno": ip.get("sostegno", any(c.startswith("AD") for c in cdc)),
+                "gradi": ip.get("gradi", []), "scadenza": ip.get("scadenza"), "ata": ip.get("ata"),
+            })
+    return out
+
+
 def leggi_usp():
     """Interpelli dalle pagine degli Uffici scolastici provinciali (data/usp.csv)."""
     import interpelli as ip_mod
@@ -807,6 +863,9 @@ def leggi_usp():
                 esito["esito"] = "pagina non leggibile"
             else:
                 url_pagina, soup = r
+                da_tabella = leggi_tabella_usp(soup, url_pagina, provincia, regione)
+                trovati += da_tabella
+                esito["interpelli"] += len(da_tabella)
                 for a in soup.find_all("a", href=True):
                     if in_menu(a):
                         continue
