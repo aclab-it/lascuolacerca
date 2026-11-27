@@ -104,7 +104,7 @@
 "visto": "2026-11-27"
 },
 "https://convittonovara.edu.it/": {
-"codice": "NOMM00800G",
+"codice": "NOPS07000Q",
 "comune": "Novara",
 "nome": "\"Carlo Alberto\"",
 "provincia": "Novara",
@@ -944,9 +944,9 @@
 "visto": "2026-11-27"
 },
 "https://iosvizzini.edu.it/": {
-"codice": "CTIC85900R",
+"codice": "CTIS05600D",
 "comune": "Vizzini",
-"nome": "Istituto Comprensivo G.Verga",
+"nome": "Istituto Superiore Vizzini",
 "provincia": "Catania",
 "regione": "Sicilia",
 "visto": "2026-11-27"
@@ -1712,17 +1712,17 @@
 "visto": "2026-11-27"
 },
 "https://www.convittocolletta.edu.it/": {
-"codice": "AVMM007002",
+"codice": "AVEE007003",
 "comune": "Avellino",
-"nome": "Istituzione Educativa P. COLLETTA",
+"nome": "Scuola Prim. Annessa Conv. Naz.",
 "provincia": "Avellino",
 "regione": "Campania",
 "visto": "2026-11-27"
 },
 "https://www.convittocolletta.edu.it/category/avvisi/": {
-"codice": "AVMM007002",
+"codice": "AVEE007003",
 "comune": "Avellino",
-"nome": "Convitto Colletta Sec Di I Gr.",
+"nome": "Scuola Prim. Annessa Conv. Naz.",
 "provincia": "Avellino",
 "regione": "Campania",
 "visto": "2026-11-27"
@@ -1767,6 +1767,14 @@
 "regione": "Sicilia",
 "visto": "2026-11-27"
 },
+"https://www.cpia1varese.edu.it/": {
+"codice": "VAMM325009",
+"comune": "Busto Arsizio",
+"nome": "CPIA 1 Varese",
+"provincia": "Varese",
+"regione": "Lombardia",
+"visto": "2026-11-27"
+},
 "https://www.cpia4torino.edu.it/": {
 "codice": "TOMM326007",
 "comune": "Settimo Torinese",
@@ -1788,6 +1796,14 @@
 "comune": "Omegna",
 "nome": "IS \"Dalla Chiesa-Spinelli\"",
 "provincia": "Verbano-Cusio-Ossola",
+"regione": "Piemonte",
+"visto": "2026-11-27"
+},
+"https://www.deamicis-manzoni.edu.it/": {
+"codice": "ALIC82700E",
+"comune": "Alessandria",
+"nome": "Alessandria De Amicis/Manzoni",
+"provincia": "Alessandria",
 "regione": "Piemonte",
 "visto": "2026-11-27"
 },
@@ -2095,6 +2111,14 @@
 "regione": "Toscana",
 "visto": "2026-11-27"
 },
+"https://www.iccertosa.edu.it/albo-online": {
+"codice": "GEIC840004",
+"comune": "Genova",
+"nome": "I.C. Certosa",
+"provincia": "Genova",
+"regione": "Liguria",
+"visto": "2026-11-27"
+},
 "https://www.iccervia2.edu.it/": {
 "codice": "RAIC829007",
 "comune": "Cervia",
@@ -2165,6 +2189,14 @@
 "nome": "IC Codogne' E Gaiarine",
 "provincia": "Treviso",
 "regione": "Veneto",
+"visto": "2026-11-27"
+},
+"https://www.iccollodi.edu.it/": {
+"codice": "LOIC81500R",
+"comune": "Valera Fratta",
+"nome": "IC Carlo Collodi S. Angelo L.No",
+"provincia": "Lodi",
+"regione": "Lombardia",
 "visto": "2026-11-27"
 },
 "https://www.iccolozzabonfiglio.edu.it/": {
@@ -2645,6 +2677,14 @@
 "nome": "I.C. \"Giovanni Xxiii\" Paceco",
 "provincia": "Trapani",
 "regione": "Sicilia",
+"visto": "2026-11-27"
+},
+"https://www.icpalombarasabina.edu.it/": {
+"codice": "RMIC8AK00E",
+"comune": "Palombara Sabina",
+"nome": "IC Palombara Sabina V.Le Risorg",
+"provincia": "Roma",
+"regione": "Lazio",
 "visto": "2026-11-27"
 },
 "https://www.icpaoloterzo.edu.it/": {
@@ -3205,7 +3245,7 @@
 "nome": "Verdi",
 "provincia": "Firenze",
 "regione": "Toscana",
-"visto": "2026-11-25"
+"visto": "2026-11-27"
 },
 "https://www.icverolengo.edu.it/": {
 "codice": "TOIC85400Q",
@@ -3375,6 +3415,14 @@
 "regione": "Lazio",
 "visto": "2026-11-27"
 },
+"https://www.iismazzone.edu.it/": {
+"codice": "RCIS03800B",
+"comune": "Roccella Ionica",
+"nome": "IIS Mazzone Roccella Ionica",
+"provincia": "Reggio Calabria",
+"regione": "Calabria",
+"visto": "2026-11-27"
+},
 "https://www.iispoloamantea.edu.it/": {
 "codice": "CSIS014008",
 "comune": "Amantea",
@@ -3413,6 +3461,22 @@
 "nome": "I.C. Acquapendente",
 "provincia": "Viterbo",
 "regione": "Lazio",
+"visto": "2026-11-27"
+},
+"https://www.ipsiaodero.edu.it/albo-online": {
+"codice": "GERI02000N",
+"comune": "Genova",
+"nome": "Ipssia A. Odero",
+"provincia": "Genova",
+"regione": "Liguria",
+"visto": "2026-11-27"
+},
+"https://www.iscapitini.edu.it/": {
+"codice": "PTTD050001",
+"comune": "Agliana",
+"nome": "I.T.S.E. \"Aldo Capitini\" Agliana",
+"provincia": "Pistoia",
+"regione": "Toscana",
 "visto": "2026-11-27"
 },
 "https://www.iscsmontalegenova.it/": {
@@ -3565,7 +3629,7 @@
 "nome": "IC Borsi",
 "provincia": "Milano",
 "regione": "Lombardia",
-"visto": "2026-11-24"
+"visto": "2026-11-27"
 },
 "https://www.istitutocomprensivobroni.edu.it/": {
 "codice": "PVIC821006",
@@ -3637,7 +3701,7 @@
 "nome": "Baccio Da Montelupo",
 "provincia": "Firenze",
 "regione": "Toscana",
-"visto": "2026-11-26"
+"visto": "2026-11-27"
 },
 "https://www.istitutocomprensivopetrarca.edu.it/": {
 "codice": "CTIC87500P",
@@ -3816,9 +3880,9 @@
 "visto": "2026-11-27"
 },
 "https://www.istitutoravascogenova.it/modulistica-scaricabile.html": {
-"codice": "GE1M013009",
+"codice": "GE1A022001",
 "comune": "Genova",
-"nome": "Ravasco",
+"nome": "Eugenia Ravasco",
 "provincia": "Genova",
 "regione": "Liguria",
 "visto": "2026-11-27"
@@ -3943,6 +4007,14 @@
 "regione": "Emilia Romagna",
 "visto": "2026-11-27"
 },
+"https://www.liceopablopicasso.edu.it/": {
+"codice": "RMSD11000B",
+"comune": "Pomezia",
+"nome": "Liceo Artistico E Linguistico Picasso",
+"provincia": "Roma",
+"regione": "Lazio",
+"visto": "2026-11-27"
+},
 "https://www.liceopaleocapa.edu.it/": {
 "codice": "ROPS01000P",
 "comune": "Rovigo",
@@ -4016,11 +4088,11 @@
 "visto": "2026-11-27"
 },
 "https://www.mim.gov.it/web/guest/avvisi-per-incarichi-dirigenziali-generali-e-non-generali": {
-"codice": "NAMM0CQ00C",
-"comune": "Napoli",
-"nome": "CPIA Napoli Citta' 2",
-"provincia": "Napoli",
-"regione": "Campania",
+"codice": "FRIS00900Q",
+"comune": "Pontecorvo",
+"nome": "I.I.S. Pontecorvo",
+"provincia": "Frosinone",
+"regione": "Lazio",
 "visto": "2026-11-27"
 },
 "https://www.modugno.edu.it/": {
@@ -4071,6 +4143,14 @@
 "regione": "Sicilia",
 "visto": "2026-11-27"
 },
+"https://www.mossotti.it/": {
+"codice": "NOTD09000R",
+"comune": "Novara",
+"nome": "I.T.E. \"Mossotti\"",
+"provincia": "Novara",
+"regione": "Piemonte",
+"visto": "2026-11-27"
+},
 "https://www.palizzicasoria.edu.it/": {
 "codice": "NAIC8EV005",
 "comune": "Casoria",
@@ -4104,7 +4184,7 @@
 "visto": "2026-11-27"
 },
 "https://www.prealpiscuole.com/copia-di-colloqui-esami-stato-2019": {
-"codice": "VATN01500A",
+"codice": "VARH025001",
 "comune": "Saronno",
 "nome": "Prealpi",
 "provincia": "Varese",
