@@ -43,9 +43,32 @@
   "trovato_il": "2026-11-24"
  },
  {
+  "id": "b0709ef2b55e7864",
+  "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 18/12/2026",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4510",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_al.php",
+  "scuola": "Gavi - C. De Simoni",
+  "codice": "ALIC80600D",
+  "comune": "Capriata D'Orba",
+  "provincia": "Alessandria",
+  "regione": "Piemonte",
+  "data_atto": null,
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": false,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": "2026-11-27",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 44.7289,
+  "lon": 8.6944
+ },
+ {
   "id": "cc46150f49976c78",
   "titolo": "Interpello A012 Discipline letterarie negli istituti di istruzione secondaria di ii grado – cattedra interna, supplenza temporanea fino al 20/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_at.php#interpello-4539",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4539",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_at.php",
   "scuola": "G. A. Giobert",
   "codice": "ATIS00600P",
@@ -68,7 +91,7 @@
  {
   "id": "d5886e85668735e5",
   "titolo": "Interpello Sostegno scuola primaria – cattedra interna, fino al 30 giugno",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_at.php#interpello-4537",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4537",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_at.php",
   "scuola": "IC Delle Quattro Valli",
   "codice": "ATIC815009",
@@ -91,7 +114,7 @@
  {
   "id": "6a506f23941fae3d",
   "titolo": "Interpello A012 Discipline letterarie negli istituti di istruzione secondaria di ii grado – cattedra interna, supplenza temporanea fino al 17/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-4511",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4511",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "I.I.S. Gae Aulenti",
   "codice": "BIIS00700C",
@@ -114,7 +137,7 @@
  {
   "id": "b9c6b2e1f791f247",
   "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 22/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-4451",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4451",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "I.C. Cossato",
   "codice": "BIIC816003",
@@ -137,7 +160,7 @@
  {
   "id": "09a622a362255698",
   "titolo": "Interpello Infanzia – cattedra interna, supplenza temporanea fino al 22/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-4513",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4513",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Barge",
   "codice": "CNIC833006",
@@ -160,7 +183,7 @@
  {
   "id": "43f5870e27534263",
   "titolo": "Interpello AB25 Lingua inglese e seconda lingua comunitaria nella scuola secondaria di primo grado (inglese) – cattedra interna, supplenza temporanea fino al 04/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-4349",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4349",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Monta'",
   "codice": "CNIC82100X",
@@ -179,6 +202,397 @@
   "trovato_il": "2026-11-27",
   "lat": 44.8238,
   "lon": 7.9515
+ },
+ {
+  "id": "ebcdbcf093b04a4f",
+  "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4530",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
+  "scuola": "I.C. Ivrea Ii",
+  "codice": "TOIC8AB00N",
+  "comune": "Ivrea",
+  "provincia": "Torino",
+  "regione": "Piemonte",
+  "data_atto": "2026-11-26",
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": false,
+  "gradi": [
+   "infanzia"
+  ],
+  "scadenza": "2026-11-27",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.4536,
+  "lon": 7.8914
+ },
+ {
+  "id": "caa0c11b62433722",
+  "titolo": "Interpello Sostegno scuola primaria – cattedra interna, fino al 30 giugno",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4538",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
+  "scuola": "I.C. Corso Regio Parco - To",
+  "codice": "TOIC87700C",
+  "comune": "Torino",
+  "provincia": "Torino",
+  "regione": "Piemonte",
+  "data_atto": "2026-11-26",
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": "2026-11-27",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.0717,
+  "lon": 7.6781
+ },
+ {
+  "id": "efbc272c2b5e0b88",
+  "titolo": "Interpello Sostegno scuola primaria – cattedra interna, fino al 30 giugno",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4536",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
+  "scuola": "I.C. Palazzeschi - To",
+  "codice": "TOIC8AY00L",
+  "comune": "Torino",
+  "provincia": "Torino",
+  "regione": "Piemonte",
+  "data_atto": null,
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": "2026-11-27",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.0717,
+  "lon": 7.6781
+ },
+ {
+  "id": "2998ea49611c051d",
+  "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 24/12/2026",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4535",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
+  "scuola": "I.C. Bruno Caccia - To",
+  "codice": "TOIC8CA003",
+  "comune": "Torino",
+  "provincia": "Torino",
+  "regione": "Piemonte",
+  "data_atto": "2026-11-26",
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": false,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": "2026-11-27",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.0717,
+  "lon": 7.6781
+ },
+ {
+  "id": "d6c543b304d1f08f",
+  "titolo": "Interpello Sostegno scuola primaria – cattedra interna, supplenza temporanea fino al 22/12/2026",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4533",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
+  "scuola": "I.C. Corio",
+  "codice": "TOIC82700B",
+  "comune": "Corio",
+  "provincia": "Torino",
+  "regione": "Piemonte",
+  "data_atto": "2026-11-26",
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": "2026-11-27",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.3295,
+  "lon": 7.5192
+ },
+ {
+  "id": "91f4213fd2a1fca9",
+  "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 30/03/2027",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4531",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
+  "scuola": "I.C. Pianezza",
+  "codice": "TOIC89700N",
+  "comune": "Pianezza",
+  "provincia": "Torino",
+  "regione": "Piemonte",
+  "data_atto": "2026-11-26",
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": false,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": "2026-11-27",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.1139,
+  "lon": 7.554
+ },
+ {
+  "id": "c0c13f0dedd80573",
+  "titolo": "Interpello Sostegno scuola primaria – Spezzone per numero ore: 12,00, fino al 30 giugno",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4526",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
+  "scuola": "I.C. Caselle Torinese",
+  "codice": "TOIC89200E",
+  "comune": "Caselle Torinese",
+  "provincia": "Torino",
+  "regione": "Piemonte",
+  "data_atto": "2026-11-26",
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": "2026-11-27",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.1774,
+  "lon": 7.651
+ },
+ {
+  "id": "6887fb321c77e437",
+  "titolo": "Interpello Sostegno scuola infanzia – Spezzone per numero ore: 12,30, fino al 30 giugno",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4523",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
+  "scuola": "I.C. Caselle Torinese",
+  "codice": "TOIC89200E",
+  "comune": "Caselle Torinese",
+  "provincia": "Torino",
+  "regione": "Piemonte",
+  "data_atto": "2026-11-26",
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "infanzia"
+  ],
+  "scadenza": "2026-11-27",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.1774,
+  "lon": 7.651
+ },
+ {
+  "id": "83cb2a5bfed44cd7",
+  "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 28/02/2027",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4522",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
+  "scuola": "I.C. Carolina Picchio",
+  "codice": "TOIC88200X",
+  "comune": "Torino",
+  "provincia": "Torino",
+  "regione": "Piemonte",
+  "data_atto": "2026-11-26",
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": false,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": "2026-11-27",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.0717,
+  "lon": 7.6781
+ },
+ {
+  "id": "92df7c951098b32b",
+  "titolo": "Interpello Sostegno scuola primaria – cattedra interna, fino al 30 giugno",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4521",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
+  "scuola": "I.C. Pinerolo V-Cumiana",
+  "codice": "TOIC84600R",
+  "comune": "Cumiana",
+  "provincia": "Torino",
+  "regione": "Piemonte",
+  "data_atto": "2026-11-26",
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": "2026-11-27",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 44.9677,
+  "lon": 7.3847
+ },
+ {
+  "id": "aaceee48be05f008",
+  "titolo": "Interpello Sostegno scuola primaria – cattedra interna, supplenza temporanea fino al 11/12/2026",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4520",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
+  "scuola": "I.C. Mappano",
+  "codice": "TOIC860003",
+  "comune": "Mappano",
+  "provincia": "Torino",
+  "regione": "Piemonte",
+  "data_atto": "2026-11-26",
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": "2026-11-27",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.1509,
+  "lon": 7.7037
+ },
+ {
+  "id": "3e3ae1a46338ca11",
+  "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 15/12/2026",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4519",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
+  "scuola": "I.C. Ennio Morricone",
+  "codice": "TOIC8B700B",
+  "comune": "Torino",
+  "provincia": "Torino",
+  "regione": "Piemonte",
+  "data_atto": "2026-11-26",
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": false,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": "2026-11-27",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.0717,
+  "lon": 7.6781
+ },
+ {
+  "id": "4e0c71293517dcf0",
+  "titolo": "Interpello Sostegno scuola primaria – cattedra interna, supplenza temporanea fino al 22/12/2026",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4518",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
+  "scuola": "I.C. Ennio Morricone",
+  "codice": "TOIC8B700B",
+  "comune": "Torino",
+  "provincia": "Torino",
+  "regione": "Piemonte",
+  "data_atto": "2026-11-26",
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": "2026-11-27",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.0717,
+  "lon": 7.6781
+ },
+ {
+  "id": "d5e1849d48f75ad0",
+  "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 18/12/2026",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4516",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
+  "scuola": "I.C. Settimo Iv",
+  "codice": "TOIC8BC004",
+  "comune": "Settimo Torinese",
+  "provincia": "Torino",
+  "regione": "Piemonte",
+  "data_atto": "2026-11-26",
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": false,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": "2026-11-27",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.1457,
+  "lon": 7.7731
+ },
+ {
+  "id": "e39e437ae1be287e",
+  "titolo": "Interpello Sostegno scuola primaria – cattedra interna, fino al 30 giugno",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4512",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
+  "scuola": "I.C. Orbassano I",
+  "codice": "TOIC8AH00L",
+  "comune": "Orbassano",
+  "provincia": "Torino",
+  "regione": "Piemonte",
+  "data_atto": "2026-11-26",
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": "2026-11-27",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.0057,
+  "lon": 7.5558
+ },
+ {
+  "id": "6a3a55d768429a6d",
+  "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, supplenza temporanea fino al 11/12/2026",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4506",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
+  "scuola": "I.C. Chivasso/Dasso",
+  "codice": "TOIC8BQ007",
+  "comune": "Chivasso",
+  "provincia": "Torino",
+  "regione": "Piemonte",
+  "data_atto": "2026-11-25",
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "infanzia"
+  ],
+  "scadenza": "2026-11-27",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.206,
+  "lon": 7.8958
+ },
+ {
+  "id": "f174892e3df97f97",
+  "titolo": "Interpello Sostegno scuola primaria – cattedra interna, fino al 30 giugno",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4525",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_vc.php",
+  "scuola": "I. C. Livorno - Tronzano",
+  "codice": "VCIC80500N",
+  "comune": "Tronzano Vercellese",
+  "provincia": "Vercelli",
+  "regione": "Piemonte",
+  "data_atto": "2026-11-26",
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": "2026-11-27",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.3205,
+  "lon": 8.186
  },
  {
   "id": "4e8f887f1edb5636",
@@ -365,374 +779,6 @@
   "lon": 8.4032
  },
  {
-  "id": "ebcdbcf093b04a4f",
-  "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4530",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
-  "scuola": "I.C. Ivrea Ii",
-  "codice": "TOIC8AB00N",
-  "comune": "Ivrea",
-  "provincia": "Torino",
-  "regione": "Piemonte",
-  "data_atto": "2026-11-26",
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": false,
-  "gradi": [
-   "infanzia"
-  ],
-  "scadenza": "2026-11-27",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.4536,
-  "lon": 7.8914
- },
- {
-  "id": "caa0c11b62433722",
-  "titolo": "Interpello Sostegno scuola primaria – cattedra interna, fino al 30 giugno",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4538",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
-  "scuola": "I.C. Corso Regio Parco - To",
-  "codice": "TOIC87700C",
-  "comune": "Torino",
-  "provincia": "Torino",
-  "regione": "Piemonte",
-  "data_atto": "2026-11-26",
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": "2026-11-27",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.0717,
-  "lon": 7.6781
- },
- {
-  "id": "efbc272c2b5e0b88",
-  "titolo": "Interpello Sostegno scuola primaria – cattedra interna, fino al 30 giugno",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4536",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
-  "scuola": "I.C. Palazzeschi - To",
-  "codice": "TOIC8AY00L",
-  "comune": "Torino",
-  "provincia": "Torino",
-  "regione": "Piemonte",
-  "data_atto": null,
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": "2026-11-27",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.0717,
-  "lon": 7.6781
- },
- {
-  "id": "2998ea49611c051d",
-  "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 24/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4535",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
-  "scuola": "I.C. Bruno Caccia - To",
-  "codice": "TOIC8CA003",
-  "comune": "Torino",
-  "provincia": "Torino",
-  "regione": "Piemonte",
-  "data_atto": "2026-11-26",
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": false,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": "2026-11-27",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.0717,
-  "lon": 7.6781
- },
- {
-  "id": "d6c543b304d1f08f",
-  "titolo": "Interpello Sostegno scuola primaria – cattedra interna, supplenza temporanea fino al 22/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4533",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
-  "scuola": "I.C. Corio",
-  "codice": "TOIC82700B",
-  "comune": "Corio",
-  "provincia": "Torino",
-  "regione": "Piemonte",
-  "data_atto": "2026-11-26",
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": "2026-11-27",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.3295,
-  "lon": 7.5192
- },
- {
-  "id": "91f4213fd2a1fca9",
-  "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 30/03/2027",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4531",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
-  "scuola": "I.C. Pianezza",
-  "codice": "TOIC89700N",
-  "comune": "Pianezza",
-  "provincia": "Torino",
-  "regione": "Piemonte",
-  "data_atto": "2026-11-26",
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": false,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": "2026-11-27",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.1139,
-  "lon": 7.554
- },
- {
-  "id": "c0c13f0dedd80573",
-  "titolo": "Interpello Sostegno scuola primaria – Spezzone per numero ore: 12,00, fino al 30 giugno",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4526",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
-  "scuola": "I.C. Caselle Torinese",
-  "codice": "TOIC89200E",
-  "comune": "Caselle Torinese",
-  "provincia": "Torino",
-  "regione": "Piemonte",
-  "data_atto": "2026-11-26",
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": "2026-11-27",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.1774,
-  "lon": 7.651
- },
- {
-  "id": "6887fb321c77e437",
-  "titolo": "Interpello Sostegno scuola infanzia – Spezzone per numero ore: 12,30, fino al 30 giugno",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4523",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
-  "scuola": "I.C. Caselle Torinese",
-  "codice": "TOIC89200E",
-  "comune": "Caselle Torinese",
-  "provincia": "Torino",
-  "regione": "Piemonte",
-  "data_atto": "2026-11-26",
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "infanzia"
-  ],
-  "scadenza": "2026-11-27",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.1774,
-  "lon": 7.651
- },
- {
-  "id": "83cb2a5bfed44cd7",
-  "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 28/02/2027",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4522",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
-  "scuola": "I.C. Carolina Picchio",
-  "codice": "TOIC88200X",
-  "comune": "Torino",
-  "provincia": "Torino",
-  "regione": "Piemonte",
-  "data_atto": "2026-11-26",
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": false,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": "2026-11-27",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.0717,
-  "lon": 7.6781
- },
- {
-  "id": "92df7c951098b32b",
-  "titolo": "Interpello Sostegno scuola primaria – cattedra interna, fino al 30 giugno",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4521",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
-  "scuola": "I.C. Pinerolo V-Cumiana",
-  "codice": "TOIC84600R",
-  "comune": "Cumiana",
-  "provincia": "Torino",
-  "regione": "Piemonte",
-  "data_atto": "2026-11-26",
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": "2026-11-27",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 44.9677,
-  "lon": 7.3847
- },
- {
-  "id": "aaceee48be05f008",
-  "titolo": "Interpello Sostegno scuola primaria – cattedra interna, supplenza temporanea fino al 11/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4520",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
-  "scuola": "I.C. Mappano",
-  "codice": "TOIC860003",
-  "comune": "Mappano",
-  "provincia": "Torino",
-  "regione": "Piemonte",
-  "data_atto": "2026-11-26",
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": "2026-11-27",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.1509,
-  "lon": 7.7037
- },
- {
-  "id": "3e3ae1a46338ca11",
-  "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 15/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4519",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
-  "scuola": "I.C. Ennio Morricone",
-  "codice": "TOIC8B700B",
-  "comune": "Torino",
-  "provincia": "Torino",
-  "regione": "Piemonte",
-  "data_atto": "2026-11-26",
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": false,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": "2026-11-27",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.0717,
-  "lon": 7.6781
- },
- {
-  "id": "4e0c71293517dcf0",
-  "titolo": "Interpello Sostegno scuola primaria – cattedra interna, supplenza temporanea fino al 22/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4518",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
-  "scuola": "I.C. Ennio Morricone",
-  "codice": "TOIC8B700B",
-  "comune": "Torino",
-  "provincia": "Torino",
-  "regione": "Piemonte",
-  "data_atto": "2026-11-26",
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": "2026-11-27",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.0717,
-  "lon": 7.6781
- },
- {
-  "id": "d5e1849d48f75ad0",
-  "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 18/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4516",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
-  "scuola": "I.C. Settimo Iv",
-  "codice": "TOIC8BC004",
-  "comune": "Settimo Torinese",
-  "provincia": "Torino",
-  "regione": "Piemonte",
-  "data_atto": "2026-11-26",
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": false,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": "2026-11-27",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.1457,
-  "lon": 7.7731
- },
- {
-  "id": "e39e437ae1be287e",
-  "titolo": "Interpello Sostegno scuola primaria – cattedra interna, fino al 30 giugno",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4512",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
-  "scuola": "I.C. Orbassano I",
-  "codice": "TOIC8AH00L",
-  "comune": "Orbassano",
-  "provincia": "Torino",
-  "regione": "Piemonte",
-  "data_atto": "2026-11-26",
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": "2026-11-27",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.0057,
-  "lon": 7.5558
- },
- {
-  "id": "6a3a55d768429a6d",
-  "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, supplenza temporanea fino al 11/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4506",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
-  "scuola": "I.C. Chivasso/Dasso",
-  "codice": "TOIC8BQ007",
-  "comune": "Chivasso",
-  "provincia": "Torino",
-  "regione": "Piemonte",
-  "data_atto": "2026-11-25",
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "infanzia"
-  ],
-  "scadenza": "2026-11-27",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.206,
-  "lon": 7.8958
- },
- {
   "id": "a73cc6d2060e5cc5",
   "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, fino al 30 giugno",
   "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_vb.php#interpello-4527",
@@ -802,52 +848,6 @@
   "lon": 8.5259
  },
  {
-  "id": "f174892e3df97f97",
-  "titolo": "Interpello Sostegno scuola primaria – cattedra interna, fino al 30 giugno",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_vc.php#interpello-4525",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_vc.php",
-  "scuola": "I. C. Livorno - Tronzano",
-  "codice": "VCIC80500N",
-  "comune": "Tronzano Vercellese",
-  "provincia": "Vercelli",
-  "regione": "Piemonte",
-  "data_atto": "2026-11-26",
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": "2026-11-27",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.3205,
-  "lon": 8.186
- },
- {
-  "id": "b0709ef2b55e7864",
-  "titolo": "Interpello Primaria – cattedra interna, supplenza Temporanea fino al 18/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_al.php#interpello-4510",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_al.php",
-  "scuola": "Gavi - C. De Simoni",
-  "codice": "ALIC80600D",
-  "comune": "Capriata D'Orba",
-  "provincia": "Alessandria",
-  "regione": "Piemonte",
-  "data_atto": null,
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": false,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": "2026-11-27",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 44.7289,
-  "lon": 8.6944
- },
- {
   "id": "5ca65dfbd26bd7de",
   "titolo": "Interpello per il conferimento di due incarichi dirigenziali di livello non generale di direzione dell'Ufficio III (AT di Ancona) e dell'Ufficio V (AT di Macerata) - USR per le Marche",
   "link": "https://www.mim.gov.it/web/guest/-/avviso-prot-n-2540-del-16-novembre-2026",
@@ -868,7 +868,7 @@
  {
   "id": "fa97b993cd09ba61",
   "titolo": "Interpello Infanzia – cattedra interna, supplenza temporanea fino al 22/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-4560",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4560",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Villanova Mondovi'",
   "codice": "CNIC812005",
@@ -891,7 +891,7 @@
  {
   "id": "d978aed697bdf2a5",
   "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 13/11/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-3731",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=3731",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Dronero \"Giovanni Giolitti\"",
   "codice": "CNIC82800P",
@@ -910,6 +910,75 @@
   "trovato_il": "2026-11-27",
   "lat": 44.4551,
   "lon": 7.3292
+ },
+ {
+  "id": "8fdb841c3da5488d",
+  "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 15/12/2026",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4570",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
+  "scuola": "I.C. Pacchiotti/Via Revel - To",
+  "codice": "TOIC8B500Q",
+  "comune": "Torino",
+  "provincia": "Torino",
+  "regione": "Piemonte",
+  "data_atto": "2026-11-27",
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": false,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": "2026-11-28",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.0717,
+  "lon": 7.6781
+ },
+ {
+  "id": "81b5f4d16ba19da7",
+  "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 22/12/2026",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4567",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
+  "scuola": "I.C. Settimo Iv",
+  "codice": "TOIC8BC004",
+  "comune": "Settimo Torinese",
+  "provincia": "Torino",
+  "regione": "Piemonte",
+  "data_atto": "2026-11-27",
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": false,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": "2026-11-28",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.1457,
+  "lon": 7.7731
+ },
+ {
+  "id": "3cc1dccb6f417cb2",
+  "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, supplenza temporanea fino al 04/12/2026",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4543",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
+  "scuola": "I.C. Condove E Sant'Ambrogio",
+  "codice": "TOIC82500Q",
+  "comune": "Condove",
+  "provincia": "Torino",
+  "regione": "Piemonte",
+  "data_atto": "2026-11-27",
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "infanzia"
+  ],
+  "scadenza": "2026-11-28",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.1571,
+  "lon": 7.2722
  },
  {
   "id": "b9dd76cf7c11e3b2",
@@ -1004,75 +1073,6 @@
   "lon": 8.6005
  },
  {
-  "id": "8fdb841c3da5488d",
-  "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 15/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4570",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
-  "scuola": "I.C. Pacchiotti/Via Revel - To",
-  "codice": "TOIC8B500Q",
-  "comune": "Torino",
-  "provincia": "Torino",
-  "regione": "Piemonte",
-  "data_atto": "2026-11-27",
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": false,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": "2026-11-28",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.0717,
-  "lon": 7.6781
- },
- {
-  "id": "81b5f4d16ba19da7",
-  "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 22/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4567",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
-  "scuola": "I.C. Settimo Iv",
-  "codice": "TOIC8BC004",
-  "comune": "Settimo Torinese",
-  "provincia": "Torino",
-  "regione": "Piemonte",
-  "data_atto": "2026-11-27",
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": false,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": "2026-11-28",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.1457,
-  "lon": 7.7731
- },
- {
-  "id": "3cc1dccb6f417cb2",
-  "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, supplenza temporanea fino al 04/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4543",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
-  "scuola": "I.C. Condove E Sant'Ambrogio",
-  "codice": "TOIC82500Q",
-  "comune": "Condove",
-  "provincia": "Torino",
-  "regione": "Piemonte",
-  "data_atto": "2026-11-27",
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "infanzia"
-  ],
-  "scadenza": "2026-11-28",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.1571,
-  "lon": 7.2722
- },
- {
   "id": "f7324ff9b6cef238",
   "titolo": "Interpello n. 13 per supplenza su classe di concorso SPAGNOLO nella SCUOLA secondaria di I grado ore 12 – supplenza fino al 29/11/2026",
   "link": "https://www.icsangiulio.edu.it/interpello-n-13-per-supplenza-su-classe-di-concorso-spagnolo-nella-scuola-secondaria-di-i-grado-ore-12-supplenza-fino-al-29-11-2026/",
@@ -1097,7 +1097,7 @@
  {
   "id": "f315012f60c6b888",
   "titolo": "Interpello A022 Italiano, storia, geografia, nella scuola secondaria di i grado – cattedra interna, supplenza temporanea fino al 25/01/2027",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_at.php#interpello-4566",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4566",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_at.php",
   "scuola": "Rocchetta Tanaro",
   "codice": "ATIC809002",
@@ -1120,7 +1120,7 @@
  {
   "id": "c65c4ea3d07c9a4a",
   "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, supplenza temporanea fino al 15/03/2027",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_at.php#interpello-4550",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4550",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_at.php",
   "scuola": "I.C. 2 Asti",
   "codice": "ATIC817001",
@@ -1143,7 +1143,7 @@
  {
   "id": "6dc4d12a06a6e50f",
   "titolo": "Interpello Sostegno scuola primaria – cattedra interna, supplenza temporanea fino al 29/11/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-2441",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2441",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Cuneo Via Sobrero",
   "codice": "CNIC86100A",
@@ -1166,7 +1166,7 @@
  {
   "id": "7cd2d35968730364",
   "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, fino al 30 giugno",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4559",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4559",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
   "scuola": "I.C. Antonelli/Casalegno - To",
   "codice": "TOIC8BZ003",
@@ -1189,7 +1189,7 @@
  {
   "id": "891b577b525d6595",
   "titolo": "Interpello Sostegno scuola primaria – cattedra interna, supplenza temporanea fino al 22/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4540",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4540",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
   "scuola": "I.C. Villar Perosa",
   "codice": "TOIC80400P",
@@ -1466,9 +1466,32 @@
   "lon": 14.2163
  },
  {
+  "id": "42198d825ea82582",
+  "titolo": "Interpello A027 Matematica e fisica – cattedra interna, supplenza temporanea fino al 22/12/2026",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4549",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_al.php",
+  "scuola": "Edoardo Amaldi",
+  "codice": "ALPS050005",
+  "comune": "Novi Ligure",
+  "provincia": "Alessandria",
+  "regione": "Piemonte",
+  "data_atto": "2026-11-27",
+  "fonte": "USP",
+  "classi": [
+   "A027"
+  ],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": "2026-11-30",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 44.765,
+  "lon": 8.7952
+ },
+ {
   "id": "bce1086d0afdbd40",
   "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 10/06/2027",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_at.php#interpello-4553",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4553",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_at.php",
   "scuola": "I.C. 1 Asti",
   "codice": "ATIC81800R",
@@ -1491,7 +1514,7 @@
  {
   "id": "96bf4b71e2a9383e",
   "titolo": "Interpello A028 Matematica e scienze – Spezzone per numero ore: 16, fino al 30 giugno",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_at.php#interpello-4552",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4552",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_at.php",
   "scuola": "Istituto Comprensivo S. Damiano",
   "codice": "ATIC811002",
@@ -1514,7 +1537,7 @@
  {
   "id": "3a1b899560b23e12",
   "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 08/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_at.php#interpello-4544",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4544",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_at.php",
   "scuola": "I C Castell'Alfero",
   "codice": "ATIC80500P",
@@ -1537,7 +1560,7 @@
  {
   "id": "436ec5949caf5d80",
   "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 22/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-4562",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4562",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Govone",
   "codice": "CNIC82300G",
@@ -1556,6 +1579,121 @@
   "trovato_il": "2026-11-27",
   "lat": 44.7652,
   "lon": 8.0765
+ },
+ {
+  "id": "f6d118c0baf8415f",
+  "titolo": "Interpello Sostegno scuola primaria – cattedra interna, supplenza temporanea fino al 04/12/2026",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4558",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
+  "scuola": "I.C. Don Lorenzo Milani",
+  "codice": "TOIC8A4009",
+  "comune": "Venaria Reale",
+  "provincia": "Torino",
+  "regione": "Piemonte",
+  "data_atto": "2026-11-27",
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": "2026-11-30",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.1409,
+  "lon": 7.6193
+ },
+ {
+  "id": "0af66220454f417e",
+  "titolo": "Interpello Sostegno scuola primaria – cattedra interna, supplenza temporanea fino al 22/12/2026",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4556",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
+  "scuola": "I.C. Corso Regio Parco - To",
+  "codice": "TOIC87700C",
+  "comune": "Torino",
+  "provincia": "Torino",
+  "regione": "Piemonte",
+  "data_atto": "2026-11-27",
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": "2026-11-30",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.0717,
+  "lon": 7.6781
+ },
+ {
+  "id": "e74f4dddab48250a",
+  "titolo": "Interpello Sostegno scuola primaria – cattedra interna, supplenza temporanea fino al 25/04/2027",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4548",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
+  "scuola": "I.C. Marconi-Antonelli - To",
+  "codice": "TOIC87500R",
+  "comune": "Torino",
+  "provincia": "Torino",
+  "regione": "Piemonte",
+  "data_atto": "2026-11-27",
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": "2026-11-30",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.0717,
+  "lon": 7.6781
+ },
+ {
+  "id": "aff466b768ce2eef",
+  "titolo": "Interpello A012 Discipline letterarie negli istituti di istruzione secondaria di ii grado – Spezzone per numero ore: 9, supplenza temporanea fino al 13/12/2026",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4565",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_vc.php",
+  "scuola": "G. Pastore",
+  "codice": "VCRH040008",
+  "comune": "Gattinara",
+  "provincia": "Vercelli",
+  "regione": "Piemonte",
+  "data_atto": "2026-11-27",
+  "fonte": "USP",
+  "classi": [
+   "A012"
+  ],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": "2026-11-30",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.6046,
+  "lon": 8.3571
+ },
+ {
+  "id": "ad1ac3ee6bc9627b",
+  "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 20/12/2026",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4561",
+  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_vc.php",
+  "scuola": "Di Baraggia Arborio E Gattinara",
+  "codice": "VCIC815008",
+  "comune": "Lenta",
+  "provincia": "Vercelli",
+  "regione": "Piemonte",
+  "data_atto": "2026-11-27",
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": false,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": "2026-11-30",
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.5578,
+  "lon": 8.3675
  },
  {
   "id": "34d3b578c0278476",
@@ -1604,147 +1742,9 @@
   "lon": 8.4032
  },
  {
-  "id": "f6d118c0baf8415f",
-  "titolo": "Interpello Sostegno scuola primaria – cattedra interna, supplenza temporanea fino al 04/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4558",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
-  "scuola": "I.C. Don Lorenzo Milani",
-  "codice": "TOIC8A4009",
-  "comune": "Venaria Reale",
-  "provincia": "Torino",
-  "regione": "Piemonte",
-  "data_atto": "2026-11-27",
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": "2026-11-30",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.1409,
-  "lon": 7.6193
- },
- {
-  "id": "0af66220454f417e",
-  "titolo": "Interpello Sostegno scuola primaria – cattedra interna, supplenza temporanea fino al 22/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4556",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
-  "scuola": "I.C. Corso Regio Parco - To",
-  "codice": "TOIC87700C",
-  "comune": "Torino",
-  "provincia": "Torino",
-  "regione": "Piemonte",
-  "data_atto": "2026-11-27",
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": "2026-11-30",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.0717,
-  "lon": 7.6781
- },
- {
-  "id": "e74f4dddab48250a",
-  "titolo": "Interpello Sostegno scuola primaria – cattedra interna, supplenza temporanea fino al 25/04/2027",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4548",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
-  "scuola": "I.C. Marconi-Antonelli - To",
-  "codice": "TOIC87500R",
-  "comune": "Torino",
-  "provincia": "Torino",
-  "regione": "Piemonte",
-  "data_atto": "2026-11-27",
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": "2026-11-30",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.0717,
-  "lon": 7.6781
- },
- {
-  "id": "aff466b768ce2eef",
-  "titolo": "Interpello A012 Discipline letterarie negli istituti di istruzione secondaria di ii grado – Spezzone per numero ore: 9, supplenza temporanea fino al 13/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_vc.php#interpello-4565",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_vc.php",
-  "scuola": "G. Pastore",
-  "codice": "VCRH040008",
-  "comune": "Gattinara",
-  "provincia": "Vercelli",
-  "regione": "Piemonte",
-  "data_atto": "2026-11-27",
-  "fonte": "USP",
-  "classi": [
-   "A012"
-  ],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": "2026-11-30",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.6046,
-  "lon": 8.3571
- },
- {
-  "id": "ad1ac3ee6bc9627b",
-  "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 20/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_vc.php#interpello-4561",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_vc.php",
-  "scuola": "Di Baraggia Arborio E Gattinara",
-  "codice": "VCIC815008",
-  "comune": "Lenta",
-  "provincia": "Vercelli",
-  "regione": "Piemonte",
-  "data_atto": "2026-11-27",
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": false,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": "2026-11-30",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.5578,
-  "lon": 8.3675
- },
- {
-  "id": "42198d825ea82582",
-  "titolo": "Interpello A027 Matematica e fisica – cattedra interna, supplenza Temporanea fino al 22/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_al.php#interpello-4549",
-  "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_al.php",
-  "scuola": "Edoardo Amaldi",
-  "codice": "ALPS050005",
-  "comune": "Novi Ligure",
-  "provincia": "Alessandria",
-  "regione": "Piemonte",
-  "data_atto": "2026-11-27",
-  "fonte": "USP",
-  "classi": [
-   "A027"
-  ],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": "2026-11-30",
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 44.765,
-  "lon": 8.7952
- },
- {
   "id": "0c6b5dd90b23c7e5",
   "titolo": "Interpello AC24 Lingue e culture straniere negli istituti di istruzione secondaria di ii grado (spagnolo) – cattedra interna, supplenza temporanea fino al 10/06/2027",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_vc.php#interpello-4564",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4564",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_vc.php",
   "scuola": "I.I.S. D'Adda",
   "codice": "VCIS00700D",
@@ -1767,7 +1767,7 @@
  {
   "id": "ac7a4d9aad76375c",
   "titolo": "Interpello AA24 Lingue e culture straniere negli istituti di istruzione secondaria di ii grado (francese) – Spezzone per numero ore: 4, supplenza temporanea fino al 10/06/2027",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_vc.php#interpello-4563",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4563",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_vc.php",
   "scuola": "I.I.S. D'Adda",
   "codice": "VCIS00700D",
@@ -1938,7 +1938,7 @@
  {
   "id": "e92f0cb21384d26a",
   "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 04/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4134",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4134",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
   "scuola": "I.C. Alvaro/Gobetti - To",
   "codice": "TOIC8B3004",
@@ -2275,7 +2275,7 @@
  {
   "id": "db2cd5be61e01851",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-3572",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=3572",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
   "scuola": "I.C. Rivalta/Tetti Francesi",
   "codice": "TOIC84000T",
@@ -2298,7 +2298,7 @@
  {
   "id": "44c180c157009cda",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-3121",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=3121",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
   "scuola": "I.C. Orbassano Ii",
   "codice": "TOIC8AJ00T",
@@ -2452,7 +2452,7 @@
  {
   "id": "427135c1380b387f",
   "titolo": "Interpello Sostegno scuola primaria – cattedra interna, supplenza temporanea fino al 15/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-4406",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4406",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "Ic\"C.Pavese\"Candelo-Sandigliano",
   "codice": "BIIC80600C",
@@ -2475,7 +2475,7 @@
  {
   "id": "49511c084f9d477a",
   "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 15/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-4405",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4405",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "Ic\"C.Pavese\"Candelo-Sandigliano",
   "codice": "BIIC80600C",
@@ -2498,7 +2498,7 @@
  {
   "id": "0f59b0328d0fe647",
   "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, supplenza temporanea fino al 15/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-4404",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4404",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "Ic\"C.Pavese\"Candelo-Sandigliano",
   "codice": "BIIC80600C",
@@ -2521,7 +2521,7 @@
  {
   "id": "6943389f74104206",
   "titolo": "Interpello Infanzia – cattedra interna, supplenza temporanea fino al 15/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-4403",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4403",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "Ic\"C.Pavese\"Candelo-Sandigliano",
   "codice": "BIIC80600C",
@@ -2544,7 +2544,7 @@
  {
   "id": "86c194c27a2accae",
   "titolo": "Interpello Sostegno scuola primaria – cattedra interna, supplenza temporanea fino al 17/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-3866",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=3866",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
   "scuola": "I.C. Chieri I",
   "codice": "TOIC8AV005",
@@ -2588,7 +2588,7 @@
  {
   "id": "a984c93f369dd621",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-1759",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1759",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Savigliano\"Papa Giovanni Xxiii\"",
   "codice": "CNIC85200G",
@@ -2611,7 +2611,7 @@
  {
   "id": "bd51dac105df76ae",
   "titolo": "Interpello Sostegno scuola primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-1758",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1758",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Savigliano\"Papa Giovanni Xxiii\"",
   "codice": "CNIC85200G",
@@ -2634,7 +2634,7 @@
  {
   "id": "d3f6ae1ae8def050",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-1757",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1757",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Savigliano\"Papa Giovanni Xxiii\"",
   "codice": "CNIC85200G",
@@ -2657,7 +2657,7 @@
  {
   "id": "09c21456055fb56f",
   "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-1755",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1755",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Savigliano\"Papa Giovanni Xxiii\"",
   "codice": "CNIC85200G",
@@ -2680,7 +2680,7 @@
  {
   "id": "97b261bf1e1d2b46",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-508",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=508",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Mondovi' 1",
   "codice": "CNIC85800E",
@@ -2703,7 +2703,7 @@
  {
   "id": "dae3f05f6b653a7c",
   "titolo": "Interpello Sostegno scuola primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-506",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=506",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Mondovi' 1",
   "codice": "CNIC85800E",
@@ -2726,7 +2726,7 @@
  {
   "id": "f1a351e6919b66be",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-505",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=505",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Mondovi' 1",
   "codice": "CNIC85800E",
@@ -2749,7 +2749,7 @@
  {
   "id": "b43211db768288a8",
   "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-502",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=502",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Mondovi' 1",
   "codice": "CNIC85800E",
@@ -2772,7 +2772,7 @@
  {
   "id": "3dd2cdf14381e6ae",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-3574",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=3574",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
   "scuola": "I.C. Rivalta/Tetti Francesi",
   "codice": "TOIC84000T",
@@ -2946,7 +2946,7 @@
  {
   "id": "60bc4dfd17704742",
   "titolo": "Interpello Sostegno scuola primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-1285",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1285",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "IC Andorno Micca",
   "codice": "BIIC80000D",
@@ -2969,7 +2969,7 @@
  {
   "id": "fdf8a20b974f47bb",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-1284",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1284",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "IC Andorno Micca",
   "codice": "BIIC80000D",
@@ -2992,7 +2992,7 @@
  {
   "id": "c1d85065cdd5ad59",
   "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-1283",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1283",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "IC Andorno Micca",
   "codice": "BIIC80000D",
@@ -3015,7 +3015,7 @@
  {
   "id": "9da5070f1c1d0164",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-1279",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1279",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "IC Andorno Micca",
   "codice": "BIIC80000D",
@@ -3038,7 +3038,7 @@
  {
   "id": "c522b4da56dd152c",
   "titolo": "Interpello Sostegno scuola primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-2863",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2863",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Bra 2 \"Ilaria Alpi-Gino Strada\"",
   "codice": "CNIC863002",
@@ -3061,7 +3061,7 @@
  {
   "id": "b84eb4936c6f492b",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-2862",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2862",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Bra 2 \"Ilaria Alpi-Gino Strada\"",
   "codice": "CNIC863002",
@@ -3084,7 +3084,7 @@
  {
   "id": "f654adffdb50d6da",
   "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-2857",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2857",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Bra 2 \"Ilaria Alpi-Gino Strada\"",
   "codice": "CNIC863002",
@@ -3107,7 +3107,7 @@
  {
   "id": "f26417a7c120b432",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-2854",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2854",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Bra 2 \"Ilaria Alpi-Gino Strada\"",
   "codice": "CNIC863002",
@@ -3130,7 +3130,7 @@
  {
   "id": "9cb6a8d2a66576ff",
   "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 26/11/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-4478",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4478",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Santa Vittoria D'Alba",
   "codice": "CNIC820004",
@@ -3153,7 +3153,7 @@
  {
   "id": "d6aaec951ea58b48",
   "titolo": "Interpello Primaria – cattedra interna, supplenza temporanea fino al 22/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_vc.php#interpello-2778",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2778",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_vc.php",
   "scuola": "Di Baraggia Arborio E Gattinara",
   "codice": "VCIC815008",
@@ -3176,7 +3176,7 @@
  {
   "id": "b9d994d7dfa26f20",
   "titolo": "Interpello Infanzia – cattedra interna, supplenza temporanea fino al 22/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_vc.php#interpello-2777",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2777",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_vc.php",
   "scuola": "Di Baraggia Arborio E Gattinara",
   "codice": "VCIC815008",
@@ -3242,7 +3242,7 @@
  {
   "id": "044e99eb06f1b15d",
   "titolo": "Interpello A022 Italiano, storia, geografia, nella scuola secondaria di i grado – cattedra interna, supplenza temporanea fino al 22/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_vc.php#interpello-4555",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4555",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_vc.php",
   "scuola": "I. C. Livorno - Tronzano",
   "codice": "VCIC80500N",
@@ -3265,7 +3265,7 @@
  {
   "id": "76da6c7d617d8ace",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-165",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=165",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "IC Biella Iii",
   "codice": "BIIC81300G",
@@ -3288,7 +3288,7 @@
  {
   "id": "0d38c8aee86f7fe2",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-160",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=160",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "IC Biella Iii",
   "codice": "BIIC81300G",
@@ -3399,7 +3399,7 @@
  {
   "id": "b34afdb01f6c173e",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-3746",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=3746",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
   "scuola": "I.C. Azeglio",
   "codice": "TOIC894006",
@@ -3422,7 +3422,7 @@
  {
   "id": "18af254f6cec3263",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-3738",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=3738",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
   "scuola": "I.C. Azeglio",
   "codice": "TOIC894006",
@@ -3641,7 +3641,7 @@
  {
   "id": "979ebb34c2b4e5a8",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_al.php#interpello-4073",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4073",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_al.php",
   "scuola": "Felizzano \"G. Pascoli\"",
   "codice": "ALIC81800Q",
@@ -3664,7 +3664,7 @@
  {
   "id": "43248ae3915fce9f",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_al.php#interpello-3613",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=3613",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_al.php",
   "scuola": "Felizzano \"G. Pascoli\"",
   "codice": "ALIC81800Q",
@@ -3687,7 +3687,7 @@
  {
   "id": "d57a3d6af64b282f",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_at.php#interpello-3983",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=3983",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_at.php",
   "scuola": "Istituto Comprensivo 4 - At",
   "codice": "ATIC81900L",
@@ -3710,7 +3710,7 @@
  {
   "id": "2afa5917d1c3f08e",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_at.php#interpello-3887",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=3887",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_at.php",
   "scuola": "Istituto Comprensivo 4 - At",
   "codice": "ATIC81900L",
@@ -3733,7 +3733,7 @@
  {
   "id": "5908300f40a2faa1",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_at.php#interpello-2442",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2442",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_at.php",
   "scuola": "Istituto Comprensivo S. Damiano",
   "codice": "ATIC811002",
@@ -3756,7 +3756,7 @@
  {
   "id": "75b84a796a316c4c",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_at.php#interpello-2438",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2438",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_at.php",
   "scuola": "Istituto Comprensivo S. Damiano",
   "codice": "ATIC811002",
@@ -3779,7 +3779,7 @@
  {
   "id": "37186b50de26ba75",
   "titolo": "Interpello A040 Scienze e tecnologie elettriche ed elettroniche – cattedra interna, supplenza temporanea fino al 01/12/2026",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-4468",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4468",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "Q. Sella - Iti",
   "codice": "BITF01000Q",
@@ -3802,7 +3802,7 @@
  {
   "id": "9ced25d08d015a5a",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-2872",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2872",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Dronero \"Giovanni Giolitti\"",
   "codice": "CNIC82800P",
@@ -3825,7 +3825,7 @@
  {
   "id": "989b2ff80e260317",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-2871",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2871",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Dronero \"Giovanni Giolitti\"",
   "codice": "CNIC82800P",
@@ -3848,7 +3848,7 @@
  {
   "id": "60e7271dd6f1a9ff",
   "titolo": "Interpello Sostegno scuola primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-1474",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1474",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "IC Vigliano Biellese",
   "codice": "BIIC81800P",
@@ -3871,7 +3871,7 @@
  {
   "id": "65ff396d1d934a3e",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-1471",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1471",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "IC Vigliano Biellese",
   "codice": "BIIC81800P",
@@ -3894,7 +3894,7 @@
  {
   "id": "8c9ecd3fe128726d",
   "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-1475",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1475",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Alba Quartiere Piave S.Cassiano",
   "codice": "CNIC854007",
@@ -3917,7 +3917,7 @@
  {
   "id": "655e019703ecd6c5",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-1473",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1473",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Alba Quartiere Piave S.Cassiano",
   "codice": "CNIC854007",
@@ -3940,7 +3940,7 @@
  {
   "id": "f466ef7f593eaa16",
   "titolo": "Interpello Sostegno scuola primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-1470",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1470",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Alba Quartiere Piave S.Cassiano",
   "codice": "CNIC854007",
@@ -3963,7 +3963,7 @@
  {
   "id": "63112224a1ccb39f",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-1467",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1467",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Alba Quartiere Piave S.Cassiano",
   "codice": "CNIC854007",
@@ -3986,7 +3986,7 @@
  {
   "id": "e7a61867eca4c2c4",
   "titolo": "Interpello Sostegno scuola primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-579",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=579",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
   "scuola": "I.C. Forno Canavese",
   "codice": "TOIC84800C",
@@ -4009,7 +4009,7 @@
  {
   "id": "88f68a5aac7f09a4",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-578",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=578",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
   "scuola": "I.C. Forno Canavese",
   "codice": "TOIC84800C",
@@ -4032,7 +4032,7 @@
  {
   "id": "d2d4474d1a3ea07e",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-574",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=574",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
   "scuola": "I.C. Forno Canavese",
   "codice": "TOIC84800C",
@@ -4055,7 +4055,7 @@
  {
   "id": "d240e01cae211480",
   "titolo": "Interpello Sostegno scuola primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-64",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=64",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
   "scuola": "I.C. San Giorgio Canavese",
   "codice": "TOIC8BT004",
@@ -4078,7 +4078,7 @@
  {
   "id": "18f137870e8ef9b1",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-63",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=63",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
   "scuola": "I.C. San Giorgio Canavese",
   "codice": "TOIC8BT004",
@@ -4101,7 +4101,7 @@
  {
   "id": "858e28fd70dd86d8",
   "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-59",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=59",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
   "scuola": "I.C. San Giorgio Canavese",
   "codice": "TOIC8BT004",
@@ -4124,7 +4124,7 @@
  {
   "id": "27959e4e5599b6bf",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-41",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=41",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
   "scuola": "I.C. San Giorgio Canavese",
   "codice": "TOIC8BT004",
@@ -4147,7 +4147,7 @@
  {
   "id": "e337cf69cd4cadad",
   "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-447",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=447",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Barge",
   "codice": "CNIC833006",
@@ -4170,7 +4170,7 @@
  {
   "id": "7ac563b65b35d8b1",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-344",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=344",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Barge",
   "codice": "CNIC833006",
@@ -4193,7 +4193,7 @@
  {
   "id": "b8294237ab24b985",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-1694",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1694",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Cuneo Oltrestura",
   "codice": "CNIC84800X",
@@ -4216,7 +4216,7 @@
  {
   "id": "a3f505d38ddafada",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-1693",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1693",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Cuneo Oltrestura",
   "codice": "CNIC84800X",
@@ -4239,7 +4239,7 @@
  {
   "id": "1c032d2fb24b103e",
   "titolo": "Interpello Sostegno scuola primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-1562",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1562",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Cuneo Viale Angeli",
   "codice": "CNIC86000E",
@@ -4262,7 +4262,7 @@
  {
   "id": "ffd52c2a92718acc",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-1560",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1560",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Cuneo Viale Angeli",
   "codice": "CNIC86000E",
@@ -4285,7 +4285,7 @@
  {
   "id": "463635901e56eb1c",
   "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-611",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=611",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "I.C. Cossato",
   "codice": "BIIC816003",
@@ -4308,7 +4308,7 @@
  {
   "id": "5eaaf2a5e3017f81",
   "titolo": "Interpello Sostegno scuola primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-609",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=609",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "I.C. Cossato",
   "codice": "BIIC816003",
@@ -4331,7 +4331,7 @@
  {
   "id": "9491dea7dc79c822",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-261",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=261",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "I.C. Cossato",
   "codice": "BIIC816003",
@@ -4354,7 +4354,7 @@
  {
   "id": "e6e371a5b3f217aa",
   "titolo": "Interpello Sostegno scuola primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-4028",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4028",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Cuneo Via Sobrero",
   "codice": "CNIC86100A",
@@ -4377,7 +4377,7 @@
  {
   "id": "12c26e6fc55f1e82",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-1972",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1972",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Cuneo Via Sobrero",
   "codice": "CNIC86100A",
@@ -4400,7 +4400,7 @@
  {
   "id": "354198eba86366a0",
   "titolo": "Interpello Sostegno scuola primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-2740",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2740",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "IC Occhieppo \"E. Schiaparelli\"",
   "codice": "BIIC80900X",
@@ -4423,7 +4423,7 @@
  {
   "id": "b2af40df23aa3601",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-2735",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2735",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "IC Occhieppo \"E. Schiaparelli\"",
   "codice": "BIIC80900X",
@@ -4446,7 +4446,7 @@
  {
   "id": "8d6d765b63a1f209",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-212",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=212",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "I.C. Cossato",
   "codice": "BIIC816003",
@@ -4469,7 +4469,7 @@
  {
   "id": "5b5f32195411319a",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-125",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=125",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "\"San Francesco D'Assisi\"",
   "codice": "BIIC815007",
@@ -4492,7 +4492,7 @@
  {
   "id": "f391325263d4f31a",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-3005",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=3005",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Carru' \"Oderda-Perotti\"",
   "codice": "CNIC80600T",
@@ -4515,7 +4515,7 @@
  {
   "id": "38ddcd6fe361732f",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-3002",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=3002",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Carru' \"Oderda-Perotti\"",
   "codice": "CNIC80600T",
@@ -4538,7 +4538,7 @@
  {
   "id": "5339ed0a8b22859b",
   "titolo": "Interpello Sostegno scuola primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-2614",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2614",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Villanova Mondovi'",
   "codice": "CNIC812005",
@@ -4561,7 +4561,7 @@
  {
   "id": "8bb5d79e8b564f30",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-2613",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2613",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Villanova Mondovi'",
   "codice": "CNIC812005",
@@ -4584,7 +4584,7 @@
  {
   "id": "39c430da2eb87df3",
   "titolo": "Interpello Sostegno scuola primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-2061",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2061",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Garessio",
   "codice": "CNIC83600N",
@@ -4607,7 +4607,7 @@
  {
   "id": "b9cbe77b1f8d1f9d",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-2060",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2060",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Garessio",
   "codice": "CNIC83600N",
@@ -4630,7 +4630,7 @@
  {
   "id": "64b2c89fc010ab34",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-2787",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2787",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Saluzzo",
   "codice": "CNIC862006",
@@ -4653,7 +4653,7 @@
  {
   "id": "50bcc8a248ca53ad",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-1546",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1546",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Cuneo Viale Angeli",
   "codice": "CNIC86000E",
@@ -4676,7 +4676,7 @@
  {
   "id": "b269d65e9d060e15",
   "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-1533",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1533",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Cuneo Viale Angeli",
   "codice": "CNIC86000E",
@@ -4699,7 +4699,7 @@
  {
   "id": "46cc4622d3f3e024",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-3792",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=3792",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Cuneo Via Sobrero",
   "codice": "CNIC86100A",
@@ -4722,7 +4722,7 @@
  {
   "id": "d169fbb4135301aa",
   "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-2742",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2742",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "IC Occhieppo \"E. Schiaparelli\"",
   "codice": "BIIC80900X",
@@ -4745,7 +4745,7 @@
  {
   "id": "2448bd6d23c50a8e",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-2738",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2738",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "IC Occhieppo \"E. Schiaparelli\"",
   "codice": "BIIC80900X",
@@ -4768,7 +4768,7 @@
  {
   "id": "ba1f33d49d695d4d",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-1823",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1823",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "IC Cavaglia'",
   "codice": "BIIC801009",
@@ -4791,7 +4791,7 @@
  {
   "id": "1a35a5550e2fa763",
   "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-1469",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1469",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "IC Vigliano Biellese",
   "codice": "BIIC81800P",
@@ -4814,7 +4814,7 @@
  {
   "id": "9794d0974bf79abc",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-1465",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1465",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "IC Vigliano Biellese",
   "codice": "BIIC81800P",
@@ -4837,7 +4837,7 @@
  {
   "id": "b2bc6bc48fae300c",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php#interpello-124",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=124",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_bi.php",
   "scuola": "\"San Francesco D'Assisi\"",
   "codice": "BIIC815007",
@@ -4860,7 +4860,7 @@
  {
   "id": "6dee8c05275329b2",
   "titolo": "Interpello Sostegno scuola primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-3961",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=3961",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Saluzzo",
   "codice": "CNIC862006",
@@ -4883,7 +4883,7 @@
  {
   "id": "f37315ae56195018",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-3960",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=3960",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Saluzzo",
   "codice": "CNIC862006",
@@ -4906,7 +4906,7 @@
  {
   "id": "53012cca84e211cc",
   "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-3959",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=3959",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Saluzzo",
   "codice": "CNIC862006",
@@ -4929,7 +4929,7 @@
  {
   "id": "a5c2ee9a06014b9f",
   "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-2612",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2612",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Villanova Mondovi'",
   "codice": "CNIC812005",
@@ -4952,7 +4952,7 @@
  {
   "id": "70de937a134404e1",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-2611",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2611",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Villanova Mondovi'",
   "codice": "CNIC812005",
@@ -4975,7 +4975,7 @@
  {
   "id": "c2fc7ec98b9da3c8",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-2128",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2128",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Cuneo Corso Soleri",
   "codice": "CNIC85700P",
@@ -4998,7 +4998,7 @@
  {
   "id": "05cf68184cff9779",
   "titolo": "Interpello Sostegno scuola primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-2125",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2125",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Cuneo Corso Soleri",
   "codice": "CNIC85700P",
@@ -5021,7 +5021,7 @@
  {
   "id": "c31a078ad557a808",
   "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-2059",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2059",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Garessio",
   "codice": "CNIC83600N",
@@ -5044,7 +5044,7 @@
  {
   "id": "934ce8be49550c98",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-2058",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2058",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Garessio",
   "codice": "CNIC83600N",
@@ -5067,7 +5067,7 @@
  {
   "id": "d8c193973bbb341f",
   "titolo": "Interpello Sostegno scuola primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-1483",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1483",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Monta'",
   "codice": "CNIC82100X",
@@ -5090,7 +5090,7 @@
  {
   "id": "17a8c5a1aa7f4b84",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-1482",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1482",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Monta'",
   "codice": "CNIC82100X",
@@ -5113,7 +5113,7 @@
  {
   "id": "1d86478e65195fca",
   "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-1481",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1481",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Monta'",
   "codice": "CNIC82100X",
@@ -5136,7 +5136,7 @@
  {
   "id": "5e7ba4cfa7c5cd96",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-1462",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=1462",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Monta'",
   "codice": "CNIC82100X",
@@ -5159,7 +5159,7 @@
  {
   "id": "967d504f9cd2c207",
   "titolo": "Interpello Sostegno scuola primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-558",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=558",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Borgo San Dalmazzo \"S.Grandis\"",
   "codice": "CNIC80800D",
@@ -5182,7 +5182,7 @@
  {
   "id": "444125c49d1a715b",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-557",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=557",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Borgo San Dalmazzo \"S.Grandis\"",
   "codice": "CNIC80800D",
@@ -5205,7 +5205,7 @@
  {
   "id": "3ca60df080ee025c",
   "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-555",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=555",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Borgo San Dalmazzo \"S.Grandis\"",
   "codice": "CNIC80800D",
@@ -5228,7 +5228,7 @@
  {
   "id": "e2b87ca345070b7b",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-554",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=554",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Borgo San Dalmazzo \"S.Grandis\"",
   "codice": "CNIC80800D",
@@ -5251,7 +5251,7 @@
  {
   "id": "e5afb741906ea277",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-111",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=111",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Sommariva Del Bosco",
   "codice": "CNIC817008",
@@ -5274,7 +5274,7 @@
  {
   "id": "0893fd85d4065f0d",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-88",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=88",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Bossolasco-Murazzano",
   "codice": "CNIC81400R",
@@ -5297,7 +5297,7 @@
  {
   "id": "e963df0421167588",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-86",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=86",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Bossolasco-Murazzano",
   "codice": "CNIC81400R",
@@ -5320,7 +5320,7 @@
  {
   "id": "d180ccf20ba91f8d",
   "titolo": "Interpello A040 Scienze e tecnologie elettriche ed elettroniche – cattedra interna, fino al 30 giugno",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-2524",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2524",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Savigliano - Cravetta Marconi",
   "codice": "CNIS00200P",
@@ -5343,7 +5343,7 @@
  {
   "id": "6258c9736be72305",
   "titolo": "Interpello AD24 Lingue e culture straniere negli istituti di istruzione secondaria di ii grado (tedesco) – cattedra interna, fino al 30 giugno",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-2305",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2305",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Savigliano - Cravetta Marconi",
   "codice": "CNIS00200P",
@@ -5366,7 +5366,7 @@
  {
   "id": "5767a140be567539",
   "titolo": "Interpello Sostegno scuola primaria – cattedra interna, fino al 30 giugno",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-142",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=142",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Cherasco \"Sebastiano Taricco\"",
   "codice": "CNIC825007",
@@ -5389,7 +5389,7 @@
  {
   "id": "7f4eedab0801ef62",
   "titolo": "Interpello Primaria – Posto Orario Indicare il numero di ore e le scuole costituenti il Posto Orario: h.17 I.C. Cherasco+h.2 Fossano Paglieri 19+2 (scadenza h. 11:00 del 10_09_2026), fino al 30 giugno",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php#interpello-141",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=141",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_cn.php",
   "scuola": "Cherasco \"Sebastiano Taricco\"",
   "codice": "CNIC825007",
@@ -5412,7 +5412,7 @@
  {
   "id": "de6b010c80384b68",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-3691",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=3691",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
   "scuola": "I.C. Nigra - To",
   "codice": "TOIC8A0002",
@@ -5435,7 +5435,7 @@
  {
   "id": "7a7c4ef57af1981a",
   "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-2568",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2568",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
   "scuola": "I.C. Brusasco",
   "codice": "TOIC86300E",
@@ -5458,7 +5458,7 @@
  {
   "id": "c7da76f1a1b7ecdf",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-2562",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2562",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
   "scuola": "I.C. Brusasco",
   "codice": "TOIC86300E",
@@ -5481,7 +5481,7 @@
  {
   "id": "80d2d7c69cf4b346",
   "titolo": "Interpello Primaria – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-517",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=517",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
   "scuola": "I.C. Settimo Vittone",
   "codice": "TOIC849008",
@@ -5504,7 +5504,7 @@
  {
   "id": "d784bdac102a8ad9",
   "titolo": "Interpello Infanzia – cattedra interna, disponibile fino a 10 giorni",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-514",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=514",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
   "scuola": "I.C. Settimo Vittone",
   "codice": "TOIC849008",
@@ -5527,7 +5527,7 @@
  {
   "id": "4f705046a4a538bb",
   "titolo": "Interpello Primaria – cattedra interna, fino al 30 giugno",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-2189",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2189",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
   "scuola": "I.C. None",
   "codice": "TOIC836006",
@@ -5550,7 +5550,7 @@
  {
   "id": "353f0749c0b0b39f",
   "titolo": "Interpello Primaria – cattedra interna, fino al 30 giugno",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_vc.php#interpello-2404",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=2404",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_vc.php",
   "scuola": "Di Baraggia Arborio E Gattinara",
   "codice": "VCIC815008",
@@ -5573,7 +5573,7 @@
  {
   "id": "30a7de401da75a51",
   "titolo": "Interpello Sostegno scuola infanzia – cattedra interna, fino al 30 giugno",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_at.php#interpello-4415",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4415",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_at.php",
   "scuola": "I.C. 2 Asti",
   "codice": "ATIC817001",
@@ -11383,26 +11383,6 @@
   "lon": 9.7636
  },
  {
-  "id": "dbbd5f44e8b99c0e",
-  "titolo": "Interpello per supplenze personale Docente",
-  "link": "https://www.icdarfo2.edu.it/servizio/mad-messa-a-disposizione/",
-  "pagina_albo": "https://www.icdarfo2.edu.it/",
-  "scuola": "Istituto Comprensivo Darfo 2",
-  "codice": "BSIC864008",
-  "comune": "Darfo Boario Terme",
-  "provincia": "Brescia",
-  "regione": "Lombardia",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 45.8872,
-  "lon": 10.1976
- },
- {
   "id": "68dc464c79339a1f",
   "titolo": "Interpello supplenze di durata e orario variabile fino a 10 giorni",
   "link": "https://www.icfutura.edu.it/servizio/interpello-supplenze-di-durata-e-orario-variabile-fino-a-10-giorni/",
@@ -14840,6 +14820,26 @@
   "trovato_il": "2026-11-24",
   "lat": 43.445,
   "lon": 11.9043
+ },
+ {
+  "id": "dbbd5f44e8b99c0e",
+  "titolo": "Interpello per supplenze personale Docente",
+  "link": "https://www.icdarfo2.edu.it/servizio/mad-messa-a-disposizione/",
+  "pagina_albo": "https://www.icdarfo2.edu.it/",
+  "scuola": "Istituto Comprensivo Darfo 2",
+  "codice": "BSIC864008",
+  "comune": "Darfo Boario Terme",
+  "provincia": "Brescia",
+  "regione": "Lombardia",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 45.8872,
+  "lon": 10.1976
  },
  {
   "id": "1916cae798c76cac",
@@ -20334,10 +20334,10 @@
  },
  {
   "id": "88935b90d5f7ad7a",
-  "titolo": "Interpelli Docenti Lista degli articoli nella categoria Interpelli Docenti Titolo Visite Interpelli Docenti - Piattaforma dedicata Visite: 11991 INTERPELLO CLASSE DI CONCORSO A026 - MATEMATICA - ISIS M. Polo Cecina Visite: 3410 INTERPELLO SU CLASSI DI CONCORSO A040 - A020 - A026 - ISIS Foresi di Por",
+  "titolo": "Interpelli Docenti Lista degli articoli nella categoria Interpelli Docenti Titolo Visite Interpelli Docenti - Piattaforma dedicata Visite: 11992 INTERPELLO CLASSE DI CONCORSO A026 - MATEMATICA - ISIS M. Polo Cecina Visite: 3411 INTERPELLO SU CLASSI DI CONCORSO A040 - A020 - A026 - ISIS Foresi di Por",
   "link": "https://www.ustli.it/usp_livorno/index.php/docenti/interpelli#footer",
   "pagina_albo": "https://www.ustli.it/usp_livorno/index.php/docenti/interpelli",
-  "scuola": "ISIS M. Polo Cecina Visite: 3410 INTERPELLO SU CLASSI DI CONCORS",
+  "scuola": "ISIS M. Polo Cecina Visite: 3411 INTERPELLO SU CLASSI DI CONCORS",
   "codice": "",
   "comune": "",
   "provincia": "Livorno",
@@ -25085,7 +25085,7 @@
  },
  {
   "id": "657a36f1731338d1",
-  "titolo": "Docenti Interpelli Pubblicato: 27 Ottobre 2026 Visite: 3928 Interpello per supplenza Personale ATA - Profilo Operatore dei Servizi Agrari- OM n. 89/2024 - ISTITUTO STATALE ISTRUZIONE SUPERIORE A. VEGNI - CAPEZZINE Leggi tutto... Docenti Interpelli Pubblicato: 23 Settembre 2026 Visite: 139006 Tabella",
+  "titolo": "Docenti Interpelli Pubblicato: 27 Ottobre 2026 Visite: 3929 Interpello per supplenza Personale ATA - Profilo Operatore dei Servizi Agrari- OM n. 89/2024 - ISTITUTO STATALE ISTRUZIONE SUPERIORE A. VEGNI - CAPEZZINE Leggi tutto... Docenti Interpelli Pubblicato: 23 Settembre 2026 Visite: 139012 Tabella",
   "link": "https://www.arezzoistruzione.it/usparezzo/index.php/interpelli#footer",
   "pagina_albo": "https://www.arezzoistruzione.it/usparezzo/index.php/interpelli",
   "scuola": "ISTITUTO STATALE ISTRUZIONE SUPERIORE A. VEGNI - CAPEZZINE Leggi tut",
@@ -28246,28 +28246,6 @@
   "lon": 10.9295
  },
  {
-  "id": "f7fef2e186f08cb6",
-  "titolo": "XIII I.C. TARTINI - Interpello per n. 1 supplenza breve su classe di concorso EEEE posto comune scuola primaria VII - PERSONALE 0017820 13-11-2026 13-11-2026 28-11-2026",
-  "link": "https://nuvola.madisoft.it/bacheca-digitale/10357/documento/PDIC83000D",
-  "pagina_albo": "https://nuvola.madisoft.it/bacheca-digitale/bacheca/PDIC83000D/6/IN_PUBBLICAZIONE/0/show",
-  "scuola": "Xiii IC Di Padova \"Tartini\"",
-  "codice": "PDIC83000D",
-  "comune": "Padova",
-  "provincia": "Padova",
-  "regione": "Veneto",
-  "data_atto": "2026-11-28",
-  "classi": [],
-  "sostegno": false,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.4035,
-  "lon": 11.8829
- },
- {
   "id": "c71efd71d2c1cceb",
   "titolo": "Interpello Scuola primaria 6 ore (lingua inglese) dal 04/12/2026 al 08/03/2027 27-11-2026 REGISTRO PROTOCOLLO",
   "link": "https://nuvola.madisoft.it/bacheca-digitale/6677/documento/PDIC84700V/1",
@@ -29204,6 +29182,50 @@
   "lon": 10.8563
  },
  {
+  "id": "9cf59a2a07306ffe",
+  "titolo": "LINK INTERPELLO DEL 24-11-26 POSTO SOSTEGNO PRIMARIA FINO AL 30-6-27",
+  "link": "https://web.spaggiari.eu/sdg2/Documenti/GEME0024/97b777jb2b",
+  "pagina_albo": "https://www.iccertosa.edu.it/albo-online",
+  "scuola": "I.C. Certosa",
+  "codice": "GEIC840004",
+  "comune": "Genova",
+  "provincia": "Genova",
+  "regione": "Liguria",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 44.4415,
+  "lon": 8.8927
+ },
+ {
+  "id": "5cc6deace15895e6",
+  "titolo": "LINK INTERPELLO DEL 24-11-26 POSTO SOSTEGNO PRIMARIA FINO AL 30-6-27",
+  "link": "https://web.spaggiari.eu/sdg2/Documenti/GEME0024/97b777jb2b?download=1",
+  "pagina_albo": "https://www.iccertosa.edu.it/albo-online",
+  "scuola": "I.C. Certosa",
+  "codice": "GEIC840004",
+  "comune": "Genova",
+  "provincia": "Genova",
+  "regione": "Liguria",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 44.4415,
+  "lon": 8.8927
+ },
+ {
   "id": "4ba8503556e7a92e",
   "titolo": "AVVISO DI INTERPELLO NAZIONALE – ADEE",
   "link": "https://www.iccroceflumeri.edu.it/avviso-di-interpello-nazionale-adee/",
@@ -29662,6 +29684,50 @@
   "lon": 9.2425
  },
  {
+  "id": "aed71005abd89220",
+  "titolo": "Interpello scuola Infanzia Supplenza Breve posto comune",
+  "link": "https://web.spaggiari.eu/sdg2/Documenti/ARME0020/4ktv16tsfq",
+  "pagina_albo": "https://www.icsgaribaldi.edu.it/albo-online",
+  "scuola": "'G. Garibaldi'",
+  "codice": "ARIC82300N",
+  "comune": "Capolona",
+  "provincia": "Arezzo",
+  "regione": "Toscana",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [
+   "infanzia"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 43.5608,
+  "lon": 11.8299
+ },
+ {
+  "id": "a31b45e5e41b2b68",
+  "titolo": "Interpello scuola Infanzia Supplenza Breve posto comune",
+  "link": "https://web.spaggiari.eu/sdg2/Documenti/ARME0020/4ktv16tsfq?download=1",
+  "pagina_albo": "https://www.icsgaribaldi.edu.it/albo-online",
+  "scuola": "'G. Garibaldi'",
+  "codice": "ARIC82300N",
+  "comune": "Capolona",
+  "provincia": "Arezzo",
+  "regione": "Toscana",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [
+   "infanzia"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 43.5608,
+  "lon": 11.8299
+ },
+ {
   "id": "4a758ae13a3ba2b8",
   "titolo": "Interpello per conferimento 1 supplenza su posto di sostegno scuola primaria",
   "link": "https://www.icsgiovannixxiii-gparini.it/interpello-per-conferimento-1-supplenza-su-posto-di-sostegno-scuola-primaria-2/",
@@ -30008,6 +30074,26 @@
   "lon": 10.6345
  },
  {
+  "id": "fbc75c8e644f1b66",
+  "titolo": "Interpelli ATA",
+  "link": "https://www.linussio.edu.it/servizi?id=1503&&source=servizi-personale",
+  "pagina_albo": "https://www.linussio.edu.it/",
+  "scuola": "IIS J. Linussio",
+  "codice": "UDIS01100P",
+  "comune": "Codroipo",
+  "provincia": "Udine",
+  "regione": "Friuli-Venezia G.",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": "ATA",
+  "trovato_il": "2026-11-27",
+  "lat": 45.9589,
+  "lon": 12.9858
+ },
+ {
   "id": "242444eaae362a7d",
   "titolo": "Interpello nazionale Interpello nazionale per supplenza temporanea",
   "link": "https://www.luigidellerba.edu.it/servizio/interpello-nazionale/",
@@ -30070,6 +30156,28 @@
   "trovato_il": "2026-11-27",
   "lat": 40.3038,
   "lon": 16.5751
+ },
+ {
+  "id": "f7fef2e186f08cb6",
+  "titolo": "XIII I.C. TARTINI - Interpello per n. 1 supplenza breve su classe di concorso EEEE posto comune scuola primaria VII - PERSONALE 0017820 13-11-2026 13-11-2026 28-11-2026",
+  "link": "https://nuvola.madisoft.it/bacheca-digitale/10357/documento/PDIC83000D",
+  "pagina_albo": "https://nuvola.madisoft.it/bacheca-digitale/bacheca/PDIC83000D/6/IN_PUBBLICAZIONE/0/show",
+  "scuola": "Xiii IC Di Padova \"Tartini\"",
+  "codice": "PDIC83000D",
+  "comune": "Padova",
+  "provincia": "Padova",
+  "regione": "Veneto",
+  "data_atto": "2026-11-28",
+  "classi": [],
+  "sostegno": false,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.4035,
+  "lon": 11.8829
  },
  {
   "id": "20f7b6459d072a9e",
@@ -30697,50 +30805,6 @@
   "trovato_il": "2026-11-27",
   "lat": 43.8782,
   "lon": 11.0851
- },
- {
-  "id": "9cf59a2a07306ffe",
-  "titolo": "LINK INTERPELLO DEL 24-11-26 POSTO SOSTEGNO PRIMARIA FINO AL 30-6-27",
-  "link": "https://web.spaggiari.eu/sdg2/Documenti/GEME0024/97b777jb2b",
-  "pagina_albo": "https://www.iccertosa.edu.it/albo-online",
-  "scuola": "I.C. Certosa",
-  "codice": "GEIC840004",
-  "comune": "Genova",
-  "provincia": "Genova",
-  "regione": "Liguria",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 44.4415,
-  "lon": 8.8927
- },
- {
-  "id": "5cc6deace15895e6",
-  "titolo": "LINK INTERPELLO DEL 24-11-26 POSTO SOSTEGNO PRIMARIA FINO AL 30-6-27",
-  "link": "https://web.spaggiari.eu/sdg2/Documenti/GEME0024/97b777jb2b?download=1",
-  "pagina_albo": "https://www.iccertosa.edu.it/albo-online",
-  "scuola": "I.C. Certosa",
-  "codice": "GEIC840004",
-  "comune": "Genova",
-  "provincia": "Genova",
-  "regione": "Liguria",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 44.4415,
-  "lon": 8.8927
  },
  {
   "id": "11f7197c307c0c8a",
@@ -31427,26 +31491,6 @@
   "lon": 11.245
  },
  {
-  "id": "fbc75c8e644f1b66",
-  "titolo": "Interpelli ATA",
-  "link": "https://www.linussio.edu.it/servizi?id=1503&&source=servizi-personale",
-  "pagina_albo": "https://www.linussio.edu.it/",
-  "scuola": "IIS J. Linussio",
-  "codice": "UDIS01100P",
-  "comune": "Codroipo",
-  "provincia": "Udine",
-  "regione": "Friuli-Venezia G.",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": "ATA",
-  "trovato_il": "2026-11-27",
-  "lat": 45.9589,
-  "lon": 12.9858
- },
- {
   "id": "5769f44be0869136",
   "titolo": "GESTIONE SUPPLENZE INTERPELLO NEWS",
   "link": "https://www.icsvignate.edu.it/pagine/gestione-supplenze-interpello",
@@ -31949,7 +31993,7 @@
  {
   "id": "571aa4368d6ebda7",
   "titolo": "Interpello A038 Scienze e tecnologie delle costruzioni aeronautiche – cattedra interna, annuale fino al 31 agosto",
-  "link": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php#interpello-4323",
+  "link": "https://aclab-it.github.io/lascuolacerca/apri-piemonte.html?a=2026&p=4323",
   "pagina_albo": "https://servizi.istruzionepiemonte.it/interpello2026/ric_interpello_ambito_to.php",
   "scuola": "C. Grassi",
   "codice": "TOTF14000A",
