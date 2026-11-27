@@ -916,9 +916,13 @@ def leggi_piemonte(istituti_per_codice=None):
                 + f" – {cattedra}, {durata}"
             ist = istituti_per_codice.get(codice, {})
             chiave = f"{url}#interpello-{prog['value'] if prog else codice + data_ip + sigla_cdc}"
+            m_anno = re.search(r"interpello(\d{4})", url)
+            # il dettaglio si apre solo con un modulo POST: la nostra pagina apri-piemonte.html lo invia
+            link = (f"{SITO_URL or 'https://aclab-it.github.io/lascuolacerca/'}apri-piemonte.html"
+                    f"?a={m_anno.group(1)}&p={prog['value']}") if (prog and m_anno) else chiave
             trovati.append({
                 "id": hashlib.sha1(chiave.encode()).hexdigest()[:16],
-                "titolo": titolo, "link": chiave, "pagina_albo": url,
+                "titolo": titolo, "link": link, "pagina_albo": url,
                 "scuola": ist.get("nome") or nome.title(), "codice": codice,
                 "comune": ist.get("comune", ""), "provincia": ist.get("provincia") or provincia,
                 "regione": "Piemonte", "data_atto": _data_it(data_ip), "fonte": "USP",
