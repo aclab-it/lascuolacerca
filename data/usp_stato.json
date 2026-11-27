@@ -249,7 +249,7 @@
   "provincia": "Lucca",
   "url": "http://www.ustlucca.it/",
   "esito": "ok",
-  "interpelli": 4
+  "interpelli": 0
  },
  {
   "provincia": "Macerata",
@@ -338,7 +338,7 @@
  {
   "provincia": "Parma",
   "url": "https://pr.istruzioneer.gov.it/interpelli-2/",
-  "esito": "pagina non leggibile",
+  "esito": "indirizzo inesistente o sito spento",
   "interpelli": 0
  },
  {
