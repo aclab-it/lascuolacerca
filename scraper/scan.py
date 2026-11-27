@@ -430,6 +430,28 @@ def estrai(pagine, ist, solo_interpelli=False):
     return esperti, interp
 
 
+ALBI_NOTI = {}          # codice scuola -> pagine albo trovate nei giri precedenti (data/albi.json)
+ERRORI_SOTTOPAGINE = collections.Counter()
+
+
+def scarica_sottopagina(url):
+    """Come scarica(), ma con un secondo tentativo: molti siti scolastici sono sugli stessi
+    server condivisi e ogni tanto rifiutano una richiesta se ne arrivano tante insieme."""
+    for tentativo in (1, 2):
+        try:
+            return scarica(url)
+        except BloccatoRobots:
+            return None
+        except (requests.ConnectionError, requests.Timeout) as e:
+            ERRORI_SOTTOPAGINE[type(e).__name__] += 1
+            if tentativo == 1:
+                time.sleep(3)
+        except requests.RequestException as e:
+            ERRORI_SOTTOPAGINE[type(e).__name__] += 1
+            return None
+    return None
+
+
 def scansiona(ist):
     """Ritorna (avvisi trovati, errore o None, info per il report di copertura)."""
     trovati, errore = [], None
@@ -451,14 +473,23 @@ def scansiona(ist):
                 continue
             if RE_LINK_ALBO.search(a.get_text(" ", strip=True)) or RE_LINK_ALBO.search(a["href"]):
                 visti.add(href)
-                try:
-                    r = scarica(href)
-                    if r:
-                        pagine.append(r)
-                        if RE_LINK_ALBO.search(r[0]) or RE_LINK_ALBO.search(a.get_text(" ", strip=True)):
-                            albo_letti += 1
-                except (requests.RequestException, BloccatoRobots):
-                    pass
+                r = scarica_sottopagina(href)
+                if r:
+                    pagine.append(r)
+                    if RE_LINK_ALBO.search(r[0]) or RE_LINK_ALBO.search(a.get_text(" ", strip=True)):
+                        albo_letti += 1
+                time.sleep(0.5)
+        if albo_letti == 0:
+            # la home non ha dato link all'albo (sito lento, menu caricato in modo diverso...):
+            # riprova con le pagine albo trovate nei giri precedenti
+            for href in ALBI_NOTI.get(ist["codice"] or ist["sito"], [])[1:MAX_PAGINE_ALBO + 1]:
+                if href in visti:
+                    continue
+                visti.add(href)
+                r = scarica_sottopagina(href)
+                if r:
+                    pagine.append(r)
+                    albo_letti += 1
                 time.sleep(0.5)
         trovati, info["interpelli"] = estrai(pagine, ist)
         info["albi"] = [u for u, _ in pagine]
@@ -520,14 +551,24 @@ def main():
         except (json.JSONDecodeError, KeyError):
             vecchi = {}
 
+    try:
+        ALBI_NOTI.update({k: v.get("albi", []) for k, v in
+                          json.loads((DATA / "albi.json").read_text(encoding="utf-8")).items()})
+    except (FileNotFoundError, json.JSONDecodeError, AttributeError):
+        pass
+
     trovati, errori = {}, 0
     tipi_errore = collections.Counter()
     with cf.ThreadPoolExecutor(max_workers=THREADS) as ex:
         copertura, tutti_interpelli, albi = [], [], {}
         for i, (ist, (items, err, info)) in enumerate(zip(istituti, ex.map(scansiona, istituti)), 1):
             tutti_interpelli.extend(info.get("interpelli", []))
-            if info.get("albi"):
-                albi[ist["codice"] or ist["sito"]] = {**ist, "albi": info["albi"]}
+            chiave_albi = ist["codice"] or ist["sito"]
+            if len(info.get("albi") or []) <= 1 and len(ALBI_NOTI.get(chiave_albi, [])) > 1:
+                # giro andato male per questa scuola: non dimenticare le pagine albo note
+                albi[chiave_albi] = {**ist, "albi": ALBI_NOTI[chiave_albi]}
+            elif info.get("albi"):
+                albi[chiave_albi] = {**ist, "albi": info["albi"]}
             if err:
                 errori += 1
                 tipi_errore[err] += 1
@@ -536,6 +577,7 @@ def main():
                 trovati.setdefault(it["id"], it)
             if i % 100 == 0:
                 print(f"  {i}/{len(istituti)} – avvisi finora: {len(trovati)}")
+    print(f"  errori sulle pagine interne (dopo il secondo tentativo conta 1 per tentativo): {dict(ERRORI_SOTTOPAGINE)}")
 
     nuovi = []
     for id_, it in trovati.items():
