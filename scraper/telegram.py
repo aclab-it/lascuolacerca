@@ -72,10 +72,9 @@ def risolvi_privati(canali, token, data_dir: Path):
     except (FileNotFoundError, json.JSONDecodeError):
         noti = {}
     try:
-        r = requests.get(f"https://api.telegram.org/bot{token}/getUpdates", timeout=20,
-                         params={"allowed_updates": json.dumps(["my_chat_member", "channel_post"])})
+        r = requests.get(f"https://api.telegram.org/bot{token}/getUpdates", timeout=20)
         for u in r.json().get("result", []):
-            chat = (u.get("my_chat_member") or u.get("channel_post") or {}).get("chat") or {}
+            chat = (u.get("my_chat_member") or u.get("channel_post") or u.get("edited_channel_post") or {}).get("chat") or {}
             if chat.get("type") == "channel" and chat.get("title"):
                 noti[chat["title"]] = chat["id"]
     except (requests.RequestException, ValueError) as e:
