@@ -1,0 +1,29 @@
+name: Verifica Telegram
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  verifica:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Controlla i canali
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        working-directory: scraper
+        run: python verifica_telegram.py
+      - name: Salva gli id dei canali privati
+        run: |
+          git config user.name "aggiornamento-automatico"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/telegram_chat.json
+          git diff --cached --quiet || (git commit -m "Telegram: id canali privati" && git pull --rebase -X theirs origin main && git push)
