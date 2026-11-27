@@ -717,7 +717,7 @@ def main():
         print(f"  [pagine] generazione fallita: {type(e).__name__}: {e}")
     pubblica_telegram("esperti", tutti)
     (DATA / "albi.json").write_text(json.dumps(albi, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
-    salva_interpelli(unisci_fonti(tutti_interpelli, leggi_usp()[0]), len(istituti), completo=True)
+    salva_interpelli(unisci_fonti(tutti_interpelli, leggi_usp()[0] + leggi_piemonte()), len(istituti), completo=True)
 
 
 # ---------------------------------------------------------------- interpelli
@@ -844,6 +844,89 @@ def leggi_usp():
     ok = sum(1 for e in stato if e["interpelli"])
     print(f"USP: {len(stato)} pagine, {ok} con interpelli, {len(trovati)} interpelli")
     return trovati, stato
+
+
+# ---- Piemonte: elenco ufficiale degli interpelli dell'USR, una tabella per provincia
+PIEMONTE_AMBITI = {"al": "Alessandria", "at": "Asti", "bi": "Biella", "cn": "Cuneo", "no": "Novara",
+                   "to": "Torino", "vb": "Verbano-Cusio-Ossola", "vc": "Vercelli"}
+PIEMONTE_URL = "https://servizi.istruzionepiemonte.it/interpello{anno}/ric_interpello_ambito_{sigla}.php"
+CDC_GRADI = {"AAAA": ("infanzia", False), "EEEE": ("primaria", False), "ADAA": ("infanzia", True),
+             "ADEE": ("primaria", True), "ADMM": ("secondaria I grado", True), "ADSS": ("secondaria II grado", True)}
+
+
+def _data_it(t):
+    m = re.search(r"(\d{1,2})/(\d{1,2})/(\d{4})", t or "")
+    if not m:
+        return None
+    try:
+        return dt.date(int(m.group(3)), int(m.group(2)), int(m.group(1))).isoformat()
+    except ValueError:
+        return None
+
+
+def leggi_piemonte(istituti_per_codice=None):
+    """Interpelli 'aperti' dalle tabelle di servizi.istruzionepiemonte.it (tutte le scuole statali piemontesi)."""
+    import interpelli as ip_mod
+    if istituti_per_codice is None:
+        istituti_per_codice = {i["codice"]: i for i in carica_istituti() if i.get("codice")}
+    oggi = dt.date.today()
+    anni = [oggi.year, oggi.year + 1] if oggi.month >= 9 else [oggi.year, oggi.year - 1]
+    trovati = []
+    for sigla, provincia in PIEMONTE_AMBITI.items():
+        soup = url = None
+        for a in anni:
+            try:
+                r = scarica(PIEMONTE_URL.format(anno=a, sigla=sigla))
+            except (requests.RequestException, BloccatoRobots):
+                r = None
+            if r and r[1].find("table"):
+                url, soup = r
+                break
+        if not soup:
+            print(f"  Piemonte {provincia}: elenco non raggiungibile")
+            continue
+        n = 0
+        for tr in soup.find_all("tr"):
+            celle = tr.find_all("td")
+            if len(celle) < 10:
+                continue
+            testi = [re.sub(r"\s+", " ", c.get_text(" ", strip=True)) for c in celle]
+            codice, nome, cdc, cattedra, corso, durata, data_ip, _, stato, scad = testi[:10]
+            if stato.lower() != "aperto":
+                continue
+            scadenza = _data_it(scad)
+            if scadenza and scadenza < oggi.isoformat():
+                continue
+            prog = tr.find("input", attrs={"name": "progr"})
+            sigla_cdc = cdc.split(" - ")[0].strip().upper()
+            classi, gradi, sostegno = [], [], False
+            if sigla_cdc in CDC_GRADI:
+                g, sostegno = CDC_GRADI[sigla_cdc]
+                gradi = [g]
+            elif re.fullmatch(r"[A-B][A-Z0-9]\d{2}", sigla_cdc):
+                classi = [sigla_cdc]
+                gradi = ip_mod.classifica(cdc, cdc).get("gradi", []) if ip_mod.classifica(cdc, cdc) else []
+            cattedra = re.sub(r"\s*(Interna|Esterna|Spezzone|Cattedra)\s*$", "", cattedra).strip() or cattedra
+            if cattedra.lower() in ("interna", "esterna"):
+                cattedra = "cattedra " + cattedra.lower()
+            descr = cdc.split(" - ", 1)[-1].strip().capitalize()
+            durata = re.sub(r"(\d{4})-(\d{2})-(\d{2})", lambda m: f"{m.group(3)}/{m.group(2)}/{m.group(1)}", durata)
+            durata = durata[:1].lower() + durata[1:]
+            titolo = (f"Interpello {descr}" if sigla_cdc in CDC_GRADI else f"Interpello {sigla_cdc} {descr}") \
+                + f" – {cattedra}, {durata}"
+            ist = istituti_per_codice.get(codice, {})
+            chiave = f"{url}#interpello-{prog['value'] if prog else codice + data_ip + sigla_cdc}"
+            trovati.append({
+                "id": hashlib.sha1(chiave.encode()).hexdigest()[:16],
+                "titolo": titolo, "link": chiave, "pagina_albo": url,
+                "scuola": ist.get("nome") or nome.title(), "codice": codice,
+                "comune": ist.get("comune", ""), "provincia": ist.get("provincia") or provincia,
+                "regione": "Piemonte", "data_atto": _data_it(data_ip), "fonte": "USP",
+                "classi": classi, "sostegno": sostegno, "gradi": gradi, "scadenza": scadenza, "ata": None,
+            })
+            n += 1
+        print(f"  Piemonte {provincia}: {n} interpelli aperti")
+    return trovati
 
 
 # ---- interpelli ripubblicati: "presso l'IIS X di Carbonia" -> provincia del Sud Sardegna
@@ -1010,7 +1093,7 @@ def main_rapido():
     with cf.ThreadPoolExecutor(max_workers=THREADS) as ex:
         for lista in ex.map(leggi_albi, voci):
             trovati.extend(lista)
-    salva_interpelli(unisci_fonti(trovati, leggi_usp()[0]), len(voci), completo=False)
+    salva_interpelli(unisci_fonti(trovati, leggi_usp()[0] + leggi_piemonte()), len(voci), completo=False)
 
 
 if __name__ == "__main__":
