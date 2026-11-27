@@ -13,6 +13,12 @@ api = f"https://api.telegram.org/bot{token}/"
 me = requests.get(api + "getMe", timeout=20).json()["result"]["id"]
 wh = requests.get(api + "getWebhookInfo", timeout=20).json().get("result", {})
 print(f"webhook impostato: {'SI' if wh.get('url') else 'no'}")
+_u = requests.get(api + "getUpdates", timeout=20).json()
+print(f"getUpdates: ok={_u.get('ok')} aggiornamenti={len(_u.get('result', []))} {_u.get('description', '')}")
+for _x in _u.get("result", []):
+    _tipo = [k for k in _x if k != "update_id"][0]
+    _chat = (_x[_tipo].get("chat") or {}) if isinstance(_x[_tipo], dict) else {}
+    print(f"   - {_tipo}: {_chat.get('type')} '{_chat.get('title')}'")
 
 canali = telegram.carica_canali(DATA)
 risolti = telegram.risolvi_privati(dict(canali), token, DATA)
