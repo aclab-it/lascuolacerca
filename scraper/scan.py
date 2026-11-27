@@ -189,12 +189,23 @@ def titolo(nome):
 
 
 def normalizza_url(u):
-    u = (u or "").strip().strip("/")
-    if not u or u.upper() in ("NON DISPONIBILE", "-", "N.D."):
+    """Ripulisce gli indirizzi dell'anagrafe, che spesso sono scritti male:
+    'https//www.x.it', 'http:/x.it', 'https://https//x.it', 'wwwx.edu.it', 'www,x.it', spazi..."""
+    u = re.sub(r"\s+", "", (u or "")).strip("/")
+    if not u or u.upper() in ("NONDISPONIBILE", "-", "N.D.", "ND"):
         return ""
-    if not re.match(r"https?://", u, re.I):
-        u = "https://" + u
-    return u + "/"
+    proto = "http" if re.match(r"http:", u, re.I) and not re.match(r"https", u, re.I) else "https"
+    # toglie uno o piu' prefissi di protocollo, anche storpiati (htpp, https//, http:/, ...)
+    u = re.sub(r"^(?:h?t{1,2}p{1,2}s?[:;]*/*)+", "", u, flags=re.I)
+    u = u.replace(",", ".").lstrip("./")
+    host, _, resto = u.partition("/")
+    host = host.lower().rstrip(".")
+    if re.match(r"www[^.]", host) and host.count(".") >= 2 and not host.startswith("www-"):
+        host = "www." + host[3:]          # 'wwwscuola.edu.it' -> 'www.scuola.edu.it'
+    host = re.sub(r"\.{2,}", ".", host)
+    if not host or "." not in host:
+        return ""
+    return f"{proto}://{host}/" + (resto.strip("/") + "/" if resto.strip("/") else "")
 
 
 ANAGRAFI = [  # (dataset MIM, nome file locale)
@@ -231,7 +242,7 @@ def scarica_anagrafe():
 
 def carica_istituti():
     scarica_anagrafe()
-    istituti = {}
+    istituti, senza_sito = {}, {}
     for path in sorted(DATA.glob("scuole*.csv")):
         raw = path.read_bytes().decode("utf-8-sig", errors="replace")
         delim = ";" if raw[:2000].count(";") > raw[:2000].count(",") else ","
@@ -240,11 +251,16 @@ def carica_istituti():
             if REGIONE != "TUTTE" and regione not in REGIONE.split(","):
                 continue
             sito = normalizza_url(_col(row, "SITOWEBSCUOLA"))
-            if not sito:
-                continue
             codice = _col(row, "CODICEISTITUTORIFERIMENTO") or _col(row, "CODICESCUOLA")
             nome = (_col(row, "DENOMINAZIONEISTITUTORIFERIMENTO")
                     or _col(row, "DENOMINAZIONESCUOLA"))
+            if not sito:
+                # scuola statale senza indirizzo (o scritto in modo illeggibile): quasi tutte
+                # hanno il dominio <codice>.edu.it; lo proviamo solo se nessun'altra riga
+                # dello stesso istituto ha un indirizzo vero
+                if re.fullmatch(r"[A-Z]{2}[A-Z]{2}[0-9A-Z]{6}", codice or "") and not re.match(r"[A-Z]{2}1", codice):
+                    senza_sito.setdefault(codice, (row, nome))
+                continue
             if codice in istituti:
                 continue
             istituti[codice] = {
@@ -255,6 +271,17 @@ def carica_istituti():
                 "regione": re.sub(r"\bD'", "d'", regione.title()),
                 "sito": sito,
             }
+    for codice, (row, nome) in senza_sito.items():
+        if codice in istituti:
+            continue
+        regione = _col(row, "REGIONE").upper()
+        istituti[codice] = {
+            "codice": codice, "nome": titolo(nome),
+            "comune": _col(row, "DESCRIZIONECOMUNE").title(),
+            "provincia": _col(row, "PROVINCIA").title(),
+            "regione": re.sub(r"\bD'", "d'", regione.title()),
+            "sito": f"https://www.{codice.lower()}.edu.it/",
+        }
     extra = DATA / "siti_extra.txt"
     if extra.exists():
         # formato: url ; nome scuola ; comune ; provincia ; regione
@@ -409,6 +436,8 @@ def alternative(ist):
     if re.fullmatch(r"[a-z]{4}[0-9a-z]{6}", cod):
         # molte scuole sono passate al dominio <codice>.edu.it
         cand += [f"https://www.{cod}.edu.it/", f"https://{cod}.edu.it/"]
+    if not re.search(r"\.[a-z]{2,}$", nudo):     # dominio senza finale (es. 'www.scuolaxyz')
+        cand += [f"https://{host}.it/", f"https://{nudo}.edu.it/"]
     base = re.sub(r"\.(gov\.it|it|eu|org|net|com|info)$", "", nudo)
     if not nudo.endswith(".edu.it") and "." in nudo:
         cand.append(f"https://www.{base}.edu.it/")
