@@ -911,7 +911,7 @@ def leggi_piemonte(istituti_per_codice=None):
                 cattedra = "cattedra " + cattedra.lower()
             descr = cdc.split(" - ", 1)[-1].strip().capitalize()
             durata = re.sub(r"(\d{4})-(\d{2})-(\d{2})", lambda m: f"{m.group(3)}/{m.group(2)}/{m.group(1)}", durata)
-            durata = durata[:1].lower() + durata[1:]
+            durata = durata.lower()
             titolo = (f"Interpello {descr}" if sigla_cdc in CDC_GRADI else f"Interpello {sigla_cdc} {descr}") \
                 + f" – {cattedra}, {durata}"
             ist = istituti_per_codice.get(codice, {})
@@ -1011,7 +1011,8 @@ def togli_doppioni(lista):
 def unisci_fonti(da_scuole, da_usp):
     """Lo stesso interpello puo' arrivare da scuola e USP (o due volte, con http e https): uno solo."""
     def chiave(a):
-        return (a.get("provincia", "").lower(), re.sub(r"\W+", " ", a["titolo"].lower())[:70])
+        # col codice scuola: gli elenchi ufficiali (es. Piemonte) hanno titoli uguali per scuole diverse
+        return (a.get("provincia", "").lower(), a.get("codice") or "", re.sub(r"\W+", " ", a["titolo"].lower())[:70])
 
     def link(a):
         return re.sub(r"^https?://(www\.)?", "", a.get("link", "")).rstrip("/")
