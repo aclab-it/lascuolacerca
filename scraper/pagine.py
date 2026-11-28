@@ -85,8 +85,9 @@ def _pagina(base, profondita, titolo, descrizione, h1, intro, avvisi, correlati,
     return f"""<!DOCTYPE html>
 <html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{_e(titolo)}</title><meta name="description" content="{_e(descrizione)}">{canon}
+<link rel="icon" href="{su}favicon.ico" sizes="48x48"><link rel="icon" href="{su}favicon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="{su}apple-touch-icon.png"><meta property="og:site_name" content="{NOME_SITO}">
 <style>{CSS}</style></head><body>
-<header><div class="w"><a href="{su}">📋 {NOME_SITO}</a></div></header>
+<header><div class="w"><a href="{su}"><img src="{su}favicon.svg" width="20" height="20" alt="" style="vertical-align:-4px;margin-right:6px">{NOME_SITO}</a></div></header>
 <main><h1>{_e(h1)}</h1><p class="intro">{_e(intro)}</p>
 <a class="cta" href="{su}">🔍 Cerca e filtra tutti gli avvisi</a>
 {"".join(righe)}
