@@ -1063,26 +1063,6 @@
   "lon": 9.1194
  },
  {
-  "id": "9cedab67a26f617b",
-  "titolo": "InterpelloDocenteClasseConcorsoEEEE 24 ore IC Albinia fino al 04-12-2026",
-  "link": "https://icalbinia.edu.it/wp-content/uploads/2026/11/timbro_protocollo_InterpelloDocenteClasseConcorsoEEEE_24_ore_IC_Albinia_fino_al_04-12-2026.pdf.pades_.pdf",
-  "pagina_albo": "https://icalbinia.edu.it/index.php/2026/11/06/interpello/",
-  "scuola": "IC \"G.Civinini - Don Milani\"",
-  "codice": "GRIC81600V",
-  "comune": "Orbetello",
-  "provincia": "Grosseto",
-  "regione": "Toscana",
-  "data_atto": "2026-11-28",
-  "classi": [],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": "2026-12-04",
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 42.5042,
-  "lon": 11.2361
- },
- {
   "id": "b2ccf86ffab73567",
   "titolo": "Notizie Slide 20/11/2026 Interpello infanzia 1 posto 25h al 04.12.2026 In allegato interpello del 20.11.2026 scuola dell'infanzia per 1 posto da 25h fino al 04.12.2026. di PTIC80600D psc Leggi di più",
   "link": "https://www.istitutopasquini.edu.it/interpello-infanzia-1-posto-25h-al-04-12-2026/",
@@ -1103,6 +1083,26 @@
   "trovato_il": "2026-11-24",
   "lat": 43.907,
   "lon": 10.7512
+ },
+ {
+  "id": "9cedab67a26f617b",
+  "titolo": "InterpelloDocenteClasseConcorsoEEEE 24 ore IC Albinia fino al 04-12-2026",
+  "link": "https://icalbinia.edu.it/wp-content/uploads/2026/11/timbro_protocollo_InterpelloDocenteClasseConcorsoEEEE_24_ore_IC_Albinia_fino_al_04-12-2026.pdf.pades_.pdf",
+  "pagina_albo": "https://icalbinia.edu.it/index.php/2026/11/06/interpello/",
+  "scuola": "IC \"G.Civinini - Don Milani\"",
+  "codice": "GRIC81600V",
+  "comune": "Orbetello",
+  "provincia": "Grosseto",
+  "regione": "Toscana",
+  "data_atto": "2026-11-28",
+  "classi": [],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": "2026-12-04",
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 42.5042,
+  "lon": 11.2361
  },
  {
   "id": "faa7a90323f119e2",
@@ -5594,202 +5594,6 @@
   "lon": 9.9661
  },
  {
-  "id": "1916cae798c76cac",
-  "titolo": "Interpello Preventivo docente Scuola Primaria posto Comune Sostegno a.s. 2026-27 del 12/11/26.",
-  "link": "https://icadua.edu.it/interpello_preventivo_docente_scuola_primaria_posto_comune-sostegno_a-s-_2026-27_del_12-11-26-pdf-pa/",
-  "pagina_albo": "https://icadua.edu.it/",
-  "scuola": "IC Via Adua-Seveso",
-  "codice": "MBIC86300B",
-  "comune": "Seveso",
-  "provincia": "Monza E Della Brianza",
-  "regione": "Lombardia",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 45.6437,
-  "lon": 9.1451
- },
- {
-  "id": "c62806e18923cde8",
-  "titolo": "Interpello Preventivo docente Scuola Primaria posto Comune Sostegno a.s. 2026-27 del 12/11/26. Interpello Preventivo docente Scuola Primaria posto Comune Sostegno a.s 26-27 del 12/11/26. Maria Grazia Russo Personale amministrativo",
-  "link": "https://icadua.edu.it/author/personale-1/",
-  "pagina_albo": "https://icadua.edu.it/",
-  "scuola": "IC Via Adua-Seveso",
-  "codice": "MBIC86300B",
-  "comune": "Seveso",
-  "provincia": "Monza E Della Brianza",
-  "regione": "Lombardia",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 45.6437,
-  "lon": 9.1451
- },
- {
-  "id": "0ac26d014507ab4d",
-  "titolo": "Interpello docenti su posti n.2 di Sostegno Scuola Primaria a.s. 2026/2027",
-  "link": "https://icadua.edu.it/interpello-docenti-su-posti-n-2-di-sostegno-_-scuola-primaria-a-s-2026-2027/",
-  "pagina_albo": "https://icadua.edu.it/",
-  "scuola": "IC Via Adua-Seveso",
-  "codice": "MBIC86300B",
-  "comune": "Seveso",
-  "provincia": "Monza E Della Brianza",
-  "regione": "Lombardia",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 45.6437,
-  "lon": 9.1451
- },
- {
-  "id": "0941f55502abce56",
-  "titolo": "Interpello docenti su posti n.2 di Sostegno Scuola Primaria a.s. 2026/2027 Interpello docenti su posti n. 2 di Sostegno Scuola Primaria a.s. 2026/2027 Carmela Nastasi Personale amministrativo",
-  "link": "https://icadua.edu.it/author/personale/",
-  "pagina_albo": "https://icadua.edu.it/",
-  "scuola": "IC Via Adua-Seveso",
-  "codice": "MBIC86300B",
-  "comune": "Seveso",
-  "provincia": "Monza E Della Brianza",
-  "regione": "Lombardia",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 45.6437,
-  "lon": 9.1451
- },
- {
-  "id": "3e24eb6120b12a66",
-  "titolo": "Interpello ai fini del reclutamento n° 1 posto per le attività alternative alla religione cattolica.",
-  "link": "https://icadua.edu.it/interpello-ai-fini-del-reclutamento-n-1-posto-per-le-attivita-alternative-alla-religione-cattolica/",
-  "pagina_albo": "https://icadua.edu.it/",
-  "scuola": "IC Via Adua-Seveso",
-  "codice": "MBIC86300B",
-  "comune": "Seveso",
-  "provincia": "Monza E Della Brianza",
-  "regione": "Lombardia",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 45.6437,
-  "lon": 9.1451
- },
- {
-  "id": "5cecb54849460470",
-  "titolo": "Interpello docenti su posti di Sostegno e Comune del 28/09/2026 Scuola Primaria a.s. 2026/2027",
-  "link": "https://icadua.edu.it/interpello-docenti-su-posti-di-sostegno-e-comune-del-28-09-2026_-scuola-primaria-a-s-2026-2027/",
-  "pagina_albo": "https://icadua.edu.it/",
-  "scuola": "IC Via Adua-Seveso",
-  "codice": "MBIC86300B",
-  "comune": "Seveso",
-  "provincia": "Monza E Della Brianza",
-  "regione": "Lombardia",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 45.6437,
-  "lon": 9.1451
- },
- {
-  "id": "f1e3d9b82c2c3fb9",
-  "titolo": "Interpello docenti su posto di Sostegno Scuola Primaria a.s. 2026/2027",
-  "link": "https://icadua.edu.it/interpello-docenti-su-posto-di-sostegno-_-scuola-primaria-a-s-2026-2027/",
-  "pagina_albo": "https://icadua.edu.it/",
-  "scuola": "IC Via Adua-Seveso",
-  "codice": "MBIC86300B",
-  "comune": "Seveso",
-  "provincia": "Monza E Della Brianza",
-  "regione": "Lombardia",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 45.6437,
-  "lon": 9.1451
- },
- {
-  "id": "442002c5dd14b426",
-  "titolo": "Pubblicazione procedura di interpello nazionale per selezione personale docente scuola secondaria primo grado classe di concorso AI56 “Strumento Musicale – PERCUSSIONI” dal 01/10/2026 al 30/06/2027 – 12 ore settimanali",
-  "link": "https://icalbinia.edu.it/index.php/2026/09/24/pubblicazione-procedura-di-interpello-nazionale-per-selezione-personale-docente-scuola-secondaria-primo-grado-classe-di-concorso-ai56-strumento-musicale-percussioni-dal-01-10-2026/",
-  "pagina_albo": "https://icalbinia.edu.it/",
-  "scuola": "IC \"G.Civinini - Don Milani\"",
-  "codice": "GRIC81600V",
-  "comune": "Orbetello",
-  "provincia": "Grosseto",
-  "regione": "Toscana",
-  "data_atto": "2027-06-30",
-  "classi": [
-   "AI56"
-  ],
-  "sostegno": false,
-  "gradi": [
-   "secondaria I grado"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 42.5042,
-  "lon": 11.2361
- },
- {
-  "id": "971bc2d55ad40f64",
-  "titolo": "InterpelloDocenteClasseConcorsoAM2A Francese 18 ore IC Albinia",
-  "link": "https://icalbinia.edu.it/wp-content/uploads/2026/11/timbro_protocollo_InterpelloDocenteClasseConcorsoAM2A_Francese_18_ore_IC_Albinia.pdf.pades_.pdf",
-  "pagina_albo": "https://icalbinia.edu.it/index.php/2026/11/06/interpello/",
-  "scuola": "IC \"G.Civinini - Don Milani\"",
-  "codice": "GRIC81600V",
-  "comune": "Orbetello",
-  "provincia": "Grosseto",
-  "regione": "Toscana",
-  "data_atto": "2026-11-28",
-  "classi": [],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 42.5042,
-  "lon": 11.2361
- },
- {
   "id": "cacfdaefc96f98ff",
   "titolo": "Interpello scuola primaria posto comune",
   "link": "https://icaresegelsi.edu.it/interpello-scuola-primaria-posto-comune-2/",
@@ -6720,46 +6524,6 @@
   "lon": 11.8399
  },
  {
-  "id": "593db5d295dbd439",
-  "titolo": "Interpello preventivo per selezione personale per eventuali supplenze brevi",
-  "link": "https://iccivitavecchia2.edu.it/web/interpello-preventivo-per-selezione-personale-per-eventuali-supplenze-brevi-3/",
-  "pagina_albo": "https://iccivitavecchia2.edu.it/",
-  "scuola": "IC Civitavecchia 2",
-  "codice": "RMIC8GN009",
-  "comune": "Civitavecchia",
-  "provincia": "Roma",
-  "regione": "Lazio",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 42.1163,
-  "lon": 11.8107
- },
- {
-  "id": "f44a6a10f172868d",
-  "titolo": "Interpello finalizzato ad individuare candidati a cui assegnare una supplenza breve su classe di concorso AM2B (lingua inglese)",
-  "link": "https://iccivitavecchia2.edu.it/web/interpello-finalizzato-ad-individuare-candidati-a-cui-assegnare-una-supplenza-breve-su-classe-di-concorso-am2b-lingua-inglese/",
-  "pagina_albo": "https://iccivitavecchia2.edu.it/",
-  "scuola": "IC Civitavecchia 2",
-  "codice": "RMIC8GN009",
-  "comune": "Civitavecchia",
-  "provincia": "Roma",
-  "regione": "Lazio",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 42.1163,
-  "lon": 11.8107
- },
- {
   "id": "60d477b50c7d8b4b",
   "titolo": "Interpello interno per l'attribuzione di ore eccedenti l'orario d'obbligo – Classe di concorso AM2B (Lingua Inglese) – A.S. 2026/2027",
   "link": "https://iccivitellasanpaolo.edu.it/comunicati/1245-interpello-interno-per-lattribuzione-di-ore-eccedenti-lorario-dobbligo-classe-di-concorso-am2b-lingua-inglese-as-20262027",
@@ -6800,29 +6564,6 @@
   "trovato_il": "2026-11-24",
   "lat": 45.8046,
   "lon": 9.0806
- },
- {
-  "id": "c668359a6240309a",
-  "titolo": "Interpello preventivo per assegnazione supplenze brevi fino a 10 giorni – scuola Infanzia e Primaria (posto comune e sostegno) ai sensi dell’art.14, comma 2, dell’O.M. n.27/2026",
-  "link": "https://iccoreglia.edu.it/index.php/2026/11/24/interpello-preventivo-per-assegnazione-supplenze-brevi-fino-a-10-giorni-scuola-infanzia-e-primaria-posto-comune-e-sostegno-ai-sensi-dellart-14-comma-2-dello-m-n-27-202/",
-  "pagina_albo": "https://iccoreglia.edu.it/",
-  "scuola": "Ist.Comprensivo Di Coreglia",
-  "codice": "LUIC821009",
-  "comune": "Coreglia Antelminelli",
-  "provincia": "Lucca",
-  "regione": "Toscana",
-  "data_atto": "2026-11-28",
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "infanzia",
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 44.0689,
-  "lon": 10.5521
  },
  {
   "id": "753aa92eadf4b1bd",
@@ -7009,28 +6750,6 @@
   "lon": 8.0474
  },
  {
-  "id": "e1979b8598411fde",
-  "titolo": "INTERPELLO SUPPLENZA BREVE PRIMARIA POSTO COMUNE",
-  "link": "https://icgonnelli.edu.it/interpello-supplenza-breve-primaria-posto-comune/",
-  "pagina_albo": "https://icgonnelli.edu.it/",
-  "scuola": "Giovanni F. Gonnelli",
-  "codice": "FIIC809007",
-  "comune": "Montaione",
-  "provincia": "Firenze",
-  "regione": "Toscana",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": false,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 43.5595,
-  "lon": 10.882
- },
- {
   "id": "1bae19b1a60c7c6f",
   "titolo": "Interpello Nazionale posto comune EEEE Scuola Primaria.",
   "link": "https://icgranarolo.edu.it/interpello-nazionale-posto-comune-eeee-scuola-primaria/",
@@ -7053,94 +6772,6 @@
   "trovato_il": "2026-11-24",
   "lat": 44.5613,
   "lon": 11.4327
- },
- {
-  "id": "37fe4ba33e79c7c2",
-  "titolo": "Interpello supplenza breve scuola primaria posto comune",
-  "link": "https://iclodidue.edu.it/2026/11/09/interpello-supplenza-breve-scuola-primaria-posto-comune/",
-  "pagina_albo": "https://iclodidue.edu.it/",
-  "scuola": "I.C. Lodi Ii -G. Spezzaferri-",
-  "codice": "LOIC812009",
-  "comune": "Cavenago D'Adda",
-  "provincia": "Lodi",
-  "regione": "Lombardia",
-  "data_atto": "2026-11-28",
-  "classi": [],
-  "sostegno": false,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 45.281,
-  "lon": 9.5925
- },
- {
-  "id": "fa7d3c801ab85d6f",
-  "titolo": "Interpello per n. 1 POSTO fino al 30/06/2027 – Posto sostegno presso la scuola primaria",
-  "link": "https://iclodidue.edu.it/2026/11/04/interpello-per-n-1-posto-fino-al-30-06-2027-posto-sostegno-presso-la-scuola-primaria/",
-  "pagina_albo": "https://iclodidue.edu.it/",
-  "scuola": "I.C. Lodi Ii -G. Spezzaferri-",
-  "codice": "LOIC812009",
-  "comune": "Cavenago D'Adda",
-  "provincia": "Lodi",
-  "regione": "Lombardia",
-  "data_atto": "2027-06-30",
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 45.281,
-  "lon": 9.5925
- },
- {
-  "id": "fe7edc2f93607426",
-  "titolo": "Interpello per n. 1 POSTO fino al 30/06/2027 – Posto sostegno presso la scuola dell’infanzia di San Martino in strada (LO)",
-  "link": "https://iclodidue.edu.it/2026/11/04/interpello-per-n-1-posto-fino-al-30-06-2027-posto-sostegno-presso-la-scuola-dellinfanzia-di-san-martino-in-strada-lo/",
-  "pagina_albo": "https://iclodidue.edu.it/",
-  "scuola": "scuola dell’infanzia",
-  "codice": "LOIC812009",
-  "comune": "Cavenago D'Adda",
-  "provincia": "Lodi",
-  "regione": "Lombardia",
-  "data_atto": "2027-06-30",
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "infanzia"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 45.281,
-  "lon": 9.5925
- },
- {
-  "id": "283fde95da8283a7",
-  "titolo": "Interpello: supplenza breve scuola dell’infanzia",
-  "link": "https://iclodidue.edu.it/2026/11/02/interpello-supplenza-breve-scuola-dellinfanzia/",
-  "pagina_albo": "https://iclodidue.edu.it/",
-  "scuola": "I.C. Lodi Ii -G. Spezzaferri-",
-  "codice": "LOIC812009",
-  "comune": "Cavenago D'Adda",
-  "provincia": "Lodi",
-  "regione": "Lombardia",
-  "data_atto": "2026-11-28",
-  "classi": [],
-  "sostegno": false,
-  "gradi": [
-   "infanzia"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 45.281,
-  "lon": 9.5925
  },
  {
   "id": "f30cb60c0f67917b",
@@ -7252,72 +6883,6 @@
   "trovato_il": "2026-11-24",
   "lat": 44.8163,
   "lon": 7.6254
- },
- {
-  "id": "dc3bde64317a3ec6",
-  "titolo": "Interpello primaria posto comune",
-  "link": "https://icmorosinimanara.edu.it/interpello-primaria-posto-comune/",
-  "pagina_albo": "https://icmorosinimanara.edu.it/",
-  "scuola": "IC Morosini Manara",
-  "codice": "MIIC8B9003",
-  "comune": "Milano",
-  "provincia": "Milano",
-  "regione": "Lombardia",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": false,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 45.4685,
-  "lon": 9.1734
- },
- {
-  "id": "3a6d16503302bd1b",
-  "titolo": "Interpello primaria posto comune Si pubblica quanto in oggetto Lara Pipitone Docente e referente",
-  "link": "https://icmorosinimanara.edu.it/author/lara/",
-  "pagina_albo": "https://icmorosinimanara.edu.it/",
-  "scuola": "IC Morosini Manara",
-  "codice": "MIIC8B9003",
-  "comune": "Milano",
-  "provincia": "Milano",
-  "regione": "Lombardia",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": false,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 45.4685,
-  "lon": 9.1734
- },
- {
-  "id": "01cfdb638f7a435f",
-  "titolo": "Interpello sostegno primaria",
-  "link": "https://icmorosinimanara.edu.it/interpello-sostegno-primaria/",
-  "pagina_albo": "https://icmorosinimanara.edu.it/",
-  "scuola": "IC Morosini Manara",
-  "codice": "MIIC8B9003",
-  "comune": "Milano",
-  "provincia": "Milano",
-  "regione": "Lombardia",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 45.4685,
-  "lon": 9.1734
  },
  {
   "id": "aaa8267da900f8ea",
@@ -8064,92 +7629,6 @@
   "trovato_il": "2026-11-24",
   "lat": 41.8835,
   "lon": 12.4619
- },
- {
-  "id": "66d1a04533d07fd9",
-  "titolo": "Interpello n. 7/2026 – supplenza breve ADEE dal 23/10 al 10/03/2027",
-  "link": "https://icpegli.edu.it/circolare/interpello-n-7-2026-supplenza-breve-adee-dal-23-10-al-10-03-2027/",
-  "pagina_albo": "https://icpegli.edu.it/",
-  "scuola": "I.C. Pegli",
-  "codice": "GEIC85000P",
-  "comune": "Genova",
-  "provincia": "Genova",
-  "regione": "Liguria",
-  "data_atto": "2027-03-10",
-  "classi": [
-   "ADEE"
-  ],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 44.4415,
-  "lon": 8.8927
- },
- {
-  "id": "2dc0f84fa0bb251d",
-  "titolo": "Interpello n. 6/2026 – Attività Alternativa Scuola Primaria",
-  "link": "https://icpegli.edu.it/circolare/interpello-n-6-2026-attivita-alternativa-scuola-primaria/",
-  "pagina_albo": "https://icpegli.edu.it/",
-  "scuola": "I.C. Pegli",
-  "codice": "GEIC85000P",
-  "comune": "Genova",
-  "provincia": "Genova",
-  "regione": "Liguria",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": false,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 44.4415,
-  "lon": 8.8927
- },
- {
-  "id": "0272012b78e60421",
-  "titolo": "Interpello n. 5/2026 suppl. breve AM2A – FRANCESE",
-  "link": "https://icpegli.edu.it/circolare/interpello-n-5-2026-suppl-breve-am2a-francese/",
-  "pagina_albo": "https://icpegli.edu.it/",
-  "scuola": "I.C. Pegli",
-  "codice": "GEIC85000P",
-  "comune": "Genova",
-  "provincia": "Genova",
-  "regione": "Liguria",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 44.4415,
-  "lon": 8.8927
- },
- {
-  "id": "777b4de0ff1b9992",
-  "titolo": "Interpello n. 4/2026 – supplenze brevi inf. gg. 10",
-  "link": "https://icpegli.edu.it/circolare/interpello-n-4-2026-supplenze-brevi-inf-gg-10/",
-  "pagina_albo": "https://icpegli.edu.it/",
-  "scuola": "I.C. Pegli",
-  "codice": "GEIC85000P",
-  "comune": "Genova",
-  "provincia": "Genova",
-  "regione": "Liguria",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 44.4415,
-  "lon": 8.8927
  },
  {
   "id": "5e35031580109c75",
@@ -9179,30 +8658,6 @@
   "lon": 13.7248
  },
  {
-  "id": "7d5a6616b1e46382",
-  "titolo": "Interpello reclutamento CL A011",
-  "link": "https://liceovoltacomo.edu.it/interpello-reclutamento-cl-a011-3/",
-  "pagina_albo": "https://liceovoltacomo.edu.it/",
-  "scuola": "Alessandro Volta",
-  "codice": "COPC020007",
-  "comune": "Como",
-  "provincia": "Como",
-  "regione": "Lombardia",
-  "data_atto": null,
-  "classi": [
-   "A011"
-  ],
-  "sostegno": false,
-  "gradi": [
-   "secondaria II grado"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 45.8046,
-  "lon": 9.0806
- },
- {
   "id": "0878439a3249c2c4",
   "titolo": "Interpello preventivo finalizzato ad individuare candidati a cui assegnare supplenze brevi fino a 10 giorni per le classi di scuola infanzia e primaria",
   "link": "https://massarosadue.edu.it/interpello-preventivo-finalizzato-ad-individuare-candidati-a-cui-assegnare-supplenze-brevi-fino-a-10-giorni-per-le-classi-di-scuola-infanzia-e-primaria/",
@@ -10193,28 +9648,6 @@
   "lon": 10.5217
  },
  {
-  "id": "518f7b3f15f68cb4",
-  "titolo": "Docenti: interpello scuola primaria posto comune – I.C. Zavalloni di Riccione",
-  "link": "https://rn.istruzioneer.gov.it/2026/11/19/docenti-interpello-scuola-primaria-posto-comune-i-c-zavalloni-di-riccione-2/",
-  "pagina_albo": "https://www.centrostorico.edu.it/wordpress2/",
-  "scuola": "Centro Storico",
-  "codice": "RNIC817007",
-  "comune": "Rimini",
-  "provincia": "Rimini",
-  "regione": "Emilia Romagna",
-  "data_atto": "2026-11-28",
-  "classi": [],
-  "sostegno": false,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 44.0388,
-  "lon": 12.5308
- },
- {
   "id": "268d639584e9172e",
   "titolo": "AVVISO DI INTERPELLO PRIMARIA SOSTEGNO DAL 23-11-2026 AL 11-12-2026",
   "link": "https://www.comprensivocasapesenna.edu.it/2026/11/19/avviso_di_interpello_primaria_sostegno_dal_23-11-2026_al_11-12-2026/",
@@ -10854,31 +10287,6 @@
   "trovato_il": "2026-11-24",
   "lat": 45.8828,
   "lon": 12.3501
- },
- {
-  "id": "4a1545b39c8fbe81",
-  "titolo": "Interpello per la supplenza su classe di concorso ADEE POSTO SOSTEGNO SCUOLA PRIMARIA POSTI n.1",
-  "link": "https://www.icalbanopavona.edu.it/uncategorized/avviso-per-interpello-preventivo-finalizzato-ad-individuare-candidati-cui-assegnare-supplenze-di-durata-e-orario-variabile-fino-a-10-giorni-per-le-classi-di-scuola-primaria-e-della-scuola-di-infanzia/",
-  "pagina_albo": "https://www.icalbanopavona.edu.it/",
-  "scuola": "\"Antonio Gramsci\"",
-  "codice": "RMIC8AX006",
-  "comune": "Albano Laziale",
-  "provincia": "Roma",
-  "regione": "Lazio",
-  "data_atto": null,
-  "classi": [
-   "ADEE"
-  ],
-  "sostegno": true,
-  "gradi": [
-   "infanzia",
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 41.7098,
-  "lon": 12.6327
  },
  {
   "id": "541c381785bdf257",
@@ -11560,28 +10968,6 @@
   "lon": 10.1976
  },
  {
-  "id": "cf3a6d5a628199c0",
-  "titolo": "Interpello per supplenza su classe di conc. Ed. Motoria EEEM",
-  "link": "https://www.icdenza.edu.it/interpello-per-supplenza-su-classe-di-conc-ed-motoria-eeem/",
-  "pagina_albo": "https://www.icdenza.edu.it/",
-  "scuola": "I.C. Denza - C.Mmare 4",
-  "codice": "NAIC847006",
-  "comune": "Castellammare Di Stabia",
-  "provincia": "Napoli",
-  "regione": "Campania",
-  "data_atto": null,
-  "classi": [
-   "EEEM"
-  ],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 40.6962,
-  "lon": 14.4814
- },
- {
   "id": "68dc464c79339a1f",
   "titolo": "Interpello supplenze di durata e orario variabile fino a 10 giorni",
   "link": "https://www.icfutura.edu.it/servizio/interpello-supplenze-di-durata-e-orario-variabile-fino-a-10-giorni/",
@@ -11644,28 +11030,6 @@
   "trovato_il": "2026-11-24",
   "lat": 45.4857,
   "lon": 12.0875
- },
- {
-  "id": "9dd7e3cf85182d71",
-  "titolo": "Candidatura per interpello classe di concorso A-56 VIOLINO",
-  "link": "https://www.icgaribaldipipitonemarsala.edu.it/candidatura-per-interpello-classe-di-concorso-a-56-violino/",
-  "pagina_albo": "https://www.icgaribaldipipitonemarsala.edu.it/",
-  "scuola": "I.C. G.Garibaldi - V.Pipitone",
-  "codice": "TPIC83900G",
-  "comune": "Marsala",
-  "provincia": "Trapani",
-  "regione": "Sicilia",
-  "data_atto": null,
-  "classi": [
-   "A056"
-  ],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 37.8129,
-  "lon": 12.5426
  },
  {
   "id": "b38fb0cf0150d5fe",
@@ -11876,30 +11240,6 @@
   "trovato_il": "2026-11-24",
   "lat": 41.8835,
   "lon": 12.4619
- },
- {
-  "id": "310fbf3ce0f3571b",
-  "titolo": "AVVISO D’INTERPELLO PER LA COPERTURA DI POSTI ART. 13 C. 23 O.M. 88/2024 SOSTEGNO SCUOLA PRIMARIA per supplenza su classe di concorso ADEE – EH",
-  "link": "https://www.icgiuseppegaribaldi.it/2026/11/02/avviso-dinterpello-per-la-copertura-di-posti-art-13-c-23-o-m-88-2024-sostegno-scuola-primaria-per-supplenza-su-classe-di-concorso-adee-eh/",
-  "pagina_albo": "https://www.icgiuseppegaribaldi.it/",
-  "scuola": "Giuseppe Garibaldi",
-  "codice": "RMIC8AH005",
-  "comune": "Guidonia Montecelio",
-  "provincia": "Roma",
-  "regione": "Lazio",
-  "data_atto": "2026-11-28",
-  "classi": [
-   "ADEE"
-  ],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 41.9806,
-  "lon": 12.7029
  },
  {
   "id": "71dc7761f0d7c983",
@@ -12631,26 +11971,6 @@
   "lon": 9.8861
  },
  {
-  "id": "3a50ad73ab295cdd",
-  "titolo": "INTERPELLO Comunicazione delle disponibilità di incarichi di supplenza nell'Istituto Comprensivo Raffaello",
-  "link": "https://www.icraffaello.edu.it/servizio/interpello/",
-  "pagina_albo": "https://www.icraffaello.edu.it/",
-  "scuola": "\"Raffaello\"",
-  "codice": "RMIC83700E",
-  "comune": "Roma",
-  "provincia": "Roma",
-  "regione": "Lazio",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 41.8835,
-  "lon": 12.4619
- },
- {
   "id": "73ce2cc8d30f1d39",
   "titolo": "INTERPELLO SCUOLA PRIMARIA",
   "link": "https://www.icriccardomassa.edu.it/interpello-scuola-primaria/",
@@ -12671,54 +11991,6 @@
   "trovato_il": "2026-11-24",
   "lat": 45.4685,
   "lon": 9.1734
- },
- {
-  "id": "975ec1999ad801bf",
-  "titolo": "INTERPELLO PRIMARIA SOSTEGNO ADEE",
-  "link": "https://www.icruggieroterzocircolo.edu.it/interpello-primaria-sostegno-adee-2/",
-  "pagina_albo": "https://www.icruggieroterzocircolo.edu.it/",
-  "scuola": "Ruggiero-3^ Circolo Caserta",
-  "codice": "CEIC8A000N",
-  "comune": "Caserta",
-  "provincia": "Caserta",
-  "regione": "Campania",
-  "data_atto": null,
-  "classi": [
-   "ADEE"
-  ],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 41.0873,
-  "lon": 14.3578
- },
- {
-  "id": "348c9f8f796a6778",
-  "titolo": "INTERPELLO PRIMARIA SOSTEGNO ADEE Interpello per supplenza su classe di concorso ADEE – sostegno scuola primaria Web editor 0",
-  "link": "https://www.icruggieroterzocircolo.edu.it/author/tiziana-ianniello/",
-  "pagina_albo": "https://www.icruggieroterzocircolo.edu.it/",
-  "scuola": "Ruggiero-3^ Circolo Caserta",
-  "codice": "CEIC8A000N",
-  "comune": "Caserta",
-  "provincia": "Caserta",
-  "regione": "Campania",
-  "data_atto": null,
-  "classi": [
-   "ADEE"
-  ],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 41.0873,
-  "lon": 14.3578
  },
  {
   "id": "7cee577244699320",
@@ -13125,30 +12397,6 @@
   "lon": 10.1919
  },
  {
-  "id": "53f84b6cd2e49aa1",
-  "titolo": "Interpello 011-2026/2027 n. 2 posti sostegno scuola infanzia ADAA",
-  "link": "https://www.icsolivelli.edu.it/albo-pretorio/interpello-011-20262027-n-2-posti-sostegno-scuola-infanzia-adaa",
-  "pagina_albo": "https://www.icsolivelli.edu.it/novita/albo-pretorio",
-  "scuola": "I.C. T.Olivelli Villa Carcina",
-  "codice": "BSIC82600D",
-  "comune": "Villa Carcina",
-  "provincia": "Brescia",
-  "regione": "Lombardia",
-  "data_atto": "2026-11-27",
-  "classi": [
-   "ADAA"
-  ],
-  "sostegno": true,
-  "gradi": [
-   "infanzia"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 45.6363,
-  "lon": 10.1919
- },
- {
   "id": "bf685b64ffb237a0",
   "titolo": "INTERPELLO SCUOLA INFANZIA PER SUPPLENZE BREVI",
   "link": "https://www.icsona.edu.it/2026/11/17/interpello-scuola-infanzia-per-supplenze-brevi/",
@@ -13213,146 +12461,6 @@
   "trovato_il": "2026-11-24",
   "lat": 45.4283,
   "lon": 10.8133
- },
- {
-  "id": "a17a26042efa6284",
-  "titolo": "Interpello n. 1",
-  "link": "https://www.icsrizzoli.edu.it/interpello-n-1/",
-  "pagina_albo": "https://www.icsrizzoli.edu.it/",
-  "scuola": "IC A. Rizzoli",
-  "codice": "MIIC810002",
-  "comune": "Pregnana Milanese",
-  "provincia": "Milano",
-  "regione": "Lombardia",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 45.5154,
-  "lon": 9.005
- },
- {
-  "id": "8b540ec9de2f33ac",
-  "titolo": "Interpello n. 2",
-  "link": "https://www.icsrizzoli.edu.it/interpello-n-2/",
-  "pagina_albo": "https://www.icsrizzoli.edu.it/",
-  "scuola": "IC A. Rizzoli",
-  "codice": "MIIC810002",
-  "comune": "Pregnana Milanese",
-  "provincia": "Milano",
-  "regione": "Lombardia",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 45.5154,
-  "lon": 9.005
- },
- {
-  "id": "19302e15cd7672c5",
-  "titolo": "Interpello n. 4",
-  "link": "https://www.icsrizzoli.edu.it/interpello-n-4/",
-  "pagina_albo": "https://www.icsrizzoli.edu.it/",
-  "scuola": "IC A. Rizzoli",
-  "codice": "MIIC810002",
-  "comune": "Pregnana Milanese",
-  "provincia": "Milano",
-  "regione": "Lombardia",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 45.5154,
-  "lon": 9.005
- },
- {
-  "id": "cbeeaaf032438f93",
-  "titolo": "Interpello n. 3",
-  "link": "https://www.icsrizzoli.edu.it/interpello-n-3/",
-  "pagina_albo": "https://www.icsrizzoli.edu.it/",
-  "scuola": "IC A. Rizzoli",
-  "codice": "MIIC810002",
-  "comune": "Pregnana Milanese",
-  "provincia": "Milano",
-  "regione": "Lombardia",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 45.5154,
-  "lon": 9.005
- },
- {
-  "id": "af7ccfce6b977c64",
-  "titolo": "Interpello n. 10",
-  "link": "https://www.icsrizzoli.edu.it/interpello-n-10/",
-  "pagina_albo": "https://www.icsrizzoli.edu.it/",
-  "scuola": "IC A. Rizzoli",
-  "codice": "MIIC810002",
-  "comune": "Pregnana Milanese",
-  "provincia": "Milano",
-  "regione": "Lombardia",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 45.5154,
-  "lon": 9.005
- },
- {
-  "id": "9d27472251e03006",
-  "titolo": "Interpello n. 8",
-  "link": "https://www.icsrizzoli.edu.it/interpello-n-8/",
-  "pagina_albo": "https://www.icsrizzoli.edu.it/",
-  "scuola": "IC A. Rizzoli",
-  "codice": "MIIC810002",
-  "comune": "Pregnana Milanese",
-  "provincia": "Milano",
-  "regione": "Lombardia",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 45.5154,
-  "lon": 9.005
- },
- {
-  "id": "aed4b9447dd9ca9d",
-  "titolo": "Interpello n. 7",
-  "link": "https://www.icsrizzoli.edu.it/interpello-n-7/",
-  "pagina_albo": "https://www.icsrizzoli.edu.it/",
-  "scuola": "IC A. Rizzoli",
-  "codice": "MIIC810002",
-  "comune": "Pregnana Milanese",
-  "provincia": "Milano",
-  "regione": "Lombardia",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 45.5154,
-  "lon": 9.005
  },
  {
   "id": "05f59e3bc4d607fd",
@@ -14205,50 +13313,6 @@
   "lon": 9.4115
  },
  {
-  "id": "14c519b9f03692ac",
-  "titolo": "A.S. 2026/2027 – Interpello per N. 2 supplenze Classe di concorso A027 MATEMATICA E FISICA",
-  "link": "https://www.iisgaribaldi.edu.it/a-s-2026-2027-interpello-per-n-2-supplenze-classe-di-concorso-a027-matematica-e-fisica/",
-  "pagina_albo": "https://www.iisgaribaldi.edu.it/",
-  "scuola": "G.Garibaldi",
-  "codice": "SSIS02300T",
-  "comune": "La Maddalena",
-  "provincia": "Gallura Nord-Est Sardegna",
-  "regione": "Sardegna",
-  "data_atto": null,
-  "classi": [
-   "A027"
-  ],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 41.2329,
-  "lon": 9.4115
- },
- {
-  "id": "24068fc54c9b788b",
-  "titolo": "A.S. 2026/2027 – Interpello per supplenze Classe di concorso A043 SCIENZE E TECNOLOGIE NAUTICHE.",
-  "link": "https://www.iisgaribaldi.edu.it/a-s-2026-2027-interpello-per-supplenze-classe-di-concorso-a043-scienze-e-tecnologie-nautiche/",
-  "pagina_albo": "https://www.iisgaribaldi.edu.it/",
-  "scuola": "G.Garibaldi",
-  "codice": "SSIS02300T",
-  "comune": "La Maddalena",
-  "provincia": "Gallura Nord-Est Sardegna",
-  "regione": "Sardegna",
-  "data_atto": null,
-  "classi": [
-   "A043"
-  ],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 41.2329,
-  "lon": 9.4115
- },
- {
   "id": "14c754a17bb9ce6b",
   "titolo": "INTERPELLO per supplenza classe di concorso – A042 – SCIENZE E TECNOLOGIE MECCANICHE Vincenzo Sesti 19 Novembre 2026",
   "link": "https://www.iispoloamantea.edu.it/2026/11/19/interpello-per-supplenza-classe-di-concorso-a042-scienze-e-tecnologie-meccaniche/",
@@ -14353,28 +13417,6 @@
   "trovato_il": "2026-11-24",
   "lat": 46.0041,
   "lon": 12.2966
- },
- {
-  "id": "e7b5e2a49efc2988",
-  "titolo": "Interpello per il conferimento di n. 1 supplenza – Classe di concorso A003 – Design della ceramica – a.s. 2026/2027-",
-  "link": "https://www.isiscuocomanuppella.edu.it/20261013150258unidos/",
-  "pagina_albo": "https://www.isiscuocomanuppella.edu.it/",
-  "scuola": "ISIS \" Cuoco/Manuppella\"",
-  "codice": "ISIS01400C",
-  "comune": "Isernia",
-  "provincia": "Isernia",
-  "regione": "Molise",
-  "data_atto": null,
-  "classi": [
-   "A003"
-  ],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 41.6072,
-  "lon": 14.2163
  },
  {
   "id": "d85e3e4955c31503",
@@ -14511,26 +13553,6 @@
   "trovato_il": "2026-11-24",
   "lat": 40.5999,
   "lon": 8.2992
- },
- {
-  "id": "1ae17d281e580757",
-  "titolo": "Interpello Inoltro delle autocandidature per svolgere servizio di supplenza",
-  "link": "https://www.istitutocomprensivobudduso.edu.it/servizio/interpello-messa-a-disposizione/",
-  "pagina_albo": "https://www.istitutocomprensivobudduso.edu.it/",
-  "scuola": "D.A.Azuni - Budduso'",
-  "codice": "SSIC80600X",
-  "comune": "Pattada",
-  "provincia": "Sassari",
-  "regione": "Sardegna",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 40.5914,
-  "lon": 9.1221
  },
  {
   "id": "10f4a9c88ff0ade9",
@@ -14896,50 +13918,6 @@
   "trovato_il": "2026-11-24",
   "lat": 40.8737,
   "lon": 14.4442
- },
- {
-  "id": "524e235a7b52aa4c",
-  "titolo": "Interpello Nazionale, classe di concorso B010 “Laboratori di scienze e tecnologie delle costruzioni aeronautiche”",
-  "link": "https://www.ittaltamuradavinci.edu.it/interpello-nazionale-incarico-16-ore-classe-di-concorso-b010/",
-  "pagina_albo": "https://www.ittaltamuradavinci.edu.it/",
-  "scuola": "I.T.T. \"Altamura-Da Vinci\"",
-  "codice": "FGTF13000C",
-  "comune": "Foggia",
-  "provincia": "Foggia",
-  "regione": "Puglia",
-  "data_atto": null,
-  "classi": [
-   "B010"
-  ],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 41.4567,
-  "lon": 15.5831
- },
- {
-  "id": "0da9a86b6b8e21ad",
-  "titolo": "Interpello Nazionale, classe di concorso A040 “Scienze e Tecnologie elettriche ed elettroniche”",
-  "link": "https://www.ittaltamuradavinci.edu.it/nterpello-nazionale-classe-di-concorso-a040-scienze-e-tecnologie-elettriche-ed-elettroniche/",
-  "pagina_albo": "https://www.ittaltamuradavinci.edu.it/",
-  "scuola": "I.T.T. \"Altamura-Da Vinci\"",
-  "codice": "FGTF13000C",
-  "comune": "Foggia",
-  "provincia": "Foggia",
-  "regione": "Puglia",
-  "data_atto": null,
-  "classi": [
-   "A040"
-  ],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24",
-  "lat": 41.4567,
-  "lon": 15.5831
  },
  {
   "id": "2b96828342bb1a08",
@@ -15369,6 +14347,1028 @@
   "trovato_il": "2026-11-24",
   "lat": 43.445,
   "lon": 11.9043
+ },
+ {
+  "id": "1916cae798c76cac",
+  "titolo": "Interpello Preventivo docente Scuola Primaria posto Comune Sostegno a.s. 2026-27 del 12/11/26.",
+  "link": "https://icadua.edu.it/interpello_preventivo_docente_scuola_primaria_posto_comune-sostegno_a-s-_2026-27_del_12-11-26-pdf-pa/",
+  "pagina_albo": "https://icadua.edu.it/",
+  "scuola": "IC Via Adua-Seveso",
+  "codice": "MBIC86300B",
+  "comune": "Seveso",
+  "provincia": "Monza E Della Brianza",
+  "regione": "Lombardia",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 45.6437,
+  "lon": 9.1451
+ },
+ {
+  "id": "c62806e18923cde8",
+  "titolo": "Interpello Preventivo docente Scuola Primaria posto Comune Sostegno a.s. 2026-27 del 12/11/26. Interpello Preventivo docente Scuola Primaria posto Comune Sostegno a.s 26-27 del 12/11/26. Maria Grazia Russo Personale amministrativo",
+  "link": "https://icadua.edu.it/author/personale-1/",
+  "pagina_albo": "https://icadua.edu.it/",
+  "scuola": "IC Via Adua-Seveso",
+  "codice": "MBIC86300B",
+  "comune": "Seveso",
+  "provincia": "Monza E Della Brianza",
+  "regione": "Lombardia",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 45.6437,
+  "lon": 9.1451
+ },
+ {
+  "id": "0ac26d014507ab4d",
+  "titolo": "Interpello docenti su posti n.2 di Sostegno Scuola Primaria a.s. 2026/2027",
+  "link": "https://icadua.edu.it/interpello-docenti-su-posti-n-2-di-sostegno-_-scuola-primaria-a-s-2026-2027/",
+  "pagina_albo": "https://icadua.edu.it/",
+  "scuola": "IC Via Adua-Seveso",
+  "codice": "MBIC86300B",
+  "comune": "Seveso",
+  "provincia": "Monza E Della Brianza",
+  "regione": "Lombardia",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 45.6437,
+  "lon": 9.1451
+ },
+ {
+  "id": "0941f55502abce56",
+  "titolo": "Interpello docenti su posti n.2 di Sostegno Scuola Primaria a.s. 2026/2027 Interpello docenti su posti n. 2 di Sostegno Scuola Primaria a.s. 2026/2027 Carmela Nastasi Personale amministrativo",
+  "link": "https://icadua.edu.it/author/personale/",
+  "pagina_albo": "https://icadua.edu.it/",
+  "scuola": "IC Via Adua-Seveso",
+  "codice": "MBIC86300B",
+  "comune": "Seveso",
+  "provincia": "Monza E Della Brianza",
+  "regione": "Lombardia",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 45.6437,
+  "lon": 9.1451
+ },
+ {
+  "id": "3e24eb6120b12a66",
+  "titolo": "Interpello ai fini del reclutamento n° 1 posto per le attività alternative alla religione cattolica.",
+  "link": "https://icadua.edu.it/interpello-ai-fini-del-reclutamento-n-1-posto-per-le-attivita-alternative-alla-religione-cattolica/",
+  "pagina_albo": "https://icadua.edu.it/",
+  "scuola": "IC Via Adua-Seveso",
+  "codice": "MBIC86300B",
+  "comune": "Seveso",
+  "provincia": "Monza E Della Brianza",
+  "regione": "Lombardia",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 45.6437,
+  "lon": 9.1451
+ },
+ {
+  "id": "5cecb54849460470",
+  "titolo": "Interpello docenti su posti di Sostegno e Comune del 28/09/2026 Scuola Primaria a.s. 2026/2027",
+  "link": "https://icadua.edu.it/interpello-docenti-su-posti-di-sostegno-e-comune-del-28-09-2026_-scuola-primaria-a-s-2026-2027/",
+  "pagina_albo": "https://icadua.edu.it/",
+  "scuola": "IC Via Adua-Seveso",
+  "codice": "MBIC86300B",
+  "comune": "Seveso",
+  "provincia": "Monza E Della Brianza",
+  "regione": "Lombardia",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 45.6437,
+  "lon": 9.1451
+ },
+ {
+  "id": "f1e3d9b82c2c3fb9",
+  "titolo": "Interpello docenti su posto di Sostegno Scuola Primaria a.s. 2026/2027",
+  "link": "https://icadua.edu.it/interpello-docenti-su-posto-di-sostegno-_-scuola-primaria-a-s-2026-2027/",
+  "pagina_albo": "https://icadua.edu.it/",
+  "scuola": "IC Via Adua-Seveso",
+  "codice": "MBIC86300B",
+  "comune": "Seveso",
+  "provincia": "Monza E Della Brianza",
+  "regione": "Lombardia",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 45.6437,
+  "lon": 9.1451
+ },
+ {
+  "id": "442002c5dd14b426",
+  "titolo": "Pubblicazione procedura di interpello nazionale per selezione personale docente scuola secondaria primo grado classe di concorso AI56 “Strumento Musicale – PERCUSSIONI” dal 01/10/2026 al 30/06/2027 – 12 ore settimanali",
+  "link": "https://icalbinia.edu.it/index.php/2026/09/24/pubblicazione-procedura-di-interpello-nazionale-per-selezione-personale-docente-scuola-secondaria-primo-grado-classe-di-concorso-ai56-strumento-musicale-percussioni-dal-01-10-2026/",
+  "pagina_albo": "https://icalbinia.edu.it/",
+  "scuola": "IC \"G.Civinini - Don Milani\"",
+  "codice": "GRIC81600V",
+  "comune": "Orbetello",
+  "provincia": "Grosseto",
+  "regione": "Toscana",
+  "data_atto": "2027-06-30",
+  "classi": [
+   "AI56"
+  ],
+  "sostegno": false,
+  "gradi": [
+   "secondaria I grado"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 42.5042,
+  "lon": 11.2361
+ },
+ {
+  "id": "971bc2d55ad40f64",
+  "titolo": "InterpelloDocenteClasseConcorsoAM2A Francese 18 ore IC Albinia",
+  "link": "https://icalbinia.edu.it/wp-content/uploads/2026/11/timbro_protocollo_InterpelloDocenteClasseConcorsoAM2A_Francese_18_ore_IC_Albinia.pdf.pades_.pdf",
+  "pagina_albo": "https://icalbinia.edu.it/index.php/2026/11/06/interpello/",
+  "scuola": "IC \"G.Civinini - Don Milani\"",
+  "codice": "GRIC81600V",
+  "comune": "Orbetello",
+  "provincia": "Grosseto",
+  "regione": "Toscana",
+  "data_atto": "2026-11-28",
+  "classi": [],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 42.5042,
+  "lon": 11.2361
+ },
+ {
+  "id": "593db5d295dbd439",
+  "titolo": "Interpello preventivo per selezione personale per eventuali supplenze brevi",
+  "link": "https://iccivitavecchia2.edu.it/web/interpello-preventivo-per-selezione-personale-per-eventuali-supplenze-brevi-3/",
+  "pagina_albo": "https://iccivitavecchia2.edu.it/",
+  "scuola": "IC Civitavecchia 2",
+  "codice": "RMIC8GN009",
+  "comune": "Civitavecchia",
+  "provincia": "Roma",
+  "regione": "Lazio",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 42.1163,
+  "lon": 11.8107
+ },
+ {
+  "id": "f44a6a10f172868d",
+  "titolo": "Interpello finalizzato ad individuare candidati a cui assegnare una supplenza breve su classe di concorso AM2B (lingua inglese)",
+  "link": "https://iccivitavecchia2.edu.it/web/interpello-finalizzato-ad-individuare-candidati-a-cui-assegnare-una-supplenza-breve-su-classe-di-concorso-am2b-lingua-inglese/",
+  "pagina_albo": "https://iccivitavecchia2.edu.it/",
+  "scuola": "IC Civitavecchia 2",
+  "codice": "RMIC8GN009",
+  "comune": "Civitavecchia",
+  "provincia": "Roma",
+  "regione": "Lazio",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 42.1163,
+  "lon": 11.8107
+ },
+ {
+  "id": "c668359a6240309a",
+  "titolo": "Interpello preventivo per assegnazione supplenze brevi fino a 10 giorni – scuola Infanzia e Primaria (posto comune e sostegno) ai sensi dell’art.14, comma 2, dell’O.M. n.27/2026",
+  "link": "https://iccoreglia.edu.it/index.php/2026/11/24/interpello-preventivo-per-assegnazione-supplenze-brevi-fino-a-10-giorni-scuola-infanzia-e-primaria-posto-comune-e-sostegno-ai-sensi-dellart-14-comma-2-dello-m-n-27-202/",
+  "pagina_albo": "https://iccoreglia.edu.it/",
+  "scuola": "Ist.Comprensivo Di Coreglia",
+  "codice": "LUIC821009",
+  "comune": "Coreglia Antelminelli",
+  "provincia": "Lucca",
+  "regione": "Toscana",
+  "data_atto": "2026-11-28",
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "infanzia",
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 44.0689,
+  "lon": 10.5521
+ },
+ {
+  "id": "e1979b8598411fde",
+  "titolo": "INTERPELLO SUPPLENZA BREVE PRIMARIA POSTO COMUNE",
+  "link": "https://icgonnelli.edu.it/interpello-supplenza-breve-primaria-posto-comune/",
+  "pagina_albo": "https://icgonnelli.edu.it/",
+  "scuola": "Giovanni F. Gonnelli",
+  "codice": "FIIC809007",
+  "comune": "Montaione",
+  "provincia": "Firenze",
+  "regione": "Toscana",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 43.5595,
+  "lon": 10.882
+ },
+ {
+  "id": "37fe4ba33e79c7c2",
+  "titolo": "Interpello supplenza breve scuola primaria posto comune",
+  "link": "https://iclodidue.edu.it/2026/11/09/interpello-supplenza-breve-scuola-primaria-posto-comune/",
+  "pagina_albo": "https://iclodidue.edu.it/",
+  "scuola": "I.C. Lodi Ii -G. Spezzaferri-",
+  "codice": "LOIC812009",
+  "comune": "Cavenago D'Adda",
+  "provincia": "Lodi",
+  "regione": "Lombardia",
+  "data_atto": "2026-11-28",
+  "classi": [],
+  "sostegno": false,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 45.281,
+  "lon": 9.5925
+ },
+ {
+  "id": "fa7d3c801ab85d6f",
+  "titolo": "Interpello per n. 1 POSTO fino al 30/06/2027 – Posto sostegno presso la scuola primaria",
+  "link": "https://iclodidue.edu.it/2026/11/04/interpello-per-n-1-posto-fino-al-30-06-2027-posto-sostegno-presso-la-scuola-primaria/",
+  "pagina_albo": "https://iclodidue.edu.it/",
+  "scuola": "I.C. Lodi Ii -G. Spezzaferri-",
+  "codice": "LOIC812009",
+  "comune": "Cavenago D'Adda",
+  "provincia": "Lodi",
+  "regione": "Lombardia",
+  "data_atto": "2027-06-30",
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 45.281,
+  "lon": 9.5925
+ },
+ {
+  "id": "fe7edc2f93607426",
+  "titolo": "Interpello per n. 1 POSTO fino al 30/06/2027 – Posto sostegno presso la scuola dell’infanzia di San Martino in strada (LO)",
+  "link": "https://iclodidue.edu.it/2026/11/04/interpello-per-n-1-posto-fino-al-30-06-2027-posto-sostegno-presso-la-scuola-dellinfanzia-di-san-martino-in-strada-lo/",
+  "pagina_albo": "https://iclodidue.edu.it/",
+  "scuola": "scuola dell’infanzia",
+  "codice": "LOIC812009",
+  "comune": "Cavenago D'Adda",
+  "provincia": "Lodi",
+  "regione": "Lombardia",
+  "data_atto": "2027-06-30",
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "infanzia"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 45.281,
+  "lon": 9.5925
+ },
+ {
+  "id": "283fde95da8283a7",
+  "titolo": "Interpello: supplenza breve scuola dell’infanzia",
+  "link": "https://iclodidue.edu.it/2026/11/02/interpello-supplenza-breve-scuola-dellinfanzia/",
+  "pagina_albo": "https://iclodidue.edu.it/",
+  "scuola": "I.C. Lodi Ii -G. Spezzaferri-",
+  "codice": "LOIC812009",
+  "comune": "Cavenago D'Adda",
+  "provincia": "Lodi",
+  "regione": "Lombardia",
+  "data_atto": "2026-11-28",
+  "classi": [],
+  "sostegno": false,
+  "gradi": [
+   "infanzia"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 45.281,
+  "lon": 9.5925
+ },
+ {
+  "id": "dc3bde64317a3ec6",
+  "titolo": "Interpello primaria posto comune",
+  "link": "https://icmorosinimanara.edu.it/interpello-primaria-posto-comune/",
+  "pagina_albo": "https://icmorosinimanara.edu.it/",
+  "scuola": "IC Morosini Manara",
+  "codice": "MIIC8B9003",
+  "comune": "Milano",
+  "provincia": "Milano",
+  "regione": "Lombardia",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 45.4685,
+  "lon": 9.1734
+ },
+ {
+  "id": "3a6d16503302bd1b",
+  "titolo": "Interpello primaria posto comune Si pubblica quanto in oggetto Lara Pipitone Docente e referente",
+  "link": "https://icmorosinimanara.edu.it/author/lara/",
+  "pagina_albo": "https://icmorosinimanara.edu.it/",
+  "scuola": "IC Morosini Manara",
+  "codice": "MIIC8B9003",
+  "comune": "Milano",
+  "provincia": "Milano",
+  "regione": "Lombardia",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 45.4685,
+  "lon": 9.1734
+ },
+ {
+  "id": "01cfdb638f7a435f",
+  "titolo": "Interpello sostegno primaria",
+  "link": "https://icmorosinimanara.edu.it/interpello-sostegno-primaria/",
+  "pagina_albo": "https://icmorosinimanara.edu.it/",
+  "scuola": "IC Morosini Manara",
+  "codice": "MIIC8B9003",
+  "comune": "Milano",
+  "provincia": "Milano",
+  "regione": "Lombardia",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 45.4685,
+  "lon": 9.1734
+ },
+ {
+  "id": "66d1a04533d07fd9",
+  "titolo": "Interpello n. 7/2026 – supplenza breve ADEE dal 23/10 al 10/03/2027",
+  "link": "https://icpegli.edu.it/circolare/interpello-n-7-2026-supplenza-breve-adee-dal-23-10-al-10-03-2027/",
+  "pagina_albo": "https://icpegli.edu.it/",
+  "scuola": "I.C. Pegli",
+  "codice": "GEIC85000P",
+  "comune": "Genova",
+  "provincia": "Genova",
+  "regione": "Liguria",
+  "data_atto": "2027-03-10",
+  "classi": [
+   "ADEE"
+  ],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 44.4415,
+  "lon": 8.8927
+ },
+ {
+  "id": "2dc0f84fa0bb251d",
+  "titolo": "Interpello n. 6/2026 – Attività Alternativa Scuola Primaria",
+  "link": "https://icpegli.edu.it/circolare/interpello-n-6-2026-attivita-alternativa-scuola-primaria/",
+  "pagina_albo": "https://icpegli.edu.it/",
+  "scuola": "I.C. Pegli",
+  "codice": "GEIC85000P",
+  "comune": "Genova",
+  "provincia": "Genova",
+  "regione": "Liguria",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 44.4415,
+  "lon": 8.8927
+ },
+ {
+  "id": "0272012b78e60421",
+  "titolo": "Interpello n. 5/2026 suppl. breve AM2A – FRANCESE",
+  "link": "https://icpegli.edu.it/circolare/interpello-n-5-2026-suppl-breve-am2a-francese/",
+  "pagina_albo": "https://icpegli.edu.it/",
+  "scuola": "I.C. Pegli",
+  "codice": "GEIC85000P",
+  "comune": "Genova",
+  "provincia": "Genova",
+  "regione": "Liguria",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 44.4415,
+  "lon": 8.8927
+ },
+ {
+  "id": "777b4de0ff1b9992",
+  "titolo": "Interpello n. 4/2026 – supplenze brevi inf. gg. 10",
+  "link": "https://icpegli.edu.it/circolare/interpello-n-4-2026-supplenze-brevi-inf-gg-10/",
+  "pagina_albo": "https://icpegli.edu.it/",
+  "scuola": "I.C. Pegli",
+  "codice": "GEIC85000P",
+  "comune": "Genova",
+  "provincia": "Genova",
+  "regione": "Liguria",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 44.4415,
+  "lon": 8.8927
+ },
+ {
+  "id": "7d5a6616b1e46382",
+  "titolo": "Interpello reclutamento CL A011",
+  "link": "https://liceovoltacomo.edu.it/interpello-reclutamento-cl-a011-3/",
+  "pagina_albo": "https://liceovoltacomo.edu.it/",
+  "scuola": "Alessandro Volta",
+  "codice": "COPC020007",
+  "comune": "Como",
+  "provincia": "Como",
+  "regione": "Lombardia",
+  "data_atto": null,
+  "classi": [
+   "A011"
+  ],
+  "sostegno": false,
+  "gradi": [
+   "secondaria II grado"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 45.8046,
+  "lon": 9.0806
+ },
+ {
+  "id": "518f7b3f15f68cb4",
+  "titolo": "Docenti: interpello scuola primaria posto comune – I.C. Zavalloni di Riccione",
+  "link": "https://rn.istruzioneer.gov.it/2026/11/19/docenti-interpello-scuola-primaria-posto-comune-i-c-zavalloni-di-riccione-2/",
+  "pagina_albo": "https://www.centrostorico.edu.it/wordpress2/",
+  "scuola": "Centro Storico",
+  "codice": "RNIC817007",
+  "comune": "Rimini",
+  "provincia": "Rimini",
+  "regione": "Emilia Romagna",
+  "data_atto": "2026-11-28",
+  "classi": [],
+  "sostegno": false,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 44.0388,
+  "lon": 12.5308
+ },
+ {
+  "id": "4a1545b39c8fbe81",
+  "titolo": "Interpello per la supplenza su classe di concorso ADEE POSTO SOSTEGNO SCUOLA PRIMARIA POSTI n.1",
+  "link": "https://www.icalbanopavona.edu.it/uncategorized/avviso-per-interpello-preventivo-finalizzato-ad-individuare-candidati-cui-assegnare-supplenze-di-durata-e-orario-variabile-fino-a-10-giorni-per-le-classi-di-scuola-primaria-e-della-scuola-di-infanzia/",
+  "pagina_albo": "https://www.icalbanopavona.edu.it/",
+  "scuola": "\"Antonio Gramsci\"",
+  "codice": "RMIC8AX006",
+  "comune": "Albano Laziale",
+  "provincia": "Roma",
+  "regione": "Lazio",
+  "data_atto": null,
+  "classi": [
+   "ADEE"
+  ],
+  "sostegno": true,
+  "gradi": [
+   "infanzia",
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 41.7098,
+  "lon": 12.6327
+ },
+ {
+  "id": "cf3a6d5a628199c0",
+  "titolo": "Interpello per supplenza su classe di conc. Ed. Motoria EEEM",
+  "link": "https://www.icdenza.edu.it/interpello-per-supplenza-su-classe-di-conc-ed-motoria-eeem/",
+  "pagina_albo": "https://www.icdenza.edu.it/",
+  "scuola": "I.C. Denza - C.Mmare 4",
+  "codice": "NAIC847006",
+  "comune": "Castellammare Di Stabia",
+  "provincia": "Napoli",
+  "regione": "Campania",
+  "data_atto": null,
+  "classi": [
+   "EEEM"
+  ],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 40.6962,
+  "lon": 14.4814
+ },
+ {
+  "id": "9dd7e3cf85182d71",
+  "titolo": "Candidatura per interpello classe di concorso A-56 VIOLINO",
+  "link": "https://www.icgaribaldipipitonemarsala.edu.it/candidatura-per-interpello-classe-di-concorso-a-56-violino/",
+  "pagina_albo": "https://www.icgaribaldipipitonemarsala.edu.it/",
+  "scuola": "I.C. G.Garibaldi - V.Pipitone",
+  "codice": "TPIC83900G",
+  "comune": "Marsala",
+  "provincia": "Trapani",
+  "regione": "Sicilia",
+  "data_atto": null,
+  "classi": [
+   "A056"
+  ],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 37.8129,
+  "lon": 12.5426
+ },
+ {
+  "id": "310fbf3ce0f3571b",
+  "titolo": "AVVISO D’INTERPELLO PER LA COPERTURA DI POSTI ART. 13 C. 23 O.M. 88/2024 SOSTEGNO SCUOLA PRIMARIA per supplenza su classe di concorso ADEE – EH",
+  "link": "https://www.icgiuseppegaribaldi.it/2026/11/02/avviso-dinterpello-per-la-copertura-di-posti-art-13-c-23-o-m-88-2024-sostegno-scuola-primaria-per-supplenza-su-classe-di-concorso-adee-eh/",
+  "pagina_albo": "https://www.icgiuseppegaribaldi.it/",
+  "scuola": "Giuseppe Garibaldi",
+  "codice": "RMIC8AH005",
+  "comune": "Guidonia Montecelio",
+  "provincia": "Roma",
+  "regione": "Lazio",
+  "data_atto": "2026-11-28",
+  "classi": [
+   "ADEE"
+  ],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 41.9806,
+  "lon": 12.7029
+ },
+ {
+  "id": "3a50ad73ab295cdd",
+  "titolo": "INTERPELLO Comunicazione delle disponibilità di incarichi di supplenza nell'Istituto Comprensivo Raffaello",
+  "link": "https://www.icraffaello.edu.it/servizio/interpello/",
+  "pagina_albo": "https://www.icraffaello.edu.it/",
+  "scuola": "\"Raffaello\"",
+  "codice": "RMIC83700E",
+  "comune": "Roma",
+  "provincia": "Roma",
+  "regione": "Lazio",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 41.8835,
+  "lon": 12.4619
+ },
+ {
+  "id": "975ec1999ad801bf",
+  "titolo": "INTERPELLO PRIMARIA SOSTEGNO ADEE",
+  "link": "https://www.icruggieroterzocircolo.edu.it/interpello-primaria-sostegno-adee-2/",
+  "pagina_albo": "https://www.icruggieroterzocircolo.edu.it/",
+  "scuola": "Ruggiero-3^ Circolo Caserta",
+  "codice": "CEIC8A000N",
+  "comune": "Caserta",
+  "provincia": "Caserta",
+  "regione": "Campania",
+  "data_atto": null,
+  "classi": [
+   "ADEE"
+  ],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 41.0873,
+  "lon": 14.3578
+ },
+ {
+  "id": "348c9f8f796a6778",
+  "titolo": "INTERPELLO PRIMARIA SOSTEGNO ADEE Interpello per supplenza su classe di concorso ADEE – sostegno scuola primaria Web editor 0",
+  "link": "https://www.icruggieroterzocircolo.edu.it/author/tiziana-ianniello/",
+  "pagina_albo": "https://www.icruggieroterzocircolo.edu.it/",
+  "scuola": "Ruggiero-3^ Circolo Caserta",
+  "codice": "CEIC8A000N",
+  "comune": "Caserta",
+  "provincia": "Caserta",
+  "regione": "Campania",
+  "data_atto": null,
+  "classi": [
+   "ADEE"
+  ],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 41.0873,
+  "lon": 14.3578
+ },
+ {
+  "id": "53f84b6cd2e49aa1",
+  "titolo": "Interpello 011-2026/2027 n. 2 posti sostegno scuola infanzia ADAA",
+  "link": "https://www.icsolivelli.edu.it/albo-pretorio/interpello-011-20262027-n-2-posti-sostegno-scuola-infanzia-adaa",
+  "pagina_albo": "https://www.icsolivelli.edu.it/novita/albo-pretorio",
+  "scuola": "I.C. T.Olivelli Villa Carcina",
+  "codice": "BSIC82600D",
+  "comune": "Villa Carcina",
+  "provincia": "Brescia",
+  "regione": "Lombardia",
+  "data_atto": "2026-11-27",
+  "classi": [
+   "ADAA"
+  ],
+  "sostegno": true,
+  "gradi": [
+   "infanzia"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 45.6363,
+  "lon": 10.1919
+ },
+ {
+  "id": "a17a26042efa6284",
+  "titolo": "Interpello n. 1",
+  "link": "https://www.icsrizzoli.edu.it/interpello-n-1/",
+  "pagina_albo": "https://www.icsrizzoli.edu.it/",
+  "scuola": "IC A. Rizzoli",
+  "codice": "MIIC810002",
+  "comune": "Pregnana Milanese",
+  "provincia": "Milano",
+  "regione": "Lombardia",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 45.5154,
+  "lon": 9.005
+ },
+ {
+  "id": "8b540ec9de2f33ac",
+  "titolo": "Interpello n. 2",
+  "link": "https://www.icsrizzoli.edu.it/interpello-n-2/",
+  "pagina_albo": "https://www.icsrizzoli.edu.it/",
+  "scuola": "IC A. Rizzoli",
+  "codice": "MIIC810002",
+  "comune": "Pregnana Milanese",
+  "provincia": "Milano",
+  "regione": "Lombardia",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 45.5154,
+  "lon": 9.005
+ },
+ {
+  "id": "19302e15cd7672c5",
+  "titolo": "Interpello n. 4",
+  "link": "https://www.icsrizzoli.edu.it/interpello-n-4/",
+  "pagina_albo": "https://www.icsrizzoli.edu.it/",
+  "scuola": "IC A. Rizzoli",
+  "codice": "MIIC810002",
+  "comune": "Pregnana Milanese",
+  "provincia": "Milano",
+  "regione": "Lombardia",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 45.5154,
+  "lon": 9.005
+ },
+ {
+  "id": "cbeeaaf032438f93",
+  "titolo": "Interpello n. 3",
+  "link": "https://www.icsrizzoli.edu.it/interpello-n-3/",
+  "pagina_albo": "https://www.icsrizzoli.edu.it/",
+  "scuola": "IC A. Rizzoli",
+  "codice": "MIIC810002",
+  "comune": "Pregnana Milanese",
+  "provincia": "Milano",
+  "regione": "Lombardia",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 45.5154,
+  "lon": 9.005
+ },
+ {
+  "id": "af7ccfce6b977c64",
+  "titolo": "Interpello n. 10",
+  "link": "https://www.icsrizzoli.edu.it/interpello-n-10/",
+  "pagina_albo": "https://www.icsrizzoli.edu.it/",
+  "scuola": "IC A. Rizzoli",
+  "codice": "MIIC810002",
+  "comune": "Pregnana Milanese",
+  "provincia": "Milano",
+  "regione": "Lombardia",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 45.5154,
+  "lon": 9.005
+ },
+ {
+  "id": "9d27472251e03006",
+  "titolo": "Interpello n. 8",
+  "link": "https://www.icsrizzoli.edu.it/interpello-n-8/",
+  "pagina_albo": "https://www.icsrizzoli.edu.it/",
+  "scuola": "IC A. Rizzoli",
+  "codice": "MIIC810002",
+  "comune": "Pregnana Milanese",
+  "provincia": "Milano",
+  "regione": "Lombardia",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 45.5154,
+  "lon": 9.005
+ },
+ {
+  "id": "aed4b9447dd9ca9d",
+  "titolo": "Interpello n. 7",
+  "link": "https://www.icsrizzoli.edu.it/interpello-n-7/",
+  "pagina_albo": "https://www.icsrizzoli.edu.it/",
+  "scuola": "IC A. Rizzoli",
+  "codice": "MIIC810002",
+  "comune": "Pregnana Milanese",
+  "provincia": "Milano",
+  "regione": "Lombardia",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 45.5154,
+  "lon": 9.005
+ },
+ {
+  "id": "14c519b9f03692ac",
+  "titolo": "A.S. 2026/2027 – Interpello per N. 2 supplenze Classe di concorso A027 MATEMATICA E FISICA",
+  "link": "https://www.iisgaribaldi.edu.it/a-s-2026-2027-interpello-per-n-2-supplenze-classe-di-concorso-a027-matematica-e-fisica/",
+  "pagina_albo": "https://www.iisgaribaldi.edu.it/",
+  "scuola": "G.Garibaldi",
+  "codice": "SSIS02300T",
+  "comune": "La Maddalena",
+  "provincia": "Gallura Nord-Est Sardegna",
+  "regione": "Sardegna",
+  "data_atto": null,
+  "classi": [
+   "A027"
+  ],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 41.2329,
+  "lon": 9.4115
+ },
+ {
+  "id": "24068fc54c9b788b",
+  "titolo": "A.S. 2026/2027 – Interpello per supplenze Classe di concorso A043 SCIENZE E TECNOLOGIE NAUTICHE.",
+  "link": "https://www.iisgaribaldi.edu.it/a-s-2026-2027-interpello-per-supplenze-classe-di-concorso-a043-scienze-e-tecnologie-nautiche/",
+  "pagina_albo": "https://www.iisgaribaldi.edu.it/",
+  "scuola": "G.Garibaldi",
+  "codice": "SSIS02300T",
+  "comune": "La Maddalena",
+  "provincia": "Gallura Nord-Est Sardegna",
+  "regione": "Sardegna",
+  "data_atto": null,
+  "classi": [
+   "A043"
+  ],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 41.2329,
+  "lon": 9.4115
+ },
+ {
+  "id": "e7b5e2a49efc2988",
+  "titolo": "Interpello per il conferimento di n. 1 supplenza – Classe di concorso A003 – Design della ceramica – a.s. 2026/2027-",
+  "link": "https://www.isiscuocomanuppella.edu.it/20261013150258unidos/",
+  "pagina_albo": "https://www.isiscuocomanuppella.edu.it/",
+  "scuola": "ISIS \" Cuoco/Manuppella\"",
+  "codice": "ISIS01400C",
+  "comune": "Isernia",
+  "provincia": "Isernia",
+  "regione": "Molise",
+  "data_atto": null,
+  "classi": [
+   "A003"
+  ],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 41.6072,
+  "lon": 14.2163
+ },
+ {
+  "id": "1ae17d281e580757",
+  "titolo": "Interpello Inoltro delle autocandidature per svolgere servizio di supplenza",
+  "link": "https://www.istitutocomprensivobudduso.edu.it/servizio/interpello-messa-a-disposizione/",
+  "pagina_albo": "https://www.istitutocomprensivobudduso.edu.it/",
+  "scuola": "D.A.Azuni - Budduso'",
+  "codice": "SSIC80600X",
+  "comune": "Pattada",
+  "provincia": "Sassari",
+  "regione": "Sardegna",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 40.5914,
+  "lon": 9.1221
+ },
+ {
+  "id": "524e235a7b52aa4c",
+  "titolo": "Interpello Nazionale, classe di concorso B010 “Laboratori di scienze e tecnologie delle costruzioni aeronautiche”",
+  "link": "https://www.ittaltamuradavinci.edu.it/interpello-nazionale-incarico-16-ore-classe-di-concorso-b010/",
+  "pagina_albo": "https://www.ittaltamuradavinci.edu.it/",
+  "scuola": "I.T.T. \"Altamura-Da Vinci\"",
+  "codice": "FGTF13000C",
+  "comune": "Foggia",
+  "provincia": "Foggia",
+  "regione": "Puglia",
+  "data_atto": null,
+  "classi": [
+   "B010"
+  ],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 41.4567,
+  "lon": 15.5831
+ },
+ {
+  "id": "0da9a86b6b8e21ad",
+  "titolo": "Interpello Nazionale, classe di concorso A040 “Scienze e Tecnologie elettriche ed elettroniche”",
+  "link": "https://www.ittaltamuradavinci.edu.it/nterpello-nazionale-classe-di-concorso-a040-scienze-e-tecnologie-elettriche-ed-elettroniche/",
+  "pagina_albo": "https://www.ittaltamuradavinci.edu.it/",
+  "scuola": "I.T.T. \"Altamura-Da Vinci\"",
+  "codice": "FGTF13000C",
+  "comune": "Foggia",
+  "provincia": "Foggia",
+  "regione": "Puglia",
+  "data_atto": null,
+  "classi": [
+   "A040"
+  ],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24",
+  "lat": 41.4567,
+  "lon": 15.5831
  },
  {
   "id": "72665448b4bcce95",
@@ -20027,10 +20027,10 @@
  },
  {
   "id": "88935b90d5f7ad7a",
-  "titolo": "Interpelli Docenti Lista degli articoli nella categoria Interpelli Docenti Titolo Visite Interpelli Docenti - Piattaforma dedicata Visite: 11998 INTERPELLO CLASSE DI CONCORSO A026 - MATEMATICA - ISIS M. Polo Cecina Visite: 3416 INTERPELLO SU CLASSI DI CONCORSO A040 - A020 - A026 - ISIS Foresi di Por",
+  "titolo": "Interpelli Docenti Lista degli articoli nella categoria Interpelli Docenti Titolo Visite Interpelli Docenti - Piattaforma dedicata Visite: 12145 INTERPELLO CLASSE DI CONCORSO A026 - MATEMATICA - ISIS M. Polo Cecina Visite: 3482 INTERPELLO SU CLASSI DI CONCORSO A040 - A020 - A026 - ISIS Foresi di Por",
   "link": "https://www.ustli.it/usp_livorno/index.php/docenti/interpelli#footer",
   "pagina_albo": "https://www.ustli.it/usp_livorno/index.php/docenti/interpelli",
-  "scuola": "ISIS M. Polo Cecina Visite: 3416 INTERPELLO SU CLASSI DI CONCORS",
+  "scuola": "ISIS M. Polo Cecina Visite: 3482 INTERPELLO SU CLASSI DI CONCORS",
   "codice": "",
   "comune": "",
   "provincia": "Livorno",
@@ -20038,27 +20038,6 @@
   "data_atto": null,
   "fonte": "USP",
   "classi": [],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-24"
- },
- {
-  "id": "ee5f3a0d72f6a7af",
-  "titolo": "INTERPELLO PER SUPPLENZA A041- 16h settimanali",
-  "link": "https://ustlucca.it/interpello-per-supplenza-a041-16h-settimanali/",
-  "pagina_albo": "https://ustlucca.it/",
-  "scuola": "Ufficio scolastico di Lucca",
-  "codice": "",
-  "comune": "",
-  "provincia": "Lucca",
-  "regione": "Toscana",
-  "data_atto": "2026-11-23",
-  "fonte": "USP",
-  "classi": [
-   "A041"
-  ],
   "sostegno": false,
   "gradi": [],
   "scadenza": null,
@@ -23199,6 +23178,27 @@
   "trovato_il": "2026-11-24"
  },
  {
+  "id": "ee5f3a0d72f6a7af",
+  "titolo": "INTERPELLO PER SUPPLENZA A041- 16h settimanali",
+  "link": "https://ustlucca.it/interpello-per-supplenza-a041-16h-settimanali/",
+  "pagina_albo": "https://ustlucca.it/",
+  "scuola": "Ufficio scolastico di Lucca",
+  "codice": "",
+  "comune": "",
+  "provincia": "Lucca",
+  "regione": "Toscana",
+  "data_atto": "2026-11-23",
+  "fonte": "USP",
+  "classi": [
+   "A041"
+  ],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-24"
+ },
+ {
   "id": "be7fbb57d47196a7",
   "titolo": "Interpelli , Nazionale 18/11/2026 INTERPELLO AS2A – IIS VIGNARELLI SANLURI L’articolo in oggetto è visualizzabile sul sito USP Cagliari attraverso il seguente link https://www.mim.gov.it/web/cagliari/-/interpello per supplenza dal-23-11-2026-al-12-02-2027-n-18-ore settimanali di lezione classe di co",
   "link": "https://ag.usr.sicilia.it/interpello-as2a-iis-vignarelli-sanluri/",
@@ -24082,46 +24082,6 @@
   "trovato_il": "2026-11-24"
  },
  {
-  "id": "29e4573114aa7b44",
-  "titolo": "Interpelli personale docente e ATA",
-  "link": "https://davinciripamonti.edu.it/chiamate-per-interpello/",
-  "pagina_albo": "https://davinciripamonti.edu.it/",
-  "scuola": "Leonardo Da Vinci - Ripamonti",
-  "codice": "COIS009006",
-  "comune": "Como",
-  "provincia": "Como",
-  "regione": "Lombardia",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": "ATA",
-  "trovato_il": "2026-11-25",
-  "lat": 45.8046,
-  "lon": 9.0806
- },
- {
-  "id": "4c0365c132292df7",
-  "titolo": "Interpelli personale docente e personale ATA",
-  "link": "https://davinciripamonti.edu.it/servizio/interpelli-personale-docente-e-personale-ata/",
-  "pagina_albo": "https://davinciripamonti.edu.it/",
-  "scuola": "Leonardo Da Vinci - Ripamonti",
-  "codice": "COIS009006",
-  "comune": "Como",
-  "provincia": "Como",
-  "regione": "Lombardia",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": "ATA",
-  "trovato_il": "2026-11-25",
-  "lat": 45.8046,
-  "lon": 9.0806
- },
- {
   "id": "8c7eaf7e1946829b",
   "titolo": "INTERPELLO POSTO SOSTEGNO PRIMARIA",
   "link": "https://iccarpaneto.edu.it/interpello-posto-sostegno-primaria/",
@@ -24674,6 +24634,46 @@
   "lon": 16.5751
  },
  {
+  "id": "29e4573114aa7b44",
+  "titolo": "Interpelli personale docente e ATA",
+  "link": "https://davinciripamonti.edu.it/chiamate-per-interpello/",
+  "pagina_albo": "https://davinciripamonti.edu.it/",
+  "scuola": "Leonardo Da Vinci - Ripamonti",
+  "codice": "COIS009006",
+  "comune": "Como",
+  "provincia": "Como",
+  "regione": "Lombardia",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": "ATA",
+  "trovato_il": "2026-11-25",
+  "lat": 45.8046,
+  "lon": 9.0806
+ },
+ {
+  "id": "4c0365c132292df7",
+  "titolo": "Interpelli personale docente e personale ATA",
+  "link": "https://davinciripamonti.edu.it/servizio/interpelli-personale-docente-e-personale-ata/",
+  "pagina_albo": "https://davinciripamonti.edu.it/",
+  "scuola": "Leonardo Da Vinci - Ripamonti",
+  "codice": "COIS009006",
+  "comune": "Como",
+  "provincia": "Como",
+  "regione": "Lombardia",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": "ATA",
+  "trovato_il": "2026-11-25",
+  "lat": 45.8046,
+  "lon": 9.0806
+ },
+ {
   "id": "433e2e8da58e3992",
   "titolo": "AVVISO INTERPELLO PER BACINO ANNUALE A. S. 26-27 INFANZIA PRIMARIA - POSTO COMUNE E SOSTEGNO NEWS",
   "link": "https://www.istitutocomprensivomontelupo.edu.it/pvw2/app/default/index.php?id=202&tipo=pagine&",
@@ -24764,7 +24764,7 @@
  },
  {
   "id": "657a36f1731338d1",
-  "titolo": "Docenti Interpelli Pubblicato: 27 Ottobre 2026 Visite: 3937 Interpello per supplenza Personale ATA - Profilo Operatore dei Servizi Agrari- OM n. 89/2024 - ISTITUTO STATALE ISTRUZIONE SUPERIORE A. VEGNI - CAPEZZINE Leggi tutto... Docenti Interpelli Pubblicato: 23 Settembre 2026 Visite: 139064 Tabella",
+  "titolo": "Docenti Interpelli Pubblicato: 27 Ottobre 2026 Visite: 4013 Interpello per supplenza Personale ATA - Profilo Operatore dei Servizi Agrari- OM n. 89/2024 - ISTITUTO STATALE ISTRUZIONE SUPERIORE A. VEGNI - CAPEZZINE Leggi tutto... Docenti Interpelli Pubblicato: 23 Settembre 2026 Visite: 139495 Tabella",
   "link": "https://www.arezzoistruzione.it/usparezzo/index.php/interpelli#footer",
   "pagina_albo": "https://www.arezzoistruzione.it/usparezzo/index.php/interpelli",
   "scuola": "ISTITUTO STATALE ISTRUZIONE SUPERIORE A. VEGNI - CAPEZZINE Leggi tut",
@@ -24926,29 +24926,6 @@
   "gradi": [],
   "scadenza": null,
   "ata": "DSGA",
-  "trovato_il": "2026-11-25"
- },
- {
-  "id": "fdaddfa07f66b387",
-  "titolo": "Interpello nazionale supplenza per n.24/24 ore – ADEE Sostegno Scuola Primaria 27 Novembre 2026 Categorie Albo Pretorio Comunicazioni Tutte le novità",
-  "link": "https://www.ustfoggia.it/ultime-novita-ust-foggia/",
-  "pagina_albo": "https://www.ustfoggia.it/",
-  "scuola": "Ufficio scolastico di Foggia",
-  "codice": "",
-  "comune": "",
-  "provincia": "Foggia",
-  "regione": "Puglia",
-  "data_atto": "2026-11-27",
-  "fonte": "USP",
-  "classi": [
-   "ADEE"
-  ],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
   "trovato_il": "2026-11-25"
  },
  {
@@ -25525,6 +25502,29 @@
   "trovato_il": "2026-11-25"
  },
  {
+  "id": "fdaddfa07f66b387",
+  "titolo": "Interpello nazionale supplenza per n.24/24 ore – ADEE Sostegno Scuola Primaria 27 Novembre 2026 Categorie Albo Pretorio Comunicazioni Tutte le novità",
+  "link": "https://www.ustfoggia.it/ultime-novita-ust-foggia/",
+  "pagina_albo": "https://www.ustfoggia.it/",
+  "scuola": "Ufficio scolastico di Foggia",
+  "codice": "",
+  "comune": "",
+  "provincia": "Foggia",
+  "regione": "Puglia",
+  "data_atto": "2026-11-27",
+  "fonte": "USP",
+  "classi": [
+   "ADEE"
+  ],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-25"
+ },
+ {
   "id": "b44b6155804e170d",
   "titolo": "INTERPELLO finalizzato al reclutamento di docenti specializzati sul Sostegno sc. Primaria cl. ADEE – “IV STANZIALE” – S. Giorgio a Cremano (NA)",
   "link": "https://www.uat-napoli.it/interpello-finalizzato-al-reclutamento-di-docenti-specializzati-sul-sostegno-sc-primaria-cl-adee-iv-stanziale-s-giorgio-a-cremano-na/",
@@ -25963,30 +25963,6 @@
   "lon": 8.4178
  },
  {
-  "id": "20f5c629cfb0fcd8",
-  "titolo": "Interpello per nomine EEEE c/o ISTITUTO COMPRENSIVO CORREGGIO 1",
-  "link": "https://re.istruzioneer.gov.it/2026/11/26/interpello-per-nomine-eeee-c-o-istituto-comprensivo-correggio-1-7/",
-  "pagina_albo": "https://www.iccarpineticasina.edu.it/",
-  "scuola": "Carpineti-Casina",
-  "codice": "REIC826006",
-  "comune": "Casina",
-  "provincia": "Reggio Emilia",
-  "regione": "Emilia Romagna",
-  "data_atto": "2026-11-28",
-  "classi": [
-   "EEEE"
-  ],
-  "sostegno": false,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-26",
-  "lat": 44.5277,
-  "lon": 10.4897
- },
- {
   "id": "6e2fe001b6771225",
   "titolo": "Interpello scuola primaria (scad. 13/12 ore 12:00) Dettagli",
   "link": "https://www.iccerretoguidi.edu.it/download/766/interpelli/4641/interpello-primaria-del-26-11-26.pdf",
@@ -26213,46 +26189,6 @@
   "lon": 16.3639
  },
  {
-  "id": "0c8836af3e970928",
-  "titolo": "Interpello regionale per classe di concorso A042 – IIS “Consoli” di Castellana Grotte",
-  "link": "https://www.ustfoggia.it/2026/11/26/interpello-regionale-per-classe-di-concorso-a042-iis-consoli-di-castellana-grotte/",
-  "pagina_albo": "https://www.iocmaurodelgiudice.edu.it/",
-  "scuola": "I.Oc. \"M. Del Giudice\"",
-  "codice": "",
-  "comune": "",
-  "provincia": "Taranto",
-  "regione": "Puglia",
-  "data_atto": "2026-11-28",
-  "classi": [
-   "A042"
-  ],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-26"
- },
- {
-  "id": "b5f107f129bf8442",
-  "titolo": "Interpello per supplenza su classe di concorso A040 – IIS “Archimede” di Taranto",
-  "link": "https://www.ustfoggia.it/2026/11/26/interpello-per-supplenza-su-classe-di-concorso-a040-iis-archimede-di-taranto/",
-  "pagina_albo": "https://www.iocmaurodelgiudice.edu.it/",
-  "scuola": "I.Oc. \"M. Del Giudice\"",
-  "codice": "",
-  "comune": "",
-  "provincia": "Taranto",
-  "regione": "Puglia",
-  "data_atto": "2026-11-28",
-  "classi": [
-   "A040"
-  ],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-26"
- },
- {
   "id": "bbc6868c8787d75c",
   "titolo": "Interpello c.d.c. A041 12h dal 02/12/2026 al 22/12/2026 presso Istituto Ferraris Brunelleschi di Empoli. 26 Novembre 2026 Roberto Cavallo",
   "link": "https://www.istruzionepiemonte.it/cuneo/interpello-c-d-c-a041-12h-presso-istituto-ferraris-brunelleschi-di-empoli/",
@@ -26297,17 +26233,19 @@
   "lon": 9.1734
  },
  {
-  "id": "b82400df24338f94",
-  "titolo": "Scarica Decreto esito votazioni rinnovo Consiglio di Istituto 2022-2025 Scarica Bilancio anno 2015 Scarica Nuove modalità gestione casi positivi - 08/01/2022 Scarica Rilevazioni Scuole Statali e non Statali dati generali a.s.: 2016/2017 Scarica All. 2 Patto di Responsabilità Scarica Protocollo sicur",
-  "link": "https://www.istitutoravascogenova.it/media/attachment/7/Interpello%20Docente%20inglese%20scuola%20Primaria.pdf",
-  "pagina_albo": "https://www.istitutoravascogenova.it/modulistica-scaricabile.html",
-  "scuola": "Eugenia Ravasco",
-  "codice": "GE1A022001",
-  "comune": "Genova",
-  "provincia": "Genova",
-  "regione": "Liguria",
-  "data_atto": null,
-  "classi": [],
+  "id": "20f5c629cfb0fcd8",
+  "titolo": "Interpello per nomine EEEE c/o ISTITUTO COMPRENSIVO CORREGGIO 1",
+  "link": "https://re.istruzioneer.gov.it/2026/11/26/interpello-per-nomine-eeee-c-o-istituto-comprensivo-correggio-1-7/",
+  "pagina_albo": "https://www.iccarpineticasina.edu.it/",
+  "scuola": "Carpineti-Casina",
+  "codice": "REIC826006",
+  "comune": "Casina",
+  "provincia": "Reggio Emilia",
+  "regione": "Emilia Romagna",
+  "data_atto": "2026-11-28",
+  "classi": [
+   "EEEE"
+  ],
   "sostegno": false,
   "gradi": [
    "primaria"
@@ -26315,8 +26253,8 @@
   "scadenza": null,
   "ata": null,
   "trovato_il": "2026-11-26",
-  "lat": 44.4415,
-  "lon": 8.8927
+  "lat": 44.5277,
+  "lon": 10.4897
  },
  {
   "id": "3ce91915df198e59",
@@ -26374,6 +26312,48 @@
   "fonte": "USP",
   "classi": [
    "A041"
+  ],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-26"
+ },
+ {
+  "id": "0c8836af3e970928",
+  "titolo": "Interpello regionale per classe di concorso A042 – IIS “Consoli” di Castellana Grotte Categorie Albo Pretorio Comunicazioni Leggi di più",
+  "link": "https://www.ustfoggia.it/2026/11/26/interpello-regionale-per-classe-di-concorso-a042-iis-consoli-di-castellana-grotte/",
+  "pagina_albo": "https://www.ustfoggia.it/",
+  "scuola": "IIS “Consoli” di Castellana Grotte Categorie Albo Pretorio Comu",
+  "codice": "",
+  "comune": "",
+  "provincia": "Foggia",
+  "regione": "Puglia",
+  "data_atto": "2026-11-28",
+  "fonte": "USP",
+  "classi": [
+   "A042"
+  ],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-26"
+ },
+ {
+  "id": "b5f107f129bf8442",
+  "titolo": "Interpello per supplenza su classe di concorso A040 – IIS “Archimede” di Taranto Categorie Albo Pretorio Comunicazioni Leggi di più",
+  "link": "https://www.ustfoggia.it/2026/11/26/interpello-per-supplenza-su-classe-di-concorso-a040-iis-archimede-di-taranto/",
+  "pagina_albo": "https://www.ustfoggia.it/",
+  "scuola": "IIS “Archimede” di Taranto Categorie Albo Pretorio Comunicazion",
+  "codice": "",
+  "comune": "",
+  "provincia": "Foggia",
+  "regione": "Puglia",
+  "data_atto": "2026-11-28",
+  "fonte": "USP",
+  "classi": [
+   "A040"
   ],
   "sostegno": false,
   "gradi": [],
@@ -26440,25 +26420,6 @@
   "gradi": [
    "primaria"
   ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-26"
- },
- {
-  "id": "e7cc76e464802543",
-  "titolo": "PERSONALE A.T.A – Interpello per la copertura di n. 1 posto nel profilo di D.S.G.A dal 10 dicembre 2026 fino al 30 aprile 2027 – presso l’Istituto Comprensivo Puccini – Lucca LUIC84500T",
-  "link": "https://ustlucca.it/rsonale-a-t-a-interpello-per-la-copertura-di-n-1-posto-nel-profilo-di-d-s-g-a-dal-10-dicembre-2026-fino-al-30-aprile-2027-presso-listituto-comprensivo-puccini-lucca-luic84500t/",
-  "pagina_albo": "https://ustlucca.it/",
-  "scuola": "Istituto Comprensivo Puccini – Lucca LUIC84500T",
-  "codice": "",
-  "comune": "",
-  "provincia": "Lucca",
-  "regione": "Toscana",
-  "data_atto": "2027-04-30",
-  "fonte": "USP",
-  "classi": [],
-  "sostegno": false,
-  "gradi": [],
   "scadenza": null,
   "ata": null,
   "trovato_il": "2026-11-26"
@@ -26621,6 +26582,25 @@
   "trovato_il": "2026-11-26"
  },
  {
+  "id": "e7cc76e464802543",
+  "titolo": "PERSONALE A.T.A – Interpello per la copertura di n. 1 posto nel profilo di D.S.G.A dal 10 dicembre 2026 fino al 30 aprile 2027 – presso l’Istituto Comprensivo Puccini – Lucca LUIC84500T",
+  "link": "https://ustlucca.it/rsonale-a-t-a-interpello-per-la-copertura-di-n-1-posto-nel-profilo-di-d-s-g-a-dal-10-dicembre-2026-fino-al-30-aprile-2027-presso-listituto-comprensivo-puccini-lucca-luic84500t/",
+  "pagina_albo": "https://ustlucca.it/",
+  "scuola": "Istituto Comprensivo Puccini – Lucca LUIC84500T",
+  "codice": "",
+  "comune": "",
+  "provincia": "Lucca",
+  "regione": "Toscana",
+  "data_atto": "2027-04-30",
+  "fonte": "USP",
+  "classi": [],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-26"
+ },
+ {
   "id": "d397ea2f41ed35c8",
   "titolo": "INTERPELLO IC S.P. in Vincoli PER SUPPLENZA BREVE PRIMARIA POSTO SOSTEGNO – 17 ORE – FINO AL 04/12/2026 Link 26/11/2026 INTERPELLO IC D’ESTE PER 2 POSTI DI SOSTEGNO SCUOLA PRIMARA DAL 30/11/2026 AL 15/12/2026 Interpello 25/11/2026 INTERPELLO PREVENTIVO I.C. RANDI finalizzato al reclutamen",
   "link": "https://www.portaleargo.it/albopretorio/online/#/SC15025/atti/4806973",
@@ -26664,7 +26644,7 @@
   "id": "03bbec27602576d1",
   "titolo": "Interpello AAAA POSTO COMUNE INFANZIA – IC ZELO BUON PERSICO DEL 27.12.2026",
   "link": "https://web.spaggiari.eu/sdg2/Interpelli/LOME0003/58e58770-2f93-4752-bf7e-67e69729f2b7",
-  "pagina_albo": "https://www.iczelobp.edu.it/neo/",
+  "pagina_albo": "http://www.iczelobp.edu.it/neo/",
   "scuola": "IC - Zelo Buon Persico",
   "codice": "LOIC805006",
   "comune": "Comazzo",
@@ -26812,9 +26792,9 @@
  },
  {
   "id": "924e204863e72e8f",
-  "titolo": "INTERPELLI/AVVISI ricerca supplenti classe di concorso ADML sc. secondaria di I° - 9h settimanali",
+  "titolo": "Stampa / Condividi",
   "link": "https://icbertacchi.edu.it/notizie/357-interpelliavvisi-ricerca-supplenti-classe-di-concorso-adml-sc-secondaria-di-i-9h-settimanali",
-  "pagina_albo": "https://icbertacchi.edu.it/",
+  "pagina_albo": "https://icbertacchi.edu.it/notizie/357-interpelliavvisi-ricerca-supplenti-classe-di-concorso-adml-sc-secondaria-di-i-9h-settimanali",
   "scuola": "I.C. Bertacchi - Chiavenna",
   "codice": "SOIC80500D",
   "comune": "Villa Di Chiavenna",
@@ -26823,9 +26803,7 @@
   "data_atto": null,
   "classi": [],
   "sostegno": false,
-  "gradi": [
-   "secondaria I grado"
-  ],
+  "gradi": [],
   "scadenza": null,
   "ata": null,
   "trovato_il": "2026-11-27",
@@ -28098,6 +28076,50 @@
   "lon": 10.3584
  },
  {
+  "id": "be89e7ac96547fb3",
+  "titolo": "Docenti: interpello scuola primaria posto comune – I.C. “Miramare” di Rimini",
+  "link": "https://rn.istruzioneer.gov.it/2026/11/27/docenti-interpello-scuola-primaria-posto-comune-i-c-miramare-di-rimini-6/",
+  "pagina_albo": "https://www.centrostorico.edu.it/wordpress2/",
+  "scuola": "Centro Storico",
+  "codice": "RNIC817007",
+  "comune": "Rimini",
+  "provincia": "Rimini",
+  "regione": "Emilia Romagna",
+  "data_atto": "2026-11-28",
+  "classi": [],
+  "sostegno": false,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 44.0388,
+  "lon": 12.5308
+ },
+ {
+  "id": "0a79654915bfac53",
+  "titolo": "Docenti: Interpello scuola primaria posto sostegno – I.C. R. Levi Montalcini di Bellaria Igea Marina (RN)",
+  "link": "https://rn.istruzioneer.gov.it/2026/11/27/docenti-interpello-scuola-primaria-posto-sostegno-i-c-r-levi-montalcini-di-bellaria-igea-marina-rn-2/",
+  "pagina_albo": "https://www.centrostorico.edu.it/wordpress2/",
+  "scuola": "Centro Storico",
+  "codice": "RNIC817007",
+  "comune": "Rimini",
+  "provincia": "Rimini",
+  "regione": "Emilia Romagna",
+  "data_atto": "2026-11-28",
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 44.0388,
+  "lon": 12.5308
+ },
+ {
   "id": "fa6df0fdbe9fc42a",
   "titolo": "UST Rimini Docenti: interpello scuola primaria posto comune – I.C. “Miramare” di Rimini 27 Novembre 2026 gianfrancogrisi Docenti: Interpello scuola primaria posto sostegno – I.C. R. Levi Montalcini di Bellaria Igea Marina (RN) 27 Novembre 2026 gianfrancogrisi Docenti: interpello scuola primaria post",
   "link": "http://rn.istruzioneer.it/feed/",
@@ -28130,50 +28152,6 @@
   "provincia": "Rimini",
   "regione": "Emilia Romagna",
   "data_atto": "2026-11-27",
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 44.0525,
-  "lon": 12.4359
- },
- {
-  "id": "be89e7ac96547fb3",
-  "titolo": "Docenti: interpello scuola primaria posto comune – I.C. “Miramare” di Rimini",
-  "link": "https://rn.istruzioneer.gov.it/2026/11/27/docenti-interpello-scuola-primaria-posto-comune-i-c-miramare-di-rimini-6/",
-  "pagina_albo": "https://www.circolo1santarcangelo.edu.it/",
-  "scuola": "1 Circolo Santarcangelo Di R.",
-  "codice": "RNEE01600D",
-  "comune": "Santarcangelo Di Romagna",
-  "provincia": "Rimini",
-  "regione": "Emilia Romagna",
-  "data_atto": "2026-11-28",
-  "classi": [],
-  "sostegno": false,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 44.0525,
-  "lon": 12.4359
- },
- {
-  "id": "0a79654915bfac53",
-  "titolo": "Docenti: Interpello scuola primaria posto sostegno – I.C. R. Levi Montalcini di Bellaria Igea Marina (RN)",
-  "link": "https://rn.istruzioneer.gov.it/2026/11/27/docenti-interpello-scuola-primaria-posto-sostegno-i-c-r-levi-montalcini-di-bellaria-igea-marina-rn-2/",
-  "pagina_albo": "https://www.circolo1santarcangelo.edu.it/",
-  "scuola": "1 Circolo Santarcangelo Di R.",
-  "codice": "RNEE01600D",
-  "comune": "Santarcangelo Di Romagna",
-  "provincia": "Rimini",
-  "regione": "Emilia Romagna",
-  "data_atto": "2026-11-28",
   "classi": [],
   "sostegno": true,
   "gradi": [
@@ -28984,30 +28962,6 @@
   "lon": 10.8563
  },
  {
-  "id": "2c5c89e1a00482d0",
-  "titolo": "Interpello su cdc ADAA -n. 2 cattedre posti sostegno scuola dell'infanzia ( n.1 a 25 h/n. 1 a 12,5h) - fino al 30 giugno 2027 NEWS",
-  "link": "https://www.iccollodi.edu.it/pagine/interpello-su-cdc-adaa--n-2-cattedre-posti-sostegno-scuola-dellinfanzia--n1-a-25-hn-1-a-125h---fino-al-30-giugno-2027-",
-  "pagina_albo": "https://www.iccollodi.edu.it/",
-  "scuola": "IC Carlo Collodi S. Angelo L.No",
-  "codice": "LOIC81500R",
-  "comune": "Valera Fratta",
-  "provincia": "Lodi",
-  "regione": "Lombardia",
-  "data_atto": "2027-06-30",
-  "classi": [
-   "ADAA"
-  ],
-  "sostegno": true,
-  "gradi": [
-   "infanzia"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.2555,
-  "lon": 9.3358
- },
- {
   "id": "4ba8503556e7a92e",
   "titolo": "AVVISO DI INTERPELLO NAZIONALE – ADEE",
   "link": "https://www.iccroceflumeri.edu.it/avviso-di-interpello-nazionale-adee/",
@@ -29192,28 +29146,6 @@
   "trovato_il": "2026-11-27",
   "lat": 44.0825,
   "lon": 12.342
- },
- {
-  "id": "f668f6843627390f",
-  "titolo": "Interpello finalizzato ad individuare candidati a cui assegnare n. 2 POSTI SOSTEGNO PSICOFISICO SCUOLA PRIMARIA A.S. 2026/2027:",
-  "link": "https://www.icmartellini.edu.it/interpello-finalizzato-ad-individuare-candidati-a-cui-assegnare-n-2-posti-sostegno-psicofisico-scuola-primaria-a-s-2026-2027/",
-  "pagina_albo": "https://www.icmartellini.edu.it/",
-  "scuola": "Nando Martellini",
-  "codice": "RMIC86500P",
-  "comune": "Roma",
-  "provincia": "Roma",
-  "regione": "Lazio",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 41.8835,
-  "lon": 12.4619
  },
  {
   "id": "d95f6651ec8f8300",
@@ -29466,26 +29398,6 @@
   "lon": 12.0499
  },
  {
-  "id": "f44b4ec97f757b40",
-  "titolo": "INTERPELLO PER LA COPERTURA DEL POSTO DI D.S.G.A. DISPONIBILE PRESSO LIOC PESTALOZZI DI CATANIA",
-  "link": "https://www.icsangiorgioct.edu.it/interpello-per-la-copertura-del-posto-di-d-s-g-a-disponibile-presso-lioc-pestalozzi-di-catania/",
-  "pagina_albo": "https://www.icsangiorgioct.edu.it/",
-  "scuola": "IC San Giorgio - Catania",
-  "codice": "CTIC899007",
-  "comune": "Catania",
-  "provincia": "Catania",
-  "regione": "Sicilia",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 37.4424,
-  "lon": 15.0359
- },
- {
   "id": "7756fdd85c66c378",
   "titolo": "Interpello per supplenze brevi scuola primaria – sostegno",
   "link": "https://www.icscurti.edu.it/interpello-per-supplenze-brevi-scuola-primaria-sostegno/",
@@ -29664,26 +29576,6 @@
   "lon": 10.1919
  },
  {
-  "id": "5769f44be0869136",
-  "titolo": "GESTIONE SUPPLENZE INTERPELLO NEWS",
-  "link": "https://www.icsvignate.edu.it/pagine/gestione-supplenze-interpello",
-  "pagina_albo": "https://www.icsvignate.edu.it/",
-  "scuola": "I.C. \"Carlo Levi\"",
-  "codice": "MIIC8BP00X",
-  "comune": "Vignate",
-  "provincia": "Milano",
-  "regione": "Lombardia",
-  "data_atto": null,
-  "classi": [],
-  "sostegno": false,
-  "gradi": [],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-27",
-  "lat": 45.4983,
-  "lon": 9.3788
- },
- {
   "id": "141618b6175a92a6",
   "titolo": "Interpello n. 1 scuola secondaria 26-27",
   "link": "https://www.ictreviolo.edu.it/interpello-n-1-scuola-secondaria-26-27/",
@@ -29744,50 +29636,6 @@
   "trovato_il": "2026-11-27",
   "lat": 39.5472,
   "lon": 8.8787
- },
- {
-  "id": "5fbf813321300bc1",
-  "titolo": "Interpello nazionale supplenza per n.24/24 ore – ADEE Sostegno Scuola Primaria",
-  "link": "https://www.ustfoggia.it/2026/11/27/interpello-nazionale-supplenza-per-n-24-24-ore-adee-sostegno-scuola-primaria/",
-  "pagina_albo": "https://www.iocmaurodelgiudice.edu.it/",
-  "scuola": "I.Oc. \"M. Del Giudice\"",
-  "codice": "",
-  "comune": "",
-  "provincia": "Taranto",
-  "regione": "Puglia",
-  "data_atto": "2026-11-28",
-  "classi": [
-   "ADEE"
-  ],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-27"
- },
- {
-  "id": "d989e9fa88bd4b1d",
-  "titolo": "Interpello nazionale EEEE posto comune – supplenza breve e saltuaria dal 30/11/2026 al 04/12/2026",
-  "link": "https://www.ustfoggia.it/2026/11/26/interpello-nazionale-eeee-posto-comune-supplenza-breve-e-saltuaria-dal-30-11-2026-al-04-12-2026/",
-  "pagina_albo": "https://www.iocmaurodelgiudice.edu.it/",
-  "scuola": "I.Oc. \"M. Del Giudice\"",
-  "codice": "",
-  "comune": "",
-  "provincia": "Taranto",
-  "regione": "Puglia",
-  "data_atto": "2026-12-04",
-  "classi": [
-   "EEEE"
-  ],
-  "sostegno": false,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-27"
  },
  {
   "id": "3a5c6e8a2b862ec6",
@@ -30052,6 +29900,92 @@
   "trovato_il": "2026-11-27",
   "lat": 40.3038,
   "lon": 16.5751
+ },
+ {
+  "id": "2c5c89e1a00482d0",
+  "titolo": "Interpello su cdc ADAA -n. 2 cattedre posti sostegno scuola dell'infanzia ( n.1 a 25 h/n. 1 a 12,5h) - fino al 30 giugno 2027 NEWS",
+  "link": "https://www.iccollodi.edu.it/pagine/interpello-su-cdc-adaa--n-2-cattedre-posti-sostegno-scuola-dellinfanzia--n1-a-25-hn-1-a-125h---fino-al-30-giugno-2027-",
+  "pagina_albo": "https://www.iccollodi.edu.it/",
+  "scuola": "IC Carlo Collodi S. Angelo L.No",
+  "codice": "LOIC81500R",
+  "comune": "Valera Fratta",
+  "provincia": "Lodi",
+  "regione": "Lombardia",
+  "data_atto": "2027-06-30",
+  "classi": [
+   "ADAA"
+  ],
+  "sostegno": true,
+  "gradi": [
+   "infanzia"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.2555,
+  "lon": 9.3358
+ },
+ {
+  "id": "f668f6843627390f",
+  "titolo": "Interpello finalizzato ad individuare candidati a cui assegnare n. 2 POSTI SOSTEGNO PSICOFISICO SCUOLA PRIMARIA A.S. 2026/2027:",
+  "link": "https://www.icmartellini.edu.it/interpello-finalizzato-ad-individuare-candidati-a-cui-assegnare-n-2-posti-sostegno-psicofisico-scuola-primaria-a-s-2026-2027/",
+  "pagina_albo": "https://www.icmartellini.edu.it/",
+  "scuola": "Nando Martellini",
+  "codice": "RMIC86500P",
+  "comune": "Roma",
+  "provincia": "Roma",
+  "regione": "Lazio",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 41.8835,
+  "lon": 12.4619
+ },
+ {
+  "id": "f44b4ec97f757b40",
+  "titolo": "INTERPELLO PER LA COPERTURA DEL POSTO DI D.S.G.A. DISPONIBILE PRESSO LIOC PESTALOZZI DI CATANIA",
+  "link": "https://www.icsangiorgioct.edu.it/interpello-per-la-copertura-del-posto-di-d-s-g-a-disponibile-presso-lioc-pestalozzi-di-catania/",
+  "pagina_albo": "https://www.icsangiorgioct.edu.it/",
+  "scuola": "IC San Giorgio - Catania",
+  "codice": "CTIC899007",
+  "comune": "Catania",
+  "provincia": "Catania",
+  "regione": "Sicilia",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 37.4424,
+  "lon": 15.0359
+ },
+ {
+  "id": "5769f44be0869136",
+  "titolo": "GESTIONE SUPPLENZE INTERPELLO NEWS",
+  "link": "https://www.icsvignate.edu.it/pagine/gestione-supplenze-interpello",
+  "pagina_albo": "https://www.icsvignate.edu.it/",
+  "scuola": "I.C. \"Carlo Levi\"",
+  "codice": "MIIC8BP00X",
+  "comune": "Vignate",
+  "provincia": "Milano",
+  "regione": "Lombardia",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-27",
+  "lat": 45.4983,
+  "lon": 9.3788
  },
  {
   "id": "f7fef2e186f08cb6",
@@ -30805,6 +30739,52 @@
   "trovato_il": "2026-11-27"
  },
  {
+  "id": "5fbf813321300bc1",
+  "titolo": "Interpello nazionale supplenza per n.24/24 ore – ADEE Sostegno Scuola Primaria",
+  "link": "https://www.ustfoggia.it/2026/11/27/interpello-nazionale-supplenza-per-n-24-24-ore-adee-sostegno-scuola-primaria/",
+  "pagina_albo": "https://www.ustfoggia.it/",
+  "scuola": "Ufficio scolastico di Foggia",
+  "codice": "",
+  "comune": "",
+  "provincia": "Foggia",
+  "regione": "Puglia",
+  "data_atto": "2026-11-28",
+  "fonte": "USP",
+  "classi": [
+   "ADEE"
+  ],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-27"
+ },
+ {
+  "id": "d989e9fa88bd4b1d",
+  "titolo": "Interpello nazionale EEEE posto comune – supplenza breve e saltuaria dal 30/11/2026 al 04/12/2026 Categorie Albo Pretorio Comunicazioni Leggi di più",
+  "link": "https://www.ustfoggia.it/2026/11/26/interpello-nazionale-eeee-posto-comune-supplenza-breve-e-saltuaria-dal-30-11-2026-al-04-12-2026/",
+  "pagina_albo": "https://www.ustfoggia.it/",
+  "scuola": "Ufficio scolastico di Foggia",
+  "codice": "",
+  "comune": "",
+  "provincia": "Foggia",
+  "regione": "Puglia",
+  "data_atto": "2026-12-04",
+  "fonte": "USP",
+  "classi": [
+   "EEEE"
+  ],
+  "sostegno": false,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-27"
+ },
+ {
   "id": "fbbda28fd6bdfc06",
   "titolo": "- Interpello per docenti di scuola primaria - IC Follonica 1",
   "link": "https://www.ufficioscolasticogrosseto.it/uff7/index.php/pubblicazioni/5747-27-11-2026-interpello-per-docenti-di-scuola-primaria-ic-follonica-1",
@@ -30821,27 +30801,6 @@
   "gradi": [
    "primaria"
   ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-27"
- },
- {
-  "id": "3ae189e5efb2888a",
-  "titolo": "Interpello supplenza su C.C. AI55 strumento musicale Percussioni",
-  "link": "https://ustlucca.it/interpello-supplenza-su-c-c-ai55-strumento-musicale-percussioni/",
-  "pagina_albo": "https://ustlucca.it/",
-  "scuola": "Ufficio scolastico di Lucca",
-  "codice": "",
-  "comune": "",
-  "provincia": "Lucca",
-  "regione": "Toscana",
-  "data_atto": "2026-11-27",
-  "fonte": "USP",
-  "classi": [
-   "AI55"
-  ],
-  "sostegno": false,
-  "gradi": [],
   "scadenza": null,
   "ata": null,
   "trovato_il": "2026-11-27"
@@ -31351,7 +31310,7 @@
  },
  {
   "id": "3103ef71511b0689",
-  "titolo": "Docenti Interpelli Pubblicato: 23 Settembre 2026 Visite: 139067 Stampa Condividi Facebook Twitter Whatsapp Telegram Email Tabella degli avvisi di interpello O.M. n. 27/2026, art. 14, comma 22 In questa pagina è disponibile un riepilogo degli Istituti scolastici che pubblicano avvisi di interpello ai",
+  "titolo": "Docenti Interpelli Pubblicato: 23 Settembre 2026 Visite: 139497 Stampa Condividi Facebook Twitter Whatsapp Telegram Email Tabella degli avvisi di interpello O.M. n. 27/2026, art. 14, comma 22 In questa pagina è disponibile un riepilogo degli Istituti scolastici che pubblicano avvisi di interpello ai",
   "link": "https://www.arezzoistruzione.it/usparezzo/index.php/interpelli/2159-tabella-degli-avvisi-di-interpello-o-m-n-27-2026-art-14-comma-22#footer",
   "pagina_albo": "https://www.arezzoistruzione.it/usparezzo/index.php/interpelli/2159-tabella-degli-avvisi-di-interpello-o-m-n-27-2026-art-14-comma-22",
   "scuola": "Ufficio scolastico di Arezzo",
@@ -32015,6 +31974,95 @@
   "lon": 7.6781
  },
  {
+  "id": "3ae189e5efb2888a",
+  "titolo": "Interpello supplenza su C.C. AI55 strumento musicale Percussioni",
+  "link": "https://ustlucca.it/interpello-supplenza-su-c-c-ai55-strumento-musicale-percussioni/",
+  "pagina_albo": "https://ustlucca.it/",
+  "scuola": "Ufficio scolastico di Lucca",
+  "codice": "",
+  "comune": "",
+  "provincia": "Lucca",
+  "regione": "Toscana",
+  "data_atto": "2026-11-27",
+  "fonte": "USP",
+  "classi": [
+   "AI55"
+  ],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-27"
+ },
+ {
+  "id": "71ec1b74005e8289",
+  "titolo": "INTERPELLO IC MARANELLO- ADEE - SOSTITUZIONE DOCENTE POSTO SOSTEGNO SCUOLA PRIMARIA - A.S. 2026/2027-inizio il 28/09/2026 e termine il 30/06/2027 23-09-2026 REGISTRO PROTOCOLLO",
+  "link": "https://nuvola.madisoft.it/bacheca-digitale/2575/documento/MOIC83400Q/1",
+  "pagina_albo": "https://nuvola.madisoft.it/bacheca-digitale/bacheca/MOIC83400Q/7",
+  "scuola": "IC Maranello",
+  "codice": "MOIC83400Q",
+  "comune": "Maranello",
+  "provincia": "Modena",
+  "regione": "Emilia Romagna",
+  "data_atto": "2027-06-30",
+  "classi": [
+   "ADEE"
+  ],
+  "sostegno": true,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-28",
+  "lat": 44.5079,
+  "lon": 10.87
+ },
+ {
+  "id": "edd0e54f159e1de0",
+  "titolo": "INTERPELLO FINALIZZATO AL RECLUTAMENTO DI PERSONALE DOCENTE PER 1 POSTO COMUNE EEEE ALLA SCUOLA PRIMARIA DAL 27.11.2026 AL 08.12.2026 NEWS",
+  "link": "https://www.icrenatofucini.edu.it/pagine/interpello-finalizzato-al-reclutamento-di-personale-docente-per-1-posto-comune-eeee-alla-scuola-primaria-dal-27112026-al-08122026",
+  "pagina_albo": "https://www.icrenatofucini.edu.it/",
+  "scuola": "Via R. Fucini 265",
+  "codice": "RMIC821001",
+  "comune": "Roma",
+  "provincia": "Roma",
+  "regione": "Lazio",
+  "data_atto": "2026-12-08",
+  "classi": [
+   "EEEE"
+  ],
+  "sostegno": false,
+  "gradi": [
+   "primaria"
+  ],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-28",
+  "lat": 41.8835,
+  "lon": 12.4619
+ },
+ {
+  "id": "b2658250a2e93cbf",
+  "titolo": "INTERPELLO PER LA COPERTURA DEL POSTO DI D.S.G.A. DISPONIBILE PRESSO L’I.C. CAMPANELLA STURZO",
+  "link": "https://www.icsangiorgioct.edu.it/interpello-per-la-copertura-del-posto-di-d-s-g-a-disponibile-presso-li-c-campanella-sturzo/",
+  "pagina_albo": "https://www.icsangiorgioct.edu.it/",
+  "scuola": "IC San Giorgio - Catania",
+  "codice": "CTIC899007",
+  "comune": "Catania",
+  "provincia": "Catania",
+  "regione": "Sicilia",
+  "data_atto": null,
+  "classi": [],
+  "sostegno": false,
+  "gradi": [],
+  "scadenza": null,
+  "ata": null,
+  "trovato_il": "2026-11-28",
+  "lat": 37.4424,
+  "lon": 15.0359
+ },
+ {
   "id": "20f7b6459d072a9e",
   "titolo": "interpello per selezione personale docente scuola primaria n. 3 posti (ADEE) sostegno fino al 30/06/2027",
   "link": "https://icbertesi.edu.it/interpello-per-selezione-personale-docente-scuola-primaria-n-3-posti-adee-sostegno-fino-al-30-06-2027/",
@@ -32195,30 +32243,6 @@
   "trovato_il": "2026-11-28",
   "lat": 45.7803,
   "lon": 9.2037
- },
- {
-  "id": "71ec1b74005e8289",
-  "titolo": "INTERPELLO IC MARANELLO- ADEE - SOSTITUZIONE DOCENTE POSTO SOSTEGNO SCUOLA PRIMARIA - A.S. 2026/2027-inizio il 28/09/2026 e termine il 30/06/2027 23-09-2026 REGISTRO PROTOCOLLO",
-  "link": "https://nuvola.madisoft.it/bacheca-digitale/2575/documento/MOIC83400Q/1",
-  "pagina_albo": "https://nuvola.madisoft.it/bacheca-digitale/bacheca/MOIC83400Q/7",
-  "scuola": "IC Maranello",
-  "codice": "MOIC83400Q",
-  "comune": "Maranello",
-  "provincia": "Modena",
-  "regione": "Emilia Romagna",
-  "data_atto": "2027-06-30",
-  "classi": [
-   "ADEE"
-  ],
-  "sostegno": true,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-28",
-  "lat": 44.5079,
-  "lon": 10.87
  },
  {
   "id": "ee781f88a437af6f",
@@ -32614,28 +32638,6 @@
   "trovato_il": "2026-11-28",
   "lat": 44.4127,
   "lon": 12.193
- },
- {
-  "id": "edd0e54f159e1de0",
-  "titolo": "INTERPELLO FINALIZZATO AL RECLUTAMENTO DI PERSONALE DOCENTE PER 1 POSTO COMUNE EEEE ALLA SCUOLA PRIMARIA DAL 27.11.2026 AL 08.12.2026 NEWS",
-  "link": "https://www.icrenatofucini.edu.it/pagine/interpello-finalizzato-al-reclutamento-di-personale-docente-per-1-posto-comune-eeee-alla-scuola-primaria-dal-27112026-al-08122026",
-  "pagina_albo": "https://www.icrenatofucini.edu.it/",
-  "scuola": "Via R. Fucini 265",
-  "codice": "RMIC821001",
-  "comune": "Roma",
-  "provincia": "Roma",
-  "regione": "Lazio",
-  "data_atto": "2026-12-08",
-  "classi": [],
-  "sostegno": false,
-  "gradi": [
-   "primaria"
-  ],
-  "scadenza": null,
-  "ata": null,
-  "trovato_il": "2026-11-28",
-  "lat": 41.8835,
-  "lon": 12.4619
  },
  {
   "id": "47c0c5d33dd086bf",
